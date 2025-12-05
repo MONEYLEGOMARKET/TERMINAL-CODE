@@ -38,7 +38,7 @@ do_build() {
 		ADD_CXXFLAGS=$(jo -a -- $CXXFLAGS) \
 		LDFLAGS=$(jo -a -- $LDFLAGS) \
 		SOURCE_DATE_EPOCH=$SOURCE_DATE_EPOCH \
-		VERSION_EXTRA_SUFFIX=-void
+		VERSION_EXTRA_SUFFIX=-codelabs
 	)
 	export NON_LOCAL_DEPS=$(jo -a \
 		bazel_remote_apis \

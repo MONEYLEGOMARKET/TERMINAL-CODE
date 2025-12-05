@@ -25,9 +25,9 @@ do_build() {
 	echo 'INSTALL_DOC_DIR:=/usr/share/doc/openmsx' >> build/custom.mk
 	echo 'INSTALL_SHARE_DIR:=/usr/share/openmsx' >> build/custom.mk
 	echo 'INSTALL_BINARY_DIR:=/usr/bin' >> build/custom.mk
-	echo "CXXFLAGS += ${CXXFLAGS}" >> build/flavour-void.mk
+	echo "CXXFLAGS += ${CXXFLAGS}" >> build/flavour-codelabs.mk
 	local ldflags=$(echo $LDFLAGS|sed 's/-Wl,//g')
-	echo "LDFLAGS += ${ldflags}" >> build/flavour-void.mk
+	echo "LDFLAGS += ${ldflags}" >> build/flavour-codelabs.mk
 	make ${makejobs} OPENMSX_FLAVOUR=void
 }
 

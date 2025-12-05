@@ -1,4 +1,4 @@
-merge void's default config with upstream's
+merge CODE LABS's default config with upstream's
 
 --- a/config.in
 +++ b/config.in

@@ -19,7 +19,7 @@
 ## The path code is not platform independent and will only work in POSIX.
 ##
 ## Changelog:
-## 07/25/14 JR Updated for void.
+## 07/25/14 JR Updated for CODE LABS.
 ## 06/10/14 JD Rewrite from scratch for perl 5.20.0 and ArchLinux.
 ##
 ## Authors:

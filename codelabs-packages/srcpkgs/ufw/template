@@ -18,7 +18,7 @@ homepage="https://launchpad.net/ufw"
 distfiles="https://launchpad.net/ufw/${_major_minor}/${version}/+download/ufw-${version}.tar.gz"
 checksum=2a57a99eecef6b44db3537ed2520b30bae3759f8465456e22e404cd643838bf5
 
-# tests fail with void build paths as well as vague errors on finding profiles
+# tests fail with CODE LABS build paths as well as vague errors on finding profiles
 make_check=no
 
 post_install() {

@@ -4,7 +4,7 @@
  install_subdir('_vendor', install_dir : get_option('with-theme-dir'))
  
 -install_subdir('antergos', install_dir : get_option('with-theme-dir'))
-+install_subdir('void', install_dir : get_option('with-theme-dir'))
++install_subdir('codelabs', install_dir : get_option('with-theme-dir'))
  
  install_subdir('simple', install_dir : get_option('with-theme-dir'))
 diff -ur themes/antergos/css/style.css themes/codelabs/css/style.css

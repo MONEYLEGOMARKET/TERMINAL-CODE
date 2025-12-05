@@ -7,7 +7,7 @@ build_helper="qemu"
 configure_args="--with-pkgsysconfdir=/etc/nagios
  --with-pluginsdir=/usr/lib/monitoring-plugins --with-nagios-user=_nagios
  --with-nagios-group=_nagios --with-nrpe-user=_nagios --with-nrpe-group=_nagios
- --with-opsys=linux --with-init-type=unknown --with-dist-type=void
+ --with-opsys=linux --with-init-type=unknown --with-dist-type=codelabs
  --with-inetd-type=unknown
  --with-ssl-inc=${XBPS_CROSS_BASE}/usr/include"
 make_build_args="nrpe"

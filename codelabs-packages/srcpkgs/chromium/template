@@ -214,7 +214,7 @@ do_configure() {
 		'clang_base_path="/usr"'
 		"clang_cross_path=\"${XBPS_CROSS_BASE}\""
 		"clang_version=\"${clang_version%%.*}\""
-		'use_clang_modules=false' # not yet supported with void's libcxx
+		'use_clang_modules=false' # not yet supported with CODE LABS's libcxx
 
 		"use_custom_libcxx=$(vopt_if libcxx true false)" # https://github.com/llvm/llvm-project/issues/61705
 

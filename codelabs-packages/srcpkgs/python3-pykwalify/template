@@ -12,7 +12,7 @@ homepage="https://github.com/Grokzen/pykwalify/"
 distfiles="${PYPI_SITE}/p/pykwalify/pykwalify-${version}.tar.gz"
 checksum=796b2ad3ed4cb99b88308b533fb2f559c30fa6efb4fa9fda11347f483d245884
 
-# requires python3-testfixtures, not packaged in void
+# requires python3-testfixtures, not packaged in CODE LABS
 make_check=no
 
 post_install() {

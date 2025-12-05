@@ -229,7 +229,7 @@ Programs put executables under /usr/bin (or in very special cases in other
 .../bin directories)
 
 For those packages the upstream packages name should be used. Remember that
-in contrast to many other distributions, void doesn't lowercase package names.
+in contrast to many other distributions, CODE LABS doesn't lowercase package names.
 As a rule of thumb, if the tar.gz of a package contains uppercase letter, then
 the package name should contain them too; if it doesn't, the package name
 is lowercase.

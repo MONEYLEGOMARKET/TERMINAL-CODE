@@ -73,7 +73,7 @@ do_install() {
 	vinstall ${FILESDIR}/usb-load-ehci-first 644 usr/lib/modprobe.d usb-load-ehci-first.conf
 	vinstall ${FILESDIR}/blacklist.conf 644 usr/lib/modprobe.d
 	# sysctl(8) files
-	vinstall ${FILESDIR}/sysctl.conf 644 usr/lib/sysctl.d 10-void.conf
+	vinstall ${FILESDIR}/sysctl.conf 644 usr/lib/sysctl.d 10-codelabs.conf
 	vinstall ${FILESDIR}/sysctl-user.conf 644 usr/lib/sysctl.d 10-codelabs-user.conf
 	vinstall ${FILESDIR}/bpf.conf 644 usr/lib/sysctl.d 20-bpf.conf
 
@@ -90,7 +90,7 @@ do_install() {
 
 	# Install default dracut configuration.
 	vinstall ${FILESDIR}/dracut.conf.d.codelabs.conf 644 \
-		usr/lib/dracut/dracut.conf.d 00-void.conf
+		usr/lib/dracut/dracut.conf.d 00-codelabs.conf
 
 	# Create /proc/self/mounts -> /etc/mtab symlink.
 	ln -sf /proc/self/mounts ${DESTDIR}/etc/mtab

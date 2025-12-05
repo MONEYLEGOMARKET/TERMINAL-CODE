@@ -23,7 +23,7 @@ do_configure() {
 do_build() {
 	source /etc/profile.d/jdk.sh
 	source /etc/profile.d/apache-ant.sh
-	ant -Drelease=true -Dbuild.id=void -Dproject.revision=${version} dist
+	ant -Drelease=true -Dbuild.id=codelabs -Dproject.revision=${version} dist
 }
 
 do_install() {

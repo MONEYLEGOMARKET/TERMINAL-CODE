@@ -1,4 +1,4 @@
-voids triplets are armv7l-* and arm-* for for armv6.
+CODE LABS triplets are armv7l-* and arm-* for for armv6.
 --- a/compiler-rt/cmake/base-config-ix.cmake
 +++ b/compiler-rt/cmake/base-config-ix.cmake
 @@ -278,8 +278,9 @@
