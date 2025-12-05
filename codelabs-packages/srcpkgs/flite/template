@@ -6,7 +6,7 @@ build_style=gnu-configure
 configure_args="--enable-shared --with-audio=alsa"
 makedepends="alsa-lib-devel"
 short_desc="Lightweight speech synthesis engine"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="BSD-4-Clause"
 homepage="http://www.festvox.org/flite/"
 distfiles="https://github.com/festvox/flite/archive/v$version.tar.gz"

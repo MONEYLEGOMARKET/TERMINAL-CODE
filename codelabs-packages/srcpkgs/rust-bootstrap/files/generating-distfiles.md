@@ -6,7 +6,7 @@ so we have to generate distfiles for a few architectures as well, namely
 `cargo-bootstrap`, as the `ppc` cargo binaries provided by upstream have
 problems.
 
-Note: Void no longer officially supports PowerPC platforms,
+Note: CODE LABS no longer officially supports PowerPC platforms,
 this guide is kept for historical reasons as well as for future reference.
 
 ### Set up appropriate masterdirs and remote-repositories
@@ -22,15 +22,15 @@ $ ./xbps-src -m masterdir-musl binary-bootstrap x86_64-musl
 ```
 
 In addition to those, we need to set up binary remotes for the ppc repos. As
-they aren't officially maintained by Voidlinux, they aren't included in this
+they aren't officially maintained by CODE LABSlinux, they aren't included in this
 repo, but you can include them locally by creating these three files:
 
 - `etc/xbps.d/repos-remote-ppc.conf`, with
-  `repository=https://repo.voidlinux-ppc.org/current/ppc` in it.
+  `repository=https://repo.codelabs-ppc.org/current/ppc` in it.
 - `etc/xbps.d/repos-remote-ppc64.conf`, with
-  `repository=https://repo.voidlinux-ppc.org/current/be` in it.
+  `repository=https://repo.codelabs-ppc.org/current/be` in it.
 - `etc/xbps.d/repos-remote-ppc64le-musl.conf`, with
-  `repository=https://repo.voidlinux-ppc.org/current/musl` in it.
+  `repository=https://repo.codelabs-ppc.org/current/musl` in it.
 
 ### Bootstrapping on your native architecture
 

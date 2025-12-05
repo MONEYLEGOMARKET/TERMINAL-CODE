@@ -20,7 +20,7 @@ makedepends="bzip2-devel gnutls-devel libassuan-devel libcurl-devel
  libgcrypt-devel libgpg-error-devel tpm2-tss-devel"
 depends="pinentry"
 short_desc="GNU Privacy Guard (2.x)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://www.gnupg.org/"
 distfiles="https://gnupg.org/ftp/gcrypt/gnupg/gnupg-${version}.tar.bz2"
@@ -60,6 +60,6 @@ gnupg2-scdaemon_package() {
 		vmove usr/libexec/scdaemon
 		vmove usr/share/man/man1/scdaemon.1
 		vinstall ${FILESDIR}/60-scdaemon.rules 644 /usr/lib/udev/rules.d
-		vdoc ${FILESDIR}/gnupg2-scdaemon-README.voidlinux README.voidlinux
+		vdoc ${FILESDIR}/gnupg2-scdaemon-README.codelabs README.codelabs
 	}
 }

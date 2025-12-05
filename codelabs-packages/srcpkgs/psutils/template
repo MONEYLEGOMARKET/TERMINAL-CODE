@@ -6,7 +6,7 @@ hostmakedepends="perl"
 makedepends="ghostscript"
 depends="ghostscript"
 short_desc="Set of utilities to manipulate PostScript files"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="psutils"
 homepage="http://knackered.org/angus/psutils/"
 distfiles="ftp://ftp.knackered.org/pub/psutils/${pkgname}-${version}.tar.gz"
@@ -27,6 +27,6 @@ do_install() {
 
 	vlicense LICENSE
 	vdoc README
-	vdoc README.voidlinux
+	vdoc README.codelabs
 
 }

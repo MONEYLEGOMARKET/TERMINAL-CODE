@@ -1,5 +1,5 @@
 A `hunspell` dictionary must be installed for live spell-checking to work.
-Some available packages available on Void Linux are:
+Some available packages available on CODE LABS are:
 
 - `hunspell-da` - Danish
 - `hunspell-de` - German

@@ -1,11 +1,11 @@
 From 0e5312535388d603a80c2c54dc9900f01e9a37d8 Mon Sep 17 00:00:00 2001
-From: Toyam Cox <Vaelatern@voidlinux.org>
+From: Toyam Cox <Vaelatern@codelabs.org>
 Date: Wed, 5 Mar 2025 22:42:29 -0500
 Subject: [PATCH 1/2] Remove uses of spwd
 
 Module deprecated and no longer shipped with Python 3.13.
 
-Co-authored-by: Toyam Cox <Vaelatern@voidlinux.org>
+Co-authored-by: Toyam Cox <Vaelatern@codelabs.org>
 Co-authored-by: Georg Pfuetzenreuter <mail@georg-pfuetzenreuter.net>
 Signed-off-by: Georg Pfuetzenreuter <mail@georg-pfuetzenreuter.net>
 ---

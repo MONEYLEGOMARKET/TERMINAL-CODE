@@ -10,7 +10,7 @@ makedepends="libxml2-devel libsecret-devel avahi-ui-libs-devel
  spice-gtk-devel gtk-vnc-devel openssh"
 depends="openssh desktop-file-utils hicolor-icon-theme"
 short_desc="VNC client for the GNOME desktop"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="http://projects.gnome.org/vinagre"
 distfiles="${GNOME_SITE}/$pkgname/${version%.*}/$pkgname-$version.tar.xz"

@@ -7,7 +7,7 @@ build_style=cmake
 configure_args="-DENABLE_PIC=1 -DEXTRA_LINK_FLAGS='-L.'
  -DEXTRA_LIB='x265_main10.a;x265_main12.a' -DLINKED_10BIT=TRUE -DLINKED_12BIT=TRUE"
 short_desc="Open Source H.265/HEVC video encoder"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="http://x265.org/"
 distfiles="https://bitbucket.org/multicoreware/x265_git/get/${version}.tar.gz"

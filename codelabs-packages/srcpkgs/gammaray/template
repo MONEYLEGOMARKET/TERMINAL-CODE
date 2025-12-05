@@ -20,7 +20,7 @@ post_patch() {
 }
 
 post_install() {
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }
 
 gammaray-devel_package() {

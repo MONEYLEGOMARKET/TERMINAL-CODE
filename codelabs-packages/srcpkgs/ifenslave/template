@@ -3,7 +3,7 @@ pkgname=ifenslave
 version=1.1.0
 revision=7
 short_desc="Attach and detach slave interfaces to a bonding device"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-only"
 homepage="http://www.kernel.org"
 

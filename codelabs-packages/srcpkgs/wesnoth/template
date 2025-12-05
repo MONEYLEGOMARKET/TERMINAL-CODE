@@ -12,7 +12,7 @@ makedepends="dbus-devel libgomp-devel fribidi-devel SDL2_image-devel
  libboost_coroutine openssl-devel SDL2-devel libcurl-devel"
 depends="desktop-file-utils"
 short_desc="Turn-based fantasy strategy game"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://wesnoth.org"
 changelog="https://github.com/wesnoth/wesnoth/raw/master/changelog.md"

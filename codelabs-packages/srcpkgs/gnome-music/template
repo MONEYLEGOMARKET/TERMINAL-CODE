@@ -13,7 +13,7 @@ depends="desktop-file-utils python3-dbus python3-gobject python3-requests
  tinysparql localsearch gst-plugins-good1 grilo-plugins libdazzle
  libmediaart libadwaita"
 short_desc="GNOME music playing application"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://wiki.gnome.org/Apps/Music"
 #changelog="https://gitlab.gnome.org/GNOME/gnome-music/-/raw/master/NEWS"

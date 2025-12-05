@@ -5,7 +5,7 @@ revision=1
 build_style=meson
 build_helper="gir qemu"
 configure_args="-Dcheck-update=no -Drevision=$revision -Denable-default-bin=enabled
- -Dbug-report-url=https://github.com/void-linux/void-packages/issues/new/choose"
+ -Dbug-report-url=https://github.com/codelabs/codelabs-packages/issues/new/choose"
 hostmakedepends="pkg-config xdg-utils perl libxslt gjs LuaJIT desktop-file-utils
  AppStream gettext gi-docgen gobject-introspection yelp-tools librsvg-devel glib-devel"
 makedepends="babl-devel gtk+3-devel gegl-devel libgexiv2-devel libgirepository-devel

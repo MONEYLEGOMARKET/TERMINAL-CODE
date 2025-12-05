@@ -5,10 +5,10 @@ revision=2
 metapackage=yes
 depends="autoconf automake bc binutils bison ed flex gcc gettext
  groff libtool m4 make patch pkg-config texinfo unzip xz"
-short_desc="Void Linux development tools meta package"
+short_desc="CODE LABS development tools meta package"
 maintainer="Leah Neukirchen <leah@vuxu.org>"
 license="Public Domain"
-homepage="http://www.voidlinux.org/"
+homepage="http://www.codelabs.org/"
 lib32disabled=yes
 
 case "$XBPS_TARGET_MACHINE" in

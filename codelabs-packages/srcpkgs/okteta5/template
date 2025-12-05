@@ -5,7 +5,7 @@ revision=2
 metapackage=yes
 depends="okteta"
 short_desc="Hexadecimal editor for binary files - (transitional dummy package)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://www.kde.org/applications/utilities/okteta/"
 

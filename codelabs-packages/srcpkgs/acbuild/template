@@ -7,7 +7,7 @@ go_import_path=github.com/appc/acbuild
 go_package=github.com/appc/acbuild/acbuild
 go_ldflags="-X github.com/appc/acbuild/lib.Version=${version}"
 short_desc="Build tool for ACIs"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Apache-2.0"
 homepage="https://github.com/appc/acbuild"
 distfiles="https://github.com/appc/acbuild/archive/v${version}.tar.gz"

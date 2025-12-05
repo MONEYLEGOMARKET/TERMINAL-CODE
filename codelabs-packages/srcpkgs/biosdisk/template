@@ -7,7 +7,7 @@ make_build_args='prefix=/usr/'
 make_install_args='prefix=/usr/'
 depends="syslinux wget cdrtools"
 short_desc="Utility for creating Dell BIOS flash disks"
-maintainer="Andrew Benson <abenson+void@gmail.com>"
+maintainer="Andrew Benson <abenson+codelabs@gmail.com>"
 license="GPL-2.0-or-later"
 homepage="https://github.com/dell/biosdisk"
 distfiles="https://github.com/dell/biosdisk/archive/${version}.tar.gz"

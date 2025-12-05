@@ -15,7 +15,7 @@ makedepends="libgcrypt-devel libotr-devel libglib-devel gnutls-devel
  $(vopt_if purple libpurple-devel) $(vopt_if pam pam-devel)
  $(vopt_if ldap libldap-devel)"
 short_desc="Brings instant messaging (XMPP, MSN, Yahoo!, AIM, ICQ, Twitter) to IRC"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://www.bitlbee.org/"
 distfiles="https://get.bitlbee.org/src/${pkgname}-${version}.tar.gz"

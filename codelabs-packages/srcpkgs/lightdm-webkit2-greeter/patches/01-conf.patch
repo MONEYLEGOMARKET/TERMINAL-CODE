@@ -15,6 +15,6 @@
  background_images = /usr/share/backgrounds
 -logo              = /usr/share/lightdm-webkit/themes/antergos/img/antergos.png
 -user_image        = /usr/share/lightdm-webkit/themes/antergos/img/antergos-logo-user.png
-+logo              = /usr/share/void-artwork/void-transparent.png
-+user_image        = /usr/share/void-artwork/void-transparent.png
++logo              = /usr/share/codelabs-artwork/void-transparent.png
++user_image        = /usr/share/codelabs-artwork/void-transparent.png
 +

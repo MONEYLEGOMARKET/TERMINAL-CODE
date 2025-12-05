@@ -7,7 +7,7 @@
 # containers.
 #
 # 2 extra steps required when using this chroot-style:
-# 1. Symlink / to masterdir inside the void-packages repo
+# 1. Symlink / to masterdir inside the codelabs-packages repo
 # 2. write the arch of the host system, as dictated by xbps-uhelper arch
 # into /.xbps_chroot_init
 #
@@ -18,14 +18,14 @@
 # Docker example:
 # $ mkdir -p /tmp/image
 # $ xbps-install -y -r /tmp/image \
-#				 -R http://mirrors.servercentral.com/voidlinux/current \
+#				 -R http://mirrors.servercentral.com/codelabs/current \
 #				 -S base-chroot
-# $ tar -pC /tmp/image -c . | sudo docker import - voidlinux/masterdir
+# $ tar -pC /tmp/image -c . | sudo docker import - codelabs/masterdir
 # $ rm -rf /tmp/image
 # # docker run --rm -it \
 #			   -e XBPS_CHROOT_CMD=ethereal \
 #			   -e XBPS_ALLOW_CHROOT_BREAKOUT=yes \
-#			   -v $(pwd):/hostrepo voidlinux/masterdir \
+#			   -v $(pwd):/hostrepo codelabs/masterdir \
 #			   /bin/bash -c 'ln -s / /hostrepo/masterdir && /hostrepo/xbps-src pkg <pkgname>'
 #
 
@@ -77,7 +77,7 @@ if [ ! -L "$MASTERDIR" -o "$(readlink "$MASTERDIR")" != "/" ]; then
 	exit 1
 fi
 
-fake_mount "$DISTDIR" "$MASTERDIR"/void-packages
+fake_mount "$DISTDIR" "$MASTERDIR"/codelabs-packages
 
 # Do the same for hostdir
 if [ -n "$HOSTDIR" ]; then
@@ -129,7 +129,7 @@ for m in $mounts; do
 	mkdir -p "$m"
 done
 
-rm -f "$MASTERDIR"/void-packages
-mkdir -p "$MASTERDIR"/void-packages
+rm -f "$MASTERDIR"/codelabs-packages
+mkdir -p "$MASTERDIR"/codelabs-packages
 
 exit $ret

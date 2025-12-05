@@ -9,7 +9,7 @@ makedepends="gettext-devel libtranscript-devel libunistring-devel
  libt3config-devel libt3window-devel libt3key-devel ncurses-libtinfo-devel
  pcre2-devel libxcb-devel gpm-devel"
 short_desc="Tilde Terminal Toolkit's widget libary"
-maintainer="Andrew Benson <abenson+void@gmail.com>"
+maintainer="Andrew Benson <abenson+codelabs@gmail.com>"
 license="GPL-3.0-or-later"
 homepage="https://os.ghalkes.nl/t3/libt3widget.html"
 distfiles="https://os.ghalkes.nl/dist/libt3widget-${version}.tar.bz2"

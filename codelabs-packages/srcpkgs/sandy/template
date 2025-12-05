@@ -6,7 +6,7 @@ build_style=gnu-makefile
 make_build_args="INCS=-I. LIBS=-lncurses"
 makedepends="ncurses-devel"
 short_desc="A simple ncurses text editor"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="http://tools.suckless.org/${pkgname}"
 distfiles="${SOURCEFORGE_SITE}/sandyeditor/files/${pkgname}-${version}.tar.gz"

@@ -18,7 +18,7 @@ makedepends="evolution-data-server-devel libglib-devel gtk+-devel libXext-devel
  libsasl-devel libSM-devel farstream-devel libgnt-devel"
 depends="cyrus-sasl-modules gst-plugins-good1"
 short_desc="Multi-protocol instant messaging client"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://pidgin.im/"
 distfiles="${SOURCEFORGE_SITE}/pidgin/pidgin-${version}.tar.bz2"

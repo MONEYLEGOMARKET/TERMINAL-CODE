@@ -18,7 +18,7 @@ if [ "$XBPS_TARGET_LIBC" = "glibc" ]; then
 	makedepends+=" libxcrypt-devel"
 fi
 
-nocross="http://build.voidlinux.org:8010/builders/armv7l_builder/builds/8546/steps/shell_3/logs/stdio"
+nocross="http://build.codelabs.org:8010/builders/armv7l_builder/builds/8546/steps/shell_3/logs/stdio"
 
 parrot-devel_package() {
 	short_desc+=" - development files"

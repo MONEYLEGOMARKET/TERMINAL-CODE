@@ -10,7 +10,7 @@ makedepends="boost-devel-minimal libnotify-devel libopencv-devel pulseaudio-deve
  qt5-x11extras-devel qt5-xmlpatterns-devel"
 depends="qt5-plugin-mysql"
 short_desc="Cross platform automation tool"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://actiona.tools/"
 distfiles="https://github.com/Jmgr/actiona/archive/v${version}.tar.gz"

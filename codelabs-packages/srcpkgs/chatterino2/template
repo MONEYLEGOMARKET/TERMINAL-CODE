@@ -28,7 +28,7 @@ makedepends="qt6-tools-devel qt6-svg-devel qtkeychain-qt6-devel
  libnotify-devel"
 depends="qt6-imageformats"
 short_desc="Chat client for twitch.tv"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license=MIT
 homepage="https://chatterino.com"
 changelog="https://chatterino.com/changelog"

@@ -10,7 +10,7 @@ depends="python3-atomicwrites python3-configobj
  python3-vobject python3-Unidecode python3-ruamel.yaml"
 checkdepends="${depends} python3-pytest"
 short_desc="Command-line addressbook built around CardDAV"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-only"
 homepage="https://khard.readthedocs.io/en/latest/"
 changelog="https://raw.githubusercontent.com/lucc/khard/develop/CHANGES"

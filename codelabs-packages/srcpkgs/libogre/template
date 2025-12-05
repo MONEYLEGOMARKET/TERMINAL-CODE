@@ -11,7 +11,7 @@ makedepends="boost-devel-minimal freetype-devel libXaw-devel libXrandr-devel
  MesaLib-devel zziplib-devel libcppunit-devel glu-devel
  freeimage-devel pugixml-devel python3-devel"
 short_desc="Scene-oriented, flexible 3D engine"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="MIT"
 homepage="http://www.ogre3d.org"
 distfiles="https://github.com/OGRECave/ogre/archive/v$version.tar.gz

@@ -14,7 +14,7 @@ depends="font-util cantarell-fonts noto-fonts-ttf noto-fonts-emoji
  font-crosextra-caladea-ttf font-adobe-source-code-pro
  fonts-roboto-ttf font-vollkorn-ttf ttf-ubuntu-font-family"
 short_desc="Google's Collection of Fonts"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Apache-2.0, OFL-1.1"
 homepage="https://fonts.google.com/"
 distfiles="https://github.com/google/fonts/archive/${_githash}.tar.gz"

@@ -12,7 +12,7 @@ makedepends="libglib-devel sqlite-devel cairo-devel gtk4-devel libsoup3-devel
  protobuf-c-devel"
 checkdepends="dbus xvfb-run"
 short_desc="C library providing a GtkWidget to display maps"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://wiki.gnome.org/Projects/libshumate"
 #changelog="https://gitlab.gnome.org/GNOME/libshumate/-/raw/main/NEWS"

@@ -9,7 +9,7 @@ depends="python3-attrs python3-setuptools python3-pyasn1 python3-ConfigArgParse
  python3-urllib3"
 checkdepends="${depends} python3-keyrings-alt python3-mock python3-pytest-xdist"
 short_desc="Script for downloading Coursera.org videos and naming them"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-3.0-or-later"
 homepage="https://github.com/coursera-dl/coursera-dl"
 distfiles="https://github.com/coursera-dl/coursera-dl/archive/refs/tags/${version}.tar.gz"

@@ -14,7 +14,7 @@ hostmakedepends="ldc pkg-config tar which"
 makedepends="gstreamer1-devel gtksourceview-devel libpeas-devel librsvg-devel
  vte3-devel"
 short_desc="D bindings for GTK+3 and related libraries"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="LGPL-3.0-or-later"
 homepage="https://gtkd.org"
 #changelog="https://gtkd.org/changelog.html"

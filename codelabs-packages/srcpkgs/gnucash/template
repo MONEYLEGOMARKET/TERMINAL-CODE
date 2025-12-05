@@ -33,7 +33,7 @@ if [ "$XBPS_TARGET_ENDIAN" = "be" ]; then
 fi
 
 post_install() {
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 	# startup fails in scheme code when the locale is set to anything else on musl
 	if [ "$XBPS_TARGET_LIBC" = "musl" ]; then
 		vsed -i ${DESTDIR}/usr/share/applications/gnucash.desktop \

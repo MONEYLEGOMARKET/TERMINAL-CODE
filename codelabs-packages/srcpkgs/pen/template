@@ -6,7 +6,7 @@ build_style=gnu-configure
 configure_args="--with-docdir=/usr/share/doc/pen"
 makedepends="geoip-devel openssl-devel"
 short_desc="Load balancer for simple TCP/UDP based protocols"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="http://siag.nu/pen"
 distfiles="http://siag.nu/pub/pen/pen-${version}.tar.gz"

@@ -18,7 +18,7 @@ checksum=98e1d4eba48041674945980d95f42d4fb70682a3814e73fbd6cf2877c2e7d1f4
 
 
 post_patch() {
-	# comment out requirements since versions are usually out of sync with Void packages
+	# comment out requirements since versions are usually out of sync with CODE LABS packages
 	vsed -e 's|^|#|' -i requirements.txt
 }
 

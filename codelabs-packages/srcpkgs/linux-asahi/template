@@ -42,8 +42,8 @@ mutable_files="
 
 # reproducible build
 export KBUILD_BUILD_TIMESTAMP=$(LC_ALL=C date -ud @${SOURCE_DATE_EPOCH:-0})
-export KBUILD_BUILD_USER=voidlinux
-export KBUILD_BUILD_HOST=voidlinux
+export KBUILD_BUILD_USER=codelabs
+export KBUILD_BUILD_HOST=codelabs
 
 if [ "$CROSS_BUILD" ]; then
 	_cross="CROSS_COMPILE=${XBPS_CROSS_TRIPLET}-"

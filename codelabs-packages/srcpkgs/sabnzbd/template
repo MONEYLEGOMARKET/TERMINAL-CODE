@@ -9,7 +9,7 @@ depends="par2cmdline python3-cheetah3 python3-cryptography
  python3-portend python3-chardet python3-notify2 python3-guessit
  python3-puremagic python3-pysocks python3-apprise python3-sabctools unzip"
 short_desc="Open Source Binary Newsreader written in Python"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, custom:Bundled"
 homepage="https://sabnzbd.org/"
 changelog="https://github.com/sabnzbd/sabnzbd/releases"
@@ -38,5 +38,5 @@ do_install() {
 	for _f in licenses/* COPYRIGHT.txt; do
 		vlicense ${_f}
 	done
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

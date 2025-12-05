@@ -14,11 +14,11 @@ makedepends="libjpeg-turbo-devel libpng-devel fribidi-devel libgsf-devel
  gtk+3-devel"
 depends="hicolor-icon-theme desktop-file-utils"
 short_desc="Free word processing program similar to Microsoft(R) Word"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="http://www.abisource.com/"
 distfiles="${homepage}/downloads/${pkgname}/${version}/source/${pkgname}-${version}.tar.gz"
-distfiles="https://sources.voidlinux.org/abiword-${version}/abiword-${version}.tar.gz"
+distfiles="https://sources.codelabs.org/abiword-${version}/abiword-${version}.tar.gz"
 checksum=1257247e9970508d6d1456d3e330cd1909c4b42b25e0f0a1bc32526d6f3a21b4
 
 build_options="goffice champlain"

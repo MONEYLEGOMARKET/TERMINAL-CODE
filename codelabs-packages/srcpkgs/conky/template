@@ -14,7 +14,7 @@ makedepends="alsa-lib-devel imlib2-devel libXdamage-devel libXft-devel
  libXinerama-devel libcurl-devel librsvg-devel lua53-devel ncurses-devel
  toluapp-devel wireless_tools-devel cairo-devel wayland-devel"
 short_desc="Lightweight system monitor for X and Wayland"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="BSD-3-Clause, GPL-3.0-or-later"
 homepage="https://github.com/brndnmtthws/conky"
 distfiles="https://github.com/brndnmtthws/conky/archive/v${version}.tar.gz

@@ -12,7 +12,7 @@ makedepends="libglib-devel libpng-devel tiff-devel libjpeg-turbo-devel
  shared-mime-info"
 depends="shared-mime-info"
 short_desc="Image loading library for The GTK+ toolkit (v2)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://wiki.gnome.org/Projects/GdkPixbuf"
 distfiles="${GNOME_SITE}/gdk-pixbuf/${version%.*}/gdk-pixbuf-${version}.tar.xz"

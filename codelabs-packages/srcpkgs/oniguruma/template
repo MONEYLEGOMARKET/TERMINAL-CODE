@@ -5,7 +5,7 @@ revision=1
 build_style=gnu-configure
 configure_args="--enable-posix-api=yes"
 short_desc="Multi-charset regular expressions library"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="BSD-2-Clause"
 homepage="https://github.com/kkos/oniguruma"
 changelog="https://github.com/kkos/oniguruma/releases"

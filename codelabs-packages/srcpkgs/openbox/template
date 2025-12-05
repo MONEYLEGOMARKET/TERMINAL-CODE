@@ -14,7 +14,7 @@ conf_files="
 	/etc/xdg/openbox/environment
 	/etc/xdg/openbox/autostart"
 short_desc="Standards compliant, fast, light-weight, extensible window manager"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="http://www.openbox.org"
 distfiles="http://openbox.org/dist/openbox/openbox-$version.tar.xz"

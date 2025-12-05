@@ -13,7 +13,7 @@ makedepends="boost-devel-minimal MesaLib-devel SDL2-devel LuaJIT-devel
  clipper-devel alure-devel"
 depends="libmpg123"
 short_desc="Fast-paced team-based outer-space multi-player arcade game"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://bitfighter.org/"
 distfiles="http://bitfighter.org/files/${pkgname}-${version}.tar.gz

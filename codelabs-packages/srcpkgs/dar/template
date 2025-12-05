@@ -9,7 +9,7 @@ hostmakedepends="automake gettext-devel libtool pkg-config which"
 makedepends="acl-devel bzip2-devel e2fsprogs-devel libgcrypt-devel liblzma-devel
  lzo-devel librsync-devel libcurl-devel libargon2-devel gpgme-devel"
 short_desc="Shell command that backs up directory trees and files"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="http://dar.linux.free.fr/"
 distfiles="${SOURCEFORGE_SITE}/dar/dar-${version}.tar.gz"

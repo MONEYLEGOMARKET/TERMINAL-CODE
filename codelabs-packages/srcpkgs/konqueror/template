@@ -18,7 +18,7 @@ makedepends="qt6-base-private-devel qt6-webengine-devel qt6-webchannel-devel
  kf6-kiconthemes-devel kf6-ktextwidgets-devel kf6-kparts-devel hunspell-devel
  kf6-kcmutils-devel plasma-activities-devel"
 short_desc="KDE File Manager & Web Browser"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://kde.org/applications/internet/org.kde.konqueror"
 distfiles="${KDE_SITE}/release-service/${version}/src/konqueror-${version}.tar.xz"

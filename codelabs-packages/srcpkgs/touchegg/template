@@ -8,7 +8,7 @@ hostmakedepends="pkg-config"
 makedepends="eudev-libudev-devel libinput-devel pugixml-devel cairo-devel libX11-devel
  libXtst-devel libXrandr-devel libXi-devel glib-devel gtk+3-devel"
 short_desc="Multitouch gesture recognizer"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://github.com/JoseExposito/touchegg"
 changelog="https://raw.githubusercontent.com/JoseExposito/touchegg/master/CHANGELOG.md"

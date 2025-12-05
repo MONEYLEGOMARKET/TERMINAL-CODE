@@ -12,7 +12,7 @@ depends="dmidecode pciutils python3-Jinja2 python3-M2Crypto python3-MarkupSafe
  python3-requests python3-rpm-vercmp python3-setproctitle python3-timelib
  python3-tornado python3-yaml"
 short_desc="Remote execution system, and configuration manager"
-maintainer="Toyam Cox <Vaelatern@voidlinux.org>"
+maintainer="Toyam Cox <Vaelatern@codelabs.org>"
 license="Apache-2.0"
 homepage="http://saltstack.org/"
 changelog="https://docs.saltstack.com/en/latest/topics/releases/${version}.html"

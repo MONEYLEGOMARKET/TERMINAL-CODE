@@ -7,17 +7,17 @@ _libucontext_version=1.3.3
 pkgname=cross-mips-linux-muslhf
 version=0.37
 revision=4
-build_style=void-cross
+build_style=codelabs-cross
 configure_args="--with-arch=mips32r2 --with-float=hard
  --with-linker-hash-style=sysv --enable-autolink-libatomic"
 hostmakedepends="texinfo tar gcc-objc gcc-gdc flex perl python3 pkg-config"
 makedepends="isl-devel libmpc-devel gmp-devel mpfr-devel
  zlib-devel libzstd-devel"
 depends="${pkgname}-libc-${version}_${revision}"
-short_desc="Void cross toolchain for ${pkgname/cross-}"
+short_desc="CODE LABS cross toolchain for ${pkgname/cross-}"
 maintainer="hipperson0 <hipperson0@gmail.com>"
 license="GPL-2.0-or-later, GPL-3.0-or-later, MIT"
-homepage="https://www.voidlinux.org/"
+homepage="https://www.codelabs.org/"
 case "${_gcc_version}" in
 	*+*) distfiles="https://gcc.gnu.org/pub/gcc/snapshots/${_gcc_version%%.*}-${_gcc_version#*+}/gcc-${_gcc_version%%.*}-${_gcc_version#*+}.tar.xz" ;;
 	*) distfiles="${GNU_SITE}/gcc/gcc-${_gcc_version}/gcc-${_gcc_version}.tar.xz" ;;

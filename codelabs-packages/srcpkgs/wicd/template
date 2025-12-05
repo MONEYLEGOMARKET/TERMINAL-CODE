@@ -12,7 +12,7 @@ conf_files="
  /etc/dbus-1/system.d/wicd.conf
  /etc/wicd/encryption/templates/active"
 short_desc="Open source wired and wireless network manager"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-only"
 homepage="http://wicd.sourceforge.net"
 distfiles="https://salsa.debian.org/debian/wicd/-/archive/debian/$_ver/wicd-debian-$_ver.tar.gz"

@@ -9,7 +9,7 @@ makedepends="gtk+3-devel librsvg-devel libgsf-devel libxml2-devel
  pcre-devel libxslt-devel"
 short_desc="Document-centric objects and utilities for GLib and Gtk+"
 license="GPL-2.0-or-later"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 homepage="https://github.com/GNOME/goffice"
 distfiles="${GNOME_SITE}/${pkgname}/${version%.*}/${pkgname}-${version}.tar.xz"
 checksum=66bfd7e31d2f6756d5a62c3670383cbba02b3cb4c1042950192a801b72a3c9ab

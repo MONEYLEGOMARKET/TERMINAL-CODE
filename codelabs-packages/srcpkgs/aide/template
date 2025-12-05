@@ -12,7 +12,7 @@ hostmakedepends="flex pkg-config"
 makedepends="pcre2-devel mhash-devel acl-devel e2fsprogs-devel elfutils-devel
  zlib-devel nettle-devel"
 short_desc="File and directory integrity checker"
-maintainer="Andrew Benson <abenson+void@gmail.com>"
+maintainer="Andrew Benson <abenson+codelabs@gmail.com>"
 license="GPL-2.0-or-later"
 homepage="https://aide.github.io/"
 distfiles="https://github.com/aide/aide/releases/download/v${version}/aide-${version}.tar.gz"

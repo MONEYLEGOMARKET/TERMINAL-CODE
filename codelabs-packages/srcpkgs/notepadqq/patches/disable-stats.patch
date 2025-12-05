@@ -5,7 +5,7 @@
  
  void Stats::init()
  {
-+    return; // statistics collection disabled by Void Linux
++    return; // statistics collection disabled by CODE LABS
      NqqSettings &settings = NqqSettings::getInstance();
  
      Stats::askUserPermission();

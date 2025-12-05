@@ -8,7 +8,7 @@ hostmakedepends="python3"
 makedepends="libpng-devel tiff-devel libjpeg-turbo-devel zlib-devel fftw-devel
  boost-devel-minimal libopenexr-devel imath-devel"
 short_desc="Image processing and analysis library"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="MIT"
 homepage="https://ukoethe.github.io/vigra/"
 distfiles="https://github.com/ukoethe/vigra/archive/refs/tags/Version-${version//./-}.tar.gz"

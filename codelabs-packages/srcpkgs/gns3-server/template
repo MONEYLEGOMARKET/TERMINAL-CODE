@@ -17,7 +17,7 @@ distfiles="https://github.com/GNS3/gns3-server/archive/v${version}.tar.gz"
 checksum=fe17019797f400a55350f3a7f3e0b9b3b89e14adacf68641e85ca895cd9cf1b9
 
 post_patch() {
-	# comment out requirements since versions are usually out of sync with Void packages
+	# comment out requirements since versions are usually out of sync with CODE LABS packages
 	vsed -e 's|^|#|' -i requirements.txt
 	# pre-populate docker resource directory with static busybox binary
 	if [ "$CROSS_BUILD" ]; then

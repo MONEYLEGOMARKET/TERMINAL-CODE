@@ -5,7 +5,7 @@ revision=1
 build_style=gnu-makefile
 depends="curl tar"
 short_desc="Simple command line NodeJS version management"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://github.com/tj/n"
 changelog="https://raw.githubusercontent.com/tj/n/master/CHANGELOG.md"
@@ -14,7 +14,7 @@ checksum=53f686808ef37728922ad22e8a5560f4caf1d214d706639ef8eca6e72b891697
 
 do_install() {
 	vbin bin/n
-	vdoc ${FILESDIR}/README.voidlinux
+	vdoc ${FILESDIR}/README.codelabs
 }
 
 post_install() {

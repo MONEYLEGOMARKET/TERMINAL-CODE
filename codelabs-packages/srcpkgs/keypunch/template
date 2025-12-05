@@ -8,7 +8,7 @@ hostmakedepends="cargo rust gettext glib pkg-config blueprint-compiler
  gtk4-devel libadwaita-devel"
 makedepends="gtk4-devel libadwaita-devel rust-std"
 short_desc="Practice your typing skills"
-maintainer="Duncaen <duncaen@voidlinux.org>"
+maintainer="Duncaen <duncaen@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://apps.gnome.org/Keypunch/"
 changelog="https://github.com/bragefuglseth/keypunch/releases/"

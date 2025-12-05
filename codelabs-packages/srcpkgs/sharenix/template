@@ -18,5 +18,5 @@ post_install() {
 	vbin sharenix-section
 	vbin sharenix-window
 	vconf sharenix.json
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

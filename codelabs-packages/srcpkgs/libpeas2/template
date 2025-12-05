@@ -12,7 +12,7 @@ makedepends="vala-devel python3-gobject-devel lua51-devel gjs-devel
 depends="python3-gobject hicolor-icon-theme"
 checkdepends="xvfb-run"
 short_desc="Gobject-based plugins engine"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://wiki.gnome.org/Projects/Libpeas"
 changelog="https://gitlab.gnome.org/GNOME/libpeas/-/raw/main/NEWS"
@@ -21,7 +21,7 @@ checksum=c2887233f084a69fabfc7fa0140d410491863d7050afb28677f9a553b2580ad9
 make_check_pre="xvfb-run"
 
 post_patch() {
-	# libpeas2 checks for lua51.pc or lua-5.1.pc but Void uses lua5.1.pc
+	# libpeas2 checks for lua51.pc or lua-5.1.pc but CODE LABS uses lua5.1.pc
 	vsed -e "s/dependency('lua51'/dependency('lua5.1'/" -i meson.build
 }
 

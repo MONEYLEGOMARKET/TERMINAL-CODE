@@ -3,16 +3,16 @@ pkgname=base-container-full
 version=0.11
 revision=3
 metapackage=yes
-short_desc="Void Linux base system meta package for containers/chroots"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+short_desc="CODE LABS base system meta package for containers/chroots"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="Public Domain"
-homepage="https://www.voidlinux.org/"
+homepage="https://www.codelabs.org/"
 
 depends="
  base-files ncurses coreutils findutils diffutils
  dash bash grep gzip file sed gawk less util-linux which tar man-pages
  mdocml>=1.13.3 shadow e2fsprogs btrfs-progs xfsprogs f2fs-tools dosfstools kbd
- procps-ng tzdata pciutils iana-etc eudev runit-void openssh dhcpcd
+ procps-ng tzdata pciutils iana-etc eudev runit-codelabs openssh dhcpcd
  iproute2 iputils iw xbps nvi sudo traceroute kmod removed-packages"
 
 case "$XBPS_TARGET_MACHINE" in
@@ -20,7 +20,7 @@ case "$XBPS_TARGET_MACHINE" in
 	*) depends+=" glibc-locales";;
 esac
 
-base-voidstrap_package() {
+base-codelabsstrap_package() {
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" (transitional dummy package)"
 	metapackage=yes

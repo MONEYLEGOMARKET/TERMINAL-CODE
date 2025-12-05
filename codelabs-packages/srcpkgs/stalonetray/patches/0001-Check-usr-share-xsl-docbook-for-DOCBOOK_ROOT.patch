@@ -3,7 +3,7 @@ From: Dexter Gaon-Shatford <dexter@gaonshatford.ca>
 Date: Thu, 31 Aug 2023 16:22:33 -0400
 Subject: [PATCH] Check /usr/share/xsl/docbook for DOCBOOK_ROOT
 
-Fixes compilation on Void Linux where docbook-xsl is installed at
+Fixes compilation on CODE LABS where docbook-xsl is installed at
 /usr/share/xsl/docbook
 ---
  configure.ac | 1 +

@@ -8,7 +8,7 @@ hostmakedepends="pkg-config"
 makedepends="sdl12-compat-devel libmikmod-devel libvorbis-devel
  libflac-devel speex-devel smpeg-devel"
 short_desc="Library to decode several popular sound file formats"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="http://icculus.org/SDL_sound/"
 distfiles="http://icculus.org/${pkgname}/downloads/${pkgname}-${version}.tar.gz"

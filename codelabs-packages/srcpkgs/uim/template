@@ -71,7 +71,7 @@ uim-anthy_package() {
 		vmove "usr/lib/uim/plugin/libuim-anthy*.so"
 		vmove "usr/share/uim/anthy*.scm"
 		vmove "usr/share/uim/pixmaps/anthy*.png"
-		vdoc "${FILESDIR}/README.voidlinux"
+		vdoc "${FILESDIR}/README.codelabs"
 	}
 }
 

@@ -9,7 +9,7 @@ makedepends="avahi-compat-libs-devel libcurl-devel avahi-compat-libs-devel
  libSM-devel libXext-devel libXrandr-devel libXtst-devel libXinerama-devel
  qt5-devel qt5-tools-devel"
 short_desc="Share a single mouse and keyboard between multiple computers"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-only"
 homepage="http://synergy-foss.org/"
 distfiles="https://github.com/symless/synergy-core/archive/v${version}-stable.tar.gz"

@@ -29,7 +29,7 @@ depends="
 	xdg-utils
 	elogind
 	upower"
-short_desc="LXQt meta-package for Void Linux"
+short_desc="LXQt meta-package for CODE LABS"
 maintainer="Helmut Pozimski <helmut@pozimski.eu>"
 license="BSD-2-Clause" # Suppress xlint warning: vlicense
 homepage="https://lxqt-project.org"

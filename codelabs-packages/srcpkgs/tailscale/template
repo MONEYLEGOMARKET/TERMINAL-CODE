@@ -7,7 +7,7 @@ build_helper="qemu"
 go_import_path="tailscale.com"
 go_package="tailscale.com/cmd/tailscale tailscale.com/cmd/tailscaled"
 go_build_tags='xversion'
-go_ldflags="-X 'tailscale.com/version.longStamp=${version}_${revision} (Void Linux)'
+go_ldflags="-X 'tailscale.com/version.longStamp=${version}_${revision} (CODE LABS)'
  -X 'tailscale.com/version.shortStamp=${version}'"
 make_check_target="$go_package"
 make_dirs="/var/lib/tailscale 0755 root root"

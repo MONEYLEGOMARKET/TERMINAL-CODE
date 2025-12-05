@@ -9,7 +9,7 @@ makedepends="alsa-lib-devel ffmpeg6-devel libass-devel libcdio-devel libgme-deve
  qt5-svg-devel qt5-tools-devel qt5-x11extras-devel taglib-devel
  libcdio-paranoia-devel qt5-declarative-devel"
 short_desc="Video and audio player which can play most formats and codecs"
-maintainer="Andrew Benson <abenson+void@gmail.com>"
+maintainer="Andrew Benson <abenson+codelabs@gmail.com>"
 license="LGPL-3.0-only"
 homepage="http://zaps166.sourceforge.net/?app=QMPlay2"
 changelog="https://raw.githubusercontent.com/zaps166/QMPlay2/master/ChangeLog"

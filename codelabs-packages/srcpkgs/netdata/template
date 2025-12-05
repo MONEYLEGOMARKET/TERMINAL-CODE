@@ -14,7 +14,7 @@ makedepends="json-c-devel libcap-devel liblz4-devel libmnl-devel libyaml-devel
  $(vopt_if xen "xen-devel yajl-devel") $(vopt_if cups cups-devel)"
 depends="libcap-progs"
 short_desc="Real-time performance monitoring, done right"
-maintainer="Michael Aldridge <maldridge@voidlinux.org>"
+maintainer="Michael Aldridge <maldridge@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://www.netdata.cloud/"
 distfiles="https://github.com/netdata/netdata/releases/download/v${version}/netdata-v${version}.tar.gz"

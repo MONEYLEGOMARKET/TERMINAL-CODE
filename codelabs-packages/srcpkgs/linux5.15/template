@@ -3,7 +3,7 @@ pkgname=linux5.15
 version=5.15.193
 revision=1
 short_desc="Linux kernel and modules (${version%.*} series)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-only"
 homepage="https://www.kernel.org"
 distfiles="https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-${version%.*}.tar.xz
@@ -44,8 +44,8 @@ mutable_files="
 
 # reproducible build
 export KBUILD_BUILD_TIMESTAMP=$(LC_ALL=C date -ud @${SOURCE_DATE_EPOCH:-0})
-export KBUILD_BUILD_USER=voidlinux
-export KBUILD_BUILD_HOST=voidlinux
+export KBUILD_BUILD_USER=codelabs
+export KBUILD_BUILD_HOST=codelabs
 
 if [ "$CROSS_BUILD" ]; then
 	_cross="CROSS_COMPILE=${XBPS_CROSS_TRIPLET}-"

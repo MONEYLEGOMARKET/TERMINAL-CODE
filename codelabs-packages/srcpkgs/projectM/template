@@ -12,7 +12,7 @@ makedepends="pulseaudio-devel alsa-lib-devel glew-devel ftgl-devel libXext-devel
  SDL2-devel gtkglext-devel jack-devel qt5-tools-devel libvisual-devel glm
  MesaLib-devel glu-devel"
 short_desc="Music visualization"
-maintainer="Andrew Benson <abenson+void@gmail.com>"
+maintainer="Andrew Benson <abenson+codelabs@gmail.com>"
 license="LGPL-2.1-or-later"
 homepage="https://github.com/projectM-visualizer/projectm"
 distfiles="${homepage}/releases/download/v${version}/projectM-${version}.tar.gz"

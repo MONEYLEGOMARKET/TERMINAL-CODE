@@ -62,8 +62,8 @@
 +  # automatically switch to user mode, and warn
 +  if (!$opts{"usermode"} && $action ne "init-usertree") {
 +    $opts{"usermode"} = 1;
-+    print "(running on Void Linux, switching to user mode!)\n";
-+    print "(see https://docs.voidlinux.org/config/texlive.html)\n";
++    print "(running on CODE LABS, switching to user mode!)\n";
++    print "(see https://docs.codelabs.org/config/texlive.html)\n";
 +  }
 +
    #
@@ -86,7 +86,7 @@
      } else {
 -      die("cannot setup TLPDB in $::maintree");
 +      if ($opts{'usermode'}) {
-+        die("$prg: user mode not initialized, please read https://docs.voidlinux.org/config/texlive.html!\n");
++        die("$prg: user mode not initialized, please read https://docs.codelabs.org/config/texlive.html!\n");
 +      } else {
 +        die("cannot setup TLPDB in $::maintree");
 +      }

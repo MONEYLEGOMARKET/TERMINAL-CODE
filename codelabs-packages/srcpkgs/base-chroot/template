@@ -7,7 +7,7 @@ metapackage=yes
 short_desc="Minimal set of packages required for chroot with xbps-src"
 maintainer="Juan RP <xtraeme@gmail.com>"
 license="Public Domain"
-homepage="http://www.voidlinux.org"
+homepage="http://www.codelabs.org"
 repository=bootstrap
 
 case "$XBPS_TARGET_LIBC" in

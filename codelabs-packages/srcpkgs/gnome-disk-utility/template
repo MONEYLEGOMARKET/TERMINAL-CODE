@@ -11,7 +11,7 @@ makedepends="gnome-settings-daemon-devel libcanberra-devel libdvdread-devel
  libhandy1-devel"
 depends="desktop-file-utils gptfdisk hicolor-icon-theme parted"
 short_desc="GNOME libraries and applications for dealing with storage devices"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://wiki.gnome.org/Apps/Disks"
 changelog="https://gitlab.gnome.org/GNOME/gnome-disk-utility/-/raw/gnome-46/NEWS"

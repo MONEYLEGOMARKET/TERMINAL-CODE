@@ -27,7 +27,7 @@ if [ -n "$CROSS_BUILD" ]; then
 fi
 
 post_install() {
-	# Void previously shipped the binary as "gauche", symlink for
+	# CODE LABS previously shipped the binary as "gauche", symlink for
 	# consistency.
 	ln -sf gosh $DESTDIR/usr/bin/gauche
 

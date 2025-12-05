@@ -8,7 +8,7 @@ makedepends="zlib-devel alsa-lib-devel libjpeg-turbo-devel libXpm-devel
  libXxf86vm-devel sdl12-compat-devel MesaLib-devel"
 depends="desktop-file-utils hicolor-icon-theme"
 short_desc="An advanced Quake 1 game engine"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2"
 homepage="http://icculus.org/twilight/darkplaces/"
 distfiles="http://icculus.org/twilight/$pkgname/files/darkplacesengine${version}.zip"
@@ -40,5 +40,5 @@ do_install() {
 		install -Dm644 darkplaces${i}x${i}.png ${DESTDIR}/usr/share/icons/hicolor/${i}x${i}/apps/darkplaces.png
 	done
 	vinstall ${FILESDIR}/${pkgname}.desktop 644 usr/share/applications
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

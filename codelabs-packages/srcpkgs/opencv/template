@@ -18,7 +18,7 @@ makedepends="ffmpeg6-devel libpng-devel libjpeg-turbo-devel tiff-devel
  libgphoto2-devel gst-plugins-base1-devel openblas-devel
  python3-numpy python3-devel"
 short_desc="Computer vision and machine learning software library"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Apache-2.0"
 homepage="https://opencv.org"
 changelog="https://github.com/opencv/opencv/wiki/ChangeLog"

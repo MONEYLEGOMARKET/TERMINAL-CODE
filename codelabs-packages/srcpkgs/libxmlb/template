@@ -9,7 +9,7 @@ configure_args="-Dgtkdoc=false -Dtests=false -Dstemmer=false
 hostmakedepends="pkg-config python3"
 makedepends="libglib-devel libuuid-devel libzstd-devel"
 short_desc="Library to help create and query binary XML blobs"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://github.com/hughsie/libxmlb"
 changelog="https://raw.githubusercontent.com/hughsie/libxmlb/main/NEWS"

@@ -6,7 +6,7 @@ index b61279ebc..3577442be 100644
  		SetValueForKey ("Path", "/usr/local/share/doom", true);
  		SetValueForKey ("Path", "/usr/local/share/games/doom", true);
  		SetValueForKey ("Path", "/usr/share/doom", true);
-+		// Adds the correct locations of the pk3file for Void Linux
++		// Adds the correct locations of the pk3file for CODE LABS
 +		SetValueForKey ("Path", "/usr/share/gzdoom", true);
  		SetValueForKey ("Path", "/usr/share/games/doom", true);
  		SetValueForKey ("Path", SHARE_DIR "/doom", true);
@@ -15,7 +15,7 @@ index b61279ebc..3577442be 100644
  		SetValueForKey ("Path", "/usr/local/share/doom", true);
  		SetValueForKey ("Path", "/usr/local/share/games/doom", true);
  		SetValueForKey ("Path", "/usr/share/doom", true);
-+		// Adds the correct locations of the pk3file for Void Linux
++		// Adds the correct locations of the pk3file for CODE LABS
 +		SetValueForKey ("Path", "/usr/share/gzdoom", true);
  		SetValueForKey ("Path", "/usr/share/games/doom", true);
  #endif

@@ -7,7 +7,7 @@ hostmakedepends="python3-setuptools_scm python3-wheel"
 depends="python3-dulwich mercurial"
 checkdepends="$depends git unzip openssh"
 short_desc="Mercurial plugin adding the ability to push and pull to/from Git"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-only"
 # https://www.mercurial-scm.org/wiki/HgGit
 homepage="https://foss.heptapod.net/mercurial/hg-git"

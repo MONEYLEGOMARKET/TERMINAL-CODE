@@ -42,7 +42,7 @@ checksum="585fd0ae4d959dfb78bf5177196d68640596c4cf6d334cbdb5d0ad9a887a2301
  5747ca771383ba2dc28847480b9a29bb984fc4553aa44d74fc7f96266164fd6c
  bad285812bcc7de7e0dd905c5df99045d7f92d6e2e191fc2768c06adbaaeb709"
 
-nocross="https://build.voidlinux.org/builders/aarch64_builder/builds/33769/steps/shell_3/logs/stdio"
+nocross="https://build.codelabs.org/builders/aarch64_builder/builds/33769/steps/shell_3/logs/stdio"
 
 post_extract() {
 	mv babashka-$version/* babashka-$version/.??* .

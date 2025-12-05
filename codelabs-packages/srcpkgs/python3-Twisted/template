@@ -13,7 +13,7 @@ checkdepends="python3-PyHamcrest python3-hypothesis python3-pyserial
  python3-cryptography python3-appdirs python3-bcrypt python3-h2
  python3-priority git xvfb-run python3-httpx $depends"
 short_desc="Asynchronous networking framework written in Python (Python3)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://twisted.org/"
 changelog="https://raw.githubusercontent.com/twisted/twisted/trunk/NEWS.rst"

@@ -6,4 +6,4 @@ metapackage=yes
 short_desc="libsmbclient (removed)"
 maintainer="Đoàn Trần Công Danh <congdanhqx@gmail.com>"
 license="BSD-2-Clause"
-homepage="http://voidlinux.org"
+homepage="http://codelabs.org"

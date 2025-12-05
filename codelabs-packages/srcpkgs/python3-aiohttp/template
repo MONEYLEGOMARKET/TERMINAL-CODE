@@ -8,7 +8,7 @@ makedepends="python3-devel"
 depends="python3-aiosignal python3-attrs python3-frozenlist python3-multidict
  python3-yarl"
 short_desc="HTTP client/server for asyncio (PEP-3156)"
-maintainer="Michael Aldridge <maldridge@voidlinux.org>"
+maintainer="Michael Aldridge <maldridge@codelabs.org>"
 license="Apache-2.0"
 homepage="https://aiohttp.readthedocs.io/"
 distfiles="${PYPI_SITE}/a/aiohttp/aiohttp-${version}.tar.gz"

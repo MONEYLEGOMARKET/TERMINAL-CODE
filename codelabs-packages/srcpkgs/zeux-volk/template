@@ -6,7 +6,7 @@ build_style=cmake
 configure_args="-DVULKAN_HEADERS_INSTALL_DIR=${XBPS_CROSS_BASE}/usr -DVOLK_INSTALL=ON -Wno-dev"
 makedepends="Vulkan-Headers"
 short_desc="Meta-loader for Vulkan"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://github.com/zeux/volk"
 distfiles="https://github.com/zeux/volk/archive/vulkan-sdk-${version}.tar.gz"

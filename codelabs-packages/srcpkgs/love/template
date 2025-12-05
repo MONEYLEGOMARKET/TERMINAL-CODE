@@ -9,7 +9,7 @@ makedepends="SDL2-devel devil-devel libopenal-devel LuaJIT-devel freetype-devel
  physfs-devel libmodplug-devel mpg123-devel libvorbis-devel libtheora-devel"
 depends="hicolor-icon-theme desktop-file-utils"
 short_desc="Framework for writing 2D games in lua"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Zlib"
 homepage="https://love2d.org/"
 distfiles="https://github.com/love2d/love/releases/download/${version}/love-${version}-linux-src.tar.gz"

@@ -26,7 +26,7 @@ fi
 major_version=$(echo $PKGNAME | cut -c 6-)
 
 # look for previous entry for this major kernel version
-existing_entry=$(efibootmgr | grep "Void Linux with kernel ${major_version}")
+existing_entry=$(efibootmgr | grep "CODE LABS with kernel ${major_version}")
 
 # get the boot order
 # this is required because when in the next step the existing entry is removed,
@@ -39,7 +39,7 @@ if [ "$existing_entry" != "" ]; then
 fi
 
 # create the new entry
-efibootmgr -qc $args -L "Void Linux with kernel ${major_version}" -l /vmlinuz-${VERSION} -u "${OPTIONS}"
+efibootmgr -qc $args -L "CODE LABS with kernel ${major_version}" -l /vmlinuz-${VERSION} -u "${OPTIONS}"
 
 # restore the boot order
 efibootmgr -qo $bootorder

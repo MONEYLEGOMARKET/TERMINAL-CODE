@@ -8,7 +8,7 @@ hostmakedepends="gettext glib-devel itstool pkg-config cargo
  gtk4-update-icon-cache desktop-file-utils"
 makedepends="libadwaita-devel librsvg-devel rust-std"
 short_desc="GNOME classic robots game"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://wiki.gnome.org/Apps/Robots"
 distfiles="${GNOME_SITE}/${pkgname}/${version%.*}/${pkgname}-${version}.tar.xz"

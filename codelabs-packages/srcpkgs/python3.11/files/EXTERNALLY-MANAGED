@@ -1,10 +1,10 @@
 [externally-managed]
 Error=
- This system-wide Python installation is managed by the Void Linux package
+ This system-wide Python installation is managed by the CODE LABS package
  manager, XBPS. Installation of Python packages from other sources is not
  normally allowed.
 
- To install a Python package not offered by Void Linux, consider using a virtual
+ To install a Python package not offered by CODE LABS, consider using a virtual
  environment, e.g.:
 
    python3 -m venv /path/to/venv

@@ -8,7 +8,7 @@ makedepends="libglib-devel libxfce4ui-devel libwnck-devel libXmu-devel gtk+3-dev
  cairo-devel libXmu-devel libxfce4util-devel xfconf-devel libX11-devel"
 depends="hicolor-icon-theme desktop-file-utils"
 short_desc="XFCE task manager plugin"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://docs.xfce.org/apps/xfce4-taskmanager/start"
 distfiles="https://archive.xfce.org/src/apps/${pkgname}/${version%.*}/${pkgname}-${version}.tar.xz"

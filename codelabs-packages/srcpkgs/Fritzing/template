@@ -11,7 +11,7 @@ makedepends="qt5-devel qt5-serialport-devel qt5-svg-devel
  boost-devel-minimal libgit2-devel quazip-devel"
 depends="qt5-plugin-sqlite"
 short_desc="Software for electronics prototyping"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later, CC-BY-SA-3.0"
 homepage="http://fritzing.org"
 distfiles="https://github.com/Fritzing/Fritzing-app/archive/${version}.tar.gz>fritzing-app-${version}.tar.gz

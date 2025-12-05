@@ -9,7 +9,7 @@ makedepends="libadwaita-devel libarchive-devel libportal-gtk4-devel
  nautilus-devel"
 depends="desktop-file-utils hicolor-icon-theme"
 short_desc="GNOME Front-end to archiving programs like tar and zip"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://wiki.gnome.org/Apps/FileRoller"
 changelog="https://gitlab.gnome.org/GNOME/file-roller/-/raw/master/NEWS"

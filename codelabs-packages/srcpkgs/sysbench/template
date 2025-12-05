@@ -12,7 +12,7 @@ hostmakedepends="automake libtool pkg-config"
 makedepends="LuaJIT-devel ck-devel libmariadbclient-devel openssl-devel
  postgresql-libs-devel zlib-devel"
 short_desc="Scriptable database and system performance benchmark"
-maintainer="Duncaen <duncaen@voidlinux.org>"
+maintainer="Duncaen <duncaen@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://github.com/akopytov/sysbench"
 distfiles="https://github.com/akopytov/sysbench/archive/${version}.tar.gz"

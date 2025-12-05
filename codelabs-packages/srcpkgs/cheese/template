@@ -13,7 +13,7 @@ makedepends="clutter-gst3-devel clutter-gtk-devel gnome-desktop-devel
 depends="clutter-gst3 clutter-gtk desktop-file-utils gnome-video-effects
  gst-plugins-good1 hicolor-icon-theme"
 short_desc="GNOME tool to take pictures and videos from your webcam"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://wiki.gnome.org/Apps/Cheese"
 changelog="https://gitlab.gnome.org/GNOME/cheese/-/raw/master/NEWS"

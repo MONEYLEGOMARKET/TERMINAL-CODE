@@ -10,7 +10,7 @@ configure_args="--libdir=/usr/lib --bindir=/usr/bin
  $(vopt_if static --enable-static-libc)"
 makedepends="execline-devel skalibs-devel"
 short_desc="Small suite of programs for UNIX, designed to allow process supervision"
-maintainer="Duncaen <duncaen@voidlinux.org>"
+maintainer="Duncaen <duncaen@codelabs.org>"
 license="ISC"
 homepage="http://skarnet.org/software/s6/"
 changelog="https://skarnet.org/software/s6/upgrade.html"

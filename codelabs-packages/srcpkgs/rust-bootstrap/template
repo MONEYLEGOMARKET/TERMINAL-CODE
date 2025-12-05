@@ -3,7 +3,7 @@ pkgname=rust-bootstrap
 version=1.91.0
 revision=1
 short_desc="Rust programming language bootstrap toolchain"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Apache-2.0 OR MIT"
 homepage="https://www.rust-lang.org/"
 conflicts="rust>=0 rust-std>=0"
@@ -20,7 +20,7 @@ _bootstrap_url="https://static.rust-lang.org/dist"
 case "$XBPS_TARGET_MACHINE" in
 	x86_64*|i686) ;;
 	# See srcpkgs/rust-bootstrap/files/generating-distfiles.md for details
-	*) _bootstrap_url="https://repo-default.voidlinux.org/distfiles";;
+	*) _bootstrap_url="https://repo-default.codelabs.org/distfiles";;
 esac
 
 # hardcode platform triplets

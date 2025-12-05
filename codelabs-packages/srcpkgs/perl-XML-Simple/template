@@ -9,6 +9,6 @@ depends="${makedepends}"
 short_desc="Easy Perl API to read/write XML"
 homepage="https://metacpan.org/release/XML-Simple"
 license="Artistic-1.0-Perl, GPL-1.0-or-later"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 distfiles="${CPAN_SITE}/XML/XML-Simple-$version.tar.gz"
 checksum=531fddaebea2416743eb5c4fdfab028f502123d9a220405a4100e68fc480dbf8

@@ -6,7 +6,7 @@ build_style=cmake
 hostmakedepends="pkg-config"
 makedepends="libsecret-devel qt5-tools-devel"
 short_desc="Platform-independent Qt5 API for storing passwords securely"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="BSD-2-Clause"
 homepage="https://github.com/frankosterfeld/qtkeychain"
 distfiles="https://github.com/frankosterfeld/${pkgname%-*}/archive/${version}.tar.gz"
@@ -18,7 +18,7 @@ fi
 
 post_install() {
 	vlicense COPYING
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }
 
 qtkeychain-qt5-devel_package() {

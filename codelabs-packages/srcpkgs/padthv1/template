@@ -7,7 +7,7 @@ hostmakedepends="pkg-config qt6-base"
 makedepends="alsa-lib-devel fftw-devel jack-devel liblo-devel lv2
  qt6-base-devel qt6-svg-devel"
 short_desc="Old-school polyphonic additive synthesizer"
-maintainer="Duncaen <duncaen@voidlinux.org>"
+maintainer="Duncaen <duncaen@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://padthv1.sourceforge.io/"
 changelog="https://github.com/rncbc/padthv1/raw/main/ChangeLog"

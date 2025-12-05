@@ -8,7 +8,7 @@ hostmakedepends="pkg-config intltool librsvg-utils glib-devel which
 makedepends="gtk+-devel gtk+3-devel librsvg-devel"
 depends="cantarell-fonts adwaita-icon-theme>=${version}"
 short_desc="Extra GNOME themes"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://gitlab.gnome.org/GNOME/gnome-themes-extra"
 distfiles="${GNOME_SITE}/${pkgname}/${version}/${pkgname}-${version}.tar.xz"

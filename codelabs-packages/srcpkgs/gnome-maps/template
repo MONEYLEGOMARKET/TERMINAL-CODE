@@ -13,7 +13,7 @@ makedepends="geoclue2-devel gjs-devel geocode-glib-devel libgweather-devel
 depends="geoclue2 gjs libadwaita libgweather rest gdk-pixbuf geocode-glib
  libshumate libsoup3 libportal graphene libsecret pango"
 short_desc="GNOME maps application"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://wiki.gnome.org/Apps/Maps"
 #changelog="https://gitlab.gnome.org/GNOME/gnome-maps/-/raw/main/NEWS"

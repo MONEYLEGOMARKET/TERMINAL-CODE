@@ -8,9 +8,9 @@ Date:   Fri Jun 18 17:57:01 2021 +0200
     the installing has to be duplicated per distro. This can be seen in the
     files in the `debian` folder and in
     https://github.com/archlinux/svntogit-community/blob/276cd50659b33f4b0ee2cc2b3d22b07665ff7a07/trunk/PKGBUILD#L48-L84.
-    To avoid things like these while I was packaging this for Void Linux, I
+    To avoid things like these while I was packaging this for CODE LABS, I
     added or changed Makefiles for the individual projects. This way, I only
-    need this patch in Void instead of workarounds like Arch has.
+    need this patch in CODE LABS instead of workarounds like Arch has.
 
 diff --git a/caff/Makefile b/caff/Makefile
 index 714aa8f..e9bf872 100644

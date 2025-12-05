@@ -7,7 +7,7 @@ hostmakedepends="pkg-config vala gettext"
 makedepends="switchboard-devel granite-devel gtk+3-devel
  libnma-devel NetworkManager-devel"
 short_desc="Switchboard Network Plug"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://github.com/elementary/switchboard-plug-network"
 distfiles="https://github.com/elementary/switchboard-plug-network/archive/${version}.tar.gz"

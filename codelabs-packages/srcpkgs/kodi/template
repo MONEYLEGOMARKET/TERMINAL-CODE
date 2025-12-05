@@ -49,7 +49,7 @@ depends="libbluray libmad libvorbis libcurl libflac libmodplug libass libmpeg2
  lame librtmp libnfs>=1.9.7 libplist>=1.12 glxinfo hicolor-icon-theme
  desktop-file-utils xdpyinfo"
 short_desc="Software media player and entertainment hub for digital media"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="http://www.kodi.tv"
 distfiles="https://github.com/xbmc/xbmc/archive/${version}-${_codename}.tar.gz
@@ -87,7 +87,7 @@ if [ "$XBPS_WORDSIZE" = 32 ]; then
 fi
 
 # Disable this test on all architectures
-# https://github.com/void-linux/void-packages/commit/3c0332ab330e30a2c280de2258ed9bf60a9c2e09/checks/2101961295/logs
+# https://github.com/codelabs/codelabs-packages/commit/3c0332ab330e30a2c280de2258ed9bf60a9c2e09/checks/2101961295/logs
 _gtest_filter="-TestCPUInfo.GetCPUFrequency"
 _gtest_filter+=":TestWebServer.CanGetCachedFileWithOlderIfModifiedSince"
 _gtest_filter+=":TestWebServer.CanGetCachedFileWithNewerIfModifiedSinceForcingNoCache"
@@ -103,7 +103,7 @@ _gtest_filter+=":TestNetwork.PingHost"
 case "$XBPS_TARGET_MACHINE" in
 	i686)
 		# Additionaly disable these tests on i686 architecutre
-		# https://github.com/void-linux/void-packages/commit/3c0332ab330e30a2c280de2258ed9bf60a9c2e09/checks/2101961301/logs
+		# https://github.com/codelabs/codelabs-packages/commit/3c0332ab330e30a2c280de2258ed9bf60a9c2e09/checks/2101961301/logs
 		_gtest_filter+=":TestDateTime.SetFromDBTime"
 		_gtest_filter+=":TestDateTime.SetDateTime"
 		_gtest_filter+=":TestDateTime.Reset"

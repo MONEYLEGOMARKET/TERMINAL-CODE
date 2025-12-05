@@ -9,7 +9,7 @@ _git_commit=9103d938133311b2da905858801f0e111a2df0a1
 go_ldflags="-X ${go_import_path}/version.GitCommit=${_git_commit}"
 depends="cni-plugins dmidecode"
 short_desc="Cluster scheduler designed to easily integrate into existing workflows"
-maintainer="Michael Aldridge <maldridge@voidlinux.org>"
+maintainer="Michael Aldridge <maldridge@codelabs.org>"
 license="BUSL-1.1"
 homepage="https://www.nomadproject.io/"
 distfiles="https://github.com/hashicorp/nomad/archive/v${version}.tar.gz"

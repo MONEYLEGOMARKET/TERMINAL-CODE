@@ -6,7 +6,7 @@ build_style=gnu-makefile
 make_install_args="prefix=${DESTDIR}/usr sbindir=${DESTDIR}/usr/bin"
 makedepends="ncurses-devel"
 short_desc="IP traffic monitor (iptraf-3.0.0 fork)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://tracker.debian.org/pkg/iptraf-ng"
 distfiles="${DEBIAN_SITE}/main/i/iptraf-ng/iptraf-ng_${version}.orig.tar.gz"

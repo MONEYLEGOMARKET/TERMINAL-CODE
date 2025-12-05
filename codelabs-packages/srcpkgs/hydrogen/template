@@ -11,7 +11,7 @@ makedepends="libsndfile-devel libarchive-devel liblrdf-devel
  qt5-tools-devel ladspa-sdk liblo-devel libcppunit-devel"
 depends="desktop-file-utils"
 short_desc="Advanced drum machine"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="http://www.hydrogen-music.org/"
 distfiles="https://github.com/hydrogen-music/hydrogen/archive/${version}.tar.gz"

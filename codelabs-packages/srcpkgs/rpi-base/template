@@ -4,10 +4,10 @@ version=3.0
 revision=3
 archs="armv6l* armv7l* aarch64*"
 depends="virtual?ntp-daemon rpi-firmware rpi-kernel"
-short_desc="Void Linux Raspberry Pi base files"
-maintainer="Orphaned <orphan@voidlinux.org>"
+short_desc="CODE LABS Raspberry Pi base files"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Public Domain"
-homepage="https://www.voidlinux.org"
+homepage="https://www.codelabs.org"
 
 do_install() {
 	vinstall "${FILESDIR}/71-raspberrypi.rules" 644 usr/lib/udev/rules.d

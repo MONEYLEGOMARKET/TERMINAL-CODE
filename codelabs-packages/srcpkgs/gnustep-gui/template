@@ -7,7 +7,7 @@ hostmakedepends="gnustep-make pkg-config tar"
 makedepends="gnustep-base-devel libjpeg-turbo-devel tiff-devel libpng-devel
  giflib-devel"
 short_desc="Graphical user interface class library for GNUstep"
-maintainer="Andrew Benson <abenson+void@gmail.com>"
+maintainer="Andrew Benson <abenson+codelabs@gmail.com>"
 license="GPL-2.0-or-later, GPL-3.0-or-later"
 homepage="http://www.gnustep.org/"
 distfiles="https://github.com/gnustep/libs-gui/releases/download/gui-${version//./_}/gnustep-gui-${version}.tar.gz"

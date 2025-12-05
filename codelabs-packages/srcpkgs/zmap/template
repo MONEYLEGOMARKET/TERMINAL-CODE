@@ -7,7 +7,7 @@ hostmakedepends="flex byacc gengetopt pkg-config"
 makedepends="libpcap-devel gmp-devel json-c-devel libunistring-devel
  judy-devel"
 short_desc="Fast network scanner designed for Internet-wide network surveys"
-maintainer="Duncaen <duncaen@voidlinux.org>"
+maintainer="Duncaen <duncaen@codelabs.org>"
 license="Apache-2.0"
 homepage="https://zmap.io"
 changelog="https://raw.githubusercontent.com/zmap/zmap/main/CHANGELOG.md"

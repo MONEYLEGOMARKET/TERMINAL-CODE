@@ -11,7 +11,7 @@ hostmakedepends="pkgconf"
 makedepends="libscrypt-devel mbedtls2-devel fuse-devel libcurl-devel
  libedit-devel sqlite-devel"
 short_desc="Secure and authenticated store for secrets and small documents"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="BSD-2-Clause"
 homepage="https://github.com/rmind/rvault"
 distfiles="https://github.com/rmind/rvault/archive/v${version}.tar.gz"

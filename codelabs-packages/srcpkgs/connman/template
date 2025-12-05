@@ -13,7 +13,7 @@ makedepends="gnutls-devel iptables-devel libglib-devel libmnl-devel
  openconnect-devel readline-devel"
 depends="dbus wpa_supplicant"
 short_desc="Open Source CONNection MANager"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-only"
 homepage="https://git.kernel.org/pub/scm/network/connman/connman.git"
 changelog="https://git.kernel.org/pub/scm/network/connman/connman.git/plain/ChangeLog"

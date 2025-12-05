@@ -10,7 +10,7 @@ hostmakedepends="perl pkg-config ragel"
 makedepends="LuaJIT-devel fann-devel file-devel gd-devel pcre-devel
  hiredis-devel icu-devel libevent-devel sqlite-devel libglib-devel"
 short_desc="Fast, free and open-source spam filtering system"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="Apache-2.0"
 homepage="https://rspamd.com/"
 changelog="https://raw.githubusercontent.com/vstakhov/rspamd/master/ChangeLog"

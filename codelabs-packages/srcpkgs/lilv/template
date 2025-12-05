@@ -7,7 +7,7 @@ hostmakedepends="pkg-config"
 makedepends="python3-devel serd-devel sord-devel sratom-devel libsndfile-devel
  zix-devel lv2"
 short_desc="Simple yet powerful C API for using LV2 plugins"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="ISC"
 homepage="https://gitlab.com/lv2/lilv"
 changelog="https://gitlab.com/lv2/lilv/-/raw/main/NEWS"

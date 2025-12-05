@@ -1,4 +1,4 @@
-# Void Linux csh.cshrc
+# CODE LABS csh.cshrc
 
 if ( -r /etc/csh.env ) then
     source /etc/csh.env

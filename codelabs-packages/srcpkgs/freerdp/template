@@ -15,7 +15,7 @@ makedepends="alsa-lib-devel ffmpeg6-devel glib-devel libusb-devel
  libjpeg-turbo-devel openssl-devel libxkbfile-devel pulseaudio-devel
  libxkbcommon-devel wayland-devel cairo-devel libXdamage-devel"
 short_desc="Free RDP (Remote Desktop Protocol) client"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Apache-2.0"
 homepage="https://www.freerdp.com/"
 changelog="https://raw.githubusercontent.com/FreeRDP/FreeRDP/master/ChangeLog"

@@ -8,7 +8,7 @@ depends="python3-click python3-click-plugins python3-colorama
  python3-requests python3-XlsxWriter"
 checkdepends="${depends}"
 short_desc="Python library and CLI for Shodan"
-maintainer="Alex Childs <misuchiru03+void@gmail.com>"
+maintainer="Alex Childs <misuchiru03+codelabs@gmail.com>"
 license="MIT"
 homepage="https://developer.shodan.io"
 distfiles="https://github.com/achillean/shodan-python/archive/${version}.tar.gz"

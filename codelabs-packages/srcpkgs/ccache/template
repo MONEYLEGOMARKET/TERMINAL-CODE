@@ -7,7 +7,7 @@ configure_args="-DENABLE_TESTING=OFF -DREDIS_STORAGE_BACKEND=OFF
  -DENABLE_DOCUMENTATION=OFF -DDEPS=LOCAL"
 makedepends="libzstd-devel xxHash-devel doctest-devel"
 short_desc="Fast C/C++ Compiler Cache"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://ccache.dev"
 changelog="https://ccache.dev/releasenotes.html"

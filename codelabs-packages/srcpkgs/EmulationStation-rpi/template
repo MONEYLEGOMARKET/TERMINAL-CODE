@@ -6,6 +6,6 @@ metapackage=yes
 archs="aarch64* armv6l* armv7l*"
 depends="EmulationStation"
 short_desc="A flexible emulator front-end - (transitional dummy package)"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="MIT"
 homepage="https://github.com/Herdinger/EmulationStation"

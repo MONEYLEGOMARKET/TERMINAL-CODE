@@ -7,7 +7,7 @@ hostmakedepends="pkg-config"
 # Note: statically links to libzstd.
 makedepends="libzstd-devel"
 short_desc="Tools for manipulating the metadata of dm-thin device-mapper targets"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://github.com/jthornber/thin-provisioning-tools"
 changelog="https://raw.githubusercontent.com/jthornber/thin-provisioning-tools/main/CHANGES"

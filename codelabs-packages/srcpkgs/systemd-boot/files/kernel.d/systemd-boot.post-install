@@ -81,7 +81,7 @@ fi
 mkdir -p "$entries"
 
 cat <<-EOF > "$entry"
-	title        Void Linux $ARCH $VERSION
+	title        CODE LABS $ARCH $VERSION
 	sort-key     void
 	version      $VERSION
 	options      $CMDLINE

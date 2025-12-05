@@ -9,7 +9,7 @@ depends="python3-psutil libayatana-appindicator python3-gobject python3-Babel
  python3-dbus xprop alsa-utils python3-xlib"
 checkdepends="$depends python3-pip"
 short_desc="Tool to reduce and prevent repetitive strain injury"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://slgobinath.github.io/SafeEyes/"
 distfiles="${PYPI_SITE}/s/safeeyes/safeeyes-${version}.tar.gz"

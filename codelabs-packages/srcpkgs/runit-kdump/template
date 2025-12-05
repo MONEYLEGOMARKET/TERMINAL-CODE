@@ -3,13 +3,13 @@ pkgname=runit-kdump
 version=20150226
 revision=5
 make_dirs="/var/crash 0755 root root"
-depends="runit-void makedumpfile kexec-tools"
+depends="runit-codelabs makedumpfile kexec-tools"
 short_desc="Crashkernel/kdump support for runit to save vmcore to disk"
 maintainer="Leah Neukirchen <leah@vuxu.org>"
 license="Public Domain"
-homepage="http://www.voidlinux.org/"
+homepage="http://www.codelabs.org/"
 
 do_install() {
 	vinstall ${FILESDIR}/07-kdump.sh 0644 etc/runit/core-services
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

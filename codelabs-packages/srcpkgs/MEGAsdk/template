@@ -11,7 +11,7 @@ makedepends="libcurl-devel c-ares-devel openssl-devel crypto++-devel
  libuv-devel $(vopt_if mediainfo libmediainfo-devel)"
 checkdepends="gtest-devel"
 short_desc="Official client for cloud service mega.nz"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="BSD-2-Clause"
 homepage="https://mega.nz"
 distfiles="https://github.com/meganz/sdk/archive/v${version}.tar.gz"

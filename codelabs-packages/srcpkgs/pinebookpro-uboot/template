@@ -34,7 +34,7 @@ do_install() {
 	# FWIW this file is not at all specific to the PBP and will overwrite any custom
 	# u-boot boot.scr files that a user installs into /boot.
 	# I would like to remove it, but it could cause breakage for existing setups.
-	# It would also require some changes to void-mklive to configure u-boot suitably.
+	# It would also require some changes to codelabs-mklive to configure u-boot suitably.
 	vinstall "${FILESDIR}/kernel.d/uboot" 750 \
 		etc/kernel.d/post-install 60-uboot
 

@@ -8,7 +8,7 @@ makedepends="libglib-devel python3-devel python3-gobject-devel gst-plugins-base1
  gst-plugins-bad1-devel gst-rtsp-server-devel"
 depends="python3-gobject"
 short_desc="Python3 bindings for GStreamer 1.x"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://gstreamer.freedesktop.org"
 changelog="https://gstreamer.freedesktop.org/releases/${version%.*}/#${version}"

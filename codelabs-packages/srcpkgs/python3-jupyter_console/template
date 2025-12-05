@@ -17,7 +17,7 @@ distfiles="${PYPI_SITE}/j/jupyter_console/jupyter_console-${version}.tar.gz"
 checksum=566a4bf31c87adbfadf22cdf846e3069b59a71ed5da71d6ba4d8aaad14a53539
 conflicts="python-jupyter_console<=6.0.0_2"
 
-if [ "$XBPS_BUILD_ENVIRONMENT" = void-packages-ci ]; then
+if [ "$XBPS_BUILD_ENVIRONMENT" = codelabs-packages-ci ]; then
 	# these two tests are flaky on CI, even with @flaky sometimes fail
 	make_check_args="
 	 --deselect=jupyter_console/tests/test_console.py::test_console_starts

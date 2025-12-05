@@ -13,7 +13,7 @@ makedepends="gtk+3-devel gtk4-devel appstream-glib-devel dbus-devel gdk-pixbuf-d
  libadwaita-devel libglib-devel libXi-devel libXtst-devel libX11-devel harfbuzz-devel
  $(vopt_if gnome_shell 'gjs-devel mutter-devel') vala-devel gcr4-devel"
 short_desc="Clipboard management system"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="BSD-2-Clause"
 homepage="https://www.imagination-land.org/tags/GPaste.html"
 changelog="https://raw.githubusercontent.com/Keruspe/GPaste/master/NEWS"

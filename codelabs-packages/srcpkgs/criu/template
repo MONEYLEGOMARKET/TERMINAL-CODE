@@ -13,7 +13,7 @@ hostmakedepends="asciidoc pkg-config xmlto protobuf which python3-pip protobuf-c
 makedepends="libcap-devel libnet-devel libnftables-devel libnl3-devel protobuf-c-devel
  protobuf-devel libbsd-devel"
 short_desc="Utility to checkpoint/restore a process tree"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later, LGPL-2.1-only"
 homepage="https://criu.org/"
 changelog="https://criu.org/Download/criu"

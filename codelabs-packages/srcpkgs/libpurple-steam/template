@@ -8,7 +8,7 @@ hostmakedepends="pkg-config"
 makedepends="libpurple-devel json-glib-devel libglib-devel nss-devel
  libsecret-devel"
 short_desc="Steam plugin for libpurple - uses the Steam Mobile API"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://github.com/EionRobb/pidgin-opensteamworks"
 distfiles="https://github.com/EionRobb/pidgin-opensteamworks/archive/${version}.tar.gz"

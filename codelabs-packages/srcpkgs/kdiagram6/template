@@ -10,7 +10,7 @@ configure_args="-DBUILD_TESTING=OFF -DKF6_HOST_TOOLING=/usr/lib/cmake
 hostmakedepends="extra-cmake-modules qt6-tools qt6-base"
 makedepends="qt6-base-devel qt6-svg-devel qt6-plugin-mysql qt6-plugin-sqlite"
 short_desc="Powerful libraries for creating business diagrams"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="http://www.kde.org/"
 distfiles="${KDE_SITE}/kdiagram/${version}/kdiagram-${version}.tar.xz"

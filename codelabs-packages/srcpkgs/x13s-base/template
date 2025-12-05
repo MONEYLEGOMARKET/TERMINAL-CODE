@@ -4,10 +4,10 @@ version=4
 revision=1
 archs="aarch64*"
 depends="linux linux-firmware-qualcomm alsa-ucm-conf"
-short_desc="Void Linux Thinkpad X13s platform package"
+short_desc="CODE LABS Thinkpad X13s platform package"
 maintainer="classabbyamp <void@placeviolette.net>"
 license="Public Domain"
-homepage="https://www.voidlinux.org"
+homepage="https://www.codelabs.org"
 conf_files="/etc/default/x13s"
 
 do_install() {

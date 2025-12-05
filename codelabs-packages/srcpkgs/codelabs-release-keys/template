@@ -3,7 +3,7 @@ pkgname=codelabs-release-keys
 version=1
 revision=8
 short_desc="CODE LABS Release Keys"
-maintainer="Void Release Engineering <releases@codelabs.org>"
+maintainer="CODE LABS Release Engineering <releases@codelabs.org>"
 license="Public Domain"
 homepage="http://www.codelabs.org"
 

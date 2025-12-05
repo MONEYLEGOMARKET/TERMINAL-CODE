@@ -13,7 +13,7 @@ makedepends="kf6-kcmutils-devel kf6-knewstuff-devel gtk+3-devel
  kf6-kdbusaddons-devel kf6-kdecoration-devel gsettings-desktop-schemas-devel"
 depends="kde-cli-tools gsettings-desktop-schemas xsettingsd"
 short_desc="GTK+3 Configurator for KDE"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/kde-gtk-config"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"

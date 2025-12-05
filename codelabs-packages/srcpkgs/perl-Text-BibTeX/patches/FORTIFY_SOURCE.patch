@@ -1,4 +1,4 @@
-Void Linux uses -D_FORTIFY_SOURCE=2. Remove the flag to not interfere (just in case).
+CODE LABS uses -D_FORTIFY_SOURCE=2. Remove the flag to not interfere (just in case).
 
 --- a/inc/MyBuilder.pm	2019-04-29 17:02:41.000000000 +0200
 +++ b/inc/MyBuilder.pm	2019-11-24 08:35:16.561126918 +0100

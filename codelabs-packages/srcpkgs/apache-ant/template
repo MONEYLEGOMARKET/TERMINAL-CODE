@@ -5,7 +5,7 @@ revision=2
 hostmakedepends="openjdk8"
 depends="virtual?java-runtime"
 short_desc="Java library and command-line tool that help building software"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="Apache-2.0"
 homepage="https://ant.apache.org"
 distfiles="https://archive.apache.org/dist/ant/source/apache-ant-${version}-src.tar.xz"
@@ -36,7 +36,7 @@ do_install() {
 
 	vmkdir usr/bin
 	ln -rs $DESTDIR/$_prefix/bin/ant $DESTDIR/usr/bin
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }
 
 apache-ant-doc_package() {

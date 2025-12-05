@@ -5,7 +5,7 @@ revision=1
 build_style=cmake
 configure_args="-DSENTRY_BACKEND=inproc -DSENTRY_TRANSPORT=none"
 short_desc="Sentry SDK for C, C++ and native applications"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://github.com/getsentry/sentry-native"
 changelog="https://github.com/getsentry/sentry-native/raw/master/CHANGELOG.md"

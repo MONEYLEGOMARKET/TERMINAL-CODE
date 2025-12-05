@@ -9,7 +9,7 @@ makedepends="alsa-lib-devel libsamplerate-devel libXrandr-devel
  pcsclite-devel libgssglue-devel mit-krb5-devel libXcursor-devel libtasn1-devel
  nettle-devel gnutls-devel"
 short_desc="Open source client for Windows Remote Desktop Services"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="http://www.rdesktop.org/"
 distfiles="https://github.com/rdesktop/rdesktop/releases/download/v${version}/rdesktop-${version}.tar.gz"

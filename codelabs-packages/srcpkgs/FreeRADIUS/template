@@ -6,7 +6,7 @@ build_style=gnu-configure
 makedepends="talloc-devel openssl-devel mit-krb5-devel pam-devel \
  libmariadbclient-devel postgresql-libs-devel json-c-devel"
 short_desc="World's most popular RADIUS Server"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-only"
 homepage="http://freeradius.org"
 distfiles="https://github.com/FreeRADIUS/freeradius-server/archive/release_${version//./_}.tar.gz"

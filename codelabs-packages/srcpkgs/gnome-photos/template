@@ -13,7 +13,7 @@ makedepends="gtk+3-devel babl-devel exempi-devel lcms2-devel
  libportal-gtk3-devel"
 depends="desktop-file-utils tracker tracker-miners"
 short_desc="Access, organize, and share your photos on GNOME"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://wiki.gnome.org/Apps/Photos"
 changelog="https://gitlab.gnome.org/GNOME/gnome-photos/-/raw/master/NEWS"

@@ -8,7 +8,7 @@ hostmakedepends="pkg-config"
 makedepends="libXext-devel libXtst-devel
  libXrender-devel libXcomposite-devel libXinerama-devel"
 short_desc="Display information utility for X"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://gitlab.freedesktop.org/xorg/app/xdpyinfo"
 distfiles="${XORG_SITE}/app/xdpyinfo-${version}.tar.xz"

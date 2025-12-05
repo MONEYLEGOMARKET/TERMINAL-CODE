@@ -6,7 +6,7 @@ build_wrksrc="fop"
 hostmakedepends="openjdk8 apache-ant"
 depends="virtual?java-runtime"
 short_desc="Java print formatter driven by XSL formatting objects (XSL-FO)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Apache-2.0"
 homepage="http://xmlgraphics.apache.org/fop/"
 distfiles="https://archive.apache.org/dist/xmlgraphics/fop/source/fop-${version}-src.tar.gz
@@ -42,9 +42,9 @@ do_install() {
 	vcopy ../LICENSE ${_docs}
 	vcopy ../NOTICE ${_docs}
 	vcopy ../README ${_docs}
-	vcopy ${FILESDIR}/README.void ${_docs}
+	vcopy ${FILESDIR}/README.codelabs ${_docs}
 	vconf ${FILESDIR}/fop.conf
 	vmkdir usr/bin
 	ln -sf /usr/share/fop/fop $DESTDIR/usr/bin/fop
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

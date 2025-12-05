@@ -15,7 +15,7 @@ makedepends="NetworkManager-devel clutter-gtk-devel enchant2-devel
  gnome-desktop-devel libsoup3-devel cmark-devel"
 depends="gnome-keyring"
 short_desc="Integrated mail, addressbook and calendaring for GNOME"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="LGPL-2.1-or-later, LGPL-3.0-or-later, GPL-2.0-or-later"
 homepage="https://wiki.gnome.org/Apps/Evolution"
 changelog="https://gitlab.gnome.org/GNOME/evolution/-/raw/gnome-48/NEWS"

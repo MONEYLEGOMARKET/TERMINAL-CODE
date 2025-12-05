@@ -11,7 +11,7 @@ makedepends="babeltrace-devel binutils-devel elfutils-devel eudev-libudev-devel
  slang-devel libaudit-devel libtraceevent-devel libpfm4-devel"
 depends="cpupower-${version}_${revision} perf-${version}_${revision} usbip-${version}_${revision}"
 short_desc="Linux kernel tools meta-pkg"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-only"
 homepage="https://www.kernel.org"
 distfiles="${KERNEL_SITE}/kernel/v${version%%.*}.x/linux-${version}.tar.xz"

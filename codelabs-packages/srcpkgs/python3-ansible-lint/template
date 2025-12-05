@@ -12,7 +12,7 @@ checkdepends="${depends} python3-jmespath python3-license-expression
  python3-mypy python3-netaddr pylint
  python3-pytest python3-pytest-mock python3-pytest-xdist"
 short_desc="Linter for Ansible files"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 # Note about licensing from upstream:
 # The ansible-lint project is distributed as GPLv3 due to use of GPLv3 runtime
 # dependencies, like ansible and yamllint. For historical reasons, its own

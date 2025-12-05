@@ -8,7 +8,7 @@ makedepends="libglib-devel libarchive-devel libxslt-devel
  json-glib-devel libsoup3-devel"
 checkdepends="python3-pytest python3-requests"
 short_desc="Tools for managing osinfo database"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://libosinfo.org"
 changelog="https://gitlab.com/libosinfo/osinfo-db-tools/raw/main/NEWS"

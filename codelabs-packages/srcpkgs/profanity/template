@@ -13,7 +13,7 @@ makedepends="libcurl-devel libglib-devel libstrophe-devel readline-devel
  libgcrypt-devel qrencode-devel"
 checkdepends="cmocka-devel"
 short_desc="Console based XMPP client"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://profanity-im.github.io/"
 changelog="https://raw.githubusercontent.com/profanity-im/profanity/master/CHANGELOG"

@@ -48,7 +48,7 @@ post_install() {
 	done
 
 	chmod 0750 $DESTDIR/usr/bin/dumpcap
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }
 
 libwireshark_package() {

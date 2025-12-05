@@ -18,7 +18,7 @@ make_check=no # tests need X11 ?
 
 post_install() {
 	vlicense COPYING
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }
 
 qtkeychain-qt6-devel_package() {

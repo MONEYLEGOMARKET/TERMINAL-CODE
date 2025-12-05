@@ -9,7 +9,7 @@ makedepends="libheif-devel libjpeg-turbo-devel libpng-devel libwebp-devel tiff-d
 # There needs to be a font installed for fontconfig/basic test
 checkdepends="liberation-fonts-ttf"
 short_desc="Graphics library for the dynamic creation of images"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="custom:BSD-like"
 homepage="http://www.libgd.org/"
 changelog="https://raw.githubusercontent.com/libgd/libgd/master/CHANGELOG.md"

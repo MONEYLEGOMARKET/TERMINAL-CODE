@@ -6,9 +6,9 @@ archs="*-musl"
 build_style=gnu-configure
 hostmakedepends="automake libtool"
 short_desc="Implementation of obstack for musl libc"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
-homepage="https://github.com/void-linux/musl-obstack"
+homepage="https://github.com/codelabs/musl-obstack"
 distfiles="${homepage}/archive/v${version}.tar.gz>${pkgname}-${version}.tar.gz"
 checksum=9ffb3479b15df0170eba4480e51723c3961dbe0b461ec289744622db03a69395
 

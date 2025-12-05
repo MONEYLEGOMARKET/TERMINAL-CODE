@@ -12,7 +12,7 @@ build_style=configure
 configure_args="--prefix=/usr --srcdir=.. --disable-werror"
 makedepends="zlib-devel"
 short_desc="VHDL 2008/93/87 simulator"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://github.com/ghdl/ghdl"
 changelog="https://raw.githubusercontent.com/ghdl/ghdl/master/NEWS.md"

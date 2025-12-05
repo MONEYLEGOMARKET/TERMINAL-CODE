@@ -17,7 +17,7 @@ makedepends="zlib-devel bzip2-devel freetype-devel alsa-lib-devel libXfixes-deve
  $(vopt_if libvpl libvpl-devel) $(vopt_if nvcodec nv-codec-headers)"
 depends="ffplay6>=${version}_${revision}"
 short_desc="Decoding, encoding and streaming software"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://www.ffmpeg.org"
 changelog="https://raw.githubusercontent.com/FFmpeg/FFmpeg/master/Changelog"

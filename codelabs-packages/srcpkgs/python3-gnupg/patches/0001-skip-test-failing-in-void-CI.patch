@@ -16,7 +16,7 @@ index 4e8f685..2df2285 100644
          self.do_file_encryption_and_decryption(encfname, decfname)
  
      @skipIf(os.name == 'nt', 'Test not suitable for Windows')
-+    @unittest.skip("Doesn't work in voidlinux CI")
++    @unittest.skip("Doesn't work in codelabs CI")
      def test_invalid_outputs(self):
          "Test encrypting to invalid output files"
          encfno, encfname = tempfile.mkstemp()

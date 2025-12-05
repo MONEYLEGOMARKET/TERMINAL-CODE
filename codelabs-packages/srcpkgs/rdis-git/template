@@ -5,7 +5,7 @@ revision=14
 hostmakedepends="pkg-config git"
 makedepends="openssl-devel gtk+3-devel jansson-devel LuaJIT-devel udis86-devel"
 short_desc="Binary analysis tool for Linux"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://github.com/endeav0r/rdis"
 

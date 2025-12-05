@@ -9,7 +9,7 @@ hostmakedepends="pkg-config $(vopt_if wayland wayland-devel)"
 makedepends="libXfixes-devel libXext-devel libdrm-devel
  $(vopt_if wayland 'libffi-devel wayland-devel')"
 short_desc="Video Acceleration (VA) API"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://01.org/linuxmedia/vaapi"
 changelog="https://raw.githubusercontent.com/intel/libva/master/NEWS"

@@ -18,5 +18,5 @@ do_install() {
 	vbin sanoid
 	vbin syncoid
 	vbin findoid
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

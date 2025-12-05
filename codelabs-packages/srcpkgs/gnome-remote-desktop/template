@@ -11,7 +11,7 @@ makedepends="glib-devel pipewire-devel libsecret-devel libnotify-devel
  tpm2-tss-devel fdk-aac-devel libei-devel opus-devel polkit-devel libva-devel
  vulkan-loader-devel"
 short_desc="GNOME remote desktop server"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://wiki.gnome.org/Projects/Mutter/RemoteDesktop"
 #changelog="https://gitlab.gnome.org/GNOME/gnome-remote-desktop/-/raw/master/NEWS"

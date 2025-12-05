@@ -10,7 +10,7 @@ hostmakedepends="extra-cmake-modules qt6-base qt6-tools
  qt6-declarative-host-tools"
 makedepends="qt6-base-devel qt6-declarative-devel"
 short_desc="QML image editing components"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-or-later, BSD-2-Clause, CC0-1.0"
 homepage="https://invent.kde.org/libraries/kquickimageeditor"
 distfiles="${KDE_SITE}/kquickimageeditor/kquickimageeditor-${version}.tar.xz"

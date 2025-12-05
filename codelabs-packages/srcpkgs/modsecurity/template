@@ -9,7 +9,7 @@ makedepends="apache-devel gdbm-devel libcurl-devel libxml2-devel lua53-devel
  pcre-devel yajl-devel lmdb-devel icu-devel"
 depends="perl-LWP"
 short_desc="Rule based web application firewall (WAF)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Apache-2.0"
 homepage="https://www.modsecurity.org"
 distfiles="https://github.com/SpiderLabs/ModSecurity/releases/download/v${version}/modsecurity-v${version}.tar.gz"

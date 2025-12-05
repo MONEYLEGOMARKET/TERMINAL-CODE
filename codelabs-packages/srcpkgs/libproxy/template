@@ -9,7 +9,7 @@ hostmakedepends="pkg-config vala"
 makedepends="zlib-devel libglib-devel libcurl-devel duktape-devel
  gsettings-desktop-schemas-devel"
 short_desc="Library handling all the details of proxy configuration"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="http://github.com/libproxy/libproxy"
 distfiles="https://github.com/libproxy/libproxy/releases/download/${version}/libproxy-${version}.tar.xz"

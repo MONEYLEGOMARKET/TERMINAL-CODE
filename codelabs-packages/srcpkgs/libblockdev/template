@@ -10,7 +10,7 @@ makedepends="cryptsetup-devel device-mapper-devel dmraid-devel libbytesize-devel
  volume_key-devel pcre2-devel e2fsprogs-devel libnvme-devel
  keyutils-devel libyaml-devel libatasmart-devel json-glib-devel"
 short_desc="Library for manipulating block devices"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://github.com/storaged-project/libblockdev"
 # changelog needs to be adjusted on major version changes

@@ -7,7 +7,7 @@ make_use_env=yes
 make_build_args="YANKCMD=$(vopt_if wayland wl-copy xsel)"
 depends="$(vopt_if wayland wl-clipboard xsel)"
 short_desc="Yank terminal output to clipboard"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://github.com/mptre/yank"
 changelog="https://raw.githubusercontent.com/mptre/yank/master/CHANGELOG.md"

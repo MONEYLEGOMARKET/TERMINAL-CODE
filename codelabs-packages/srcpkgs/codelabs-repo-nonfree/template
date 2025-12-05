@@ -1,5 +1,5 @@
-# Template file for 'void-repo-nonfree'
-pkgname=void-repo-nonfree
+# Template file for 'codelabs-repo-nonfree'
+pkgname=codelabs-repo-nonfree
 version=9
 revision=6
 metapackage=yes
@@ -32,7 +32,7 @@ do_install() {
 	esac
 }
 
-void-repo-debug_package() {
+codelabs-repo-debug_package() {
 	short_desc="${short_desc/nonfree/debug}"
 	pkg_install() {
 		vmove usr/share/xbps.d/20-repository-debug.conf

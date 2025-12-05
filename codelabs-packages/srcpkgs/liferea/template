@@ -11,7 +11,7 @@ makedepends="libxslt-devel libwebkit2gtk41-devel libsoup3-devel
  libpeas2-devel python3-devel sqlite-devel"
 depends="python3"
 short_desc="GTK news aggregator"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://lzone.de/liferea/"
 changelog="https://raw.githubusercontent.com/lwindolf/liferea/master/ChangeLog"

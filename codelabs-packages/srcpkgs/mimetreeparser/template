@@ -15,7 +15,7 @@ makedepends="kf6-kcalendarcore-devel kf6-kcodecs-devel kf6-ki18n-devel
  kmime6-devel kf6-kcalendarcore-devel gpgmepp-devel
  kf6-kcolorscheme-devel"
 short_desc="Parser for MIME trees"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/pim/mimetreeparser"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"

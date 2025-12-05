@@ -16,5 +16,5 @@ distfiles="https://github.com/Flacon/flacon/archive/v${version}.tar.gz"
 checksum=78199ff925b7cd0ffeb628d47909ca4172f8ff0d8fd8192bb537e0c012e6f4c6
 
 post_install() {
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

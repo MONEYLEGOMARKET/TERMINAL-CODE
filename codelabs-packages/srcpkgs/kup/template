@@ -11,7 +11,7 @@ makedepends="qt6-declarative kf6-kidletime-devel libgit2-1.9-devel
  kf6-kcmutils-devel kf6-kdbusaddons-devel"
 depends="rsync"
 short_desc="Kup is created to keep backups of personal files"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/kup/"
 distfiles="${KDE_SITE}/${pkgname}/${pkgname}-${version}.tar.xz"

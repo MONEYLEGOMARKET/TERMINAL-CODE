@@ -11,7 +11,7 @@ makedepends="libXi-devel gtk+3-devel libnotify-devel dconf-devel
 depends="bluez>=5 dconf>=0.20 gvfs>=1.20 hicolor-icon-theme desktop-file-utils"
 checkdepends="python3-dbus"
 short_desc="GNOME Bluetooth Subsystem"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://wiki.gnome.org/Projects/GnomeBluetooth"
 distfiles="${GNOME_SITE}/gnome-bluetooth/${version%.*}/gnome-bluetooth-${version}.tar.xz"

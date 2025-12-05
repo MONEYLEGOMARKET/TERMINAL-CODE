@@ -8,7 +8,7 @@ hostmakedepends="pkg-config automake"
 makedepends="giflib-devel imlib2-devel libjpeg-turbo-devel
  libpng-devel libXft-devel libXpm-devel tiff-devel librsvg-devel gdk-pixbuf-devel"
 short_desc="Gives users of minimal wm's icons on their desktop"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="BSD-3-Clause"
 homepage="https://github.com/neagix/idesk"
 changelog="https://raw.githubusercontent.com/neagix/idesk/master/ChangeLog"

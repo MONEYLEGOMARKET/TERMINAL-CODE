@@ -21,12 +21,12 @@ makedepends="alsa-lib-devel freetype-devel mesa glu-devel libXcursor-devel
  speech-dispatcher-devel brotli-devel icu-devel wayland-devel"
 depends="speech-dispatcher"
 short_desc="Multiplatform 2D and 3D engine"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://www.godotengine.org/"
 distfiles="https://github.com/godotengine/godot/archive/${version}-stable.tar.gz"
 checksum=0b2c942c79f756da5c94990e06678feaa582ae533b5e126f992a29d1ea8a816c
-nocross=https://build.voidlinux.org/builders/armv7l_builder/builds/6342/steps/shell_3/logs/stdio
+nocross=https://build.codelabs.org/builders/armv7l_builder/builds/6342/steps/shell_3/logs/stdio
 
 CFLAGS+=" -fPIE -fPIC"
 LDFLAGS+=" -pie"
@@ -58,7 +58,7 @@ make_build_args+=" arch=$arch"
 
 pre_build() {
 	export CXXFLAGS=" $CXXFLAGS "
-	export BUILD_NAME="voidlinux"
+	export BUILD_NAME="codelabs"
 }
 
 post_patch() {

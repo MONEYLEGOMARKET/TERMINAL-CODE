@@ -17,7 +17,7 @@ conf_files="
 	/etc/lxdm/lxdm.conf
 	/etc/pam.d/lxdm"
 short_desc="GUI login manager for LXDE"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://lxde.org"
 distfiles="${SOURCEFORGE_SITE}/lxdm/lxdm-${version}.tar.xz"

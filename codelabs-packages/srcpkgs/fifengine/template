@@ -10,7 +10,7 @@ makedepends="SDL2-devel SDL2_image-devel SDL2_ttf-devel boost-devel-minimal
  glew-devel"
 depends="python3-future"
 short_desc="Multi-platform isometric game engine"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://github.com/fifengine/fifengine"
 distfiles="https://github.com/fifengine/fifengine/archive/${version}.tar.gz"

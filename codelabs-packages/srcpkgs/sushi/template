@@ -10,7 +10,7 @@ makedepends="clutter-gst3-devel clutter-gtk-devel evince-devel gjs-devel
  gtksourceview4-devel libepoxy-devel libwebkit2gtk41-devel"
 depends="evince nautilus gjs libsoup3 gtksourceview4"
 short_desc="Quick image previewer over DBus for Nautilus"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://gitlab.gnome.org/GNOME/sushi"
 #changelog="https://gitlab.gnome.org/GNOME/sushi/-/raw/master/NEWS"

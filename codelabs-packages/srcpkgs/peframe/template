@@ -7,7 +7,7 @@ hostmakedepends="python3-setuptools"
 depends="python3-pefile python3-magic python3-M2Crypto python3-virustotal-api
  python3-yara python3-oletools"
 short_desc="Perform static analysis on Portable Executables"
-maintainer="Andrew Benson <abenson+void@gmail.com>"
+maintainer="Andrew Benson <abenson+codelabs@gmail.com>"
 license="GPL-2.0-only"
 homepage="https://github.com/guelfoweb/peframe"
 distfiles="https://github.com/guelfoweb/peframe/archive/${version}.tar.gz"

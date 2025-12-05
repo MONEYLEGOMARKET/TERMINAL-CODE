@@ -69,7 +69,7 @@ do_configure() {
 	esac
 
 	python3 configure.py \
-		--distribution-info="Void Linux botan-${version}_${revision}" \
+		--distribution-info="CODE LABS botan-${version}_${revision}" \
 		--cpu=${_cpu} \
 		${_args}
 }

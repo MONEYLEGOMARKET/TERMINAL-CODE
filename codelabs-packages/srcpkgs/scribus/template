@@ -13,7 +13,7 @@ makedepends="qt5-devel qt5-tools-devel zlib-devel cairo-devel lcms2-devel
  libmspub-devel libcdr-devel libfreehand-devel libvisio-devel"
 depends="ghostscript"
 short_desc="Open Source DTP (Desktop Publishing) application"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://scribus.net"
 distfiles="$SOURCEFORGE_SITE/scribus/scribus/${version}/scribus-${version}.tar.xz"

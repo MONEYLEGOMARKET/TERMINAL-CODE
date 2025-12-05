@@ -1,5 +1,5 @@
-# Template file for 'runit-void'
-pkgname=runit-void
+# Template file for 'runit-codelabs'
+pkgname=runit-codelabs
 version=20250212
 revision=2
 build_style=gnu-makefile
@@ -42,7 +42,7 @@ post_install() {
 	ln -s runit-init ${DESTDIR}/usr/bin/init
 }
 
-runit-void-apparmor_package() {
+runit-codelabs-apparmor_package() {
 	short_desc+=" - AppArmor initialization"
 	depends="${sourcepkg}-${version}_${revision}"
 	conf_files="/etc/default/apparmor"

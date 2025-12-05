@@ -3,7 +3,7 @@ pkgname=m1n1
 version=1.5.0
 revision=1
 archs="aarch64*"
-hostmakedepends="ImageMagick void-artwork"
+hostmakedepends="ImageMagick codelabs-artwork"
 short_desc="Asahi Linux bootloader"
 maintainer="dkwo <npiazza@disroot.org>, Will Springer <skirmisher@protonmail.com>"
 license="MIT"
@@ -14,7 +14,7 @@ conf_files="/etc/m1n1.conf /etc/default/m1n1-kernel-hook"
 
 pre_build() {
 	for size in 128 256; do
-		cp /usr/share/icons/hicolor/${size}x${size}/apps/void-logo.png data/custom_${size}.png
+		cp /usr/share/icons/hicolor/${size}x${size}/apps/codelabs-logo.png data/custom_${size}.png
 	done
 }
 

@@ -7,7 +7,7 @@ build_style=gnu-configure
 configure_args="ac_cv_prog_LESS=less"
 checkdepends="perl"
 short_desc="GNU compression utility (replacement for compress)"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://www.gnu.org/software/gzip/"
 distfiles="${GNU_SITE}/gzip/gzip-${version}.tar.xz"

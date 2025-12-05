@@ -6,7 +6,7 @@ version="1.0"
 distributor_id="VoidLinux"
 description="CODE LABS"
 release="rolling"
-codename="void"
+codename="codelabs"
 options=""
 short=0
 

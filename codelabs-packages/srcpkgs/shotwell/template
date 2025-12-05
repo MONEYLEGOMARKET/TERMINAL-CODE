@@ -12,7 +12,7 @@ makedepends="gst-plugins-base1-devel
  libportal-gtk3-devel"
 depends="desktop-file-utils hicolor-icon-theme"
 short_desc="Open source photo manager for GNOME"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="LGPL-2.1-or-later, CC-BY-SA-3.0"
 homepage="https://wiki.gnome.org/Apps/Shotwell"
 changelog="https://gitlab.gnome.org/GNOME/shotwell/-/raw/master/NEWS"

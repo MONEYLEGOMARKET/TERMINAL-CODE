@@ -6,7 +6,7 @@ hostmakedepends="pkg-config python3"
 makedepends="SDL2-devel glew-devel libao-devel libtheora-devel libvorbis-devel
  libpng-devel libxml2-devel SDL2_ttf-devel tcl-devel"
 short_desc="MSX emulator that aims for perfection"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-only"
 homepage="https://openmsx.org"
 changelog="https://raw.githubusercontent.com/openMSX/openMSX/master/doc/release-history.txt"

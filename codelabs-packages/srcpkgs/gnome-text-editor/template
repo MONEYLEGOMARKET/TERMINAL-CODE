@@ -8,7 +8,7 @@ hostmakedepends="pkg-config gettext itstool glib-devel
 makedepends="libglib-devel gtk4-devel gtksourceview5-devel libspelling-devel
  libadwaita-devel editorconfig-devel"
 short_desc="Simple text editor"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://gitlab.gnome.org/GNOME/gnome-text-editor"
 #changelog="https://gitlab.gnome.org/GNOME/gnome-text-editor/-/raw/main/NEWS"

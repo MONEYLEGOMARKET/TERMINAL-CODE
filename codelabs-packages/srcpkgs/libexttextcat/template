@@ -6,7 +6,7 @@ build_style=gnu-configure
 configure_args="--disable-werror"
 make_build_args=V=1
 short_desc="N-Gram-Based Text Categorization library"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="BSD-3"
 homepage="http://www.freedesktop.org/wiki/Software/libexttextcat"
 distfiles="http://dev-www.libreoffice.org/src/$pkgname/$pkgname-$version.tar.xz"

@@ -7,7 +7,7 @@ configure_args="--with-ogg=${XBPS_CROSS_BASE} --enable-float-approx --enable-cus
 hostmakedepends="pkg-config"
 makedepends="libogg-devel"
 short_desc="Audio codec for use in low-delay speech and audio communication"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="BSD-2-Clause"
 homepage="https://www.celt-codec.org/"
 distfiles="https://downloads.us.xiph.org/releases/celt/celt-${version}.tar.gz"

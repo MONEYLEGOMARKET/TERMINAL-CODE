@@ -6,7 +6,7 @@ build_style=cmake
 configure_args="-DPREFER_SYSTEM_LIB=ON -DUSE_NICE=ON -DNO_EXAMPLES=ON"
 makedepends="plog openssl-devel libnice-devel libsrtp-devel usrsctp"
 short_desc="C/C++ WebRTC network library"
-maintainer="Michael Aldridge <maldridge@voidlinux.org>"
+maintainer="Michael Aldridge <maldridge@codelabs.org>"
 license="MPL-2.0"
 homepage="https://libdatachannel.org/"
 distfiles="https://github.com/paullouisageneau/libdatachannel/archive/refs/tags/v$version.tar.gz"

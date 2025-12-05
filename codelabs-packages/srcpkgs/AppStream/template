@@ -13,7 +13,7 @@ makedepends="libglib-devel libxml2-devel libyaml-devel qt6-base-devel libxmlb-de
  libcurl-devel librsvg-devel qt6-tools"
 checkdepends="tar"
 short_desc="Tools and libraries to work with AppStream metadata"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://github.com/ximion/appstream"
 changelog="https://raw.githubusercontent.com/ximion/appstream/master/NEWS"

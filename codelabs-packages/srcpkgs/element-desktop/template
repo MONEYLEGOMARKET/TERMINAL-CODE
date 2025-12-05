@@ -12,7 +12,7 @@ makedepends="libsecret-devel electron${_electronver}-devel"
 depends="c-ares http-parser libevent
  libxslt minizip nss snappy sqlcipher electron${_electronver}"
 short_desc="Glossy Matrix collaboration client, desktop version"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Apache-2.0"
 homepage="https://element.io"
 changelog="https://raw.githubusercontent.com/vector-im/element-desktop/develop/CHANGELOG.md"

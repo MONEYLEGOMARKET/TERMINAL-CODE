@@ -11,7 +11,7 @@ makedepends="qt6-multimedia-devel qt6-svg-devel qt6-webengine-devel
  kf6-kcoreaddons-devel kf6-kxmlgui-devel kf6-kconfigwidgets-devel"
 depends="hicolor-icon-theme qt6-svg"
 short_desc="Distraction-free Markdown editor"
-maintainer="Andrew Benson <abenson+void@gmail.com>"
+maintainer="Andrew Benson <abenson+codelabs@gmail.com>"
 license="GPL-3.0-or-later"
 homepage="http://kde.github.io/ghostwriter"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
@@ -22,5 +22,5 @@ if [ "$XBPS_TARGET_WORDSIZE" = "32" ]; then
 fi
 
 post_install() {
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

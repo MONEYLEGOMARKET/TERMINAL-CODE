@@ -8,7 +8,7 @@ makedepends="libgee-devel json-glib-devel vte3-devel libgirepository-devel
  xapps-devel libxkbfile-devel"
 depends="rsync psmisc xhost"
 short_desc="System restore tool"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-only"
 homepage="https://github.com/linuxmint/timeshift"
 changelog="https://raw.githubusercontent.com/linuxmint/timeshift/master/debian/changelog"

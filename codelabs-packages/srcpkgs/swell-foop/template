@@ -7,7 +7,7 @@ hostmakedepends="gettext glib-devel itstool pkg-config vala
  gtk4-update-icon-cache"
 makedepends="libgnome-games-support2-devel librsvg-devel libadwaita-devel"
 short_desc="GNOME puzzle game where you remove similar objects"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://wiki.gnome.org/Apps/Swell%20Foop"
 changelog="https://gitlab.gnome.org/GNOME/swell-foop/-/raw/master/NEWS"

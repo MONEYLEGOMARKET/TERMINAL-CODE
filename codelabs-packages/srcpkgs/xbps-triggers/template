@@ -3,10 +3,10 @@ pkgname=xbps-triggers
 version=0.129
 revision=1
 bootstrap=yes
-short_desc="XBPS triggers for Void Linux"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+short_desc="XBPS triggers for CODE LABS"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="Public Domain"
-homepage="https://voidlinux.org"
+homepage="https://codelabs.org"
 
 do_install() {
 	_triggersdir=usr/libexec/${pkgname}

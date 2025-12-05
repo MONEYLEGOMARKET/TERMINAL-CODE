@@ -19,5 +19,5 @@ make_dirs="/var/db/goatcounter 0750 _goatcounter _goatcounter"
 
 post_install() {
 	vsv goatcounter
-	vdoc $FILESDIR/README.voidlinux
+	vdoc $FILESDIR/README.codelabs
 }

@@ -3,10 +3,10 @@ pkgname=base-system
 version=0.114
 revision=2
 metapackage=yes
-short_desc="Void Linux base system meta package"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+short_desc="CODE LABS base system meta package"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="Public Domain"
-homepage="https://www.voidlinux.org"
+homepage="https://www.codelabs.org"
 
 depends="
  base-files>=0.77 ncurses coreutils findutils diffutils libgcc
@@ -14,7 +14,7 @@ depends="
  mdocml>=1.13.3 shadow e2fsprogs btrfs-progs xfsprogs f2fs-tools dosfstools
  procps-ng tzdata pciutils usbutils iana-etc openssh dhcpcd
  kbd iproute2 iputils iw wpa_supplicant xbps nvi sudo wifi-firmware
- void-artwork traceroute ethtool kmod acpid eudev runit-void removed-packages"
+ codelabs-artwork traceroute ethtool kmod acpid eudev runit-codelabs removed-packages"
 
 case "$XBPS_TARGET_MACHINE" in
 	*-musl) depends+=" musl";;

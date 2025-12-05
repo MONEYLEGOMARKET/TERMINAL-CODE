@@ -5,9 +5,9 @@ revision=1
 metapackage=yes
 depends="base-files>=0.126"
 short_desc="Dummy meta-pkg for cross building packages with xbps-src"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Public Domain"
-homepage="https://www.voidlinux.org/"
+homepage="https://www.codelabs.org/"
 provides="
 	kernel-libc-headers-9999_1
 	binutils-9999_1

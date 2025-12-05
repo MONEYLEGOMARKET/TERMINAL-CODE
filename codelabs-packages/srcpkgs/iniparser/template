@@ -6,7 +6,7 @@ build_style=cmake
 configure_args="-DBUILD_DOCS=ON"
 hostmakedepends="doxygen"
 short_desc="Free stand-alone ini file parsing library"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://gitlab.com/iniparser/iniparser"
 changelog="https://gitlab.com/iniparser/iniparser/-/releases"

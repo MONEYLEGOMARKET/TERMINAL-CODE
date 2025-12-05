@@ -9,7 +9,7 @@ hostmakedepends="dpkg pkg-config docbook-xsl doxygen po4a w3m libxslt triehash"
 makedepends="db-devel gnutls-devel bzip2-devel liblzma-devel liblz4-devel
  libzstd-devel libseccomp-devel eudev-libudev-devel dpkg-devel gtest-devel
  libgcrypt-devel xxHash-devel"
-checkdepends="dpkg runit-void tar"
+checkdepends="dpkg runit-codelabs tar"
 short_desc="APT package management tools"
 maintainer="Elie ROUDNINSKI <xademax@gmail.com>"
 license="GPL-2.0-or-later"

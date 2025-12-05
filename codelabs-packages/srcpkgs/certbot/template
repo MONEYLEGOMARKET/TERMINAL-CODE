@@ -11,7 +11,7 @@ checkdepends="python3-pytest python3-pytest-xdist python3-importlib_metadata
  python3-typing_extensions python3-coverage python3-pytest-cov python3-pylint
  python3-setuptools python3-mypy $depends"
 short_desc="Let's Encrypt certificate renewal automation utility"
-maintainer="Alex Childs <misuchiru03+void@gmail.com>"
+maintainer="Alex Childs <misuchiru03+codelabs@gmail.com>"
 license="Apache-2.0"
 homepage="https://certbot.eff.org/"
 distfiles="${PYPI_SITE}/c/certbot/certbot-${version}.tar.gz"

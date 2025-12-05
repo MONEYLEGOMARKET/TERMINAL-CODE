@@ -9,7 +9,7 @@ makedepends="MesaLib-devel qt5-devel phonon-qt5-devel gst-plugins-base1-devel
  gst-plugins-good1-qt5 qt5-x11extras-devel qt5-tools-devel libxml2-devel"
 depends="desktop-file-utils hicolor-icon-theme gst-plugins-good1-qt5 gst-libav"
 short_desc="Phonon GStreamer backend"
-maintainer="Duncaen <duncaen@voidlinux.org>"
+maintainer="Duncaen <duncaen@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="http://phonon.kde.org/"
 distfiles="${KDE_SITE}/phonon/${pkgname/-qt5/}/${version}/${pkgname/-qt5/}-${version}.tar.xz"

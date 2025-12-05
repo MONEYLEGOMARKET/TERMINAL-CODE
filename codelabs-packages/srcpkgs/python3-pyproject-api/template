@@ -14,7 +14,7 @@ changelog="https://github.com/tox-dev/pyproject-api/releases"
 distfiles="${PYPI_SITE}/p/pyproject-api/pyproject_api-${version}.tar.gz"
 checksum=43c9918f49daab37e302038fc1aed54a8c7a91a9fa935d00b9a485f37e0f5335
 
-if [ "$XBPS_BUILD_ENVIRONMENT" = void-packages-ci ]; then
+if [ "$XBPS_BUILD_ENVIRONMENT" = codelabs-packages-ci ]; then
 	# this test fails on CI
 	make_check_args+=" --deselect tests/test_frontend_setuptools.py::test_result_missing"
 fi

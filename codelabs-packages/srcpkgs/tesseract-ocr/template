@@ -11,7 +11,7 @@ hostmakedepends="automake libtool pkg-config leptonica libxslt asciidoc"
 makedepends="cairo-devel pango-devel leptonica-devel $(vopt_if openmp libgomp-devel) icu-devel
  libarchive-devel libcurl-devel"
 short_desc="Tesseract Open Source OCR engine"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Apache-2.0"
 homepage="https://github.com/tesseract-ocr/tesseract"
 distfiles="
@@ -70,7 +70,7 @@ post_install() {
 	for lang in equ osd; do
 		$(pkg_lang ${lang})
 	done
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }
 tesseract-ocr-tools_package() {
 	depends="${sourcepkg}>=${version}_${revision}"

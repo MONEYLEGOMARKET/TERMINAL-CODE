@@ -17,7 +17,7 @@ makedepends="gtksourceview-devel libxml2-devel vte3-devel gjs-devel
  neon-devel subversion-devel python3-devel gdl-devel libwebkit2gtk41-devel"
 depends="autogen"
 short_desc="GNOME Integrated Development Environment"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://projects.gnome.org/anjuta"
 distfiles="${GNOME_SITE}/${pkgname}/${version%.*}/${pkgname}-${version}.tar.xz"

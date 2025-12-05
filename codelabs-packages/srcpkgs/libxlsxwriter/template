@@ -6,7 +6,7 @@ build_style=cmake
 configure_args="-DBUILD_SHARED_LIBS=ON"
 makedepends="zlib-devel"
 short_desc="Library for creating Excel XLSX files"
-maintainer="Andrew Benson <abenson+void@gmail.com>"
+maintainer="Andrew Benson <abenson+codelabs@gmail.com>"
 license="BSD-2-Clause"
 homepage="https://libxlsxwriter.github.io/"
 distfiles="https://github.com/jmcnamara/libxlsxwriter/archive/RELEASE_${version}.tar.gz"

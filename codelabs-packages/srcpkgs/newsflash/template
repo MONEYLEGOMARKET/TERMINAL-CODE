@@ -8,7 +8,7 @@ hostmakedepends="cargo pkg-config glib-devel sqlite-devel gettext-devel
  desktop-file-utils gtk4-update-icon-cache blueprint-compiler"
 makedepends="rust-std libwebkitgtk60-devel libadwaita-devel openssl-devel clapper-devel"
 short_desc="RSS feed reader that supports various web based services"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://gitlab.com/news-flash/news_flash_gtk"
 distfiles="https://gitlab.com/news-flash/news_flash_gtk/-/archive/v.${version}/news_flash_gtk-v.${version}.tar.gz"

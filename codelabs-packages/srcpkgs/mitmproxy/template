@@ -12,7 +12,7 @@ depends="python3-aioquic python3-Brotli python3-Flask python3-argon2 python3-asg
 checkdepends="${depends} python3-hypothesis python3-parver
  python3-pytest-asyncio python3-pytest-cov python3-pytest-timeout python3-requests"
 short_desc="Interactive TLS-capable intercepting HTTP proxy"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://mitmproxy.org"
 changelog="https://raw.githubusercontent.com/mitmproxy/mitmproxy/main/CHANGELOG.md"
@@ -26,7 +26,7 @@ if [ "${XBPS_TARGET_MACHINE%-musl}" = 'i686' ]; then
 	_skip+="or(test_refresh)"
 fi
 
-if [ "${XBPS_BUILD_ENVIRONMENT}" = 'void-packages-ci' ]; then
+if [ "${XBPS_BUILD_ENVIRONMENT}" = 'codelabs-packages-ci' ]; then
 	_skip+="or(test_tun_mode)"
 fi
 

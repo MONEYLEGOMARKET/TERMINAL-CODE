@@ -9,7 +9,7 @@ hostmakedepends="pkg-config wayland-devel"
 makedepends="MesaLib-devel libXrandr-devel libXi-devel glu-devel libXcursor-devel
  libxkbcommon-devel libXinerama-devel wayland-devel wayland-protocols"
 short_desc="Multi-platform library for creating windows with OpenGL contexts"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="Zlib"
 homepage="http://www.glfw.org"
 changelog="https://www.glfw.org/changelog.html"

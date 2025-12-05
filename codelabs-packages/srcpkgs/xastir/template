@@ -8,7 +8,7 @@ hostmakedepends="autoconf automake"
 makedepends="libXrender-devel libXt-devel libXp-devel libcurl-devel pcre-devel
  motif-devel libax25-devel libgraphicsmagick-devel"
 short_desc="X Amateur Station Tracking and Information Reporting"
-maintainer="Michael Aldridge <maldridge@voidlinux.org>"
+maintainer="Michael Aldridge <maldridge@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="http://xastir.org"
 distfiles="https://github.com/Xastir/Xastir/archive/Release-${version}.tar.gz"

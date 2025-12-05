@@ -9,7 +9,7 @@ configure_args="-Dintrospection=$(vopt_if gir true false)
 hostmakedepends="pkg-config glib-devel $(vopt_if gir vala)"
 makedepends="libglib-devel libgit2-1.9-devel libssh2-devel python3-gobject-devel"
 short_desc="Glib wrapper library around libgit2"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://wiki.gnome.org/Projects/Libgit2-glib"
 changelog="https://gitlab.gnome.org/GNOME/libgit2-glib/-/raw/master/NEWS"

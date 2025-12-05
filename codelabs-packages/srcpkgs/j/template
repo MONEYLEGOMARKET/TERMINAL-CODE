@@ -17,7 +17,7 @@ checksum=593249894579af87b325833678dfe8a35c937fe344dcc954a0ad0e31f167497a
 
 _jsz="j${XBPS_TARGET_WORDSIZE}"
 _jtype="release"
-_jbuilder="voidlinux.org"
+_jbuilder="codelabs.org"
 _jlib="/usr/lib/j"
 _jshare="/usr/share/j"
 _jetc="/etc/j"

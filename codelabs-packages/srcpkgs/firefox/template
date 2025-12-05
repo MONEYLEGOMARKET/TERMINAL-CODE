@@ -7,7 +7,7 @@ version=145.0.1
 revision=1
 build_helper="rust"
 short_desc="Mozilla Firefox web browser"
-maintainer="Duncaen <duncaen@voidlinux.org>"
+maintainer="Duncaen <duncaen@codelabs.org>"
 license="GPL-3.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MPL-2.0"
 homepage="https://www.mozilla.org/firefox/"
 changelog="https://www.mozilla.org/en-US/firefox/${version}/releasenotes/"
@@ -67,7 +67,7 @@ post_extract() {
 	esac
 
 	# Mozilla API keys (see https://location.services.mozilla.com/api)
-	# Note: This is for Void Linux use ONLY.
+	# Note: This is for CODE LABS use ONLY.
 	echo -n "cd894504-7a2a-4263-abff-ff73ee89ffca" > mozilla-api-key
 }
 

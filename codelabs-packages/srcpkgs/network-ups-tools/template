@@ -20,7 +20,7 @@ conf_files="
 	/etc/ups/upssched.conf
 	/etc/ups/nut.conf"
 short_desc="UPS control and monitoring features (NUT)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="http://www.networkupstools.org/"
 distfiles="${homepage}source/${version%.*}/nut-${version}.tar.gz"
@@ -42,7 +42,7 @@ post_install() {
 	vsv upsd
 	vsv upsmon
 	vsv upsdrvctl
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }
 
 libnetwork-ups-tools_package() {

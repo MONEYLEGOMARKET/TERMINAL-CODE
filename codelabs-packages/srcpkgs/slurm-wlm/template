@@ -11,7 +11,7 @@ makedepends="munge-devel lua53-devel pam-devel openssl-devel gtk+-devel
  ncurses-devel readline-devel libmariadbclient-devel json-c-devel libhwloc-devel
  freeipmi-devel hdf5-devel libnuma-devel"
 short_desc="Workload manager for Linux clusters of all sizes"
-maintainer="Toyam Cox <Vaelatern@voidlinux.org>"
+maintainer="Toyam Cox <Vaelatern@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="http://slurm.schedmd.com/slurm.html"
 distfiles="https://github.com/SchedMD/slurm/archive/slurm-${_distver}.tar.gz"

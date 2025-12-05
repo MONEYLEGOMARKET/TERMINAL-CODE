@@ -8,7 +8,7 @@ hostmakedepends="pkg-config gettext"
 makedepends="gettext-devel libtranscript-devel libunistring-devel
  libt3widget-devel libt3config-devel libt3highlight-devel"
 short_desc="Text editor with an intuitive interface"
-maintainer="Andrew Benson <abenson+void@gmail.com>"
+maintainer="Andrew Benson <abenson+codelabs@gmail.com>"
 license="GPL-3.0-or-later"
 homepage="https://os.ghalkes.nl/tilde/"
 distfiles="https://os.ghalkes.nl/dist/tilde-${version}.tar.bz2"

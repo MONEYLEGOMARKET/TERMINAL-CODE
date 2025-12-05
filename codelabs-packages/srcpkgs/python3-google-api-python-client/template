@@ -11,7 +11,7 @@ depends="python3-httplib2 python3-google-auth python3-google-auth-httplib2
 checkdepends="${depends} python3-parameterized python3-openssl
  python3-oauth2client python3-pytest-xdist"
 short_desc="Google API client library for Python3"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Apache-2.0"
 homepage="https://googleapis.github.io/google-api-python-client/"
 changelog="https://raw.githubusercontent.com/googleapis/google-api-python-client/main/CHANGELOG.md"

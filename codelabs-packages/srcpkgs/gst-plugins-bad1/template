@@ -4,7 +4,7 @@ version=1.26.5
 revision=2
 build_helper="gir"
 build_style=meson
-configure_args="-Dpackage-origin=https://voidlinux.org -Ddoc=disabled
+configure_args="-Dpackage-origin=https://codelabs.org -Ddoc=disabled
  -Dopencv=disabled -Dmsdk=disabled -Dopensles=disabled
  -Dtinyalsa=disabled -Dwasapi=disabled -Ddc1394=disabled
  -Diqa=disabled -Dlibde265=disabled -Dmpeg2enc=disabled
@@ -31,7 +31,7 @@ makedepends="alsa-lib-devel celt-devel openssl-devel exempi-devel
  $(vopt_if libvpl libvpl-devel) $(vopt_if gme libgme-devel)"
 depends="gst-plugins-base1>=${version}"
 short_desc="GStreamer plugins from the bad set (v1.x)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://gstreamer.freedesktop.org"
 changelog="https://gstreamer.freedesktop.org/releases/${version%.*}/#${version}"

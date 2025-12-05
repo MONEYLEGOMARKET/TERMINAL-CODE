@@ -10,7 +10,7 @@ makedepends="gst-plugins-base1-devel totem-pl-parser-devel libnotify-devel
  libcanberra-devel libisofs-devel libburn-devel libSM-devel dconf-devel"
 depends="cdrdao cdrtools dconf shared-mime-info hicolor-icon-theme desktop-file-utils"
 short_desc="Application to burn CD/DVD for the Gnome Desktop"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://wiki.gnome.org/Apps/Brasero"
 changelog="https://gitlab.gnome.org/GNOME/brasero/-/raw/master/NEWS"

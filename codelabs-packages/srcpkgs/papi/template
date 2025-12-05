@@ -10,7 +10,7 @@ configure_args="--with-pfm-root=$XBPS_CROSS_BASE/usr --with-tls=__thread
 hostmakedepends="gcc-fortran openmpi"
 makedepends="libpfm4-devel libgomp-devel openmpi-devel"
 short_desc="Provides interface for use of performance counter hardware"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="BSD-3-Clause"
 homepage="https://icl.utk.edu/papi/"
 distfiles="http://icl.utk.edu/projects/papi/downloads/papi-${version}.tar.gz"

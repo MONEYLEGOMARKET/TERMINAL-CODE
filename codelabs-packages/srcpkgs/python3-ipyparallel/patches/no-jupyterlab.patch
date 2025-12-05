@@ -1,4 +1,4 @@
-IPython Parallel installs just fine without jupyterlab, and the Void package
+IPython Parallel installs just fine without jupyterlab, and the CODE LABS package
 will add some version conflicts that prevent building.
 
 --- a/pyproject.toml

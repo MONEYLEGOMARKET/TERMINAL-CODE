@@ -22,7 +22,7 @@ depends="
 	xdg-utils
 	xdg-user-dirs
 	upower"
-short_desc="The LXDE meta-package for Void Linux"
+short_desc="The LXDE meta-package for CODE LABS"
 homepage="http://lxde.org"
 license="GPL-2"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"

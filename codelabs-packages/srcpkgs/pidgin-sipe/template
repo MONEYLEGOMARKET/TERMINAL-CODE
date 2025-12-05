@@ -8,7 +8,7 @@ makedepends="pidgin-devel openssl-devel libxml2-devel dbus-glib-devel
  libnice-devel gst-plugins-base1-devel farstream-devel"
 depends="pidgin gst-plugins-bad1 gst-libav gst-plugins-good1 gst-plugins-ugly1"
 short_desc="SIP/SIMPLE plugin for Pidgin IM"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="http://sipe.sourceforge.net/"
 distfiles="${SOURCEFORGE_SITE}/sipe/sipe/${pkgname}-${version}.tar.xz"

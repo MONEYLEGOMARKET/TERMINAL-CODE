@@ -8,7 +8,7 @@ hostmakedepends="pkg-config"
 makedepends="lcms2-devel libpng-devel libmng-devel jasper-devel
  glew-devel libfreeglut-devel libopenexr-devel SDL_image-devel"
 short_desc="Developer's Image Library"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1"
 homepage="http://openil.sourceforge.net/"
 distfiles="${SOURCEFORGE_SITE}/openil/DevIL-${version}.tar.gz"

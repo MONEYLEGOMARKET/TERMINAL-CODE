@@ -39,7 +39,7 @@ esac
 
 post_install() {
 	vlicense COPYING LICENSE
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }
 
 weston-devel_package() {

@@ -16,7 +16,7 @@ makedepends="xorgproto eudev-libudev-devel libpng-devel libass-devel
  sqlite-devel librsvg-devel libtheora-devel speex-devel pulseaudio-devel
  libmodplug-devel libva-devel libvdpau-devel v4l-utils-devel xvidcore-devel"
 short_desc="Multimedia player"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="http://www.mplayerhq.hu/"
 distfiles="http://mplayerhq.hu/MPlayer/releases/MPlayer-${version}.tar.xz"

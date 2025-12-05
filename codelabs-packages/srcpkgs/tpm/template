@@ -6,7 +6,7 @@ build_style=gnu-makefile
 hostmakedepends="perl"
 depends="gnupg>=2"
 short_desc="Tiny password manager"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://github.com/nmeum/tpm"
 distfiles="https://github.com/nmeum/tpm/archive/${version}.tar.gz"

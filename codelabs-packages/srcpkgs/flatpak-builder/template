@@ -8,7 +8,7 @@ makedepends="flatpak-devel json-glib-devel libcap-devel
  libyaml-devel libcurl-devel libxml2-devel"
 depends="elfutils debugedit AppStream-compose"
 short_desc="Tool to build flatpaks from source"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://github.com/flatpak/flatpak-builder"
 changelog="https://github.com/flatpak/flatpak-builder/raw/main/NEWS"

@@ -28,7 +28,7 @@ depends="bluedevil>=${version}
  elogind
  upower
  udisks2"
-short_desc="KDE Plasma Desktop meta-package for Void Linux"
+short_desc="KDE Plasma Desktop meta-package for CODE LABS"
 maintainer="John <me@johnnynator.dev>"
 license="Public Domain"
 homepage="https://kde.org/plasma-desktop"

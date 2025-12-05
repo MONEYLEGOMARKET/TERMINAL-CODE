@@ -30,7 +30,7 @@ See [Contributing](./CONTRIBUTING.md) for a general overview of how to contribut
 - [Keeping your masterdir uptodate](#updating-masterdir)
 - [Building 32bit packages on x86_64](#building-32bit)
 - [Building packages natively for the musl C library](#building-for-musl)
-- [Building void base-system from scratch](#building-base-system)
+- [Building codelabs base-system from scratch](#building-base-system)
 
 ### Requirements
 
@@ -56,11 +56,11 @@ methods.
 <a name="quick-start"></a>
 ### Quick start
 
-Clone the `void-packages` git repository:
+Clone the `codelabs-packages` git repository:
 
 ```
-$ git clone https://github.com/codelabs/void-packages.git
-$ cd void-packages
+$ git clone https://github.com/codelabs/codelabs-packages.git
+$ cd codelabs-packages
 ```
 
 Bootstrapping from binary packages will be done automatically when first building
@@ -134,12 +134,12 @@ executable must be `setgid`:
     # chmod 4750 xbps-uchroot
     # usermod -a -G <group> <user>
 
-> NOTE: by default in void you shouldn't do this manually, your user must be a member of
+> NOTE: by default in codelabs you shouldn't do this manually, your user must be a member of
 the `xbuilder` group.
 
 To enable it:
 
-    $ cd void-packages
+    $ cd codelabs-packages
     $ echo XBPS_CHROOT_CMD=uchroot >> etc/conf
 
 If for some reason it's erroring out as `ERROR clone (Operation not permitted)`, check that
@@ -170,7 +170,7 @@ masterdir for the host architecture does not exist.
 There is also the `bootstrap` command, which will build all necessary `bootstrap` packages from
 scratch. This is usually not recommended, since those packages are built using your host system's
 toolchain and are neither fully featured nor reproducible (your host system may influence the
-build) and thus should only be used as a stage 0 for bootstrapping new Void systems.
+build) and thus should only be used as a stage 0 for bootstrapping new CODE LABS systems.
 
 If you still choose to use `bootstrap`, use the resulting stage 0 container to rebuild all
 `bootstrap` packages again, then use `binary-bootstrap` (stage 1) and rebuild the `bootstrap`
@@ -210,7 +210,7 @@ and edit it accordingly to your needs.
 
 The following directory hierarchy is used with a default configuration file:
 
-         /void-packages
+         /codelabs-packages
             |- common
             |- etc
             |- srcpkgs
@@ -228,7 +228,7 @@ The following directory hierarchy is used with a default configuration file:
             |  |- builddir -> ...
             |  |- destdir -> ...
             |  |- host -> bind mounted from <hostdir>
-            |  |- void-packages -> bind mounted from <void-packages>
+            |  |- codelabs-packages -> bind mounted from <codelabs-packages>
 
 
 The description of these directories is as follows:
@@ -248,7 +248,7 @@ The description of these directories is as follows:
 The simplest form of building package is accomplished by running the `pkg` target in `xbps-src`:
 
 ```
-$ cd void-packages
+$ cd codelabs-packages
 $ ./xbps-src pkg <pkgname>
 ```
 
@@ -294,7 +294,7 @@ The build options can also be shown for binary packages via `xbps-query(1)`:
     $ xbps-query -R --property=build-options foo
 
 > NOTE: if you build a package with a custom option, and that package is available
-in an official void repository, an update will ignore those options. Put that package
+in an official codelabs repository, an update will ignore those options. Put that package
 on `hold` mode via `xbps-pkgdb(1)`, i.e `xbps-pkgdb -m hold foo` to ignore updates
 with `xbps-install -u`. Once the package is on `hold`, the only way to update it
 is by declaring it explicitly: `xbps-install -u foo`.
@@ -355,7 +355,7 @@ in `etc/repo-keys/` to prevent xbps-src from prompting to import that key.
 
 Packages are overwritten on every build to make getting package with changed build options easy.
 To make xbps-src skip build and preserve first package build with given version and revision,
-same as in official void repository, set `XBPS_PRESERVE_PKGS=yes` in `etc/conf` file.
+same as in official codelabs repository, set `XBPS_PRESERVE_PKGS=yes` in `etc/conf` file.
 
 Reinstalling a package in your target `rootdir` can be easily done too:
 
@@ -389,7 +389,7 @@ Install distcc on the host (machine that executes xbps-src) as well.
 Unless you want to use the host as worker from other machines, there is no need
 to modify the configuration.
 
-On the host you can now enable distcc in the `void-packages/etc/conf` file:
+On the host you can now enable distcc in the `codelabs-packages/etc/conf` file:
 
     XBPS_DISTCC=yes
     XBPS_DISTCC_HOSTS="localhost/2 --localslots_cpp=24 192.168.2.101/9 192.168.2.102/2"
@@ -453,15 +453,15 @@ To use xbps-src in your Linux distribution use the following instructions. Let's
 If `xbps-uunshare` does not work because of lack of `user_namespaces(7)` support,
 try other [chroot methods](#chroot-methods).
 
-Clone the `void-packages` git repository:
+Clone the `codelabs-packages` git repository:
 
-    $ git clone https://github.com/codelabs/void-packages.git
+    $ git clone https://github.com/codelabs/codelabs-packages.git
 
 and `xbps-src` should be fully functional; optionally, start the `bootstrap` process, i.e:
 
     $ ./xbps-src binary-bootstrap
 
-The default masterdir is created in the current working directory, i.e. `void-packages/masterdir-<arch>`, where `<arch>` for the default masterdir is is the native xbps architecture.
+The default masterdir is created in the current working directory, i.e. `codelabs-packages/masterdir-<arch>`, where `<arch>` for the default masterdir is is the native xbps architecture.
 
 <a name="remaking-masterdir"></a>
 ### Remaking the masterdir
@@ -500,7 +500,7 @@ This will create and bootstrap a new masterdir called `masterdir-x86_64-musl` th
     $ ./xbps-src -A x86_64-musl pkg ...
 
 <a name="building-base-system"></a>
-### Building void base-system from scratch
+### Building codelabs base-system from scratch
 
 To rebuild all packages in `base-system` for your native architecture:
 
@@ -510,8 +510,8 @@ It's also possible to cross compile everything from scratch:
 
     $ ./xbps-src -a <target> -N pkg base-system
 
-Once the build has finished, you can specify the path to the local repository to `void-mklive`, i.e:
+Once the build has finished, you can specify the path to the local repository to `codelabs-mklive`, i.e:
 
-    # cd void-mklive
+    # cd codelabs-mklive
     # make
     # ./mklive.sh ... -r /path/to/hostdir/binpkgs

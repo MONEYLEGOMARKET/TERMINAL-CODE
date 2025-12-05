@@ -6,13 +6,13 @@ build_wrksrc="src"
 hostmakedepends="tar unzip pkg-config"
 makedepends="gtk+3-devel ncurses-devel"
 short_desc="Fast, minimalist, and extensible text editor for programmers"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://orbitalquark.github.io/textadept/"
 # Note: The dependency urls and filenames must be checked and updated manually
 # for distfiles and skip_extraction variables on every new release (and
 # checksums updated accordingly). This is so that XBPS can cache them. Details:
-# https://github.com/void-linux/void-packages/pull/15627#issuecomment-549018252
+# https://github.com/codelabs/codelabs-packages/pull/15627#issuecomment-549018252
 distfiles="https://github.com/orbitalquark/textadept/archive/textadept_${version}.tar.gz
  https://www.scintilla.org/scintilla445.tgz
  https://github.com/orbitalquark/scinterm/archive/6a774158d8a3c7bc7ea120bc01cdb016fa351a7e.zip

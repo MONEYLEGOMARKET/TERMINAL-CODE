@@ -8,7 +8,7 @@ makedepends="libopenjpeg2-devel libwebp-devel libjpeg-turbo-devel tiff-devel
  libpng-devel zlib-devel giflib-devel"
 checkdepends="which gnuplot"
 short_desc="Image processing and analysis library"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="BSD-2-Clause"
 homepage="http://leptonica.org/"
 changelog="http://leptonica.org/source/version-notes.html"

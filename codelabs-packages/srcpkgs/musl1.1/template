@@ -7,7 +7,7 @@ bootstrap=yes
 build_style=gnu-configure
 configure_args="--prefix=/usr --disable-gcc-wrapper"
 short_desc="Musl C library - version 1.1"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="MIT"
 homepage="https://musl.libc.org/"
 distfiles="https://musl.libc.org/releases/musl-${version}.tar.gz"

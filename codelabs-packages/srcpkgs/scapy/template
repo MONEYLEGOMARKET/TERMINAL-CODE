@@ -13,5 +13,5 @@ distfiles="${PYPI_SITE}/s/scapy/scapy-${version}.tar.gz"
 checksum=5b260c2b754fd8d409ba83ee7aee294ecdbb2c235f9f78fe90bc11cb6e5debc2
 
 post_install() {
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

@@ -7,7 +7,7 @@ hostmakedepends="pkg-config"
 makedepends="gstreamer1-devel gtk+3-devel sdl12-compat-devel
  alsa-lib-devel glu-devel"
 short_desc="Audio spectrum visualiser in 3D for Linux"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://spectrum3d.sourceforge.net"
 distfiles="${SOURCEFORGE_SITE}/project/spectrum3d/spectrum3d-${version}.tar.gz"

@@ -9,7 +9,7 @@ hostmakedepends="automake pkg-config libgcrypt-devel libtool which
  gettext-devel qt6-tools qt6-base"
 makedepends="libgcrypt-devel gnutls-devel qt6-base-devel gtk+3-devel"
 short_desc="OS abstraction functions for various projects"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://github.com/aqbanking/gwenhywfar"
 distfiles="https://github.com/aqbanking/gwenhywfar/archive/refs/tags/${version}.tar.gz"

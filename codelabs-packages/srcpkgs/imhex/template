@@ -15,7 +15,7 @@ makedepends="libcurl-devel fmt-devel llvm18-devel jansson-devel yara-devel json-
  freetype-devel glfw-devel gtk+3-devel python3-devel file-devel mbedtls-devel
  capstone-devel"
 short_desc="Hex editor for reverse engineers and programmers"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://imhex.werwolv.net/"
 changelog="https://github.com/WerWolv/ImHex/releases"

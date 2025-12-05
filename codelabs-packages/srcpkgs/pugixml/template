@@ -5,7 +5,7 @@ revision=1
 build_style=cmake
 configure_args="-DBUILD_SHARED_LIBS=On"
 short_desc="Light-weight, simple and fast XML parser for C++ with XPath support"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="MIT"
 homepage="https://pugixml.org/"
 changelog="https://github.com/zeux/pugixml/releases"

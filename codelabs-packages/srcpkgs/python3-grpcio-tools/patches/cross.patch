@@ -1,4 +1,4 @@
-In Void cross-build environments, $CC and $CXX may actually contain arguments.
+In CODE LABS cross-build environments, $CC and $CXX may actually contain arguments.
 
 --- a/setup.py	2024-11-26 09:12:22.059041830 -0500
 +++ b/setup.py	2024-11-26 09:12:44.641146370 -0500

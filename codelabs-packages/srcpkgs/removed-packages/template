@@ -6,7 +6,7 @@ metapackage=yes
 short_desc="Uninstalls packages removed from repository"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="Public Domain"
-homepage="https://voidlinux.org"
+homepage="https://codelabs.org"
 
 replaces="
  6cord<=9.6_1

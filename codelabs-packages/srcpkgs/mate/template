@@ -21,7 +21,7 @@ depends="
 	marco>=${version}
 	elogind
 	zenity"
-short_desc="MATE meta-package for Void Linux"
+short_desc="MATE meta-package for CODE LABS"
 maintainer="skmpz <dem.procopiou@gmail.com>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="http://www.mate-desktop.org"

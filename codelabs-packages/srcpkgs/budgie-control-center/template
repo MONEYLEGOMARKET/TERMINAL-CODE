@@ -16,7 +16,7 @@ makedepends="ModemManager-devel NetworkManager-devel accountsservice-devel
 depends="desktop-file-utils upower colord cups-pk-helper cracklib iso-codes
  gsettings-desktop-schemas hicolor-icon-theme sound-theme-freedesktop"
 short_desc="Budgie Control Center"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://github.com/BuddiesOfBudgie/budgie-control-center"
 distfiles="https://github.com/BuddiesOfBudgie/budgie-control-center/releases/download/v${version}/budgie-control-center-${version}.tar.xz"

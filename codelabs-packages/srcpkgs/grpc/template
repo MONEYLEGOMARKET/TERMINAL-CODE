@@ -12,7 +12,7 @@ _devel_depends="c-ares-devel re2-devel zlib-devel openssl-devel abseil-cpp-devel
  protobuf-devel"
 makedepends="libprotoc-devel gperftools-devel ${_devel_depends}"
 short_desc="High performance, open source, general RPC framework"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Apache-2.0"
 homepage="https://github.com/grpc/grpc"
 _opencensus=0.3.0

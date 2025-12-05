@@ -10,7 +10,7 @@ hostmakedepends="pkg-config"
 makedepends="cairo-devel libglib-devel libjpeg-turbo-devel libpng-devel
  tiff-devel lcms2-devel libarchive-devel freetype-devel"
 short_desc="GObject base library for XPS documents"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://wiki.gnome.org/Projects/libgxps"
 distfiles="${GNOME_SITE}/${pkgname}/${version%.*}/${pkgname}-${version}.tar.xz"

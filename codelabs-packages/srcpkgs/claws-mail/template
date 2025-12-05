@@ -14,7 +14,7 @@ makedepends="poppler-glib-devel libarchive-devel libSM-devel
  ytnef-devel librsvg-devel NetworkManager-devel libxml2-devel
  libcurl-devel"
 short_desc="GTK+ based, user-friendly, lightweight, and fast email client"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://claws-mail.org"
 changelog="https://claws-mail.org/NEWS"

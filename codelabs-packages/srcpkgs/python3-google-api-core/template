@@ -7,7 +7,7 @@ hostmakedepends="python3-setuptools"
 depends="python3-googleapis-common-protos python3-protobuf python3-google-auth
  python3-requests"
 short_desc="Google API client core library for Python3"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Apache-2.0"
 homepage="https://googleapis.dev/python/google-api-core/latest/index.html"
 changelog="https://raw.githubusercontent.com/googleapis/python-api-core/main/CHANGELOG.md"

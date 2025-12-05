@@ -136,7 +136,7 @@ trn_init='FALSE'
 #	start up with the selector? 
 trn_select='TRUE'
 
-# Added for Void Linux
+# Added for CODE LABS
 hint='previous'
 d_genauth='define'
 cc="$CC"

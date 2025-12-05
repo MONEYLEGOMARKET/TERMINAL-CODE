@@ -16,7 +16,7 @@ checksum=9a0b230bfcd5ec42c6ba59cdaf2c064a658ee1e3edc62f90cfd160d4f347f9ba
 make_check=no # pytest reports "no tests ran"
 
 post_patch() {
-	vsed -e 's/distro = None/distro = Void Linux/' -i pyradio/config
+	vsed -e 's/distro = None/distro = CODE LABS/' -i pyradio/config
 }
 
 post_install() {
@@ -26,5 +26,5 @@ post_install() {
 	vlicense LICENSE
 	vinstall devel/pyradio.desktop 644 /usr/share/applications
 	vinstall devel/pyradio.png 644 /usr/share/icons/hicolor/512x512/apps
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

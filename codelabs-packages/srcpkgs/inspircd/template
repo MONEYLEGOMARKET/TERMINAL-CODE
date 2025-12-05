@@ -33,12 +33,12 @@ do_configure() {
 	./configure \
 		--disable-auto-extras \
 		--disable-ownership \
-		--distribution-label voidlinux-${revision} \
+		--distribution-label codelabs-${revision} \
 		--system
 	vsed -i 's/-ldl/& -lm/' GNUmakefile
 }
 
 post_install() {
 	vsv inspircd
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

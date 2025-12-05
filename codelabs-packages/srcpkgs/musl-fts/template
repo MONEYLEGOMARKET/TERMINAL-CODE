@@ -6,10 +6,10 @@ archs="*-musl"
 build_style=gnu-configure
 hostmakedepends="automake libtool"
 short_desc="Implementation of fts(3) for musl libc"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="BSD-3-Clause"
-homepage="https://github.com/void-linux/musl-fts"
-distfiles="https://github.com/void-linux/${pkgname}/archive/v${version}.tar.gz>${pkgname}-${version}.tar.gz"
+homepage="https://github.com/codelabs/musl-fts"
+distfiles="https://github.com/codelabs/${pkgname}/archive/v${version}.tar.gz>${pkgname}-${version}.tar.gz"
 checksum=49ae567a96dbab22823d045ffebe0d6b14b9b799925e9ca9274d47d26ff482a6
 
 pre_configure() {

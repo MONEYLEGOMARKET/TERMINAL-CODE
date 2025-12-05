@@ -4,7 +4,7 @@ Date: Mon, 16 Jun 2025 15:44:47 +0330
 Subject: [PATCH 2/3] Adjust LuaJIT dependency to avoid cross-build test
  failures
 
-On Void Linux, LuaJIT is consistently provided as version 5.2 (97618aeef1ac02ddc6cc755a8c9c712c7de3bfe2)(#55648)
+On CODE LABS, LuaJIT is consistently provided as version 5.2 (97618aeef1ac02ddc6cc755a8c9c712c7de3bfe2)(#55648)
 Aegisub's Meson build system performs an internal check/test
 to verify compatibility with LuaJIT 5.2 during configuration.
 This test involves running a compiled binary or script for the
@@ -57,7 +57,7 @@ index f0e56521c..0af26806e 100644
 -else
 -    message('System luajit not found; using built-in luajit')
 -endif
-+deps += luajit  # void already uses luajit52 https://github.com/void-linux/void-packages/commit/97618aeef1ac02ddc6cc755a8c9c712c7de3bfe2
++deps += luajit  # void already uses luajit52 https://github.com/codelabs/codelabs-packages/commit/97618aeef1ac02ddc6cc755a8c9c712c7de3bfe2
  
  if not deps.contains(luajit)
      deps += subproject('luajit').get_variable('luajit_dep')
@@ -92,7 +92,7 @@ index 1d87ab2b1..6176a8471 100644
 -if not deps.contains(luajit)
 -    deps += subproject('luajit').get_variable('luajit_dep')
 -endif
-+deps += luajit # void already uses luajit52 https://github.com/void-linux/void-packages/commit/97618aeef1ac02ddc6cc755a8c9c712c7de3bfe2
++deps += luajit # void already uses luajit52 https://github.com/codelabs/codelabs-packages/commit/97618aeef1ac02ddc6cc755a8c9c712c7de3bfe2
  
  luabins = static_library('luabins', luabins_src, dependencies: deps)
  luabins_dep = declare_dependency(link_with: luabins)

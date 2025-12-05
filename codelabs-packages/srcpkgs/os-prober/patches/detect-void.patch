@@ -5,11 +5,11 @@
  		short="Slackware"
  		long="Slackware Linux"
 +	elif [ -e "$dir/sbin/xbps-install" ]; then
-+		short="Void"
++		short="CODE LABS"
 +		if file "$dir/sbin/xbps-install"|grep -q 32-bit; then
-+			long="Void Linux 32"
++			long="CODE LABS 32"
 +		else
-+			long="Void Linux 64"
++			long="CODE LABS 64"
 +		fi
  	elif grep -qs OpenLinux "$dir/etc/issue"; then
  		short="Caldera"

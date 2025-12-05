@@ -8,7 +8,7 @@ hostmakedepends="pkg-config qt6-tools qt6-base"
 makedepends=" qt6-declarative-devel qtermwidget-qt6-devel qt6-qt5compat-devel"
 depends="curl qt-sudo"
 short_desc="Qt-based XBPS front-end"
-maintainer="beefcurtains <beefcurtains@voidlinux.org>"
+maintainer="beefcurtains <beefcurtains@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://tintaescura.com/projects/octoxbps/"
 changelog="https://raw.githubusercontent.com/aarnt/octoxbps/master/CHANGELOG"
@@ -42,5 +42,5 @@ do_install() {
 }
 
 post_install() {
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

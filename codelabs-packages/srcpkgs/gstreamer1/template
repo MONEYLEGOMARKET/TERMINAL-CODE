@@ -5,14 +5,14 @@ revision=1
 build_style=meson
 build_helper="gir"
 configure_args="-Dptp-helper-permissions=capabilities
- -Dpackage-origin=https://www.voidlinux.org -Ddbghelp=disabled
+ -Dpackage-origin=https://www.codelabs.org -Ddbghelp=disabled
  $(vopt_feature gir introspection)"
 hostmakedepends="gettext pkg-config flex python3 docbook-xsl glib-devel
  libcap-progs"
 makedepends="libxml2-devel libglib-devel libcap-devel bash-completion"
 checkdepends="gsl-devel gmp-devel valgrind-devel"
 short_desc="Core GStreamer libraries and elements (1.x)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.0-or-later"
 homepage="https://gstreamer.freedesktop.org"
 changelog="https://gstreamer.freedesktop.org/releases/${version%.*}/#${version}"

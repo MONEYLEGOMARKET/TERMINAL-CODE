@@ -10,7 +10,7 @@ makedepends="sdl12-compat-devel libvorbis-devel libmikmod-devel libflac-devel
 # The following deps are dlopen(3)ed at runtime.
 depends="libvorbis libmikmod smpeg libflac"
 short_desc="Multi-channel audio mixer library"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="BSD-3-Clause"
 homepage="http://www.libsdl.org/projects/SDL_mixer/"
 distfiles="http://www.libsdl.org/projects/$pkgname/release/$pkgname-$version.tar.gz"
@@ -25,7 +25,7 @@ pre_configure() {
 
 post_install() {
 	vlicense COPYING
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }
 
 SDL_mixer-devel_package() {

@@ -14,7 +14,7 @@ makedepends="kf6-akonadi-devel libkleo-devel kf6-kcmutils-devel kontactinterface
  libkdepim-devel 
  pimcommon-devel"
 short_desc="KDE contact manager"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/en/office/org.kde.kaddressbook"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"

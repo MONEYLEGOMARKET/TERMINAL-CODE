@@ -7,7 +7,7 @@ make_build_args="SYSCONFDIR=/etc"
 hostmakedepends="autoconf automake pkg-config"
 makedepends="bash-completion"
 short_desc="Flexible scheduler for i3bar"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://github.com/vivien/i3blocks"
 distfiles="https://github.com/vivien/i3blocks/archive/${version}.tar.gz"
@@ -19,5 +19,5 @@ pre_configure() {
 
 post_install() {
 	vconf i3blocks.conf
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

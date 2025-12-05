@@ -16,7 +16,7 @@ hostmakedepends="pkg-config help2man"
 makedepends="SoapySDR-devel libhackrf-devel librtlsdr-devel libusb-devel
  libzstd-devel ncurses-devel zlib-devel"
 short_desc="ADS-B decoder swiss knife"
-maintainer="Duncaen <duncaen@voidlinux.org>"
+maintainer="Duncaen <duncaen@codelabs.org>"
 license="GPL-3.0-or-later AND BSD-2-Clause"
 homepage="https://github.com/wiedehopf/readsb"
 distfiles="https://github.com/wiedehopf/readsb/archive/refs/tags/v${version}.tar.gz"

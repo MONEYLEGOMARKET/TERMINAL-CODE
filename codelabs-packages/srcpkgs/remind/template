@@ -13,5 +13,5 @@ distfiles="https://dianne.skoll.ca/projects/remind/download/remind-${version}.ta
 checksum=2faded4b8bb60d32fd8bb600bc86b293bdaaa14724b3791fe1fa6a8d801c7fca
 
 post_install() {
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

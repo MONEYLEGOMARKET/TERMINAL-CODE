@@ -9,7 +9,7 @@ makedepends="boost-devel-minimal libboost_iostreams
  tbb-devel imath-devel libopenexr-devel c-blosc-devel
  glfw-devel libXxf86vm-devel jemalloc-devel zlib-devel"
 short_desc="Sparse volume data structure and tools"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MPL-2.0"
 homepage="https://openvdb.org"
 distfiles="https://github.com/AcademySoftwareFoundation/openvdb/archive/v${version}.tar.gz"

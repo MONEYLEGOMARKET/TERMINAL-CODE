@@ -10,7 +10,7 @@ makedepends="libglib-devel libXext-devel libSM-devel libXtst-devel dbus-devel
  libxml2-devel"
 checkdepends="${pkgname} dbus gsettings-desktop-schemas"
 short_desc="Assistive Technology Service Provider Interface"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://gitlab.gnome.org/GNOME/at-spi2-core"
 changelog="https://gitlab.gnome.org/GNOME/at-spi2-core/-/raw/gnome-48/NEWS"

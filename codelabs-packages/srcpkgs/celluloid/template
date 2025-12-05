@@ -7,7 +7,7 @@ hostmakedepends="gettext glib-devel pkg-config"
 makedepends="gtk4-devel libadwaita-devel libepoxy-devel libglib-devel
  mpv-devel"
 short_desc="Simple GTK+ frontend for mpv"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://celluloid-player.github.io/"
 distfiles="https://github.com/celluloid-player/celluloid/releases/download/v${version}/celluloid-${version}.tar.xz"

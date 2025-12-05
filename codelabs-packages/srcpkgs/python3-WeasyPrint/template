@@ -11,7 +11,7 @@ depends="${_runtime_deps}"
 checkdepends="python3-pytest-flake8 python3-pytest-xdist python3-pytest-isort
  $depends"
 short_desc="Awesome document factory"
-maintainer="Andrew Benson <abenson+void@gmail.com>"
+maintainer="Andrew Benson <abenson+codelabs@gmail.com>"
 license="GPL-3.0-or-later"
 homepage="https://weasyprint.org"
 distfiles="https://github.com/Kozea/WeasyPrint/archive/refs/tags/v${version}.tar.gz"

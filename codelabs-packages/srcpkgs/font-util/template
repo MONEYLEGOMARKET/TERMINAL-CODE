@@ -10,7 +10,7 @@ hostmakedepends="pkg-config bdftopcf"
 #
 depends="font-alias expat freetype fontconfig mkfontscale"
 short_desc="Tools for truncating and subseting of ISO10646-1 BDF fonts"
-maintainer="Duncaen <duncaen@voidlinux.org>"
+maintainer="Duncaen <duncaen@codelabs.org>"
 license="MIT"
 homepage="https://gitlab.freedesktop.org/xorg/font/util"
 distfiles="${XORG_SITE}/font/font-util-$version.tar.xz"

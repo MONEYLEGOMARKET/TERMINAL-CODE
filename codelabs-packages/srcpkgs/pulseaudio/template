@@ -20,7 +20,7 @@ makedepends="$(vopt_if avahi avahi-libs-devel) eudev-libudev-devel fftw-devel ja
 depends="pulseaudio-utils>=${version}_${revision} rtkit"
 conf_files="/etc/pulse/*"
 short_desc="Featureful, general-purpose sound server"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://www.freedesktop.org/wiki/Software/PulseAudio"
 distfiles="${FREEDESKTOP_SITE}/${pkgname}/releases/${pkgname}-${version}.tar.xz"
@@ -57,7 +57,7 @@ post_install() {
 	rm ${DESTDIR}/etc/dbus-1/system.d/pulseaudio-system.conf
 	vmkdir usr/share/examples/pulseaudio/sv/
 	vcopy ${FILESDIR}/pulseaudio usr/share/examples/pulseaudio/sv/
-	vdoc $FILESDIR/README.voidlinux
+	vdoc $FILESDIR/README.codelabs
 }
 
 libpulseaudio_package() {

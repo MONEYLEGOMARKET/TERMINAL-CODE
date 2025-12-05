@@ -8,7 +8,7 @@ hostmakedepends="pkg-config nasm gettext"
 makedepends="ncurses-devel libcpuid-devel pciutils-devel glfw-devel
  ocl-icd-devel procps-ng-devel libstatgrab gtkmm-devel vulkan-loader-devel"
 short_desc="Free software that gathers information on CPU, motherboard and more"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://thetumultuousunicornofdarkness.github.io/CPU-X/"
 changelog="https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/blob/master/ChangeLog.md"

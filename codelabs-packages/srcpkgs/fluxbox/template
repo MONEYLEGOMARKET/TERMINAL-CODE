@@ -12,7 +12,7 @@ hostmakedepends="pkg-config automake libtool gettext gettext-devel"
 makedepends="libSM-devel libXrender-devel libXft-devel libXpm-devel imlib2-devel
  libXext-devel libXinerama-devel libXrandr-devel fribidi-devel"
 short_desc="Highly configurable and low resource X11 Window manager"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="http://www.fluxbox.org"
 distfiles="https://github.com/fluxbox/fluxbox/archive/refs/tags/Release-${version//./_}.tar.gz"

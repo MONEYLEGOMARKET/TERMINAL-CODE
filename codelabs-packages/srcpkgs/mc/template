@@ -25,5 +25,5 @@ conf_files="
  /etc/mc/sfs.ini"
 
 post_install() {
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

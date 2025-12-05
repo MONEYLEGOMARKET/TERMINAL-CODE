@@ -1,4 +1,4 @@
-# Void Linux csh.login
+# CODE LABS csh.login
 
 umask 022
 setenv SHELL /bin/tcsh

@@ -7,13 +7,13 @@ make_build_args="all"
 conf_files="/etc/dkms/framework.conf /etc/default/dkms"
 depends="bash kmod gcc bc make coreutils pahole xbps-triggers>=0.123_1"
 short_desc="Dynamic Kernel Module Support"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://github.com/dell/dkms"
 distfiles="https://github.com/dell/dkms/archive/v${version}.tar.gz"
 checksum=15941af7312af595ced516955aad33df82452c3ec9649ee48ababf8564682e03
 # dkms does not create this directory, but needs it
-# https://github.com/void-linux/void-packages/issues/39066
+# https://github.com/codelabs/codelabs-packages/issues/39066
 make_dirs="/var/lib/dkms 0755 root root"
 
 case "$XBPS_TARGET_MACHINE" in

@@ -3,12 +3,12 @@ pkgname=PrismLauncher
 version=9.4
 revision=1
 build_style=cmake
-configure_args="-DLauncher_BUILD_PLATFORM=Void"
+configure_args="-DLauncher_BUILD_PLATFORM=CODE_LABS"
 hostmakedepends="extra-cmake-modules openjdk17 pkg-config qt6-tools qt6-base scdoc"
 makedepends="qt6-base-devel qt6-qt5compat-devel zlib-devel quazip-qt6-devel qt6-networkauth-devel"
 depends="virtual?java-runtime qt6-svg qt6-imageformats qt6-plugin-tls-openssl"
 short_desc="Custom launcher for Minecraft"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-only"
 homepage="https://prismlauncher.org/"
 distfiles="https://github.com/PrismLauncher/PrismLauncher/releases/download/${version}/PrismLauncher-${version}.tar.gz"
@@ -30,5 +30,5 @@ pre_configure() {
 }
 
 post_install() {
-	vdoc ${FILESDIR}/README.voidlinux
+	vdoc ${FILESDIR}/README.codelabs
 }

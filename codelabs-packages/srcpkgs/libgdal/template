@@ -16,7 +16,7 @@ makedepends="python3-devel freexl-devel c-blosc-devel geos-devel expat-devel
  postgresql-libs-devel hdf5-devel"
 checkdepends="python3-pytest"
 short_desc="Geospatial Data Abstraction Library"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://www.gdal.org"
 changelog="https://raw.githubusercontent.com/OSGeo/gdal/master/NEWS.md"

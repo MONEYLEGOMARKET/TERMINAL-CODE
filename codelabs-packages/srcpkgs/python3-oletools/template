@@ -8,7 +8,7 @@ depends="python3-parsing python3-olefile python3-colorclass python3-easygui
  python3-msoffcrypto-tool python3-pcodedmp"
 checkdepends="$depends python3-pytest"
 short_desc="Python3 library to analyze MS OLE2 and Office files"
-maintainer="Andrew Benson <abenson+void@gmail.com>"
+maintainer="Andrew Benson <abenson+codelabs@gmail.com>"
 license="MIT"
 homepage="https://github.com/decalage2/oletools"
 distfiles="${homepage}/archive/v${version}.tar.gz"

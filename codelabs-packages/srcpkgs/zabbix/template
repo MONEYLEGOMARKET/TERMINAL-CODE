@@ -11,7 +11,7 @@ makedepends="gnutls-devel libcurl-devel libxml2-devel libevent-devel
  libmariadbclient-devel net-snmp-devel pcre2-devel"
 depends="fping mariadb"
 short_desc="IT Infrastructure components availability and performance monitoring"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://www.zabbix.com"
 changelog="https://www.zabbix.com/rn/rn${version}"

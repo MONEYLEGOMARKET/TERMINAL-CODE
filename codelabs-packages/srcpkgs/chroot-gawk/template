@@ -6,7 +6,7 @@ build_style=gnu-configure
 configure_args="--disable-nls --without-readline ac_cv_libsigsegv=/bin/false
  --disable-pma"
 short_desc="GNU awk utility -- for xbps-src use"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://directory.fsf.org/wiki/Gawk"
 changelog="https://git.savannah.gnu.org/cgit/gawk.git/plain/NEWS"

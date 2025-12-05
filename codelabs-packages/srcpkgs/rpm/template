@@ -10,7 +10,7 @@ hostmakedepends="automake gettext-devel libtool pkg-config
 makedepends="libgcrypt-devel binutils-devel elfutils-devel file-devel libarchive-devel
  libcap-devel lua53-devel popt-devel python3-devel libgomp-devel sqlite-devel"
 short_desc="Red Hat Package Management Utils"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://rpm.org"
 changelog="https://rpm.org/wiki/Releases/${version}.html"

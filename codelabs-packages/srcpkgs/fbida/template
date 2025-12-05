@@ -12,7 +12,7 @@ libwebp-devel sane-devel"
 depends="fbida-exiftran-${version}_${revision} fbida-fbi-${version}_${revision}
  fbida-fbpdf-${version}_${revision} $(vopt_if ida fbida-ida-${version}_${revision})"
 short_desc="Display and elementary edit images using fbdev"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://www.kraxel.org/blog/linux/fbida/"
 distfiles="https://www.kraxel.org/releases/${pkgname}/${pkgname}-${version}.tar.gz"

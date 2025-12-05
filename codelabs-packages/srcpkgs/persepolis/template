@@ -16,5 +16,5 @@ distfiles="https://github.com/persepolisdm/persepolis/archive/${version}.tar.gz"
 checksum=8d002e369955fd77e5353714185ce3edb98463b7117a26583b72f4db4e51b2c8
 
 post_install() {
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

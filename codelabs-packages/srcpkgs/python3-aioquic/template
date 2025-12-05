@@ -10,7 +10,7 @@ depends="python3-certifi python3-cryptography python3-openssl python3-pylsqpack
  python3-service_identity"
 checkdepends="${depends} python3-pytest-xdist"
 short_desc="QUIC and HTTP/3 implementation"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="BSD-3-Clause"
 homepage="https://github.com/aiortc/aioquic"
 changelog="https://aioquic.readthedocs.io/en/stable/changelog.html"

@@ -158,7 +158,7 @@ post_install() {
 
 	vinstall ${FILESDIR}/apache.logrotate 644 etc/logrotate.d apache
 	vsv apache
-	vdoc ${FILESDIR}/README.voidlinux
+	vdoc ${FILESDIR}/README.codelabs
 }
 
 apache-htpasswd_package() {

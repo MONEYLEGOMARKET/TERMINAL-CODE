@@ -7,7 +7,7 @@ hostmakedepends="python3-setuptools python3-Cython"
 makedepends="python3-devel"
 depends="python3"
 short_desc="Static memory-efficient Trie-like structures (Python3)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://github.com/pytries/marisa-trie"
 changelog="https://raw.githubusercontent.com/pytries/marisa-trie/master/CHANGES.rst"
@@ -15,7 +15,7 @@ distfiles="${PYPI_SITE}/m/marisa-trie/marisa-trie-${version}.tar.gz"
 checksum=c73bc25d868e8c4ea7aa7f1e19892db07bba2463351269b05340ccfa06eb2baf
 
 post_patch() {
-	# Package does not *need* pytest-runner to build, and Void doesn't have it
+	# Package does not *need* pytest-runner to build, and CODE LABS doesn't have it
 	vsed -e "/setup_requires/s/['\"]pytest-runner['\"],*//" -i setup.py
 }
 

@@ -11,7 +11,7 @@ configure_args="INCLUDEPATH+='${XBPS_CROSS_BASE}/usr/include/qt6'
 hostmakedepends="pkg-config qt6-base"
 makedepends="libmpdclient-devel taglib-devel qt6-base-devel"
 short_desc="Client for MPD written in c++ and QT6"
-maintainer="beefcurtains <beefcurtains@voidlinux.org>"
+maintainer="beefcurtains <beefcurtains@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://sourceforge.net/projects/quimup/"
 distfiles="${SOURCEFORGE_SITE}/quimup/Quimup%20${version}/Quimup-${version}.source.tar.gz"

@@ -9,7 +9,7 @@ depends="desktop-file-utils libkeybinder3 libnotify libutempter libwnck python3-
  python3-setuptools_scm python3-cairo python3-yaml vte3"
 checkdepends="python3-flake8 python3-pylint python3-pytest python3-pipenv"
 short_desc="Drop-down terminal for GNOME"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="http://guake-project.org/"
 distfiles="${PYPI_SITE}/g/guake/guake-${version}.tar.gz"

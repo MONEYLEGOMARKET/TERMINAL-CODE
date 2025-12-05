@@ -10,7 +10,7 @@ makedepends="gtk4-devel libadwaita-devel libglib-devel libzbar-devel
  openssl-devel pipewire-devel rust-std"
 depends="gnome-keyring"
 short_desc="Two-factor authentication code generator for GNOME"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://gitlab.gnome.org/World/Authenticator"
 distfiles="https://gitlab.gnome.org/World/Authenticator/-/archive/${version}/Authenticator-${version}.tar.gz"

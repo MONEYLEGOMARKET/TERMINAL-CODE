@@ -38,5 +38,5 @@ do_install() {
 
 	vinstall ${FILESDIR}/greetd.pam 644 etc/pam.d/ greetd
 	vsv greetd
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

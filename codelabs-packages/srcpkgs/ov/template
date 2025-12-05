@@ -5,7 +5,7 @@ revision=1
 build_style=go
 build_helper=qemu
 go_import_path=github.com/noborus/ov
-go_ldflags="-X main.Version=${version} -X 'main.Revision=Void Linux'"
+go_ldflags="-X main.Version=${version} -X 'main.Revision=CODE LABS'"
 make_check_args="-skip TestCommand_Exec|TestExecCommand" # requires /dev/ptmx
 short_desc="Feature-rich terminal-based text viewer"
 maintainer="Bnyro <bnyro@tutanota.com>"

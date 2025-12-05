@@ -20,7 +20,7 @@ post_extract() {
 
 	# Skip tests/LTsock on GitHub CI
 	# hostname/IP resolution fails in CI container
-	if [ "$XBPS_BUILD_ENVIRONMENT" = void-packages-ci ]; then
+	if [ "$XBPS_BUILD_ENVIRONMENT" = codelabs-packages-ci ]; then
 		vsed -i Makefile.am -e '/^TESTS +=/s:tests/LTsock::g'
 	fi
 }

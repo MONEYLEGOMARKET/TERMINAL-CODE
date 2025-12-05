@@ -17,7 +17,7 @@ makedepends="expat-devel ncurses-devel readline-devel zlib-devel gmp-devel mpfr-
 depends="gdb-common>=${version}_${revision}"
 checkdepends="dejagnu"
 short_desc="GNU Debugger"
-maintainer="Duncaen <duncaen@voidlinux.org>"
+maintainer="Duncaen <duncaen@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://www.gnu.org/software/gdb"
 changelog="https://sourceware.org/git/?p=binutils-gdb.git;a=blob_plain;f=gdb/NEWS;hb=HEAD"

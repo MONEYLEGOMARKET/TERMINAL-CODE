@@ -7,7 +7,7 @@ hostmakedepends="pkg-config"
 makedepends="libxslt-devel libltdl-devel libgcrypt-devel gnutls-devel
  nspr-devel nss-devel"
 short_desc="XML Security Library is a C library based on LibXML2"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 maintainer="Đoàn Trần Công Danh <congdanhqx@gmail.com>"
 license="MIT"
 homepage="https://www.aleksey.com/xmlsec/"

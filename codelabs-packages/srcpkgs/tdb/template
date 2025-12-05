@@ -11,7 +11,7 @@ configure_args="--sysconfdir=/etc --localstatedir=/var
 hostmakedepends="pkg-config docbook-xsl libxslt"
 makedepends="python3-devel"
 short_desc="Trivial Database, similar to GDBM but allows simultaneous commits"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://tdb.samba.org/"
 distfiles="https://download.samba.org/pub/tdb/tdb-${version}.tar.gz"

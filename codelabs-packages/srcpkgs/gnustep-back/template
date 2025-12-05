@@ -7,7 +7,7 @@ hostmakedepends="gnustep-make gcc-objc pkg-config"
 makedepends="gnustep-base-devel gnustep-gui-devel freetype-devel libart-devel
  cairo-devel libXt-devel libXmu-devel"
 short_desc="Backend library for drawing GNUstep GUIs"
-maintainer="Andrew Benson <abenson+void@gmail.com>"
+maintainer="Andrew Benson <abenson+codelabs@gmail.com>"
 license="GPL-3.0-or-later"
 homepage="http://www.gnustep.org/"
 distfiles="https://github.com/gnustep/libs-back/releases/download/back-${version//./_}/gnustep-back-${version}.tar.gz"

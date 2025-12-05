@@ -7,7 +7,7 @@ pycompile_module="pyowm"
 hostmakedepends="python3-setuptools"
 depends="python3-requests python3-geojson"
 short_desc="Wrapper around the OpenWeatherMap web API (Python3)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://github.com/csparpa/pyowm"
 distfiles="https://github.com/csparpa/pyowm/archive/${version}.tar.gz"
@@ -15,5 +15,5 @@ checksum=7eebb4aac3ba43d68be2a3791eb9f66e4a4f33c3cd66ac93dfcebc6c234614e7
 
 post_install() {
 	vlicense LICENSE
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

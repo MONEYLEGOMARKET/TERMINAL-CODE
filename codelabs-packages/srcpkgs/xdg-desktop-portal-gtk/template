@@ -9,7 +9,7 @@ makedepends="flatpak-devel gtk+3-devel libglib-devel
  gnome-desktop-devel"
 depends="xdg-desktop-portal gsettings-desktop-schemas"
 short_desc="Portal backend service for Flatpak using GTK+"
-maintainer="Duncaen <duncaen@voidlinux.org>"
+maintainer="Duncaen <duncaen@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://github.com/flatpak/xdg-desktop-portal-gtk"
 changelog="https://raw.githubusercontent.com/flatpak/xdg-desktop-portal-gtk/refs/heads/main/NEWS"

@@ -24,6 +24,6 @@ replaces="python3-matplotlib-data>=0"
 make_check="no"
 
 post_install() {
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 	vlicense LICENSE/LICENSE
 }

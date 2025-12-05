@@ -9,7 +9,7 @@ _git_commit=b9b773f1628260423e6cc9745531fd903cae853f
 go_ldflags="-X ${go_import_path}/sdk/version.GitCommit=${_git_commit}"
 depends="libcap-progs"
 short_desc="Manage Secrets and Protect Sensitive Data"
-maintainer="Michael Aldridge <maldridge@voidlinux.org>"
+maintainer="Michael Aldridge <maldridge@codelabs.org>"
 license="BUSL-1.1"
 homepage="https://www.vaultproject.io/"
 distfiles="https://github.com/hashicorp/vault/archive/v${version}.tar.gz"

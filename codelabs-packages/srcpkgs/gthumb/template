@@ -11,7 +11,7 @@ makedepends="json-glib-devel libsecret-devel librsvg-devel
  $(vopt_if brasero brasero-devel) $(vopt_if clutter 'clutter-devel clutter-gtk-devel')
  $(vopt_if gstreamer gstreamer1-devel)"
 short_desc='Image viewer and browser for the GNOME Desktop'
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://wiki.gnome.org/action/show/Apps/Gthumb"
 changelog="https://gitlab.gnome.org/GNOME/gthumb/-/raw/master/NEWS"
@@ -26,7 +26,7 @@ desc_option_clutter="Enable clutter (for slideshows)"
 build_options_default="clutter gstreamer"
 
 post_install() {
-	vdoc $FILESDIR/README.voidlinux
+	vdoc $FILESDIR/README.codelabs
 }
 
 gthumb-devel_package() {

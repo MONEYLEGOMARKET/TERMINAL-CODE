@@ -7,7 +7,7 @@ bootstrap=yes
 build_style=gnu-makefile
 checkdepends="python3"
 short_desc="Extremely fast compression algorithm"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 # all files under source 'lib' directory are BSD-2, others are GPLv2+
 license="BSD-2-Clause AND GPL-2.0-or-later"
 homepage="https://lz4.github.io/lz4"

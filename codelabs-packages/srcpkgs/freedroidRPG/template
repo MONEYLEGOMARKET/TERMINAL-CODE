@@ -8,7 +8,7 @@ makedepends="SDL_gfx-devel SDL_image-devel SDL_mixer-devel SDL_ttf-devel
  libjpeg-turbo-devel libogg-devel libvorbis-devel lua53-devel libpng-devel
  glew-devel"
 short_desc="Role playing game featuring Tux and evil robots"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://www.freedroid.org/"
 distfiles="https://codeberg.org/freedroid/freedroid-src/archive/${version}.tar.gz"

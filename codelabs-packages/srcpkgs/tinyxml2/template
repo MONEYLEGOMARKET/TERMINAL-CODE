@@ -5,7 +5,7 @@ revision=1
 build_style=cmake
 configure_args="-Dtinyxml2_SHARED_LIBS=true"
 short_desc="Simple, small and efficient C++ XML parser"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Zlib"
 homepage="http://www.grinninglizard.com/tinyxml2/index.html"
 distfiles="https://github.com/leethomason/tinyxml2/archive/${version}.tar.gz"

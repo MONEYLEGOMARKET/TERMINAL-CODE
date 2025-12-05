@@ -17,7 +17,7 @@ makedepends="MesaLib-devel boost-devel-minimal freealut-devel libevent-devel
  qt5-devel qt5-tools-devel qt5-declarative-devel qt5-svg-devel"
 depends="flightgear-data>=${version}"
 short_desc="Sophisticated flight simulator"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://www.flightgear.org/"
 changelog="https://wiki.flightgear.org/Changelog_2020.3"

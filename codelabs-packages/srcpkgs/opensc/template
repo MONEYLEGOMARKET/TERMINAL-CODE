@@ -9,7 +9,7 @@ configure_args="--enable-static=no --enable-doc --enable-man
 hostmakedepends="automake docbook-xsl libtool libxslt pkg-config"
 makedepends="openssl-devel pcsclite-devel readline-devel zlib-devel"
 short_desc="Tools and libraries for smart cards"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://github.com/OpenSC/OpenSC/wiki"
 distfiles="https://github.com/OpenSC/OpenSC/releases/download/0.26.1/opensc-${version}.tar.gz"

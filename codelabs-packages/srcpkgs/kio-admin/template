@@ -10,7 +10,7 @@ hostmakedepends="extra-cmake-modules pkg-config gettext
 makedepends="kf6-kio-devel qt6-base-devel kf6-ki18n-devel polkit-qt6-devel
  kf6-kcoreaddons-devel kf6-kconfig-devel"
 short_desc="Manage files as administrator using the admin:// KIO protocol"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later"
 homepage="https://invent.kde.org/system/kio-admin"
 distfiles="${KDE_SITE}/release-service/${version}/src/kio-admin-${version}.tar.xz"

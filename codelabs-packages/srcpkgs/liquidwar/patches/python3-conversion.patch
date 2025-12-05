@@ -2,7 +2,7 @@ Author: Reiner Herrmann <reiner@reiner-h.de>
 Description: Port makedoc.py to Python 3
 
 --
-void-packages: patch cleaned up; fixed invalid escape sequences with
+codelabs-packages: patch cleaned up; fixed invalid escape sequences with
 raw string literals
 --
 

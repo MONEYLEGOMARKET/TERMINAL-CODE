@@ -15,7 +15,7 @@ makedepends="qt6-declarative-devel qt5-declarative-devel qt5-tools-devel
  pam-devel elogind-devel"
 depends="dbus"
 short_desc="QML based X11 display manager"
-maintainer="Michael Aldridge <maldridge@voidlinux.org>"
+maintainer="Michael Aldridge <maldridge@codelabs.org>"
 license="GPL-2.0-or-later, CC-BY-3.0"
 homepage="https://github.com/sddm/sddm"
 changelog="https://raw.githubusercontent.com/sddm/sddm/develop/ChangeLog"

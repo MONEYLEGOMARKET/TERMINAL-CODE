@@ -28,7 +28,7 @@ depends="gtk-update-icon-cache adwaita-icon-theme
  librsvg shared-mime-info $(vopt_if x11 'dbus-x11')"
 checkdepends="$depends xvfb-run dbus cantarell-fonts hicolor-icon-theme gsettings-desktop-schemas"
 short_desc="GTK+ toolkit (v3)"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://www.gtk.org/"
 changelog="https://gitlab.gnome.org/GNOME/gtk/-/raw/gtk-3-24/NEWS"

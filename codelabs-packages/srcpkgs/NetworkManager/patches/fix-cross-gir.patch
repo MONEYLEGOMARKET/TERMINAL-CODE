@@ -1,5 +1,5 @@
 Reason: Fix crossbuilding GIR
-Upstream: No, not upstreamable since this is very specific to the Void setup
+Upstream: No, not upstreamable since this is very specific to the CODE LABS setup
 Index: b/src/libnm-client-impl/meson.build
 ===================================================================
 --- a/src/libnm-client-impl/meson.build

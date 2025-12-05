@@ -17,7 +17,7 @@
 # this program; if not, write to the Free Software Foundation, Inc., 59 Temple
 # Place, Suite 330, Boston, MA  02111-1307  USA
 #
-# modified for voidlinux by Carlo Dormeletti carlo.dormeletti <at> email.it
+# modified for codelabs by Carlo Dormeletti carlo.dormeletti <at> email.it
 # 2014/04/26 -- first version
 # 2014/08/25 -- adapted to runit 
 #
@@ -110,7 +110,7 @@ cat <<!ENDOFWFILTER! >$tmp_filter
 # this program; if not, write to the Free Software Foundation, Inc., 59 Temple
 # Place, Suite 330, Boston, MA  02111-1307  USA
 #
-# modified for voidlinux by Carlo Dormeletti carlo.dormeletti <at> email.it
+# modified for codelabs by Carlo Dormeletti carlo.dormeletti <at> email.it
 # modify date 201/04/26
 #
 

@@ -9,7 +9,7 @@ makedepends="gtk+3-devel"
 depends="hicolor-icon-theme desktop-file-utils"
 checkdepends="xvfb-run python3"
 short_desc="Fast and lightweight IDE"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://www.geany.org"
 changelog="https://raw.githubusercontent.com/geany/geany/master/NEWS"
@@ -19,7 +19,7 @@ make_check_pre="xvfb-run"
 python_version=3
 
 pre_check() {
-	# Void sets HOME to /tmp by default
+	# CODE LABS sets HOME to /tmp by default
 	# Use $PWD to avoid /tmp evaluating to ~
 	export HOME="$PWD"
 }

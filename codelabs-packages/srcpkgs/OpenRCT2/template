@@ -1,6 +1,6 @@
 # Template file for 'OpenRCT2'
-# based on https://raw.githubusercontent.com/AluisioASG/void-packages/openrct2/srcpkgs/OpenRCT2/template
-# and https://github.com/void-linux/void-packages/issues/1014#issuecomment-417372421
+# based on https://raw.githubusercontent.com/AluisioASG/codelabs-packages/openrct2/srcpkgs/OpenRCT2/template
+# and https://github.com/codelabs/codelabs-packages/issues/1014#issuecomment-417372421
 pkgname=OpenRCT2
 version=0.4.25
 revision=1

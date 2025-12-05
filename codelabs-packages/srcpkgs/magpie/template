@@ -13,7 +13,7 @@ makedepends="elogind-devel glib-devel gnome-desktop-devel graphene-devel
  gnome-settings-daemon-devel libgudev-devel libwacom-devel"
 depends="gsettings-desktop-schemas desktop-file-utils"
 short_desc="X11 window manager and compositor library for Budgie Desktop"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://github.com/BuddiesOfBudgie/magpie"
 distfiles="https://github.com/BuddiesOfBudgie/magpie/releases/download/v${version}/magpie-${version}.tar.xz"

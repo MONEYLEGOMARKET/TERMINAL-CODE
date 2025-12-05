@@ -48,7 +48,7 @@ configure_args="
  --disable-xindy
  --disable-xpdfopen
  --with-ps=gs
- --with-banner-add=/VoidLinux
+ --with-banner-add=/CODE_LABSLinux
  --with-system-cairo
  --with-system-freetype2
  --with-system-gd

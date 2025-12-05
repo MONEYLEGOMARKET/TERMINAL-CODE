@@ -28,7 +28,7 @@ makedepends="libXrender-devel libXtst-devel libXt-devel libXrandr-devel
  giflib-devel libpng-devel libjpeg-turbo-devel lcms2-devel cups-devel
  freetype-devel alsa-lib-devel fontconfig-devel zlib-devel"
 short_desc="OpenJDK Java Development Kit (bootstrap version 10)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-only WITH Classpath-exception-2.0"
 homepage="http://openjdk.java.net/"
 distfiles="https://github.com/openjdk/jdk10u/archive/refs/tags/jdk-${_repo_ver}.tar.gz"

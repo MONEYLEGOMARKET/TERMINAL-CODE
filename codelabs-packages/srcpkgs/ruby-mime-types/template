@@ -5,7 +5,7 @@ revision=4
 build_style=gem
 depends="ruby-mime-types-data>=3.2015"
 short_desc="Library for registry and information about MIME types"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://github.com/mime-types/ruby-mime-types/"
 changelog="https://github.com/mime-types/ruby-mime-types/raw/main/History.md"

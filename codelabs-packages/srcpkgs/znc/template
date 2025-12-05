@@ -33,7 +33,7 @@ pre_configure() {
 
 post_install() {
 	vsv znc
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 	vmkdir usr/lib/cmake/znc
 	mv "${DESTDIR}"/usr/share/znc/cmake/* "${DESTDIR}/usr/lib/cmake/znc"
 }

@@ -22,6 +22,6 @@ post_install() {
 	chmod +x "${DESTDIR}/usr/share/examples/turnstile/dbus.run"
 	vsconf "${FILESDIR}/dbus.check"
 	chmod +x "${DESTDIR}/usr/share/examples/turnstile/dbus.check"
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 	vlicense COPYING.md
 }

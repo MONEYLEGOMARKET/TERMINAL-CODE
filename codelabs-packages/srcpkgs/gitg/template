@@ -11,7 +11,7 @@ makedepends="gpgme-devel gsettings-desktop-schemas-devel gspell-devel
  libhandy1-devel libpeas-devel libsecret-devel"
 depends="git"
 short_desc="Git repository viewer for GTK+/GNOME"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://wiki.gnome.org/Apps/Gitg"
 changelog="https://gitlab.gnome.org/GNOME/gitg/-/raw/master/NEWS"

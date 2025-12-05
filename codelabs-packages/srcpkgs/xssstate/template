@@ -6,7 +6,7 @@ build_style=gnu-makefile
 make_build_args="INCS=-I."
 makedepends="libX11-devel libXScrnSaver-devel"
 short_desc="Simple tool to retrieve the X screensaver state"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="http://tools.suckless.org/x/xssstate"
 distfiles="http://dl.suckless.org/tools/${pkgname}-${version}.tar.gz"

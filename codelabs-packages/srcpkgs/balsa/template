@@ -10,7 +10,7 @@ makedepends="gspell-devel gmime3-devel gnutls-devel gpgme-devel iso-codes sqlite
  libesmtp-devel libnotify-devel libsecret-devel libwebkit2gtk41-devel libical-devel"
 depends="desktop-file-utils hicolor-icon-theme"
 short_desc="Email client for GNOME"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://pawsa.fedorapeople.org/balsa/"
 changelog="https://gitlab.gnome.org/GNOME/balsa/-/raw/master/NEWS"

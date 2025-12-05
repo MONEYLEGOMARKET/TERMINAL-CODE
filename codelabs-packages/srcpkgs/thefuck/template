@@ -8,7 +8,7 @@ depends="python3-colorama python3-decorator python3-psutil python3-pyte
  python3-requests"
 checkdepends="python3-pytest-mock $depends"
 short_desc="Magnificent app which corrects your previous console command"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://github.com/nvbn/thefuck"
 distfiles="https://github.com/nvbn/thefuck/archive/${version}.tar.gz"

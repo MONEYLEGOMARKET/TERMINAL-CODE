@@ -5,7 +5,7 @@ revision=2
 metapackage=yes
 depends="dbus>=1.14.6_2"
 short_desc="Message bus system (transitional dummy package)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://dbus.freedesktop.org/"
 

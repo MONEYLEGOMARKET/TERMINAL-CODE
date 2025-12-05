@@ -9,7 +9,7 @@ depends="desktop-file-utils python3-chardet python3-docutils python3-Markdown
  python3-Markups python3-PyQt5-webkit python3-Pygments python3-enchant"
 checkdepends="${depends} python3-pytest"
 short_desc="Simple editor for Markdown and reStructuredText"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://github.com/retext-project/retext"
 changelog="https://raw.githubusercontent.com/retext-project/retext/master/changelog.md"

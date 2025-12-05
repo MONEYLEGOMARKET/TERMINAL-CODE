@@ -11,7 +11,7 @@ hostmakedepends="gettext pkg-config glib-devel $(vopt_if gir vala)
 makedepends="gtk+3-devel libxml2-devel libsoup3-devel liboauth-devel
  totem-pl-parser-devel"
 short_desc="Framework focused on making media discovery and browsing easy"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://wiki.gnome.org/Projects/Grilo"
 distfiles="${GNOME_SITE}/${pkgname}/${version%.*}/${pkgname}-${version}.tar.xz"

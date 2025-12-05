@@ -79,7 +79,7 @@ post_extract() {
 post_patch() {
 	# libdisplay-info tests require currently unpackaged edid-decode
 	vsed -i subprojects/libdisplay-info/meson.build -e "s/subdir('test')//"
-	echo "${version}" > voidlinux_pkg_version.txt
+	echo "${version}" > codelabs_pkg_version.txt
 }
 
 post_install() {

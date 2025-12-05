@@ -5,7 +5,7 @@ revision=1
 build_style=cmake
 configure_args="-Dsctp_werror=off -Dsctp_build_shared_lib=on"
 short_desc="Portable SCTP userland stack"
-maintainer="Michael Aldridge <maldridge@voidlinux.org>"
+maintainer="Michael Aldridge <maldridge@codelabs.org>"
 license="BSD-3-Clause"
 homepage="https://github.com/SergiusTheBest/plog"
 distfiles="https://github.com/sctplab/usrsctp/archive/refs/tags/$version.tar.gz"

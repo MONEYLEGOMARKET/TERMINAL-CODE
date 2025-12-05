@@ -21,7 +21,7 @@ makedepends="libglvnd-devel libsecret-devel qt6-base-devel qt6-declarative-devel
  gtest-devel"
 depends="qt6-svg"
 short_desc="ProtonMail Bridge for use with E-mail software"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://proton.me/mail/bridge"
 distfiles="https://github.com/ProtonMail/proton-bridge/archive/refs/tags/v${version}.tar.gz"
@@ -36,7 +36,7 @@ post_patch() {
 pre_build() {
 	cd "$wrksrc"
 	( cd ./utils/ && ./credits.sh bridge )
-	. /void-packages/common/environment/build-style/go.sh
+	. /codelabs-packages/common/environment/build-style/go.sh
 	go build -p "$XBPS_MAKEJOBS" -modcacherw -v -tags "${go_build_tags}" -ldflags "${go_ldflags}" \
 		-o proton-bridge ./cmd/Desktop-Bridge
 }

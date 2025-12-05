@@ -10,7 +10,7 @@ configure_args="-DINSTALL_SYSCONFDIR=/etc/monkey/ -DWITH_PLUGINS=mbedtls
  -DINSTALL_LOGDIR=/var/log/monkey"
 makedepends="mbedtls2-devel"
 short_desc="Cross-arch embeddable lightweight HTTP server"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Apache-2.0"
 homepage="https://github.com/monkey/monkey"
 distfiles="https://github.com/monkey/monkey/archive/refs/tags/v${version}.tar.gz"

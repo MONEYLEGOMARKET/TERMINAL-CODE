@@ -16,7 +16,7 @@ makedepends="elogind-devel glib-devel gnome-desktop-devel graphene-devel
  libdisplay-info-devel"
 depends="gsettings-desktop-schemas desktop-file-utils"
 short_desc="Wayland display server, X11 window manager and compositor library"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://wiki.gnome.org/Projects/Mutter/"
 #changelog="https://gitlab.gnome.org/GNOME/mutter/-/raw/main/NEWS"

@@ -13,7 +13,7 @@ homepage="https://github.com/pytest-dev/pytest-timeout/"
 distfiles="${PYPI_SITE}/p/pytest-timeout/pytest_timeout-${version}.tar.gz"
 checksum=7e68e90b01f9eff71332b25001f85c75495fc4e3a836701876183c4bcfd0540a
 
-if [ "$XBPS_BUILD_ENVIRONMENT" = void-packages-ci ]; then
+if [ "$XBPS_BUILD_ENVIRONMENT" = codelabs-packages-ci ]; then
 	# these tests fail on CI (out of pty devices)
 	make_check_args="
 	 --deselect=test_pytest_timeout.py::test_suppresses_timeout_when_debugger_is_entered[pdb-set_trace()]

@@ -8,7 +8,7 @@ hostmakedepends="pkg-config gettext itstool glib-devel polkit
  gtk4-update-icon-cache"
 makedepends="gtkmm4-devel librsvg-devel libgtop-devel libadwaita-devel catch2"
 short_desc="Process viewer and system resource monitor for GNOME"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://wiki.gnome.org/Apps/SystemMonitor"
 #changelog="https://gitlab.gnome.org/GNOME/gnome-system-monitor/-/raw/master/NEWS"

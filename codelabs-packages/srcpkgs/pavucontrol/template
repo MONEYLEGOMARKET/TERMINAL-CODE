@@ -7,7 +7,7 @@ hostmakedepends="pkg-config intltool lynx glib-devel"
 makedepends="gtkmm-devel libcanberra-devel gtk4-devel gtkmm4-devel pulseaudio-devel
  json-glib-devel"
 short_desc="PulseAudio Volume Control"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://www.freedesktop.org/software/pulseaudio/pavucontrol"
 distfiles="${FREEDESKTOP_SITE}/pulseaudio/pavucontrol/pavucontrol-${version}.tar.xz"

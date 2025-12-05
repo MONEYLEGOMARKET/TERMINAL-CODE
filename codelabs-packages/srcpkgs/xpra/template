@@ -44,5 +44,5 @@ post_install() {
 	vmkdir usr/share/dbus-1/system.d
 	mv ${DESTDIR}/etc/dbus-1/system.d/xpra.conf ${DESTDIR}/usr/share/dbus-1/system.d
 
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

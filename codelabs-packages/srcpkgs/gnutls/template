@@ -16,7 +16,7 @@ makedepends="lzo-devel readline-devel libgpg-error-devel
  libgcrypt-devel ${_develdepends}"
 checkdepends="iproute2"
 short_desc="GNU Transport Layer Security library"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-only, LGPL-2.1-or-later"
 homepage="https://gnutls.org"
 changelog="https://gitlab.com/gnutls/gnutls/-/raw/master/NEWS"

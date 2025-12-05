@@ -14,7 +14,7 @@ makedepends="zlib-devel openssl-devel apr-devel db-devel expat-devel
  gdbm-devel libldap-devel libmariadbclient-devel unixodbc-devel
  postgresql-libs-devel sqlite-devel"
 short_desc="Apache Portable Runtime Utility Library"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Apache-2.0"
 homepage="https://apr.apache.org/"
 distfiles="https://archive.apache.org/dist/apr/${pkgname}-${version}.tar.bz2"

@@ -13,7 +13,7 @@ depends="python3 enchant2"
 # needs an en_US dict to run
 checkdepends="$depends python3-pytest hunspell-en"
 short_desc="Spellchecking library for Python 3"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-only"
 homepage="https://github.com/pyenchant/pyenchant"
 distfiles="https://github.com/pyenchant/pyenchant/archive/v${version}.tar.gz"

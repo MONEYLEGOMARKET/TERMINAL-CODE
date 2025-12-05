@@ -6,7 +6,7 @@ build_style=gnu-configure
 configure_args="--disable-werror"
 make_build_args=V=1
 short_desc="Language-neutral NUMBERTEXT and MONEYTEXT for LibreOffice Calc"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-3.0-or-later"
 homepage="https://github.com/Numbertext/libnumbertext"
 distfiles="http://dev-www.libreoffice.org/src/${pkgname}-${version}.tar.xz"

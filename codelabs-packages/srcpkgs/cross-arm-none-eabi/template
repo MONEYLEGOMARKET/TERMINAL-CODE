@@ -7,6 +7,6 @@ metapackage=yes
 depends="cross-arm-none-eabi-binutils cross-arm-none-eabi-gcc
  cross-arm-none-eabi-libstdc++ cross-arm-none-eabi-newlib"
 short_desc="GNU cross bare metal toolchain"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="metapackage"
-homepage="https://www.voidlinux.org/"
+homepage="https://www.codelabs.org/"

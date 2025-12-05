@@ -8,7 +8,7 @@ makedepends="xorgproto eudev-libudev-devel libpciaccess-devel libdrm-devel
  pixman-devel MesaLib-devel xorg-server-devel xorg-util-macros"
 depends="virtual?xserver-abi-video-25_1 mesa-dri"
 short_desc="Xorg AMD Radeon RXXX video driver (amdgpu kernel module)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://wiki.freedesktop.org/xorg"
 distfiles="${XORG_SITE}/driver/${pkgname}-${version}.tar.xz"

@@ -1,5 +1,5 @@
-# Template file for 'void-force-stage'.
-pkgname=void-force-stage
+# Template file for 'codelabs-force-stage'.
+pkgname=codelabs-force-stage
 version=0.1
 revision=2
 metapackage=yes
@@ -10,7 +10,7 @@ homepage="https://codelabs.org/"
 
 shlib_requires="force-stage.so.0.1"
 
-void-force-stage-unstage_package() {
+codelabs-force-stage-unstage_package() {
 	# shlib_provides="force-stage.so.0.1"
 	pkg_install() {
 		:

@@ -12,7 +12,7 @@ makedepends="djvulibre-devel libSM-devel libgxps-devel libsecret-devel
  libxml2-devel tiff-devel zlib-devel pango-devel"
 depends="desktop-file-utils hicolor-icon-theme mathjax2"
 short_desc="Document viewer capable of displaying formats like PDF and Postscript"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://github.com/linuxmint/xreader"
 distfiles="https://github.com/linuxmint/xreader/archive/${version}.tar.gz"

@@ -8,7 +8,7 @@ hostmakedepends="pkg-config"
 makedepends="avahi-libs-devel sane-devel gnutls-devel libxml2-devel
  libjpeg-turbo-devel libpng-devel tiff-devel"
 short_desc="SANE universal driver for eSCL (Apple AirScan) and WSD"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://github.com/alexpevzner/sane-airscan"
 distfiles="http://github.com/alexpevzner/sane-airscan/archive/${version}.tar.gz"

@@ -1,5 +1,5 @@
 The cmake_pkg_config function directly reads pkg-config files, but this is
-completely broken in Void's cross-build setup. Use pkg-config directly to avoid
+completely broken in CODE LABS's cross-build setup. Use pkg-config directly to avoid
 problems.
 
 --- a/CMakeLists.txt

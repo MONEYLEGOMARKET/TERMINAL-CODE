@@ -9,7 +9,7 @@ makedepends="gtk+3-devel libglib-devel libnma-devel libsecret-devel gtk4-devel
  NetworkManager-devel ppp-devel"
 depends="pptpclient"
 short_desc="NetworkManager VPN plugin for pptp"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://wiki.gnome.org/Projects/NetworkManager"
 distfiles="${GNOME_SITE}/${pkgname}/${version%.*}/${pkgname}-${version}.tar.xz"

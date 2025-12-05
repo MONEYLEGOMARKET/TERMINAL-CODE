@@ -1,5 +1,5 @@
 Python wants to put ABI descriptors in shared objects, but they are wrong when
-Void cross compiles. Just drop the descriptors altogether.
+CODE LABS cross compiles. Just drop the descriptors altogether.
 --- a/third_party/waf/waflib/Tools/python.py
 +++ b/third_party/waf/waflib/Tools/python.py
 @@ -328,7 +328,7 @@

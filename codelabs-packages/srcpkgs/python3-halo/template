@@ -7,7 +7,7 @@ hostmakedepends="python3-setuptools"
 depends="python3-log_symbols python3-spinners python3-termcolor
  python3-colorama python3-six"
 short_desc="Beautiful spinners for terminal, IPython and Jupyter"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://github.com/manrajgrover/halo"
 distfiles="${PYPI_SITE}/h/halo/halo-${version}.tar.gz"

@@ -14,7 +14,7 @@ license="MIT"
 homepage="https://eludris.com/"
 # distfiles="https://github.com/eludris/eludris/archive/refs/tags/v${version}.tar.gz"
 # Upstream repo is gone, project is now proprietary
-distfiles="https://sources.voidlinux.org/eludris-${version}/v${version}.tar.gz"
+distfiles="https://sources.codelabs.org/eludris-${version}/v${version}.tar.gz"
 checksum=e204969d056e147a97cb8d1b2a0c16b7e4d06c5895ef9bb939884ddc0ecdb3c2
 
 post_install() {

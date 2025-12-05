@@ -7,7 +7,7 @@ hostmakedepends="docbook-xsl glib-devel libxslt pkg-config
  vala gettext gtk-update-icon-cache desktop-file-utils"
 makedepends="dconf-devel gtk+3-devel libhandy1-devel"
 short_desc="Low-level configuration system - GTK+ editor"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://wiki.gnome.org/Apps/DconfEditor"
 changelog="https://gitlab.gnome.org/GNOME/dconf-editor/-/raw/master/NEWS"

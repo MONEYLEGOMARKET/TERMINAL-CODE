@@ -9,7 +9,7 @@ makedepends="fftw-devel gtkmm-devel lensfun-devel
  mimalloc-devel libraw-devel opencolorio-devel"
 depends="desktop-file-utils hicolor-icon-theme"
 short_desc="Fork of RawTherapee with additional features"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://art.pixls.us"
 distfiles="https://github.com/artpixls/ART/releases/download/${version}/ART-${version}.tar.xz"

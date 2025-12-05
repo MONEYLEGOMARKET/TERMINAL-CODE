@@ -20,7 +20,7 @@ homepage="https://nextcloud.com/clients/"
 changelog="https://github.com/nextcloud/desktop/releases"
 distfiles="https://github.com/nextcloud/desktop/archive/v${version}.tar.gz"
 checksum=c79c7e05ae3b141e2c4b19da0cde479b63af80eb49164c99af8fa28a38e05aeb
-# https://github.com/void-linux/void-packages/pull/33358#discussion_r724518549
+# https://github.com/codelabs/codelabs-packages/pull/33358#discussion_r724518549
 make_check=ci-skip
 replaces="nextcloud-client-kwallet>=0 nextcloud-client-dolphin>=0"
 
@@ -54,7 +54,7 @@ post_install() {
 	     build/nextcloud-kwallet.desktop
 	vinstall build/nextcloud-kwallet.desktop 0644 \
 		usr/share/applications/
-	vdoc ${FILESDIR}/kwallet/README.voidlinux
+	vdoc ${FILESDIR}/kwallet/README.codelabs
 }
 
 nextcloud-client-devel_package() {

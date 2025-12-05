@@ -25,5 +25,5 @@ pre_install() {
 
 post_install() {
 	rm -r $DESTDIR/usr/include
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

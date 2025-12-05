@@ -9,7 +9,7 @@ makedepends="libXrandr-devel libevent-devel libXt-devel libpng-devel
  fribidi-devel libXft-devel libXcursor-devel libXpm-devel librsvg-devel
  libxkbcommon-devel"
 short_desc="Multiple large virtual desktop window manager"
-maintainer="Andrew Benson <abenson+void@gmail.com>"
+maintainer="Andrew Benson <abenson+codelabs@gmail.com>"
 license="GPL-2.0-or-later"
 homepage="https://www.fvwm.org/"
 distfiles="https://github.com/fvwmorg/fvwm3/releases/download/${version}/fvwm3-${version}.tar.gz"

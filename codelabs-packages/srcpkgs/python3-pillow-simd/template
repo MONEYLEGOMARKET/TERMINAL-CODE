@@ -10,7 +10,7 @@ makedepends="python3-devel libjpeg-turbo-devel libopenjpeg2-devel
  libimagequant-devel harfbuzz-devel fribidi-devel libraqm-devel"
 depends="python3"
 short_desc="Python3 Imaging Library (PIL) fork (SIMD)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="custom: PIL"
 homepage="https://python-pillow.org/pillow-perf/"
 changelog="https://github.com/uploadcare/pillow-simd/blob/simd/master/CHANGES.SIMD.rst"

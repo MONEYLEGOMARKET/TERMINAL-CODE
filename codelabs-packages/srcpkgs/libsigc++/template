@@ -6,7 +6,7 @@ build_style=meson
 configure_args="-Dbuild-examples=false -Dwarnings=max"
 meson_builddir="meson_build"
 short_desc="Type-safe callback system for C++ programs"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://libsigcplusplus.github.io/libsigcplusplus/"
 changelog="https://raw.githubusercontent.com/libsigcplusplus/libsigcplusplus/libsigc%2B%2B-2-12/NEWS"

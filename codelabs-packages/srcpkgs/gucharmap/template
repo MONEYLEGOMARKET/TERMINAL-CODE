@@ -13,7 +13,7 @@ makedepends="desktop-file-utils cairo-devel pango-devel atk-devel
  freetype-devel libglib-devel pcre2-devel gtk+3-devel"
 depends="hicolor-icon-theme desktop-file-utils"
 short_desc="GNOME Unicode Charmap"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later, GFDL-1.3-only, Unicode-DFS-2015"
 homepage="https://wiki.gnome.org/Apps/Gucharmap"
 distfiles="https://gitlab.gnome.org/GNOME/gucharmap/-/archive/${version}/gucharmap-${version}.tar.bz2

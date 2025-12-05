@@ -17,7 +17,7 @@ makedepends="gtk+3-devel libsoup3-devel totem-pl-parser-devel libimobiledevice
  libdmapsharing-devel libgpod-devel"
 depends="desktop-file-utils hicolor-icon-theme"
 short_desc="GNOME integrated music management application"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="http://www.rhythmbox.org"
 distfiles="${GNOME_SITE}/rhythmbox/${version::3}/rhythmbox-${version}.tar.xz"

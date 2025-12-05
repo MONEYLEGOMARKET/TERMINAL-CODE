@@ -11,7 +11,7 @@ makedepends="libglib-devel cups-devel eudev-libudev-devel libusb-devel"
 depends="python3-cupshelpers python3-smbc python3-gobject gir-freedesktop
  libnotify gtk+3 dconf desktop-file-utils libsecret"
 short_desc="CUPS printer configuration tool and status applet"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://github.com/OpenPrinting/system-config-printer"
 changelog="https://raw.githubusercontent.com/OpenPrinting/system-config-printer/master/NEWS"

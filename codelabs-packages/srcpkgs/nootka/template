@@ -8,7 +8,7 @@ makedepends="alsa-lib-devel fftw-devel jack-devel libvorbis-devel qt5-devel
  qt5-declarative-devel qt5-quickcontrols2-devel qt5-tools-devel soundtouch-devel
  $(vopt_if pulseaudio pulseaudio-devel)"
 short_desc="Application to learn classical score notation"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://nootka.sourceforge.io"
 changelog="https://www.opencode.net/seelook/nootka/-/blob/master/changes"

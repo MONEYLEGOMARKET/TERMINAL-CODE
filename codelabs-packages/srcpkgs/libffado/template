@@ -16,7 +16,7 @@ makedepends="libxml++-devel libdbus-c++-devel libsigc++-devel libconfig++-devel
  python3-PyQt5-dbus"
 depends="libffado-python"
 short_desc="Library for accessing BeBoB IEEE1394 devices"
-maintainer="Duncaen <duncaen@voidlinux.org>"
+maintainer="Duncaen <duncaen@codelabs.org>"
 license="GPL-2.0-only, GPL-3.0-only"
 homepage="http://www.ffado.org"
 distfiles="http://www.ffado.org/files/libffado-${version}.tgz"

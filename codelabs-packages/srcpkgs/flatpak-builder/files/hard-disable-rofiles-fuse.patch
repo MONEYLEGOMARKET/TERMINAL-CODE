@@ -14,7 +14,7 @@ index a5f6601..f63c42f 100644
    { "disable-cache", 0, 0, G_OPTION_ARG_NONE, &opt_disable_cache, "Disable cache lookups", NULL },
    { "disable-tests", 0, 0, G_OPTION_ARG_NONE, &opt_disable_tests, "Don't run tests", NULL },
 -  { "disable-rofiles-fuse", 0, 0, G_OPTION_ARG_NONE, &opt_disable_rofiles, "Disable rofiles-fuse use", NULL },
-+  { "disable-rofiles-fuse", 0, 0, G_OPTION_ARG_NONE, &opt_disable_rofiles, "Disable rofiles-fuse use (Note: This is ALWAYS disabled on VoidLinux with Musl due to https://github.com/flatpak/flatpak-builder/issues/329)", NULL },
++  { "disable-rofiles-fuse", 0, 0, G_OPTION_ARG_NONE, &opt_disable_rofiles, "Disable rofiles-fuse use (Note: This is ALWAYS disabled on CODE LABSLinux with Musl due to https://github.com/flatpak/flatpak-builder/issues/329)", NULL },
    { "disable-download", 0, 0, G_OPTION_ARG_NONE, &opt_disable_download, "Don't download any new sources", NULL },
    { "disable-updates", 0, 0, G_OPTION_ARG_NONE, &opt_disable_updates, "Only download missing sources, never update to latest vcs version", NULL },
    { "download-only", 0, 0, G_OPTION_ARG_NONE, &opt_download_only, "Only download sources, don't build", NULL },

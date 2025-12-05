@@ -9,7 +9,7 @@ makedepends="libXv-devel libXtst-devel libcdio-devel sdl12-compat-devel gtk+3-de
  libXxf86vm-devel"
 depends="desktop-file-utils"
 short_desc="Sony PlayStation (PSX) emulator based on the PCSX-df project"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="http://pcsxr.codeplex.com/"
 distfiles="${DEBIAN_SITE}/main/p/pcsxr/pcsxr_${version}.orig.tar.xz"

@@ -21,6 +21,6 @@ post_install() {
 	vinstall distro/io.github.sigmasd.IRust.metainfo.xml 644\
 		"usr/share/metainfo"
 
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 	vlicense LICENSE
 }

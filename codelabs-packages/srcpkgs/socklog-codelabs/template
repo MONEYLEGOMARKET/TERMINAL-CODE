@@ -1,5 +1,5 @@
-# Template file for 'socklog-void'
-pkgname=socklog-void
+# Template file for 'socklog-codelabs'
+pkgname=socklog-codelabs
 version=20200115
 revision=2
 build_style=gnu-makefile
@@ -24,7 +24,7 @@ depends="socklog runit libcap-progs"
 short_desc="CODE LABS socklog configuration"
 maintainer="Leah Neukirchen <leah@vuxu.org>"
 license="Public Domain"
-homepage="https://github.com/codelabs/socklog-void"
+homepage="https://github.com/codelabs/socklog-codelabs"
 distfiles="https://github.com/codelabs/${pkgname}/archive/${version}.tar.gz"
 checksum=2bbd906513584ef1d4b729cdaf19356eaacb37d00e29fd26f7f06e34f492ed5f
 system_groups="socklog"

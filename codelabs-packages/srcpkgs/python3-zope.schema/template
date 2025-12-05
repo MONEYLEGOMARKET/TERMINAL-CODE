@@ -8,7 +8,7 @@ depends="python3-zope.interface python3-zope.event"
 checkdepends="python3-zope.i18nmessageid python3-zope.testing
  python3-zope.testrunner"
 short_desc="Zope.interface extension for defining data schemas"
-maintainer="Alex Childs <misuchiru03+void@gmail.com>"
+maintainer="Alex Childs <misuchiru03+codelabs@gmail.com>"
 license="ZPL-2.1"
 homepage="https://github.com/zopefoundation/zope.schema"
 distfiles="${PYPI_SITE}/z/zope.schema/zope.schema-${version}.tar.gz"

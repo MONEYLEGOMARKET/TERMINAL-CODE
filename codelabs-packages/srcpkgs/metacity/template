@@ -10,7 +10,7 @@ makedepends="gsettings-desktop-schemas-devel gtk+3-devel libcanberra-devel
  pango-devel startup-notification-devel vulkan-loader-devel libXpresent-devel"
 depends="zenity"
 short_desc="Window Manager for the GNOME environment"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://gitlab.gnome.org/GNOME/metacity"
 changelog="https://gitlab.gnome.org/GNOME/metacity/-/raw/master/NEWS"

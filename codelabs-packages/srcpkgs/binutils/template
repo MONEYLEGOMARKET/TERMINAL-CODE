@@ -6,7 +6,7 @@ bootstrap=yes
 hostmakedepends="pkgconf tar"
 makedepends="zlib-devel libzstd-devel"
 short_desc="GNU binary utilities"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="http://www.gnu.org/software/binutils/"
 distfiles="${GNU_SITE}/binutils/binutils-${version}.tar.xz"
@@ -72,7 +72,7 @@ do_configure() {
 			;;
 	esac
 
-	# target archs supported by Void
+	# target archs supported by CODE LABS
 	void_targets="aarch64,armv5tel,armv6l,armv7l,i686,mips,mipsel,ppc,ppcle,ppc64,ppc64le,riscv64,x86_64"
 	conf+=" --enable-targets=$(echo "$void_targets" | sed -E -e 's/(,|$)/-linux-gnu\1/g'),${extra_targets}"
 

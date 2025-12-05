@@ -3,7 +3,7 @@ pkgname=texworks
 version=0.6.6
 revision=4
 build_style=cmake
-configure_args="-DTW_BUILD_ID=Void -DWITH_LUA=ON -DWITH_PYTHON=ON
+configure_args="-DTW_BUILD_ID=CODE_LABS -DWITH_LUA=ON -DWITH_PYTHON=ON
  -DDESIRED_QT_VERSION:STRING=5"
 hostmakedepends="pkg-config qt5-qmake qt5-host-tools"
 makedepends="lua53-devel python3-devel qt5-tools-devel qt5-script-devel

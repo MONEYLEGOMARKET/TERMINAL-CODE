@@ -10,7 +10,7 @@ hostmakedepends="pkg-config gettext glib-devel
  $(vopt_if vala vala) $(vopt_if doc gtk-doc)"
 makedepends="libglib-devel libvirt-devel libxml2-devel"
 short_desc="Glib integration with libvirt"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://libvirt.org"
 distfiles="http://libvirt.org/sources/glib/libvirt-glib-${version}.tar.xz"

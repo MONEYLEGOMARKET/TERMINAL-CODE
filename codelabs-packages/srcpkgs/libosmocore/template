@@ -8,7 +8,7 @@ configure_args="--exec-prefix=/usr --libexecdir=/usr/lib
 hostmakedepends="autoconf automake libtool git pkg-config python3"
 makedepends="pcsclite-devel talloc-devel gnutls-devel"
 short_desc="Core libs for osmocom"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://bb.osmocom.org/trac/wiki/libosmocore"
 distfiles="https://github.com/osmocom/libosmocore/archive/${version}.tar.gz"

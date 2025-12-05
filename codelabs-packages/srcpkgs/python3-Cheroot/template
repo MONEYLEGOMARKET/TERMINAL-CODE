@@ -7,7 +7,7 @@ hostmakedepends="python3-setuptools_scm"
 depends="python3-setuptools python3-six
  python3-more-itertools python3-jaraco.functools"
 short_desc="High-performance, pure-Python HTTP server (Python3)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="BSD-3-Clause"
 homepage="https://github.com/cherrypy/cheroot"
 changelog="https://github.com/cherrypy/cheroot/blob/master/CHANGES.rst"

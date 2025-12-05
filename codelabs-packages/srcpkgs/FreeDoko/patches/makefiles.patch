@@ -86,7 +86,7 @@
  #LOCALE_DIRECTORY       = $(MAIN_DIRECTORY)/share/locale
  #DESKTOP_FILE_DIRECTORY = $(MAIN_DIRECTORY)/share/applications
  
-+# Void Linux
++# CODE LABS
 +MAIN_DIRECTORY         = /usr
 +BIN_DIRECTORY          = $(MAIN_DIRECTORY)/bin
 +DATA_DIRECTORY         = $(MAIN_DIRECTORY)/share/FreeDoko

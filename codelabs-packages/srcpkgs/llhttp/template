@@ -4,7 +4,7 @@ version=9.3.0
 revision=1
 build_style=cmake
 short_desc="Port of http_parser to llparse"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="MIT"
 homepage="https://llhttp.org/"
 # _always_ use releases. Those have the C code generated, otherwise

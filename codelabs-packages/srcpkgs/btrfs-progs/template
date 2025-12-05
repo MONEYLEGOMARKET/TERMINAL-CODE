@@ -10,7 +10,7 @@ makedepends="acl-devel libzstd-devel lzo-devel libblkid-devel libuuid-devel
  eudev-libudev-devel zlib-devel
  $(vopt_if e2fs 'e2fsprogs-devel') $(vopt_if reiserfs 'reiserfsprogs')"
 short_desc="Btrfs filesystem utilities"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-only, LGPL-2.1-or-later"
 homepage="https://btrfs.wiki.kernel.org/index.php/Main_Page"
 changelog="https://raw.githubusercontent.com/kdave/btrfs-progs/master/CHANGES"

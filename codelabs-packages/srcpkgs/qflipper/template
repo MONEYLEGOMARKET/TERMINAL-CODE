@@ -10,7 +10,7 @@ makedepends="qt6-serialport-devel qt6-declarative-devel
  qt6-qt5compat-devel qt6-svg-devel libusb-devel"
 depends="qt6-plugin-tls-openssl qt6-svg"
 short_desc="Desktop application for updating Flipper Zero firmware via PC"
-maintainer="Toyam Cox <Vaelatern@voidlinux.org>"
+maintainer="Toyam Cox <Vaelatern@codelabs.org>"
 license="GPL-3.0-only"
 homepage="https://flipperzero.one"
 distfiles="https://github.com/flipperdevices/qFlipper/archive/refs/tags/${version}.tar.gz

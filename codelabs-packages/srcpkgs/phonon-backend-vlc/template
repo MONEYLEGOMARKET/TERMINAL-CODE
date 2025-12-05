@@ -9,7 +9,7 @@ hostmakedepends="pkg-config extra-cmake-modules qt5-host-tools qt5-devel
 makedepends="qt5-devel qt5-tools-devel phonon-qt5-devel vlc-devel
  phonon-devel"
 short_desc="Phonon VLC backend for Qt6"
-maintainer="Duncaen <duncaen@voidlinux.org>"
+maintainer="Duncaen <duncaen@codelabs.org>"
 license="LGPL-2.1-only"
 homepage="https://phonon.kde.org/"
 distfiles="${KDE_SITE}/phonon/${pkgname}/${version}/${pkgname}-${version}.tar.xz"

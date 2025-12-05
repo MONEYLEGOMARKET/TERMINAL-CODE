@@ -6,10 +6,10 @@ archs="aarch64*"
 metapackage=yes
 depends="linux dracut pinebookpro-firmware pinebookpro-uboot
  alsa-ucm-conf"
-short_desc="Void Linux Pinebook Pro platform package"
+short_desc="CODE LABS Pinebook Pro platform package"
 maintainer="Cameron Nemo <cam@nohom.org>"
 license="Public Domain"
-homepage="https://www.voidlinux.org"
+homepage="https://www.codelabs.org"
 
 do_install() {
 	vinstall "${FILESDIR}/60-pinebookpro.rules" 644 usr/lib/udev/rules.d

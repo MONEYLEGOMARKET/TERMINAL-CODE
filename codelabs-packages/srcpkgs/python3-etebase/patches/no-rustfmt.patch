@@ -1,4 +1,4 @@
-Void doesn't seem to ship rustfmt, so disable its bindings.
+CODE LABS doesn't seem to ship rustfmt, so disable its bindings.
 
 --- a/build.rs
 +++ b/build.rs

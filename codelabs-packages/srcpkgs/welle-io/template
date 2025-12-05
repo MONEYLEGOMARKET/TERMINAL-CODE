@@ -16,7 +16,7 @@ makedepends="qt6-base-devel qt6-declarative-devel qt6-multimedia-devel
  $(vopt_if soapysdr SoapySDR-devel) "
 depends="qt5-graphicaleffects"
 short_desc="DAB/DAB+ Software Defined Radio (SDR)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://www.welle.io/"
 changelog="https://github.com/AlbrechtL/welle.io/releases"

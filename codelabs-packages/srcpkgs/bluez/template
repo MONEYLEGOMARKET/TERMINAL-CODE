@@ -43,7 +43,7 @@ post_install() {
 	vbin tools/btmgmt
 	vsv bluetoothd
 
-	vdoc ${FILESDIR}/README.voidlinux
+	vdoc ${FILESDIR}/README.codelabs
 
 	rm ${DESTDIR}/etc/bluetooth/mesh-main.conf
 }

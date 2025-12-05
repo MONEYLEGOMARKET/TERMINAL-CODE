@@ -6,7 +6,7 @@ build_style=go
 go_import_path="oss.terrastruct.com/d2"
 go_ldflags="-X ${go_import_path}/lib/version.Version=${version}"
 short_desc="Modern diagram scripting language that turns text to diagrams"
-maintainer="Toyam Cox <Vaelatern@voidlinux.org>"
+maintainer="Toyam Cox <Vaelatern@codelabs.org>"
 license="MPL-2.0"
 homepage="https://d2lang.com/"
 changelog="https://d2lang.com/releases/intro/"

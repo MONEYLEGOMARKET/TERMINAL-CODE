@@ -10,7 +10,7 @@ makedepends="gsettings-desktop-schemas-devel gtksourceview5-devel libgee-devel
  libmpc-devel libsoup3-devel gtk4-devel libadwaita-devel"
 depends="desktop-file-utils gsettings-desktop-schemas hicolor-icon-theme"
 short_desc="GNOME calculator"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://wiki.gnome.org/Apps/Calculator"
 changelog="https://gitlab.gnome.org/GNOME/gnome-calculator/-/raw/gnome-48/NEWS"

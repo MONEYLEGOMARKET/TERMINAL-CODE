@@ -17,7 +17,7 @@ checksum=991221bf8df1368165a22cde98f1ae2b591aa2e65c9c72c8e03ea56a9da7f672
 
 do_check() {
 	vsed -i pyproject.toml -e '/addopts/d'
-	# Ignored tests depend on packages not offered by Void
+	# Ignored tests depend on packages not offered by CODE LABS
 	PYTHONPATH=src python3 -m pytest \
 		--ignore-glob="tests/trio/*" \
 		--ignore=tests/middleware/test_wsgi.py

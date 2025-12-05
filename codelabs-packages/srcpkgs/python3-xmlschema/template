@@ -8,7 +8,7 @@ depends="python3-elementpath"
 checkdepends="python3-lxml python3-Sphinx python3-pytest
  python3-typing_extensions"
 short_desc="XML Schema validator and decoder for Python"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://github.com/sissaschool/xmlschema"
 distfiles="${PYPI_SITE}/x/xmlschema/xmlschema-${version}.tar.gz"

@@ -8,7 +8,7 @@ hostmakedepends="pkg-config"
 makedepends="SDL2-devel libavif-devel libjpeg-turbo-devel libpng-devel libwebp-devel
  tiff-devel zlib-devel"
 short_desc="Load images as SDL surfaces (SDL 2.x)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Zlib"
 homepage="https://github.com/libsdl-org/SDL_image"
 changelog="https://raw.githubusercontent.com/libsdl-org/SDL_image/SDL2/CHANGES.txt"

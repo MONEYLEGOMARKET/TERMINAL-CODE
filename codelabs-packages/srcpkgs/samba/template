@@ -26,7 +26,7 @@ makedepends="python3-devel libtirpc-devel popt-devel e2fsprogs-devel
  talloc-devel tevent-devel ldb-devel cmocka-devel gnutls-devel zlib-devel
  ncurses-devel libldap-devel libarchive-devel jansson-devel liburing-devel"
 short_desc="SMB/CIFS file, print, and login server for Unix"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="http://www.samba.org"
 distfiles="https://download.samba.org/pub/samba/stable/${pkgname}-${version}.tar.gz"

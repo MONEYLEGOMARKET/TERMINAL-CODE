@@ -35,5 +35,5 @@ post_install() {
 		-e 's|testnet %u|testnet|' \
 		${DESTDIR}/usr/share/applications/electrum.desktop
 	vlicense LICENCE
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

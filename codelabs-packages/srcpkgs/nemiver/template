@@ -11,7 +11,7 @@ makedepends="boost-devel-minimal sqlite-devel libxml2-devel libgtop-devel
  libgdlmm-devel"
 depends="gdb gsettings-desktop-schemas"
 short_desc="Graphical front-end for gdb"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-only"
 homepage="https://wiki.gnome.org/Apps/Nemiver"
 distfiles="${GNOME_SITE}/${pkgname}/${version%.*}/${pkgname}-${version}.tar.xz"

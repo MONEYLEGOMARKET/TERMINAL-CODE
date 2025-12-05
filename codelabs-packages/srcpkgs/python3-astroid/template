@@ -20,7 +20,7 @@ depends="python3"
 checkdepends="python3-pytest python3-attrs python3-dateutil python3-mypy
  python3-numpy python3-regex python3-typing_extensions python3-urllib3"
 short_desc="Abstract syntax tree for Python3"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://github.com/PyCQA/astroid"
 changelog="https://raw.githubusercontent.com/PyCQA/astroid/master/ChangeLog"

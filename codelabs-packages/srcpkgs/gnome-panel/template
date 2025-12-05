@@ -10,7 +10,7 @@ makedepends="cairo-devel dconf-devel elogind-devel evolution-data-server-devel
  libgweather-devel libwnck-devel libXrandr-devel libX11-devel pango-devel
  polkit-devel libwnck-devel"
 short_desc="Panel Application for GNOME flashback"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later, GFDL-1.1-or-later, LGPL-2.1-or-later"
 homepage="https://wiki.gnome.org/Projects/GnomePanel"
 changelog="https://gitlab.gnome.org/GNOME/gnome-panel/-/raw/master/NEWS"

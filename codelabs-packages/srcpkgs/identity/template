@@ -9,7 +9,7 @@ hostmakedepends="cargo rust pkg-config cmake gettext blueprint-compiler
 makedepends="gtk4-devel glib-devel gstreamer1-devel libadwaita-devel
  libdav1d-devel libwebp-devel libseccomp-devel rust-std"
 short_desc="Program for comparing multiple versions of an image or video"
-maintainer="Duncaen <duncaen@voidlinux.org>"
+maintainer="Duncaen <duncaen@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://apps.gnome.org/Identity/"
 distfiles="https://gitlab.gnome.org/YaLTeR/identity/-/archive/v${version}/identity-v${version}.tar.gz"

@@ -28,7 +28,7 @@ depends="
 	upower
 	elogind
 	xfce-polkit"
-short_desc="XFCE meta-package for Void Linux"
+short_desc="XFCE meta-package for CODE LABS"
 maintainer="Đoàn Trần Công Danh <congdanhqx@gmail.com>"
 license="GPL-2.0-or-later"
 homepage="https://xfce.org/"

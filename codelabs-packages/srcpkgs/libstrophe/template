@@ -8,7 +8,7 @@ hostmakedepends="automake libtool pkg-config"
 makedepends="$(vopt_if cares c-ares-devel) expat-devel
  $(vopt_if tls openssl-devel) zlib-devel"
 short_desc="Minimal XMPP library written in C"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-only"
 homepage="http://strophe.im/libstrophe/"
 changelog="https://raw.githubusercontent.com/strophe/libstrophe/master/ChangeLog"

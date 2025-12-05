@@ -4,7 +4,7 @@ version=140.2.0
 revision=1
 metapackage=yes
 short_desc="Firefox ESR language packs"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MPL-2.0"
 homepage="https://www.mozilla.org/firefox/"
 

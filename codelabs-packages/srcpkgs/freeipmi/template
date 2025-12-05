@@ -7,7 +7,7 @@ configure_args="--without-systemdsystemunitdir ac_cv_header_sys_stropts_h=no"
 hostmakedepends="pkg-config texinfo"
 makedepends="libgcrypt-devel"
 short_desc="In-band and out-of-band IPMI software"
-maintainer="Toyam Cox <Vaelatern@voidlinux.org>"
+maintainer="Toyam Cox <Vaelatern@codelabs.org>"
 license="GPL-3.0-or-later"
 # Changelog: http://www.gnu.org/software/freeipmi/NEWS
 homepage="http://www.gnu.org/software/freeipmi/"

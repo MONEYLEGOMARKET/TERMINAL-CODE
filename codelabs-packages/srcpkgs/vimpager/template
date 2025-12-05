@@ -23,5 +23,5 @@ esac
 
 post_install() {
 	vlicense LICENSE
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

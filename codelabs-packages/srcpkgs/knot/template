@@ -16,7 +16,7 @@ makedepends="gnutls-devel lmdb-devel libedit-devel liburcu-devel
  nghttp2-devel"
 checkdepends="softhsm"
 short_desc="High-performance authoritative-only DNS server"
-maintainer="Duncaen <duncaen@voidlinux.org>"
+maintainer="Duncaen <duncaen@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://www.knot-dns.cz/"
 changelog="https://gitlab.nic.cz/knot/knot-dns/-/raw/${version%*.*}/NEWS"

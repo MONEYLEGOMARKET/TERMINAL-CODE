@@ -23,8 +23,8 @@ lib32disabled=yes
 
 # Snapshot tarballs get removed after over a year, we can archive the ones we need in distfiles.
 case "$XBPS_DISTFILES_FALLBACK" in
-	*"repo-default.voidlinux.org/distfiles"*) ;;
-	*) XBPS_DISTFILES_FALLBACK+=" https://repo-default.voidlinux.org/distfiles" ;;
+	*"repo-default.codelabs.org/distfiles"*) ;;
+	*) XBPS_DISTFILES_FALLBACK+=" https://repo-default.codelabs.org/distfiles" ;;
 esac
 
 pre_configure() {
@@ -158,7 +158,7 @@ do_configure() {
 	_args+=" --disable-libada"
 	_args+=" --disable-libvtv"
 	_args+=" --disable-libsanitizer"
-	_args+=" --with-bugurl='https://github.com/void-linux/void-packages/issues'"
+	_args+=" --with-bugurl='https://github.com/codelabs/codelabs-packages/issues'"
 
 	mkdir -p build
 	cd build

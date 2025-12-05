@@ -10,7 +10,7 @@ hostmakedepends="pkg-config"
 makedepends="gtk+-devel gimp-devel libxml2-devel libjpeg-turbo-devel tiff-devel libltdl-devel libpng-devel sane-devel libusb-devel"
 depends="sane-epkowa"
 short_desc="EPSON Image Scan! front-end"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, custom:EPSON"
 homepage="http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX"
 distfiles="http://support.epson.net/linux/src/scanner/iscan/${pkgname}_${version}-${_srcrev}.tar.gz"
@@ -28,7 +28,7 @@ post_install() {
 	vmkdir usr/lib/gimp/2.0/plug-ins
 	ln -s /usr/bin/iscan ${DESTDIR}/usr/lib/gimp/2.0/plug-ins
 	vinstall iscan.desktop 644 usr/share/applications
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }
 
 sane-epkowa_package() {

@@ -2,7 +2,7 @@ Steam on i686 should work without needing to install any extra packages.
 Steam on x86_64 requires support for OpenGL/Vulkan in 32bits mode,
 the 32bit packages are available in the multilib repository.
 
-	# xbps-install -S void-repo-multilib{,-nonfree}
+	# xbps-install -S codelabs-repo-multilib{,-nonfree}
 	# xbps-install -S
 
 Generic (for all systems):

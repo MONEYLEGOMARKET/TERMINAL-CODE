@@ -5,10 +5,10 @@ revision=1
 archs="aarch64*"
 metapackage=yes
 depends="pinephone-kernel pinephone-uboot"
-short_desc="Void Linux PinePhone platform package"
+short_desc="CODE LABS PinePhone platform package"
 maintainer="John Sullivan <jsullivan@csumb.edu>"
 license="Public Domain"
-homepage="https://www.voidlinux.org"
+homepage="https://www.codelabs.org"
 
 do_install() {
 	vinstall "${FILESDIR}/90-modem-eg25.rules" 644 usr/lib/udev/rules.d

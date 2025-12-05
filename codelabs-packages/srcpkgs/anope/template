@@ -8,7 +8,7 @@ configure_args="-DINSTDIR=../install -DRUNGROUP=_anope -DDEFUMASK=077
  -DUSE_PCH=OFF"
 hostmakedepends="gettext"
 short_desc="Set of IRC Services designed for flexibility and ease of use"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-only"
 homepage="https://www.anope.org/"
 changelog="https://raw.githubusercontent.com/anope/anope/2.0/docs/Changes"

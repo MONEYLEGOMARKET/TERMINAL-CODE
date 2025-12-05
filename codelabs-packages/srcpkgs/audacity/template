@@ -20,7 +20,7 @@ makedepends="wxWidgets-gtk3-devel gtk+3-devel expat-devel lame-devel
  opusfile-devel rapidjson"
 depends="desktop-file-utils hicolor-icon-theme"
 short_desc="Graphical cross-platform audio editor"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, GPL-3.0-or-later, CC-BY-3.0"
 homepage="https://www.audacityteam.org"
 changelog="https://github.com/audacity/audacity/raw/master/CHANGELOG.txt"

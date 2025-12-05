@@ -5,9 +5,9 @@ revision=23
 metapackage=yes
 depends="xf86-video-fbdev xf86-video-dummy"
 short_desc="X.org video drivers meta-package"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="CC0-1.0"
-homepage="http://www.voidlinux.org"
+homepage="http://www.codelabs.org"
 
 case "$XBPS_TARGET_MACHINE" in
 	i686*|x86_64*) depends+=" xf86-video-vesa xf86-video-vmware" ;;

@@ -4,7 +4,7 @@ From: =?UTF-8?q?Jan=20Christian=20Gr=C3=BCnhage?=
 Date: Wed, 15 Jun 2022 13:05:40 +0200
 Subject: [PATCH 1/2] disables version check
 
-Void ships GnuPG in a new enough version anyway, so this check is not
+CODE LABS ships GnuPG in a new enough version anyway, so this check is not
 necessary. The reason to disable the check is that it's broken rn:
 
 ```

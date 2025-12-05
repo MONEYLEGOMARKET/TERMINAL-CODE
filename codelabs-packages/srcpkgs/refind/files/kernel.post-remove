@@ -21,6 +21,6 @@ REFIND_CONF="${REFIND_CONF#/}"
 
 tmpfile=$(mktemp /tmp/refind.XXXXXXX)
 zversion=$(echo $VERSION | sed 's/[.]/[.]/g')
-sed "/^menuentry \"Void Linux $zversion\" [{]\$/,/[}]/d" "$REFIND_CONF" >"$tmpfile"
+sed "/^menuentry \"CODE LABS $zversion\" [{]\$/,/[}]/d" "$REFIND_CONF" >"$tmpfile"
 
 mv "$tmpfile" "$REFIND_CONF"

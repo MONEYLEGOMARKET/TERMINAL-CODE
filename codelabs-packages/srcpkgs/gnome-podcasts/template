@@ -9,7 +9,7 @@ hostmakedepends="cargo desktop-file-utils gettext glib-devel
 makedepends="gstreamer1-devel gst-plugins-bad1-devel gst-plugins-base1-devel
  gtk4-devel libadwaita-devel openssl-devel sqlite-devel texinfo rust-std"
 short_desc="Listen to your favorite podcasts"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://wiki.gnome.org/Apps/Podcasts"
 changelog="https://gitlab.gnome.org/World/podcasts/-/raw/master/CHANGELOG.md"

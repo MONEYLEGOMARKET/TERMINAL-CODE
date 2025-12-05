@@ -10,7 +10,7 @@ makedepends="libfl-devel libglib-devel
  graphviz-devel vala-devel"
 checkdepends="dbus libgirepository-devel"
 short_desc="Vala Documentation Tool"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://wiki.gnome.org/Projects/Vala"
 changelog="https://gitlab.gnome.org/GNOME/vala/raw/master/NEWS"

@@ -6,7 +6,7 @@ build_style=meson
 hostmakedepends="pkg-config glib-devel gettext"
 makedepends="accountsservice-devel gnome-backgrounds lightdm-devel
  libwebkit2gtk41-devel dbus-glib-devel libxklavier-devel"
-depends="void-artwork"
+depends="codelabs-artwork"
 short_desc="Light Display Manager Webkit2 Greeter"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-3.0-or-later"

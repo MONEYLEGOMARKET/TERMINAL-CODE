@@ -6,7 +6,7 @@ build_style=gnu-configure
 configure_args="
  --sbindir=/usr/bin
  --with-db-path=/var/db/minidlna
- --with-os-url=http://www.voidlinux.org"
+ --with-os-url=http://www.codelabs.org"
 conf_files="/etc/minidlna.conf"
 make_dirs="
  /var/lib/minidlna 0750 minidlna minidlna
@@ -15,7 +15,7 @@ hostmakedepends="pkg-config gettext"
 makedepends="ffmpeg6-devel libjpeg-turbo-devel sqlite-devel libexif-devel
  libid3tag-devel libvorbis-devel libflac-devel"
 short_desc="DLNA/UPnP-AV compliant media server"
-maintainer="Duncaen <duncaen@voidlinux.org>"
+maintainer="Duncaen <duncaen@codelabs.org>"
 license="GPL-2.0-only, BSD-3-Clause"
 homepage="https://minidlna.sourceforge.net/"
 changelog="https://sourceforge.net/p/minidlna/git/ci/master/tree/NEWS?format=raw"

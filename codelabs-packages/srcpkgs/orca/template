@@ -9,7 +9,7 @@ depends="desktop-file-utils gst-plugins-good1 hicolor-icon-theme liblouis
  python3-atspi python3-brlapi python3-dbus python3-xdg speech-dispatcher
  libwnck"
 short_desc="Screen reader for individuals who are blind or visually impaired"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://wiki.gnome.org/Projects/Orca"
 changelog="https://gitlab.gnome.org/GNOME/orca/-/raw/gnome-48/NEWS"

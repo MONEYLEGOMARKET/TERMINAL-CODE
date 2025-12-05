@@ -11,7 +11,7 @@ conf_files="
 	/etc/xdg/lxlauncher/settings.conf
 	/etc/xdg/lxlauncher/gtk.css"
 short_desc="LXDE launcher for netbooks"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="http://lxde.org/"
 distfiles="https://github.com/lxde/lxlauncher/archive/refs/tags/${version}.tar.gz"

@@ -7,7 +7,7 @@ configure_args="--enable-gtk3 --with-tcl=${XBPS_CROSS_BASE}/usr/lib --with-tk=${
 hostmakedepends="gperf pkg-config"
 makedepends="gtk+3-devel tk-devel"
 short_desc="Fully featured GTK+ based wave viewer"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, MIT"
 homepage="https://gtkwave.sourceforge.net/"
 distfiles="https://gtkwave.sourceforge.net/gtkwave-gtk3-${version}.tar.gz"

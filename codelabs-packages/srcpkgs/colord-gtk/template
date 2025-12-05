@@ -11,7 +11,7 @@ hostmakedepends="pkg-config gettext glib-devel libxslt
  $(vopt_if man docbook-xsl-ns)"
 makedepends="colord-devel gtk+3-devel gtk4-devel"
 short_desc="GTK support library for colord"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://github.com/hughsie/colord-gtk"
 changelog="https://raw.githubusercontent.com/hughsie/colord-gtk/main/NEWS"

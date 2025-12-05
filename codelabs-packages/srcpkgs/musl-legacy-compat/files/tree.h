@@ -1,6 +1,6 @@
 /*	$NetBSD: tree.h,v 1.20 2013/09/14 13:20:45 joerg Exp $	*/
 /*	$OpenBSD: tree.h,v 1.13 2011/07/09 00:19:45 pirofti Exp $	*/
-/*	Modified by Void Linux. */
+/*	Modified by CODE LABS. */
 /*
  * Copyright 2002 Niels Provos <provos@citi.umich.edu>
  * All rights reserved.

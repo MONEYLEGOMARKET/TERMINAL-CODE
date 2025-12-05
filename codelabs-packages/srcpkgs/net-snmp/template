@@ -6,7 +6,7 @@ hostmakedepends="pkg-config unzip"
 makedepends="bzip2-devel openssl-devel libnl3-devel pciutils-devel
  libsensors-devel pcre-devel"
 short_desc="Simple Network Management Protocol (SNMP) suite"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Net-SNMP"
 homepage="http://www.net-snmp.org/"
 distfiles="${SOURCEFORGE_SITE}/${pkgname}/${pkgname}-${version}.tar.gz"

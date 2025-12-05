@@ -5,7 +5,7 @@ revision=1
 build_style=cmake
 configure_args="-DUTPP_AMPLIFY_WARNINGS=OFF"
 short_desc="Lightweight unit testing framework for C++"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://github.com/unittest-cpp/unittest-cpp"
 distfiles="https://github.com/unittest-cpp/unittest-cpp/archive/v${version}.tar.gz"

@@ -10,7 +10,7 @@ depends="python3 python3-configobj python3-mutagen python3-parsing
  python3-pyacoustid python3-sip-PyQt5 python3-rapidfuzz python3-requests
  python3-urllib3 python3-six python3-Unidecode"
 short_desc="Powerful, simple, spreadsheet-like audio tag editor"
-maintainer="JkktBkkt <apkabikov+void@gmail.com>"
+maintainer="JkktBkkt <apkabikov+codelabs@gmail.com>"
 license="GPL-3.0-or-later"
 homepage="https://github.com/puddletag/puddletag"
 distfiles="https://github.com/puddletag/puddletag/archive/${version}.tar.gz"

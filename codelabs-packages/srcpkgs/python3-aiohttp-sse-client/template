@@ -14,6 +14,6 @@ distfiles="${homepage}/archive/v${version}.tar.gz"
 checksum=f593a5ce3acb617c4b966c04d8e4408da4506a1e4730073526b648f51ba9edc9
 
 post_patch() {
-	# Package does not *need* pytest-runner to build, and Void doesn't have it
+	# Package does not *need* pytest-runner to build, and CODE LABS doesn't have it
 	vsed -e "/setup_requirements/s/['\"]pytest-runner['\"],*//" -i setup.py
 }

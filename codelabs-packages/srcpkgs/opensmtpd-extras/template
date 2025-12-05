@@ -10,7 +10,7 @@ makedepends="openssl-devel libevent-devel postgresql-libs-devel
  libmariadbclient-devel sqlite-devel"
 depends="opensmtpd"
 short_desc="Free implementation of the server-side SMTP protocol - extras"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="ISC"
 homepage="https://www.opensmtpd.org"
 distfiles="https://www.opensmtpd.org/archives/${pkgname}-${version}.tar.gz"

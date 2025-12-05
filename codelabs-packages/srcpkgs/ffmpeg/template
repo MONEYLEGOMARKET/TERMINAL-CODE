@@ -25,7 +25,7 @@ makedepends="zlib-devel bzip2-devel freetype-devel alsa-lib-devel libXfixes-deve
 # ffmpeg6 provides ffmpeg, ffprobe, ffplay, etc
 depends="ffmpeg6"
 short_desc="Decoding, encoding and streaming software (transitional dummy package)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://www.ffmpeg.org"
 changelog="https://raw.githubusercontent.com/FFmpeg/FFmpeg/master/Changelog"

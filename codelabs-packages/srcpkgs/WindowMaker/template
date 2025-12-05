@@ -17,7 +17,7 @@ conf_files="
  /etc/WindowMaker/WMState
  /etc/WindowMaker/WMGLOBAL"
 short_desc="X11 window manager with a NEXTSTEP look and feel"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, WTFPL"
 homepage="https://www.windowmaker.org/"
 changelog="http://www.windowmaker.org/news/"

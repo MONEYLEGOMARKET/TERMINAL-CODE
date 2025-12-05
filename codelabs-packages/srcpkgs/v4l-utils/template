@@ -8,7 +8,7 @@ hostmakedepends="perl pkg-config gettext-devel"
 makedepends="libjpeg-turbo-devel libsysfs-devel eudev-libudev-devel alsa-lib-devel
  libX11-devel"
 short_desc="Userspace tools and libraries for Video 4 Linux"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://linuxtv.org/"
 changelog="https://git.linuxtv.org/v4l-utils.git/plain/ChangeLog"

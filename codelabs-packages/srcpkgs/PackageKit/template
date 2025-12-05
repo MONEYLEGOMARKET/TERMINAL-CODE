@@ -12,7 +12,7 @@ hostmakedepends="glib-devel gettext-devel polkit-devel docbook-xsl
 makedepends="bash-completion gettext-devel glib-devel polkit-devel
  sqlite-devel $(vopt_if vala 'vala-devel') libxslt-devel"
 short_desc="D-BUS abstraction layer to package management API"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://github.com/hughsie/PackageKit"
 distfiles="https://github.com/hughsie/PackageKit/archive/PACKAGEKIT_${version//./_}.tar.gz"

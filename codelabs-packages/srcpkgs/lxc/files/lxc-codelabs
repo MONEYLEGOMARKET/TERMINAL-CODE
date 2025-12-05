@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-# template script for generating Void linux container for LXC
+# template script for generating CODE LABS linux container for LXC
 #
 
 #
@@ -121,7 +121,7 @@ install_void() {
     echo "Installing ${base_packages[@]}"
     mkdir -p ${rootfs}/var/db/xbps/keys
 
-    # base64 encoded Void RSA public key
+    # base64 encoded CODE LABS RSA public key
     vkb64=$(mktemp || return 1)
     cat > ${vkb64} << EOF
 PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHBsaXN0IFBV
@@ -154,7 +154,7 @@ EOF
     rm -f ${vkb64}
 
     mkdir -p ${rootfs}/usr/share/xbps.d
-    echo "repository=http://repo-default.voidlinux.org/current" > ${rootfs}/usr/share/xbps.d/00-repository-main.conf
+    echo "repository=http://repo-default.codelabs.org/current" > ${rootfs}/usr/share/xbps.d/00-repository-main.conf
 
     if ! xbps-install ${xbps_cachedir:+ -c $xbps_cachedir} \
 	    ${xbps_config:+-C $xbps_config} -r "${rootfs}" \
@@ -232,7 +232,7 @@ fi
 
 type xbps-install >/dev/null 2>&1
 if [ ${?} -ne 0 ]; then
-    echo "'xbps-install' command is missing, download xbps from http://repo-default.voidlinux.org/static/"
+    echo "'xbps-install' command is missing, download xbps from http://repo-default.codelabs.org/static/"
     exit 1
 fi
 
@@ -275,13 +275,13 @@ fi
 mkdir -p "${rootfs_path}"
 install_void $path $rootfs_path $name $arch
 if [ ${?} -ne 0 ]; then
-    echo "failed to install Void Linux"
+    echo "failed to install CODE LABS"
     rm -rf "${config_path}" "${path}"
     exit 1
 fi
 
 cat << EOF
-Void container ${name} is successfully created! The configuration is
-stored in ${config_path}/config. Please refer to https://docs.voidlinux.org
-for information about configuring your Void installation.
+CODE LABS container ${name} is successfully created! The configuration is
+stored in ${config_path}/config. Please refer to https://docs.codelabs.org
+for information about configuring your CODE LABS installation.
 EOF

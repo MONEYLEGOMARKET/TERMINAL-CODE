@@ -10,7 +10,7 @@ hostmakedepends="pkg-config"
 makedepends="libcurl-devel MesaLib-devel freetype-devel freeimage-devel
  SDL2-devel eigen rapidjson vlc-devel"
 short_desc="Flexible emulator front-end"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="MIT"
 homepage="https://github.com/RetroPie/EmulationStation"
 distfiles="https://github.com/RetroPie/EmulationStation/archive/v${version}.tar.gz

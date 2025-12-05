@@ -11,7 +11,7 @@ makedepends="alsa-lib-devel faac-devel faad2-devel gettext-devel jack-devel glu-
  qt5-multimedia-devel qt5-script-devel qt5-tools-devel ffmpeg6-devel
  liba52-devel libmad-devel x264-devel x265-devel xvidcore-devel"
 short_desc="Video editing and processing application"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="http://avidemux.sourceforge.net/"
 changelog="http://avidemux.sourceforge.net/news.html"

@@ -64,7 +64,7 @@ update_check() {
         urlsfx=
         dirpfx=
         case "$url" in
-            *.voidlinux.*|\
+            *.codelabs.*|\
               *sourceforge.net/sourceforge*|\
               *code.google.com*|*googlecode*|\
               *launchpad.net*|\

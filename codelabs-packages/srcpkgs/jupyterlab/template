@@ -17,7 +17,7 @@ changelog="https://raw.githubusercontent.com/jupyterlab/jupyterlab/main/CHANGELO
 distfiles="${PYPI_SITE}/j/jupyterlab/jupyterlab-${version}.tar.gz"
 checksum=afa9caf28c0cb966488be18e5e8daba9f018a1c4273a406b7d5006344cbc6d16
 
-if [ "${XBPS_BUILD_ENVIRONMENT}" = void-packages-ci ]; then
+if [ "${XBPS_BUILD_ENVIRONMENT}" = codelabs-packages-ci ]; then
 	# this test fails on CI (network timeout)
 	make_check_args="
 	 --deselect=jupyterlab/tests/test_build_api.py::TestBuildAPI

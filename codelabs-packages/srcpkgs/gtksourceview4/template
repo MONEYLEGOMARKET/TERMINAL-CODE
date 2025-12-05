@@ -11,7 +11,7 @@ hostmakedepends="gtk+3-devel glib-devel itstool libxslt pkg-config
 makedepends="glade3-devel gtk+3-devel libglib-devel libxml2-devel
  $(vopt_if gir vala)"
 short_desc="Text widget that extends GTK+ GtkTextView widget"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://wiki.gnome.org/Projects/GtkSourceView"
 changelog="https://gitlab.gnome.org/GNOME/gtksourceview/-/raw/gtksourceview-4-8/NEWS"

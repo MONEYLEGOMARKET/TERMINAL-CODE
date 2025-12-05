@@ -60,7 +60,7 @@ fi
 
 post_install() {
 	vlicense LICENSE
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 	vmkdir usr/share/examples/sv
 	vcopy ${FILESDIR}/pipewire usr/share/examples/sv/
 	vinstall "${FILESDIR}/pipewire.desktop" 644 usr/share/applications

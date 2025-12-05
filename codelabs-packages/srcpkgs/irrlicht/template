@@ -6,7 +6,7 @@ hostmakedepends="unzip pkg-config"
 makedepends="libjpeg-turbo-devel libpng-devel libXcursor-devel libXext-devel
  MesaLib-devel libXxf86vm-devel"
 short_desc="Lightning fast realtime 3D engine"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="BSD-3-Clause, bzip2-1.0.5, IJG, Libpng"
 homepage="http://irrlicht.sourceforge.net"
 distfiles="${SOURCEFORGE_SITE}/${pkgname}/${pkgname}-${version}.zip"

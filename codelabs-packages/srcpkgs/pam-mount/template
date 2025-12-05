@@ -9,7 +9,7 @@ makedepends="cryptsetup-devel libHX-devel libmount-devel libxml2-devel pam-devel
  pcre2-devel"
 depends="hxtools pam"
 short_desc="PAM module that can mount volumes for a user session"
-maintainer="Toyam Cox <Vaelatern@voidlinux.org>"
+maintainer="Toyam Cox <Vaelatern@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="http://pam-mount.sourceforge.net/"
 distfiles="https://inai.de/files/pam_mount/pam_mount-${version}.tar.xz"

@@ -12,7 +12,7 @@ makedepends="libffi-devel libglib-devel python3-devel python3-Mako
  python3-Markdown"
 depends="libgirepository-devel python3-Mako python3-Markdown python3-setuptools"
 short_desc="Introspection system for GObject-based libraries"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://wiki.gnome.org/Projects/GObjectIntrospection"
 changelog="https://gitlab.gnome.org/GNOME/gobject-introspection/-/raw/main/NEWS"

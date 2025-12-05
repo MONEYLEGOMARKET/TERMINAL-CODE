@@ -3,8 +3,8 @@ pkgname=gnome
 version=48.0
 revision=2
 metapackage=yes
-short_desc="GNOME meta-package for Void Linux"
-maintainer="Orphaned <orphan@voidlinux.org>"
+short_desc="GNOME meta-package for CODE LABS"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-only, LGPL-2.0-only"
 homepage="https://www.gnome.org"
 
@@ -98,10 +98,10 @@ _games_collection_depends="
 
 gnome-apps_package() {
 	depends="$_apps_depends"
-	short_desc="GNOME-Apps meta-package for Void Linux"
+	short_desc="GNOME-Apps meta-package for CODE LABS"
 }
 
 gnome-games-collection_package() {
 	depends="$_games_collection_depends"
-	short_desc="GNOME Games Collection meta-package for Void Linux"
+	short_desc="GNOME Games Collection meta-package for CODE LABS"
 }

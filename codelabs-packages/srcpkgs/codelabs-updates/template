@@ -1,5 +1,5 @@
-# Template file for 'void-updates'
-pkgname=void-updates
+# Template file for 'codelabs-updates'
+pkgname=codelabs-updates
 version=20231023
 revision=1
 build_style=gnu-makefile
@@ -7,14 +7,14 @@ depends="git curl"
 short_desc="CODE LABS package updates"
 maintainer="Orphaned <orphan@codelabs.org>"
 license="ISC"
-homepage="https://github.com/codelabs/void-updates"
-distfiles="https://github.com/codelabs/void-updates/archive/${version}.tar.gz"
+homepage="https://github.com/codelabs/codelabs-updates"
+distfiles="https://github.com/codelabs/codelabs-updates/archive/${version}.tar.gz"
 checksum=b486f2d64896de1407068b26e442da2f80a89ead073b8c945d09ffc0902d0cd0
 
 system_accounts="voidupdates"
-voidupdates_homedir="/var/cache/void-updates"
+voidupdates_homedir="/var/cache/codelabs-updates"
 voidupdates_groups="xbuilder"
-make_dirs="/var/cache/void-updates 0755 voidupdates voidupdates"
+make_dirs="/var/cache/codelabs-updates 0755 voidupdates voidupdates"
 
 post_install() {
 	vlicense LICENSE

@@ -5,7 +5,7 @@
 set -e
 
 /bin/echo -e '\x1b[32mUpdating etc/conf...\x1b[0m'
-echo XBPS_BUILD_ENVIRONMENT=void-packages-ci >> etc/conf
+echo XBPS_BUILD_ENVIRONMENT=codelabs-packages-ci >> etc/conf
 echo XBPS_ALLOW_RESTRICTED=yes >> etc/conf
 
 /bin/echo -e '\x1b[32mEnabling uchroot chroot-style...\x1b[0m'

@@ -20,12 +20,12 @@ fi
 
 if [ -z "$XBPS_TEMP_MASTERDIR" ]; then
 	exec bwrap --bind "$MASTERDIR" / \
-		--ro-bind "$DISTDIR" /void-packages \
+		--ro-bind "$DISTDIR" /codelabs-packages \
 		--dev /dev --tmpfs /tmp --proc /proc \
 		${HOSTDIR:+--bind "$HOSTDIR" /host} ${EXTRA_ARGS} "$@"
 else
 	exec bwrap --overlay-src "$MASTERDIR" --tmp-overlay / \
-		--ro-bind "$DISTDIR" /void-packages \
+		--ro-bind "$DISTDIR" /codelabs-packages \
 		--dev /dev --tmpfs /tmp --proc /proc \
 		${HOSTDIR:+--bind "$HOSTDIR" /host} ${EXTRA_ARGS} "$@"
 fi

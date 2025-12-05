@@ -9,7 +9,7 @@ go_ldflags="-X main.version=$version -X main.defaultConfigFile=/etc/geoip/GeoIP.
  -X main.defaultDatabaseDirectory=/usr/share/GeoIP"
 hostmakedepends="perl pandoc"
 short_desc="GeoIP update client code"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="Apache-2.0 OR MIT"
 homepage="https://github.com/maxmind/geoipupdate"
 changelog="https://github.com/maxmind/geoipupdate/raw/main/CHANGELOG.md"

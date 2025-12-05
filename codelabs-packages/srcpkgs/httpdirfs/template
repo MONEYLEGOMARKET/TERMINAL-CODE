@@ -8,7 +8,7 @@ hostmakedepends="pkg-config help2man"
 makedepends="libcurl-devel fuse-devel gumbo-parser-devel
  libuuid-devel expat-devel"
 short_desc="Mount HTTP directory listings, with a permanent cache"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-only"
 homepage="https://github.com/fangfufu/httpdirfs"
 changelog="https://raw.githubusercontent.com/fangfufu/httpdirfs/master/CHANGELOG.md"

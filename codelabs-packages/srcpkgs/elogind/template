@@ -14,7 +14,7 @@ makedepends="acl-devel eudev-libudev-devel libcap-devel
  libglib-devel libseccomp-devel pam-devel"
 depends="dbus"
 short_desc="Standalone logind fork"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later"
 homepage="https://github.com/elogind/elogind"
 distfiles="https://github.com/${pkgname}/${pkgname}/archive/v${version}.tar.gz"
@@ -41,7 +41,7 @@ pre_check() {
 	echo 'dcb30309cd6c8b7cc20383d85a5c7012' > /etc/machine-id
 
 	# test-copy searches for /etc/os-release but this file is provided
-	# by runit-void, create a dummy file to avoid a dependency on runit-void
+	# by runit-codelabs, create a dummy file to avoid a dependency on runit-codelabs
 	echo 'dummy-file' > /etc/os-release
 }
 

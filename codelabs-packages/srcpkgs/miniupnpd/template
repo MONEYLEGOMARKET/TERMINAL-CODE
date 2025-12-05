@@ -18,7 +18,7 @@ hostmakedepends="pkg-config"
 makedepends="libnfnetlink-devel iptables-devel openssl-devel"
 checkdepends="iproute2 which"
 short_desc="Lightweight UPnP IGD daemon"
-maintainer="Duncaen <duncaen@voidlinux.org>"
+maintainer="Duncaen <duncaen@codelabs.org>"
 license="BSD-3-Clause"
 homepage="https://miniupnp.tuxfamily.org"
 changelog="https://miniupnp.tuxfamily.org/files/changelog.php?file=miniupnpd-${version}.tar.gz"
@@ -38,14 +38,14 @@ post_extract() {
 
 post_configure() {
 	vsed -i "${wrksrc}/config.h" \
-		-e 's|^#define OS_URL.*$|#define OS_URL "https://voidlinux.org/"|g' \
-		-e 's|^#define OS_NAME.*$|#define OS_NAME "Void"|g' \
-		-e 's|^#define OS_VERSION.*$|#define OS_VERSION "Void"|g'
+		-e 's|^#define OS_URL.*$|#define OS_URL "https://codelabs.org/"|g' \
+		-e 's|^#define OS_NAME.*$|#define OS_NAME "CODE LABS"|g' \
+		-e 's|^#define OS_VERSION.*$|#define OS_VERSION "CODE LABS"|g'
 }
 
 post_install() {
 	rm -rf "${DESTDIR}/etc/init.d"
 	vsv miniupnpd
 	vlicense LICENSE
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

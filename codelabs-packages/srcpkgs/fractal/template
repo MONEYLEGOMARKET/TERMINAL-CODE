@@ -11,7 +11,7 @@ makedepends="gst-plugins-base1-devel gtksourceview5-devel libadwaita-devel
  libwebp-devel"
 depends="glycin-loaders"
 short_desc="Matrix Messaging Client for GNOME"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://wiki.gnome.org/Apps/Fractal"
 changelog="https://gitlab.gnome.org/World/fractal/-/releases"

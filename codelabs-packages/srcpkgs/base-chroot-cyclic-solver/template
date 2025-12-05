@@ -6,7 +6,7 @@ metapackage=yes
 short_desc="Dummy provider for all cyclic packages"
 maintainer="Andrew J. Hesford <ajh@sideband.org>"
 license="Public Domain"
-homepage="https://voidlinux.org"
+homepage="https://codelabs.org"
 provides="
  lightdm-greeter-${version}_${revision}
  pipewire-session-manager-${version}_${revision}

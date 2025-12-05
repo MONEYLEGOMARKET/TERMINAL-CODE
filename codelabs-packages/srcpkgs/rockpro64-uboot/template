@@ -33,7 +33,7 @@ do_install() {
 	vinstall u-boot.itb 0644 usr/lib/rockpro64-uboot
 	vinstall u-boot-rockchip-spi.bin 0644 usr/lib/rockpro64-uboot
 	vinstall u-boot-rockchip.bin 0644 usr/lib/rockpro64-uboot
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 	vlicense Licenses/Exceptions
 	vlicense Licenses/README
 	vlicense Licenses/bsd-2-clause.txt

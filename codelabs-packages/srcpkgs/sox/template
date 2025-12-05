@@ -3,7 +3,7 @@ pkgname=sox
 version=14.4.2
 revision=11
 build_style=gnu-configure
-configure_args="--with-distro=Void"
+configure_args="--with-distro=CODE_LABS"
 hostmakedepends="pkg-config"
 makedepends="lame-devel libao-devel libgomp-devel libid3tag-devel libltdl-devel
  libmad-devel libpng-devel libsndfile-devel opusfile-devel pulseaudio-devel

@@ -17,7 +17,7 @@ makedepends="gst-plugins-base1-devel gst-plugins-bad1-devel gstreamer1-devel
 depends="gst-plugins-good1 gst-plugins-bad1 kf6-kirigami kf6-purpose
  gst-plugins-good1-qml6"
 short_desc="Simple and friendly program to use your webcam recorder"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/kamoso/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kamoso"

@@ -10,7 +10,7 @@ makedepends="nemo-devel libmusicbrainz5-devel cjs-devel clutter-devel
  clutter-gtk-devel clutter-gst3-devel libxreader-devel
  gtksourceview4-devel libwebkit2gtk41-devel"
 short_desc="Nemo preview extension"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://github.com/linuxmint/nemo-extensions"
 distfiles="https://github.com/linuxmint/nemo-extensions/archive/refs/tags/${version}.tar.gz"

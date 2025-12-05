@@ -14,7 +14,7 @@ makedepends="grilo-devel gom-devel json-glib-devel
  avahi-glib-libs-devel libxml2-devel rest-devel"
 checkdepends="python3-gobject gst-plugins-bad1 dbus"
 short_desc="Plugins for Grilo"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://wiki.gnome.org/Projects/Grilo"
 distfiles="${GNOME_SITE}/grilo-plugins/${version%.*}/grilo-plugins-${version}.tar.xz"

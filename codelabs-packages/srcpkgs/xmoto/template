@@ -12,7 +12,7 @@ makedepends="sqlite-devel zlib-devel libjpeg-turbo-devel libpng-devel
  bzip2-devel gettext-devel"
 depends="${pkgname}-data"
 short_desc="2D motocross platform game"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="http://xmoto.tuxfamily.org/"
 distfiles="https://github.com/xmoto/xmoto/archive/${version}/${version}.tar.gz"

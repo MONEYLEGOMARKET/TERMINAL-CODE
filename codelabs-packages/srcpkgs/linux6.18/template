@@ -3,7 +3,7 @@ pkgname=linux6.18
 version=6.18.0
 revision=1
 short_desc="Linux kernel and modules (${version%.*} series)"
-maintainer="Duncaen <duncaen@voidlinux.org>"
+maintainer="Duncaen <duncaen@codelabs.org>"
 license="GPL-2.0-only"
 homepage="https://www.kernel.org"
 
@@ -52,8 +52,8 @@ mutable_files="
 
 # reproducible build
 export KBUILD_BUILD_TIMESTAMP=$(LC_ALL=C date -ud @${SOURCE_DATE_EPOCH:-0})
-export KBUILD_BUILD_USER=voidlinux
-export KBUILD_BUILD_HOST=voidlinux
+export KBUILD_BUILD_USER=codelabs
+export KBUILD_BUILD_HOST=codelabs
 
 if [ "$CROSS_BUILD" ]; then
 	_cross="CROSS_COMPILE=${XBPS_CROSS_TRIPLET}-"

@@ -1,4 +1,4 @@
-Void uses the "None" build type to apply our chosen compile settings.
+CODE LABS uses the "None" build type to apply our chosen compile settings.
 
 diff --git a/runtime/lua/vim/health/health.lua b/runtime/lua/vim/health/health.lua
 index dd6fe7f..25d8d81 100644

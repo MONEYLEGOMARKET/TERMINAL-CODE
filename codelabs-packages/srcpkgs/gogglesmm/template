@@ -10,7 +10,7 @@ makedepends="libepoxy-devel glu-devel libSM-devel libXcursor-devel libXrandr-dev
  faad2-devel opus-devel taglib-devel sqlite-devel dbus-devel alsa-lib-devel pulseaudio-devel libxml2-devel"
 depends="hicolor-icon-theme"
 short_desc="Music Manager and Player"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://gogglesmm.github.io/"
 changelog="https://raw.githubusercontent.com/gogglesmm/gogglesmm/master/ChangeLog"

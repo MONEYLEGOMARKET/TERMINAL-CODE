@@ -8,7 +8,7 @@ configure_args="-Dexamples=disabled -Dtests=disabled
  $(vopt_feature gtk_doc gtk_doc)"
 hostmakedepends="pkg-config $(vopt_if gtk_doc gtk-doc)"
 short_desc="Oild Runtime Compiler"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="BSD-2-Clause"
 homepage="https://cgit.freedesktop.org/gstreamer/orc"
 changelog="https://gitlab.freedesktop.org/gstreamer/orc/-/raw/main/RELEASE"

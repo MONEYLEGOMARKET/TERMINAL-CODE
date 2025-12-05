@@ -8,7 +8,7 @@ hostmakedepends="pkg-config gettext"
 makedepends="SDL2_gfx-devel SDL2_image-devel SDL2_mixer-devel SDL2_ttf-devel
  gtk+3-devel libcurl-devel lua53-devel"
 short_desc="Free and Open Source empire-building strategy game - server/data"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://www.freeciv.org/"
 changelog="https://www.freeciv.org/wiki/NEWS"

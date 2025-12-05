@@ -10,7 +10,7 @@ makedepends="qt5-location-devel qt5-multimedia-devel qt5-script-devel
  qt5-webengine-devel QXlsx exiv2-devel nlopt-devel libmd4c-devel"
 depends="desktop-file-utils"
 short_desc="Open Source Planetarium"
-maintainer="Andrew Benson <abenson+void@gmail.com>"
+maintainer="Andrew Benson <abenson+codelabs@gmail.com>"
 license="GPL-2.0-or-later"
 homepage="https://stellarium.org/"
 distfiles="https://github.com/Stellarium/stellarium/archive/refs/tags/v${version}.tar.gz"

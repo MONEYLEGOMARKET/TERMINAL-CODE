@@ -19,7 +19,7 @@ makedepends="LuaJIT-devel c-ares-devel elfutils-devel grpc-devel jsoncpp-devel
  re2-devel valijson"
 depends="dkms"
 short_desc="Open source system-level exploration and troubleshooting tool"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Apache-2.0, MIT, GPL-2.0-only"
 homepage="http://www.sysdig.org/"
 changelog="https://github.com/draios/sysdig/releases"

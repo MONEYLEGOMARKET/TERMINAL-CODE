@@ -13,7 +13,7 @@ makedepends="akonadi-notes-devel kcalutils-devel kf6-kdnssd-devel
  kf6-knotifyconfig-devel kontactinterface-devel pimcommon-devel kf6-grantleetheme-devel
  ktextaddons-devel kf6-kstatusnotifieritem-devel"
 short_desc="Popup notes"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, GFDL-1.2-only"
 homepage="https://apps.kde.org/knotes/"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"

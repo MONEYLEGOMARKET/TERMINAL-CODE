@@ -6,7 +6,7 @@ build_style=gnu-configure
 makedepends="libjpeg-turbo-devel libpng-devel libcurl-devel ncurses-devel
  libwebp-devel libexif-devel"
 short_desc="JPEG image to ASCII art converter"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-only"
 homepage="https://github.com/Talinx/jp2a"
 distfiles="https://github.com/Talinx/jp2a/releases/download/v${version}/jp2a-${version}.tar.gz"

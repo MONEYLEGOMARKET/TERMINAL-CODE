@@ -7,7 +7,7 @@ build_helper="qemu"
 go_import_path=github.com/goreleaser/goreleaser/v2
 go_ldflags="-X main.version=${version}"
 short_desc="Deliver Go binaries as fast and easily as possible"
-maintainer="Michael Aldridge <maldridge@voidlinux.org>"
+maintainer="Michael Aldridge <maldridge@codelabs.org>"
 license="MIT"
 homepage="https://goreleaser.com/"
 distfiles="https://github.com/goreleaser/goreleaser/archive/refs/tags/v$version.tar.gz"

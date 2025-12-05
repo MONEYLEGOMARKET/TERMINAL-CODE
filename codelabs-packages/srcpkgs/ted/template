@@ -7,7 +7,7 @@ hostmakedepends="pkg-config tar"
 makedepends="zlib-devel pcre-devel libX11-devel libxmp-devel tiff-devel
  libpng-devel libjpeg-turbo-devel gtk+-devel libpaper-devel"
 short_desc="Easy rich text processor"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://nllgg.nl/Ted/"
 distfiles="http://ftp.nluug.nl/pub/editors/ted/ted-${version}.src.tar.gz"

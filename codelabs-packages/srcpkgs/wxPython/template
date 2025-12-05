@@ -10,7 +10,7 @@ makedepends="python3-devel wxWidgets-gtk3-devel SDL2-devel
  gst-plugins-base1-devel"
 depends="python3-six"
 short_desc="Python bindings for wxWidgets"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="custom:wxWindows"
 homepage="http://www.wxpython.org/"
 distfiles="${PYPI_SITE}/w/wxPython/wxPython-${version}.tar.gz"

@@ -9,7 +9,7 @@ makedepends="libdrm-devel libkmod-devel liboping-devel procps-ng-devel libunwind
  elfutils-devel pixman-devel valgrind-devel cairo-devel xmlrpc-c-devel gsl-devel
  alsa-lib-devel json-c-devel libXrandr-devel"
 short_desc="Tools for development and testing of the DRM drivers"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://gitlab.freedesktop.org/drm/igt-gpu-tools"
 changelog="https://gitlab.freedesktop.org/drm/igt-gpu-tools/-/raw/master/NEWS"

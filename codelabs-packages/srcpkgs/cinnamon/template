@@ -21,7 +21,7 @@ depends="accountsservice libcaribou cinnamon-settings-daemon>=${version%.*}
  python3-pytz python3-distro python3-requests libtimezonemap
  xdg-desktop-portal-xapp gettext"
 short_desc="GNOME3 fork of Linux Mint with GNOME2 aspect"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later"
 homepage="https://github.com/linuxmint/cinnamon"
 changelog="https://raw.githubusercontent.com/linuxmint/cinnamon/${version}/debian/changelog"

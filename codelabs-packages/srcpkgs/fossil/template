@@ -8,7 +8,7 @@ configure_args="--disable-internal-sqlite --prefix=/usr
 hostmakedepends="tcl"
 makedepends="zlib-devel openssl-devel sqlite-devel"
 short_desc="Simple, high-reliability, distributed software configuration management"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="BSD-2-Clause"
 homepage="https://www.fossil-scm.org"
 changelog="https://www.fossil-scm.org/home/doc/trunk/www/changes.wiki"

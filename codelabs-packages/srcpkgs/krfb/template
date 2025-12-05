@@ -15,7 +15,7 @@ makedepends="kf6-ki18n-devel kf6-kcompletion-devel kf6-kconfig-devel
  kf6-kwayland-devel pipewire-devel plasma-wayland-protocols kpipewire-devel
  qt6-base-private-devel"
 short_desc="KDE Desktop Sharing"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, GFDL-1.2-only, LGPL-2.1-or-later"
 homepage="https://kde.org/applications/en/system/org.kde.krfb"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"

@@ -381,7 +381,7 @@ post_patch() {
 		-e "s|.1.gz|.1|g"
 	chmod +x bin/unpack-sources
 
-	if [ "$XBPS_BUILD_ENVIRONMENT" = void-packages-ci ]; then
+	if [ "$XBPS_BUILD_ENVIRONMENT" = codelabs-packages-ci ]; then
 		vsed -i "s/bootstrap: check-if-root compilerplugins/bootstrap: compilerplugins/" Makefile.in
 	fi
 }

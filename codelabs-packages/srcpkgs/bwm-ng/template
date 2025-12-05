@@ -6,7 +6,7 @@ build_style=gnu-configure
 hostmakedepends="automake"
 makedepends="ncurses-devel libstatgrab-devel"
 short_desc="Console-based live network and disk io bandwidth monitor"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="http://www.gropp.org/?id=projects&sub=bwm-ng"
 distfiles="https://github.com/vgropp/bwm-ng/archive/v${version}.tar.gz"

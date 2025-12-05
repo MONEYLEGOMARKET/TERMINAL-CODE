@@ -16,7 +16,7 @@ build() {
 
 help() {
     cat <<HELPEOF
-This hook will add xbps to recover broken voidlinux installations.
+This hook will add xbps to recover broken codelabs installations.
 HELPEOF
 }
 

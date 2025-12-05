@@ -9,7 +9,7 @@ hostmakedepends="pkg-config automake libtool python3-docutils"
 makedepends="alsa-lib-devel fdk-aac-devel libbluetooth-devel
  libglib-devel libopenaptx-devel sbc-devel"
 short_desc="Bluetooth Audio ALSA Backend"
-maintainer="Toyam Cox <Vaelatern@voidlinux.org>"
+maintainer="Toyam Cox <Vaelatern@codelabs.org>"
 license="MIT"
 homepage="https://github.com/Arkq/bluez-alsa"
 changelog="https://raw.githubusercontent.com/Arkq/bluez-alsa/master/NEWS"

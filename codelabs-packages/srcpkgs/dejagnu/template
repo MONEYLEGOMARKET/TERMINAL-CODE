@@ -6,7 +6,7 @@ build_style=gnu-configure
 makedepends="expect-devel"
 depends="expect"
 short_desc="Framework for running test suites on GNU tools"
-maintainer="Duncaen <duncaen@voidlinux.org>"
+maintainer="Duncaen <duncaen@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://www.gnu.org/software/dejagnu/"
 changelog="http://git.savannah.gnu.org/gitweb/?p=dejagnu.git;a=blob_plain;f=NEWS"

@@ -13,4 +13,4 @@ experimental and only needed in rare cases, so using it should be avoided
 in most setups. To use it, pipewire needs to be configured to launch
 pipewire-pulse and wireplumber as documented at
 
-    https://docs.voidlinux.org/config/media/pipewire.html
+    https://docs.codelabs.org/config/media/pipewire.html

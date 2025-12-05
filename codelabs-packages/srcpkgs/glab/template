@@ -9,7 +9,7 @@ go_import_path=gitlab.com/gitlab-org/cli
 go_package="${go_import_path}/cmd/glab"
 make_check_args="-skip=Schedule"
 short_desc="Command line tool bringing GitLab's features to your command line"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="MIT"
 homepage="https://gitlab.com/gitlab-org/cli"
 changelog="https://gitlab.com/gitlab-org/cli/-/releases"

@@ -2,7 +2,7 @@
 
 [ -r ./conf ] && . ./conf
 
-: ${SERVER:=popcorn.voidlinux.org}
+: ${SERVER:=popcorn.codelabs.org}
 : ${PORT:=8001}
 
 exec 2>&1

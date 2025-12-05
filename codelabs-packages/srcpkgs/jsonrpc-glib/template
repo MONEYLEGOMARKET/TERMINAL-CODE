@@ -10,7 +10,7 @@ hostmakedepends="pkg-config glib-devel $(vopt_if vala 'vala')
  $(vopt_if gtk_doc gi-docgen)"
 makedepends="libglib-devel json-glib-devel"
 short_desc="Library to communicate using the JSON-RPC 2.0 specification"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://gitlab.gnome.org/GNOME/jsonrpc-glib"
 changelog="https://gitlab.gnome.org/GNOME/jsonrpc-glib/-/raw/main/NEWS"

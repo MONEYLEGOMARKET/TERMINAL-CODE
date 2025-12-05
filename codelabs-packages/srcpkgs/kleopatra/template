@@ -14,7 +14,7 @@ makedepends="kf6-kcmutils-devel AppStream kf6-kitemmodels-devel gpgme-qt6-devel
  kidentitymanagement-devel kmbox-devel"
 depends="gnupg>=2"
 short_desc="Certificate Manager and Unified Crypto GUI"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later, GFDL-1.2-or-later"
 homepage="https://www.kde.org/applications/utilities/kleopatra/"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
@@ -22,5 +22,5 @@ checksum=3c2f65207ecacd6f72631e832a93342a6c43260e897afcc285d1803b51cc6766
 make_check=no # no test found
 
 post_install() {
-	vdoc $FILESDIR/README.voidlinux
+	vdoc $FILESDIR/README.codelabs
 }

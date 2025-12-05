@@ -9,13 +9,13 @@ hostmakedepends="automake libtool flex gperf net-tools which"
 makedepends="openssl-devel libldap-devel readline-devel libxml2-devel mit-krb5-devel"
 checkdepends="procps-ng unzip curl wget"
 short_desc="Scalable cross-platform server of virtuoso"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-only"
 homepage="https://vos.openlinksw.com/owiki/wiki/VOS/"
 distfiles="https://github.com/openlink/virtuoso-opensource/archive/v${version}.tar.gz"
 checksum=0379c60cb2ea4fed70ee3ac3f808e5cc9298e48ddcd8d0f4d8cd92711a43e7e5
 # cannot execute binary file: Exec format error
-nocross="https://build.voidlinux.org/builders/armv6l_builder/builds/29187/steps/shell_3/logs/stdio"
+nocross="https://build.codelabs.org/builders/armv6l_builder/builds/29187/steps/shell_3/logs/stdio"
 
 case "$XBPS_TARGET_MACHINE" in
 	*-musl) makedepends+=" libexecinfo-devel"; LDFLAGS+=" -lexecinfo";;

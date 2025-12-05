@@ -34,7 +34,7 @@ checksum="395e61790d4877e11c470445dfee834a017a4b5df5f7ee34ebcaa125713150dc
 # peripherals when the A53 cores are turned off. This EC is a custom CPU core
 # that uses the OpenRISC 1000 ISA, and it's what the Crust firmware runs
 # on. or1k is the gcc platform for OpenRISC, and it has nothing to do with any
-# real Void system targets. This is why the two cross-compilers are needed, or1k
+# real CODE LABS system targets. This is why the two cross-compilers are needed, or1k
 # is used ONLY for the crust portion of the firmware.
 
 _or1k="CROSS_COMPILE=or1k-none-elf-"

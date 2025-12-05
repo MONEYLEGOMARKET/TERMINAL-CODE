@@ -14,7 +14,7 @@ makedepends="fltk-devel zlib-devel libXtst-devel libjpeg-turbo-devel
  nettle-devel ffmpeg6-devel"
 depends="perl xauth xkeyboard-config"
 short_desc="High performance, multi-platform VNC client and server"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://www.tigervnc.org"
 distfiles="https://github.com/TigerVNC/tigervnc/archive/v${version}.tar.gz

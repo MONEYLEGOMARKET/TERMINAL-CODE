@@ -5,7 +5,7 @@ revision=1
 build_style=gnu-configure
 make_install_args="bindir=/usr/bin"
 short_desc="Kernel time variables configuration utility"
-maintainer="Duncaen <duncaen@voidlinux.org>"
+maintainer="Duncaen <duncaen@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://github.com/rogers0/adjtimex"
 distfiles="${DEBIAN_SITE}/main/a/adjtimex/adjtimex_${version}.orig.tar.gz"

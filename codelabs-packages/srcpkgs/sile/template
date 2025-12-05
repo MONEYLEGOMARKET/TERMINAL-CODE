@@ -16,7 +16,7 @@ depends="LuaJIT lua51-lpeg lua51-luaexpat lua51-zlib lua51-luafilesystem lua51-c
  lua51-linenoise lua51-cliargs lua51-luarepl lua51-luasocket lua51-luasec lua51-luautf8
  lua51-vstruct font-sil-gentium"
 short_desc="Modern typesetting system inspired by TeX"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://www.sile-typesetter.org/"
 distfiles="https://github.com/sile-typesetter/sile/releases/download/v${version}/sile-${version}.tar.zst"

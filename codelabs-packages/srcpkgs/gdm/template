@@ -22,7 +22,7 @@ depends="gnome-settings-daemon gnome-shell gnome-session gnome-themes-extra
  gsettings-desktop-schemas xorg-server xorg-server-xwayland xrdb"
 checkdepends="check-devel"
 short_desc="GNOME Display Manager"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://wiki.gnome.org/Projects/GDM"
 # FIXME: dead link

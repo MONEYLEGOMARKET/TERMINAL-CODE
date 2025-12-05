@@ -1,4 +1,4 @@
-Void Linux gmime3 always support session key extraction.
+CODE LABS gmime3 always support session key extraction.
 --- a/configure
 +++ b/configure
 @@ -506,65 +506,7 @@ if pkg-config --exists "gmime-3.0 >= $GM

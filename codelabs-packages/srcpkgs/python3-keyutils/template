@@ -14,7 +14,7 @@ distfiles="https://github.com/sassoftware/python-keyutils/archive/${version}.tar
 checksum=f69e6cadc50525dcb117714e440ee6579b0e5b7f12910b2bb2e910b236a2b18b
 
 post_patch() {
-	# Package does not *need* pytest-runner to build, and Void doesn't have it
+	# Package does not *need* pytest-runner to build, and CODE LABS doesn't have it
 	vsed -e "/setup_requires/s/['\"]pytest-runner['\"],*//" -i setup.py
 	rm -f keyutils/_keyutils.c
 }

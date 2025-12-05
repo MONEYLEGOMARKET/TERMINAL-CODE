@@ -10,7 +10,7 @@ hostmakedepends="pkg-config which"
 makedepends="gtk+3-devel wxWidgets-gtk3-devel sqlite-devel MesaLib-devel
  $(vopt_if hunspell hunspell-devel) $(vopt_if sftp libssh-devel)"
 short_desc="Open-source, cross platform IDE for the C/C++ programming languages"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="http://www.codelite.org"
 distfiles=https://github.com/eranif/codelite/releases/download/${version}/codelite-${version}.tar.gz

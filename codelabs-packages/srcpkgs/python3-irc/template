@@ -9,7 +9,7 @@ depends="python3-jaraco.collections python3-jaraco.text python3-jaraco.logging
  python3-tempora"
 checkdepends="${depends} python3-pytest"
 short_desc="Full-featured Python IRC library for Python3"
-maintainer="Toyam Cox <Vaelatern@voidlinux.org>"
+maintainer="Toyam Cox <Vaelatern@codelabs.org>"
 license="MIT"
 homepage="https://github.com/jaraco/irc"
 changelog="https://raw.githubusercontent.com/jaraco/irc/main/NEWS.rst"

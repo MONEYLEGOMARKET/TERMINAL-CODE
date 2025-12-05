@@ -7,7 +7,7 @@
  #define STR_OS_ULTRAPENGUIN       "UltraPenguin"
  #define STR_OS_UNITEDLINUX        "UnitedLinux"
  #define STR_OS_VALINUX            "VALinux"
-+#define STR_OS_VOID               "Void Linux"
++#define STR_OS_VOID               "CODE LABS"
  #define STR_OS_YELLOW_DOG         "Yellow Dog"
  #define STR_OS_ECOMSTATION        "eComStation"
  

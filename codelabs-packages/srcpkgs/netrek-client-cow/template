@@ -7,7 +7,7 @@ hostmakedepends="libtool automake"
 makedepends="libX11-devel imlib2-devel libXxf86vm-devel gmp-devel
  SDL_mixer-devel sdl12-compat-devel libXpm-devel"
 short_desc="Netrek Client (C and X11)"
-maintainer="Toyam Cox <Vaelatern@voidlinux.org>"
+maintainer="Toyam Cox <Vaelatern@codelabs.org>"
 license="MIT, custom:PublicDomain"
 homepage="https://www.netrek.org/"
 distfiles="https://www.netrek.org/files/COW/netrek-client-cow-${version}.tar.gz"

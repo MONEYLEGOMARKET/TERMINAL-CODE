@@ -4,7 +4,7 @@ version=2.0.34
 revision=4
 build_style=gnu-configure
 short_desc="ACPI Daemon (acpid) With Netlink Support"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://sourceforge.net/projects/acpid2/"
 changelog="https://sourceforge.net/p/acpid2/code/ci/master/tree/Changelog?format=raw"

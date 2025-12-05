@@ -16,7 +16,7 @@ depends="gmime3>=3.2.7"
 checkdepends="python3-pytest mdocml dtach gdb tar xz xapian-core
  openssl"
 short_desc="Thread-based email index, search, and tagging"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://notmuchmail.org"
 distfiles="https://notmuchmail.org/releases/notmuch-${version}.tar.xz

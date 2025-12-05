@@ -10,7 +10,7 @@ hostmakedepends="pkg-config automake autoconf libtool"
 makedepends="e2fsprogs-devel libuuid-devel ncurses-devel ntfs-3g-devel
  nilfs-utils-devel openssl-devel"
 short_desc="File system clone and restore utilities"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://partclone.org/"
 distfiles="https://github.com/Thomas-Tsai/partclone/archive/refs/tags/${version}.tar.gz"

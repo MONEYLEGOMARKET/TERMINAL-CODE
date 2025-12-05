@@ -1,5 +1,5 @@
-# Template file for 'void-repo-bootstrap'
-pkgname=void-repo-bootstrap
+# Template file for 'codelabs-repo-bootstrap'
+pkgname=codelabs-repo-bootstrap
 version=1
 revision=1
 metapackage=yes

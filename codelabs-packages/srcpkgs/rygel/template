@@ -11,7 +11,7 @@ makedepends="sqlite-devel gtk+3-devel libsoup3-devel libgee-devel
  libmediaart-devel gssdp-devel gst1-editing-services-devel python3-devel"
 depends="hicolor-icon-theme desktop-file-utils"
 short_desc="GNOME home media solution"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://gnome.pages.gitlab.gnome.org/rygel/"
 changelog="https://gitlab.gnome.org/GNOME/rygel/-/raw/master/NEWS"

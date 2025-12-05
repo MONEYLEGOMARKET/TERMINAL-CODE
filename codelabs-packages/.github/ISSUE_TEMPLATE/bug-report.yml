@@ -6,7 +6,7 @@ body:
     attributes:
       value: >
         #### Don't request an update of a package,
-        [We have a script for that](https://repo-default.codelabs.org/void-updates/void-updates.txt).
+        [We have a script for that](https://repo-default.codelabs.org/codelabs-updates/codelabs-updates.txt).
         However, a quality pull request may help.
   - id: verified
     type: dropdown
@@ -23,7 +23,7 @@ body:
     attributes:
       label: System Info
       description: Output of `xuname` (part of [`xtools`](https://man.codelabs.org/xtools.1))
-      placeholder: Void 5.x.y_z x86_64-musl ...
+      placeholder: CODE LABS 5.x.y_z x86_64-musl ...
     validations:
       required: true
   - id: packages

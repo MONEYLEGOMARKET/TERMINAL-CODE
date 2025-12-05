@@ -1,4 +1,4 @@
-# workaround for https://github.com/void-linux/xbps/issues/14
+# workaround for https://github.com/codelabs/xbps/issues/14
 case "${ACTION}" in
 pre)
 	if [ "$UPDATE" = "yes" ]; then

@@ -10,7 +10,7 @@ configure_args="-Dselinux=disabled -Dinotify=enabled -Ddbus_user=dbus
 hostmakedepends="gettext pkg-config xmlto"
 makedepends="expat-devel libX11-devel libcap-devel"
 short_desc="Message bus system"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://dbus.freedesktop.org/"
 changelog="https://gitlab.freedesktop.org/dbus/dbus/-/raw/dbus-1.16/NEWS"

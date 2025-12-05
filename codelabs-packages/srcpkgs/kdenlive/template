@@ -23,7 +23,7 @@ depends="breeze-icons dvdauthor ffmpeg frei0r-plugins kf6-kirigami
  kf6-qqc2-desktop-style mediainfo-cli"
 checkdepends="$depends xvfb-run"
 short_desc="Non-linear video editor"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://kdenlive.org"
 distfiles="${KDE_SITE}/release-service/${version}/src/kdenlive-${version}.tar.xz"

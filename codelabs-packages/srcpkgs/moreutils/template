@@ -21,7 +21,7 @@ post_install() {
 		mv ${DESTDIR}/usr/bin/{,moreutils_}${conflict}
 		mv ${DESTDIR}/usr/share/man/man1/{,moreutils_}${conflict}.1
 	done
-	vdoc ${FILESDIR}/README.voidlinux
+	vdoc ${FILESDIR}/README.codelabs
 
 	sed -n '/Copyright/,/DAMAGE/p' is_utf8/is_utf8.c > LICENSE-is-utf8
 	vlicense LICENSE-is-utf8

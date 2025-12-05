@@ -7,7 +7,7 @@ hostmakedepends="pkg-config geos-devel"
 makedepends="sqlite-devel zlib-devel proj-devel freexl-devel
  geos-devel librttopo-devel libxml2-devel minizip-devel"
 short_desc="SQLite extension for Spatial SQL capabilities"
-maintainer="Michael Aldridge <maldridge@voidlinux.org>"
+maintainer="Michael Aldridge <maldridge@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://www.gaia-gis.it/fossil/libspatialite/index"
 distfiles="http://www.gaia-gis.it/gaia-sins/libspatialite-$version.tar.gz"

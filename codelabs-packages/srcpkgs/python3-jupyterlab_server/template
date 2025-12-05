@@ -15,7 +15,7 @@ changelog="https://raw.githubusercontent.com/jupyterlab/jupyterlab_server/main/C
 distfiles="${PYPI_SITE}/j/jupyterlab_server/jupyterlab_server-${version}.tar.gz"
 checksum=eb36caca59e74471988f0ae25c77945610b887f777255aa21f8065def9e51ed4
 
-if [ "$XBPS_BUILD_ENVIRONMENT" = void-packages-ci ]; then
+if [ "$XBPS_BUILD_ENVIRONMENT" = codelabs-packages-ci ]; then
 	# tests setup fails on CI (no idea why)
 	make_check_args="-p no:unraisableexception"
 fi

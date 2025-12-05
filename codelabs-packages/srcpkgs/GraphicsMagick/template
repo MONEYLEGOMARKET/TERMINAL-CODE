@@ -46,6 +46,6 @@ libgraphicsmagick-devel_package() {
 		vmove "usr/lib/*.la"
 		vmove "usr/share/man/man1/*-config.1"
 		vcopy PerlMagick usr/share/doc/GraphicsMagick/
-		vdoc "${FILESDIR}/README.voidlinux"
+		vdoc "${FILESDIR}/README.codelabs"
 	}
 }

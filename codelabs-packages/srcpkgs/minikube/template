@@ -12,7 +12,7 @@ hostmakedepends="go-bindata pkg-config"
 makedepends="libvirt-devel"
 depends="kubectl"
 short_desc="Tool to make it easy to run Kubernetes locally"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Apache-2.0"
 homepage="https://github.com/kubernetes/minikube"
 changelog="https://raw.githubusercontent.com/kubernetes/minikube/master/CHANGELOG.md"
@@ -41,7 +41,7 @@ do_install() {
 		vtargetrun $GOPATH/bin/minikube completion $shell > completion.$shell
 		vcompletion completion.$shell $shell
 	done
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }
 
 docker-machine-driver-kvm2_package() {

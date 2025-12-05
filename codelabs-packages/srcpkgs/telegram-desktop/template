@@ -40,7 +40,7 @@ if [ "$XBPS_WORDSIZE" -eq 32 ]; then
 fi
 
 if [ "$XBPS_TARGET_WORDSIZE" != "$XBPS_WORDSIZE" ]; then
-	nocross="https://build.voidlinux.org/#/builders/6/builds/927"
+	nocross="https://build.codelabs.org/#/builders/6/builds/927"
 fi
 
 if [ "$XBPS_TARGET_ENDIAN" = "be" ]; then

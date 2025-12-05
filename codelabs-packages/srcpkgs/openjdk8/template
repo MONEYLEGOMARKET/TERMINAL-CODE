@@ -23,10 +23,10 @@ configure_args="
  --with-freetype-include=${XBPS_CROSS_BASE}/usr/include/freetype2
  --with-jtreg=no
  --with-jobs=${XBPS_ORIG_MAKEJOBS}
- --with-vendor-name=Void
- --with-vendor-url=https://voidlinux.org/
- --with-vendor-bug-url=https://github.com/void-linux/void-packages/issues
- --with-vendor-vm-bug-url=https://github.com/void-linux/void-packages/issues
+ --with-vendor-name=CODE_LABS
+ --with-vendor-url=https://codelabs.org/
+ --with-vendor-bug-url=https://github.com/codelabs/codelabs-packages/issues
+ --with-vendor-vm-bug-url=https://github.com/codelabs/codelabs-packages/issues
  --disable-option-checking"
 make_build_args="images $(vopt_if docs docs) COMPILER_WARNINGS_FATAL=false GIT=true"
 make_install_args="GIT=true"
@@ -37,7 +37,7 @@ makedepends="libXrender-devel libXtst-devel libXt-devel libXrandr-devel
  zlib-devel"
 depends="openjdk8-jre-${version}_${revision}"
 short_desc="OpenJDK Java Development Kit (version 8)"
-maintainer="Toyam Cox <Vaelatern@voidlinux.org>"
+maintainer="Toyam Cox <Vaelatern@codelabs.org>"
 license="GPL-2.0-only WITH Classpath-exception-2.0"
 homepage="http://openjdk.java.net/"
 # we're using aarch64 port repo to get aarch64 JIT; the repo is

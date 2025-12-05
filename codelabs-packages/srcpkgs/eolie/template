@@ -12,7 +12,7 @@ makedepends="gtk+3-devel libglib-devel python3-gobject-devel
 depends="gtkspell3 python3-dateutil python3-gobject libwebkit2gtk41 python3-PyFxA
  gnome-settings-daemon libhandy1"
 short_desc="Web browser for GNOME"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://wiki.gnome.org/Apps/Eolie"
 distfiles="https://gitlab.gnome.org/World/eolie/uploads/${_eolie_hash}/eolie-${version}.tar.xz"

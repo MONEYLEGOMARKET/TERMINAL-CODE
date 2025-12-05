@@ -8,7 +8,7 @@ makedepends="gsettings-desktop-schemas-devel libadwaita-devel
  python3-gobject-devel"
 depends="dconf gnome-settings-daemon libadwaita mutter python3-gobject"
 short_desc="GNOME tool to customize advanced options"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-3.0-or-later, CC0-1.0"
 homepage="https://wiki.gnome.org/Apps/Tweaks"
 distfiles="${GNOME_SITE}/${pkgname}/${version%.*}/${pkgname}-${version}.tar.xz"

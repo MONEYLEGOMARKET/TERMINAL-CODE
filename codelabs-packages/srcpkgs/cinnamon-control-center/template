@@ -14,7 +14,7 @@ depends="libcinnamon-control-center>=${version}_${revision}
  cinnamon-settings-daemon cinnamon-translations desktop-file-utils
  hicolor-icon-theme gnome-color-manager"
 short_desc="Cinnamon Control Center"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later"
 homepage="https://github.com/linuxmint/cinnamon-control-center"
 distfiles="https://github.com/linuxmint/${pkgname}/archive/${version}.tar.gz"

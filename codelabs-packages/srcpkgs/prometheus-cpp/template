@@ -10,7 +10,7 @@ configure_args="-DCMAKE_CXX_STANDARD=17"
 hostmakedepends="telegraf protobuf"
 makedepends="protobuf-devel"
 short_desc="Prometheus Client Library in Modern C++"
-maintainer="Toyam Cox <Vaelatern@voidlinux.org>"
+maintainer="Toyam Cox <Vaelatern@codelabs.org>"
 license="MIT"
 homepage="https://github.com/jupp0r/prometheus-cpp"
 distfiles="https://github.com/jupp0r/prometheus-cpp/archive/v${version}.tar.gz

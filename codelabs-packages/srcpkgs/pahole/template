@@ -6,7 +6,7 @@ build_style=cmake
 configure_args="-D__LIB=lib"
 makedepends="elfutils-devel zlib-devel"
 short_desc="Various DWARF utils"
-maintainer="Andrew Benson <abenson+void@gmail.com>"
+maintainer="Andrew Benson <abenson+codelabs@gmail.com>"
 license="GPL-2.0-only"
 homepage="http://git.kernel.org/?p=devel/pahole/pahole.git;a=summary"
 distfiles="https://fedorapeople.org/~acme/dwarves/dwarves-${version}.tar.xz"

@@ -7,7 +7,7 @@ configure_args="--sbindir=/usr/bin --enable-pam-module-dir=/usr/lib/security --e
 hostmakedepends="flex"
 makedepends="pam-devel"
 short_desc="Library that abstracts the control group file system in Linux"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 make_dirs="/etc/cgconfig.d 0755 root root"
 license="LGPL-2.1-only"
 homepage="https://github.com/libcgroup/libcgroup"

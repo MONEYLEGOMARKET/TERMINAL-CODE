@@ -8,7 +8,7 @@ depends="python3-dateutil python3-argon2 python3-construct python3-lxml
  python3-pycryptodomex python3-future"
 checkdepends="$depends"
 short_desc="Python3 library to interact with keepass databases"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://github.com/libkeepass/pykeepass"
 changelog="https://raw.githubusercontent.com/libkeepass/pykeepass/master/CHANGELOG.rst"

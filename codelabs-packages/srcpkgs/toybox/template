@@ -4,7 +4,7 @@ version=0.8.10
 revision=3
 create_wrksrc=yes
 short_desc="BSD-licensed alternative to busybox"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="0BSD"
 homepage="http://www.landley.net/toybox"
 distfiles="http://www.landley.net/toybox/downloads/toybox-${version}.tar.gz"
@@ -40,7 +40,7 @@ _rm_failing_tests() {
 	rm tests/grep.test
 	rm tests/sed.test
 	rm tests/tar.test
-	[ "$XBPS_BUILD_ENVIRONMENT" != void-packages-ci ] && return 0
+	[ "$XBPS_BUILD_ENVIRONMENT" != codelabs-packages-ci ] && return 0
 	# XXX: chattr, hostname,losetup, rmdir tests fail on CI
 	rm tests/chattr.test
 	rm tests/hostname.test

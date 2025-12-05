@@ -7,7 +7,7 @@ configure_args="--with-installbuilddir=/usr/share/apr-1/build"
 makedepends="expat-devel libuuid-devel"
 checkdepends="gdb iana-etc"
 short_desc="Apache Portable Runtime Library"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Apache-2.0"
 homepage="https://apr.apache.org/"
 distfiles="https://archive.apache.org/dist/apr/apr-${version}.tar.bz2"
@@ -34,7 +34,7 @@ fi
 do_check() {
 	local _args
 	cd test
-	if [ "$XBPS_BUILD_ENVIRONMENT" = void-packages-ci ]; then
+	if [ "$XBPS_BUILD_ENVIRONMENT" = codelabs-packages-ci ]; then
 		sed -i 's/if BROKEN_IN_CI/if 0/' testsockets.c
 		if [ "$XBPS_LIBC" = musl ]; then
 			# unable to resolve back from 127.0.0.1

@@ -9,7 +9,7 @@ hostmakedepends="pkg-config gettext glib-devel vala
 makedepends="gtk4-devel gstreamer1-devel gst-plugins-base1-devel libadwaita-devel
  libsoup3-devel libmicrodns-devel libpeas2-devel"
 short_desc="Modern and user-friendly media player"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later, LGPL-2.1-or-later"
 homepage="https://github.com/Rafostar/clapper"
 distfiles="https://github.com/Rafostar/clapper/archive/refs/tags/${version}.tar.gz"

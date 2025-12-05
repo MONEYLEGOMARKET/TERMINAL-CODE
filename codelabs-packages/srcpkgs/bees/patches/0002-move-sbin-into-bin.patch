@@ -4,7 +4,7 @@ From: =?UTF-8?q?Jan=20Christian=20Gr=C3=BCnhage?=
 Date: Thu, 7 Oct 2021 18:05:15 +0200
 Subject: [PATCH 2/3] move sbin/* into bin/*
 
-Void does not distinguis between bin and sbin, but this patch will
+CODE LABS does not distinguis between bin and sbin, but this patch will
 likely not be upstreamable.
 ---
  Makefile | 4 ++--

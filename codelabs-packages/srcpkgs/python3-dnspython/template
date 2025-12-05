@@ -9,7 +9,7 @@ checkdepends="python3-attrs python3-async_generator python3-idna python3-curio
  python3-trio python3-outcome python3-sniffio python3-sortedcontainers
  python3-requests python3-requests-toolbelt python3-pytest iana-etc"
 short_desc="DNS toolkit for Python3"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="ISC"
 homepage="https://www.dnspython.org/"
 changelog="https://dnspython.readthedocs.io/en/stable/whatsnew.html"

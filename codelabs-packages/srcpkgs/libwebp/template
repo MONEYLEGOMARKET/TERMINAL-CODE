@@ -9,7 +9,7 @@ hostmakedepends="pkg-config"
 makedepends="giflib-devel libpng-devel libfreeglut-devel
  $(vopt_if tiff tiff-devel)"
 short_desc="WebP image format"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="BSD-3-Clause"
 homepage="https://developers.google.com/speed/webp/"
 changelog="https://chromium.googlesource.com/webm/libwebp/+/refs/heads/main/NEWS"

@@ -6,7 +6,7 @@ depends="p11-kit"
 short_desc="Common files for OpenJDK packages"
 maintainer="classabbyamp <void@placeviolette.net>"
 license="Public Domain"
-homepage="https://www.voidlinux.org"
+homepage="https://www.codelabs.org"
 
 do_install() {
 	vinstall "${FILESDIR}"/profile.sh 644 /etc/profile.d jdk.sh

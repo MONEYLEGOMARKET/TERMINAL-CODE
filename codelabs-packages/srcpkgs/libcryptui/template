@@ -13,7 +13,7 @@ makedepends="libSM-devel dbus-glib-devel gtk+3-devel gpgme-devel
  libnotify-devel gcr-devel"
 depends="hicolor-icon-theme gnupg"
 short_desc="GNOME Interface components for OpenPGP"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later"
 homepage="http://www.gnome.org"
 distfiles="${GNOME_SITE}/$pkgname/${version%.*}/$pkgname-$version.tar.xz"

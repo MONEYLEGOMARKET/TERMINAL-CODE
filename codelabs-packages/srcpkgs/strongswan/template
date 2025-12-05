@@ -17,7 +17,7 @@ checkdepends="iana-etc"
 conf_files="/etc/strongswan.conf /etc/strongswan.d/*.conf /etc/strongswan.d/charon/*.conf
  /etc/swanctl/swanctl.conf"
 short_desc="IPsec-based VPN solution, supporting IKEv1/IKEv2 and MOBIKE"
-maintainer="Toyam Cox <Vaelatern@voidlinux.org>"
+maintainer="Toyam Cox <Vaelatern@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://www.strongswan.org/"
 changelog="https://raw.githubusercontent.com/strongswan/strongswan/master/NEWS"

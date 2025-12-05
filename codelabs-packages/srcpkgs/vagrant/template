@@ -17,7 +17,7 @@ repository=nonfree
 
 do_install() {
 	local dc=yes
-	# https://build.voidlinux.org/builders/x86_64-musl_builder/builds/50813/steps/shell_3/logs/stdio
+	# https://build.codelabs.org/builders/x86_64-musl_builder/builds/50813/steps/shell_3/logs/stdio
 	if [ "$XBPS_TARGET_LIBC" = musl ]; then
 		dc=
 	fi

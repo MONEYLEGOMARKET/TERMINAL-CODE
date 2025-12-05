@@ -12,7 +12,7 @@ hostmakedepends="nasm yasm pkg-config"
 makedepends="libmad-devel libvorbis-devel pcre-devel libjpeg-turbo-devel
 alsa-lib-devel libXrandr-devel libva-devel glew-devel"
 short_desc="Advanced rhythm game"
-maintainer="Michael Aldridge <maldridge@voidlinux.org>"
+maintainer="Michael Aldridge <maldridge@codelabs.org>"
 license="MIT"
 homepage="http://www.stepmania.com/"
 distfiles="https://github.com/stepmania/stepmania/archive/v${version}.tar.gz

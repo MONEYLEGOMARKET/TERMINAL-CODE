@@ -10,7 +10,7 @@ makedepends="openssl-devel $(vopt_if alsa alsa-lib-devel)
  $(vopt_if pulseaudio pulseaudio-devel) $(vopt_if portaudio portaudio-devel)
  $(vopt_if dbus dbus-devel)"
 short_desc="Spotify client running as a UNIX daemon"
-maintainer="Andrew Benson <abenson+void@gmail.com>"
+maintainer="Andrew Benson <abenson+codelabs@gmail.com>"
 license="GPL-3.0-or-later"
 homepage="https://github.com/Spotifyd/spotifyd"
 changelog="https://raw.githubusercontent.com/Spotifyd/spotifyd/master/CHANGELOG.md"

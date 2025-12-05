@@ -12,7 +12,7 @@ makedepends="kio-devel ksolid-devel vlc-devel libXScrnSaver-devel
 depends="qt5-plugin-mysql qt5-plugin-odbc qt5-plugin-pgsql
  qt5-plugin-sqlite qt5-plugin-tds"
 short_desc="KDE media player"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://www.kde.org/applications/multimedia/kaffeine/"
 distfiles="${KDE_SITE}/kaffeine/kaffeine-${version}.tar.xz"

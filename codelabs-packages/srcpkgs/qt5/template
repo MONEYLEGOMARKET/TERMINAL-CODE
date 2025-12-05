@@ -203,7 +203,7 @@ do_configure() {
 			-e "s|^\(LFLAGS =.*\)|\1 ${LDFLAGS}|" \
 			${wrksrc}/qtbase/qmake/Makefile.unix
 
-		# Build qmake using Void {C,LD}FLAGS
+		# Build qmake using CODE LABS {C,LD}FLAGS
 		# This also sets default {C,CXX,LD}FLAGS for projects built using qmake
 		vsed -i -e "s|^\(QMAKE_CFLAGS_RELEASE.*\)|\1 ${CFLAGS}|" \
 			${wrksrc}/qtbase/mkspecs/common/gcc-base.conf

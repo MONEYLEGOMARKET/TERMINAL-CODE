@@ -9,7 +9,7 @@ makedepends="gtk+3-devel xfconf-devel libglib-devel"
 depends="desktop-file-utils gtk+3 hicolor-icon-theme python3-gobject
  python3-pexpect python3-dbus xfconf"
 short_desc="Versatile file searching tool"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://docs.xfce.org/apps/catfish/start"
 changelog="https://gitlab.xfce.org/apps/catfish/-/raw/master/NEWS"

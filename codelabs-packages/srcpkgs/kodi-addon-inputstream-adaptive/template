@@ -9,7 +9,7 @@ build_style=cmake
 configure_args=" -DENABLE_INTERNAL_BENTO4=1 -DBENTO4_URL=${XBPS_SRCDISTDIR}/${pkgname}-${version}/${_bento4_version}.tar.gz -DVERBOSE=1"
 makedepends="gtest-devel kodi-devel kodi-platform-devel pugixml-devel"
 short_desc="Kodi inputstream addon for several manifest types"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://github.com/peak3d/inputstream.adaptive"
 distfiles="https://github.com/peak3d/inputstream.adaptive/archive/${version}-${_kodi_release}.tar.gz https://github.com/xbmc/Bento4/archive/refs/tags/${_bento4_version}.tar.gz"

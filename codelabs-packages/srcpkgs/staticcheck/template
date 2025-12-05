@@ -9,7 +9,7 @@ go_package="${go_import_path}/cmd/staticcheck
  ${go_import_path}/cmd/structlayout-pretty
  ${go_import_path}/cmd/structlayout-optimize"
 short_desc="Advanced Go linter"
-maintainer="Michael Aldridge <maldridge@voidlinux.org>"
+maintainer="Michael Aldridge <maldridge@codelabs.org>"
 license="MIT"
 homepage="https://staticcheck.dev/"
 distfiles="https://github.com/dominikh/go-tools/archive/refs/tags/${version}.tar.gz"

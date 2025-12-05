@@ -12,7 +12,7 @@ depends="cinnamon-translations hicolor-icon-theme python3-gobject
  python3-setproctitle python3-xapp xapps"
 conf_files="/etc/pam.d/${pkgname}"
 short_desc="Cinnamon screensaver"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later"
 homepage="https://github.com/linuxmint/cinnamon-screensaver"
 distfiles="https://github.com/linuxmint/cinnamon-screensaver/archive/${version}.tar.gz"

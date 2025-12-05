@@ -5,7 +5,7 @@ revision=1
 build_style=gnu-configure
 configure_args="--disable-static"
 short_desc="Userspace RCU (read-copy-update) library"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://liburcu.org"
 changelog="https://git.liburcu.org/?p=userspace-rcu.git;a=blob_plain;f=ChangeLog;hb=master"

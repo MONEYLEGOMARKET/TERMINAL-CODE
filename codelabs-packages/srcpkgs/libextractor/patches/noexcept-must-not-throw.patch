@@ -1,4 +1,4 @@
-Author: sgn@voidlinux
+Author: sgn@codelabs
 Reason: noexcept function must not throw
 --- a/src/plugins/exiv2_extractor.cc
 +++ b/src/plugins/exiv2_extractor.cc

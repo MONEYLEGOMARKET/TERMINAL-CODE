@@ -13,7 +13,7 @@ makedepends="clutter-gtk-devel freerdp-devel libarchive-devel
  tracker-devel libgcrypt-devel libportal-gtk3-devel"
 depends="desktop-file-utils hicolor-icon-theme qemu"
 short_desc="GNOME application to access remote or virtual systems"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="LGPL-2.0-or-later"
 homepage="https://wiki.gnome.org/Apps/Boxes"
 changelog="https://gitlab.gnome.org/GNOME/gnome-boxes/-/raw/main/NEWS"

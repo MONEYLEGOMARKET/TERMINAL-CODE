@@ -14,7 +14,7 @@ checksum=f8b25ab86738864b1f2e3128e8badab581510fa8085ff5ca9bb980d317334c46
 
 do_check() {
 	# nng.platform.resolver_test passes on host machine,
-	# but fails in void-packages chroot
+	# but fails in codelabs-packages chroot
 	cd ${cmake_builddir:=build}
 	ctest -E 'nng\.platform\.resolver_test'
 }

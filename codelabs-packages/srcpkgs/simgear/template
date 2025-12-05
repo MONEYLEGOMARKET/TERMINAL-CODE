@@ -11,7 +11,7 @@ makedepends="boost-devel-minimal freetype-devel libjpeg-turbo-devel giflib-devel
  libcurl-devel libfreeglut-devel libopenal-devel osg-devel plib-devel
  liblzma-devel expat-devel udns-devel"
 short_desc="Simulation engine for FlightGear"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://www.flightgear.org/"
 distfiles="$SOURCEFORGE_SITE/project/flightgear/release-${version%.*}/${pkgname}-${version}.tar.bz2"

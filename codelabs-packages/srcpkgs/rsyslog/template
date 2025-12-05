@@ -16,7 +16,7 @@ makedepends="gnutls-devel libcurl-devel libestr-devel libfastjson-devel
  libgcrypt-devel"
 checkdepends="gdb procps-ng faketime"
 short_desc="Enhanced multi-threaded syslog daemon"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later, Apache-2.0"
 homepage="https://www.rsyslog.com"
 changelog="https://raw.githubusercontent.com/rsyslog/rsyslog/master/ChangeLog"

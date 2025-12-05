@@ -20,7 +20,7 @@ changelog="https://raw.githubusercontent.com/jupyter-server/jupyter_server/main/
 distfiles="${PYPI_SITE}/j/jupyter-server/jupyter_server-${version}.tar.gz"
 checksum=65d4b44fdf2dcbbdfe0aa1ace4a842d4aaf746a2b7b168134d5aaed35621b7f6
 
-if [ "$XBPS_BUILD_ENVIRONMENT" = void-packages-ci ]; then
+if [ "$XBPS_BUILD_ENVIRONMENT" = codelabs-packages-ci ]; then
 	# these tests fail on CI (connect to a tcp address)
 	make_check_args+="
 	 --deselect=tests/extension/test_launch.py::test_launch_instance

@@ -20,13 +20,13 @@ touch "$REFIND_CONF"
 
 tmpfile=$(mktemp /tmp/refind.XXXXXXX)
 
-: "${REFIND_LABEL:="Void Linux"}"
+: "${REFIND_LABEL:="CODE LABS"}"
 : "${REFIND_BOOT_PREFIX:=""}"
 
 zversion=$(echo "$VERSION" | sed 's/[.]/[.]/g')
 
 zentry=$(cat <<EOF
-menuentry "Void Linux $VERSION" {
+menuentry "CODE LABS $VERSION" {
         volume   "$REFIND_LABEL"
         loader   $REFIND_BOOT_PREFIX/vmlinuz-$VERSION
         initrd   $REFIND_BOOT_PREFIX/initramfs-$VERSION.img
@@ -36,7 +36,7 @@ EOF
 )
 
 <"$REFIND_CONF" \
-sed "/^menuentry \"Void Linux $zversion\" [{]\$/,/[}]/d" |
+sed "/^menuentry \"CODE LABS $zversion\" [{]\$/,/[}]/d" |
 awk -v "entry=$zentry" '
 	/^timeout / {t=1}
 	/^menuentry / && !x {print entry; x=1}

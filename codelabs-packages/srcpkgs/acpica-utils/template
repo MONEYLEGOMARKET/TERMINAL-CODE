@@ -7,7 +7,7 @@ make_use_env=yes
 make_build_args="NOWERROR=TRUE BITS=${XBPS_TARGET_WORDSIZE}"
 hostmakedepends="flex"
 short_desc="Intel ACPI CA Unix utilities"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-only, BSD-3-Clause"
 homepage="https://www.acpica.org/"
 distfiles="https://github.com/user-attachments/files/16769900/acpica-unix-${version}.tar.gz"

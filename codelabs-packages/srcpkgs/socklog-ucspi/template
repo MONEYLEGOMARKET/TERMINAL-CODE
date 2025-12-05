@@ -5,7 +5,7 @@ revision=1
 metapackage=yes
 depends="socklog ipsvd"
 short_desc="UCSPI-TCP services for socklog"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Public Domain"
 homepage="http://smarden.org/socklog"
 

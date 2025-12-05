@@ -5,7 +5,7 @@ revision=2
 metapackage=yes
 depends="python${version%%.*}"
 short_desc="Python programming language (metapackage)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Public Domain"
 homepage="https://www.python.org"
 

@@ -8,7 +8,7 @@ go_ldflags="-X main.version=${version} -X main.distribution=VoidLinux"
 go_import_path="noisetorch"
 depends="libcap-progs"
 short_desc="Real-time microphone noise suppression on Linux"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://github.com/NoiseTorch/NoiseTorch"
 _c_ringbuf_commit=2037560fb90dea5d2538611d983964d790bdbac2

@@ -9,7 +9,7 @@ configure_args="-Dcrypto-library=openssl -Dgtk_doc=disabled -Dtests=disabled
 hostmakedepends="glib-devel pkg-config"
 makedepends="gstreamer1-devel openssl-devel libglib-devel"
 short_desc="Implementation of the IETF's draft ICE (for P2P UDP data streams)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://libnice.freedesktop.org/"
 changelog="https://gitlab.freedesktop.org/libnice/libnice/-/raw/master/NEWS"

@@ -4,7 +4,7 @@ version=2.5
 revision=2
 build_style=gnu-configure
 short_desc="Parallel bzip2 compression utility"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="http://lbzip2.org/"
 # lbzip2.org no longer host the tarball

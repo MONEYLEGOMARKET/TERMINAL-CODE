@@ -8,7 +8,7 @@ hostmakedepends="pkg-config"
 makedepends="libjpeg-turbo-devel libpng-devel libde265-devel x265-devel
  libaom-devel gdk-pixbuf-devel"
 short_desc="ISO/IEC 23008-12:2017 HEIF file format decoder and encoder"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-3.0-or-later"
 homepage="https://github.com/strukturag/libheif"
 changelog="https://github.com/strukturag/libheif/releases"

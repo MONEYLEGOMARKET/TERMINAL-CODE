@@ -36,7 +36,7 @@ pre_configure() {
 		PREFIX=/usr
 		SBINDIR=/usr/bin
 		MANDIR=/usr/share/man
-		OSNAME="Void Linux"
+		OSNAME="CODE LABS"
 		BINM_SOELIM=mandoc-soelim
 		MANM_ROFF="mandoc_roff"
 		LDFLAGS="$LDFLAGS"
@@ -64,8 +64,8 @@ post_install() {
 	vlicense LICENSE
 }
 
-void-man-cgi_package() {
-	short_desc="CGI manpage formatter for man.voidlinux.org"
+codelabs-man-cgi_package() {
+	short_desc="CGI manpage formatter for man.codelabs.org"
 	depends="${sourcepkg}>=${version}_${revision}"
 	pkg_install() {
 		vmkdir usr/libexec/mandoc

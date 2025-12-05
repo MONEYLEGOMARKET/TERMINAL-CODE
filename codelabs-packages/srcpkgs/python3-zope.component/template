@@ -7,7 +7,7 @@ hostmakedepends="python3-setuptools"
 depends="python3-setuptools python3-zope.deferredimport python3-zope.deprecation
  python3-zope.interface python3-zope.event python3-zope.hookable"
 short_desc="Zope component architecture for Python"
-maintainer="Toyam Cox <Vaelatern@voidlinux.org>"
+maintainer="Toyam Cox <Vaelatern@codelabs.org>"
 license="ZPL-2.1"
 homepage="https://www.zope.org"
 distfiles="${PYPI_SITE}/z/zope.component/zope.component-${version}.tar.gz"

@@ -8,7 +8,7 @@ makedepends="libjpeg-turbo-devel libuuid-devel e2fsprogs-devel
  ntfs-3g-devel ncurses-devel"
 depends="sudo"
 short_desc="Powerful free data recovery software"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://www.cgsecurity.org/"
 distfiles="https://www.cgsecurity.org/$pkgname-$version.tar.bz2"

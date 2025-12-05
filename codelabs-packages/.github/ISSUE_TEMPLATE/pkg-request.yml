@@ -7,7 +7,7 @@ body:
     attributes:
       value: >
         #### Don't request an update of a package,
-        [We have a script for that](https://repo-default.codelabs.org/void-updates/void-updates.txt).
+        [We have a script for that](https://repo-default.codelabs.org/codelabs-updates/codelabs-updates.txt).
         However, a quality pull request may help.
   - id: name
     type: input
@@ -30,7 +30,7 @@ body:
       description: What does the package do?
       placeholder: >
         Foobar9k is a music player that turns your music up to 11.
-        It provides features X, Y, and Z, which other music players in Void don't.
+        It provides features X, Y, and Z, which other music players in CODE LABS don't.
     validations:
       required: true
   - id: quality
@@ -38,7 +38,7 @@ body:
     attributes:
       label: Does the requested package meet the package requirements?
       description: |
-        See [CONTRIBUTING.md](https://github.com/codelabs/void-packages/blob/master/CONTRIBUTING.md#package-requirements) for details
+        See [CONTRIBUTING.md](https://github.com/codelabs/codelabs-packages/blob/master/CONTRIBUTING.md#package-requirements) for details
       multiple: true
       options:
         - System
@@ -51,7 +51,7 @@ body:
     attributes:
       label: Is the requested package released?
       description: |
-        See [CONTRIBUTING.md](https://github.com/codelabs/void-packages/blob/master/CONTRIBUTING.md#package-requirements) for details
+        See [CONTRIBUTING.md](https://github.com/codelabs/codelabs-packages/blob/master/CONTRIBUTING.md#package-requirements) for details
       options:
         - "Yes"
         - "No"

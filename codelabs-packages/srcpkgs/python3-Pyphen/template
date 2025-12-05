@@ -7,7 +7,7 @@ hostmakedepends="python3-poetry-core python3-flit_core"
 checkdepends="python3-pytest-isort python3-pytest-cov python3-pytest-flake8
  python3-pytest-xdist"
 short_desc="Hy-phen-ation made easy"
-maintainer="Andrew Benson <abenson+void@gmail.com>"
+maintainer="Andrew Benson <abenson+codelabs@gmail.com>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later, MPL-1.1"
 homepage="https://www.courtbouillon.org/pyphen"
 distfiles="https://github.com/Kozea/Pyphen/archive/refs/tags/${version}.tar.gz"

@@ -5,7 +5,7 @@ revision=2
 build_style=gnu-makefile
 make_install_args="SBINDIR=/usr/bin BINDIR=/usr/bin"
 short_desc="Userspace daemon acting as a backend for FS-Cache"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://people.redhat.com/~dhowells/fscache/"
 distfiles="http://people.redhat.com/~dhowells/fscache/${pkgname}-${version}.tar.bz2"

@@ -11,7 +11,7 @@ makedepends="libX11-devel libXmu-devel libXpm-devel libXext-devel
  libXinerama-devel ghostscript"
 depends="ghostscript"
 short_desc="Postscript and PDF viewer"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="http://www.gnu.org/software/gv/"
 distfiles="${GNU_SITE}/${pkgname}/${pkgname}-${version}.tar.gz"

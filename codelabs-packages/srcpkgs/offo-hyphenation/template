@@ -5,7 +5,7 @@ revision=3
 create_wrksrc=yes
 depends="apache-fop>=1.1_2"
 short_desc="Hypenation patterns for apache FOP - precompiled version"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, Apache-2.0, LPPL-1.3c"
 homepage="http://offo.sourceforge.net/hyphenation/"
 distfiles="${SOURCEFORGE_SITE}/offo/${pkgname}/${version}/${pkgname}-binary.zip
@@ -22,5 +22,5 @@ do_install() {
 	vcopy "${pkgname}/hyph" usr/share/doc/${pkgname}
 	vcopy "${pkgname}-binary/*.html" usr/share/doc/${pkgname}
 	vcopy "${pkgname}-binary/languages-info.*" usr/share/doc/${pkgname}
-	vinstall ${FILESDIR}/"README.void" 644 usr/share/doc/${pkgname}
+	vinstall ${FILESDIR}/"README.codelabs" 644 usr/share/doc/${pkgname}
 }

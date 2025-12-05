@@ -28,7 +28,7 @@ _make_depends="
 makedepends="${_make_depends}"
 checkdepends="procps-ng iana-etc"
 short_desc="Evented I/O for V8 javascript"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://nodejs.org/"
 changelog="https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V${version%%.*}.md"
@@ -54,7 +54,7 @@ if [ "$CROSS_BUILD" ]; then
 	hostmakedepends+=" ${_make_depends}"
 fi
 
-# https://build.voidlinux.org/builders/i686_builder/builds/27325/steps/shell_3/logs/stdio
+# https://build.codelabs.org/builders/i686_builder/builds/27325/steps/shell_3/logs/stdio
 if [ "$XBPS_WORDSIZE" = 32 ]; then
 	LDFLAGS="-Wl,--no-keep-memory"
 fi

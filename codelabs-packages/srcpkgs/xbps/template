@@ -7,9 +7,9 @@ build_style=configure
 short_desc="XBPS package system utilities"
 maintainer="Juan RP <xtraeme@gmail.com>"
 license="BSD-2-Clause, BSD-3-Clause, ISC"
-homepage="https://github.com/void-linux/xbps"
-changelog="https://raw.githubusercontent.com/void-linux/xbps/master/NEWS"
-distfiles="https://github.com/void-linux/xbps/archive/${version}.tar.gz"
+homepage="https://github.com/codelabs/xbps"
+changelog="https://raw.githubusercontent.com/codelabs/xbps/master/NEWS"
+distfiles="https://github.com/codelabs/xbps/archive/${version}.tar.gz"
 checksum=f51d528fa680873914aa8367707726dd777fccc6e5c95cfad90fdb3562375c04
 
 hostmakedepends="pkgconf"
@@ -37,7 +37,7 @@ do_configure() {
 }
 
 post_install() {
-	local repo="https://repo-default.voidlinux.org/current" suffix=
+	local repo="https://repo-default.codelabs.org/current" suffix=
 	case "$XBPS_TARGET_MACHINE" in
 		aarch64*)     suffix="/aarch64";;
 		*-musl)       suffix="/musl";;

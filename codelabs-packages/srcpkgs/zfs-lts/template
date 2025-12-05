@@ -12,7 +12,7 @@ depends="dkms>=2.2.0.3_9 perl python3 xbps-triggers>=0.121_1
  libzfs-lts>=${version}_${revision}"
 conf_files="/etc/zfs/zed.d/zed.rc /usr/src/zfs-${version}/META"
 short_desc="Z File System -- userland, pyzfs, and kernel modules (using DKMS)"
-maintainer="Toyam Cox <Vaelatern@voidlinux.org>"
+maintainer="Toyam Cox <Vaelatern@codelabs.org>"
 license="CDDL-1.0"
 homepage="https://openzfs.github.io/openzfs-docs/"
 distfiles="https://github.com/openzfs/zfs/releases/download/zfs-${version}/zfs-${version}.tar.gz"
@@ -41,13 +41,13 @@ post_install() {
 	tar xf ${pkgname/%-lts}-${version}.tar.gz -C ${DESTDIR}/usr/src/
 	scripts/dkms.mkconf -v ${version} -f ${DESTDIR}/usr/src/${pkgname/%-lts}-${version}/dkms.conf -n zfs
 
-	# Remove init and service control pieces not used in Void
+	# Remove init and service control pieces not used in CODE LABS
 	rm -rf ${DESTDIR}/usr/lib/systemd
 	rm -rf ${DESTDIR}/etc/init.d
 	rm -rf ${DESTDIR}/etc/default
 	rm -f ${DESTDIR}/etc/zfs/zfs-functions
 
-	# Remove pam config framework file not used in Void
+	# Remove pam config framework file not used in CODE LABS
 	rm -f ${DESTDIR}/usr/share/pam-configs/zfs_key
 
 	# zfs-mount-generator is a systemd helper, no need for its man page

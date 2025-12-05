@@ -19,7 +19,7 @@ makedepends="boost-devel-minimal libboost_context libboost_coroutine
  gtest-devel lowdown-devel json-c++"
 depends="curl tar xz busybox-static lsof"
 short_desc="Purely functional package manager"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://nixos.org/nix/"
 changelog="https://nixos.org/releases/${pkgname}/${pkgname}-${version}/manual/#sec-relnotes"

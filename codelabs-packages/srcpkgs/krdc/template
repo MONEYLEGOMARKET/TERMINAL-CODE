@@ -20,7 +20,7 @@ makedepends="qt6-base-private-devel
  freerdp3-devel libssh-devel fuse3-devel"
 depends="freerdp3"
 short_desc="Remote Desktop Client supporting VNC and RDP"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, GFDL-1.2-only, LGPL-2.1-or-later"
 homepage="https://kde.org/applications/en/internet/org.kde.krdc"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"

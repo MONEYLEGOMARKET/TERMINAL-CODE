@@ -5,7 +5,7 @@ revision=1
 build_style=gnu-makefile
 make_check_target=test
 short_desc="Test case generator for robustness testing"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://gitlab.com/akihe/radamsa"
 # Makefile contains current location of ol.c.gz

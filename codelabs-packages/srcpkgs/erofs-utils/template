@@ -10,7 +10,7 @@ hostmakedepends="automake libtool pkg-config"
 makedepends="liblz4-devel libuuid-devel liblzma-devel libzstd-devel zlib-devel
  fuse-devel"
 short_desc="User-space tools for EROFS filesystem"
-maintainer="Duncaen <duncaen@voidlinux.org>"
+maintainer="Duncaen <duncaen@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs-utils.git/about/"
 changelog="https://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs-utils.git/plain/ChangeLog"

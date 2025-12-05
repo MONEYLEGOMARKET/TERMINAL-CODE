@@ -12,7 +12,7 @@ hostmakedepends="dbus-glib-devel gettext glib-devel
 makedepends="dbus-devel dbus-glib-devel glib-devel pam-devel
  libfprint-devel polkit-devel cairo-devel elogind-devel pam_wrapper"
 short_desc="Daemon that provides fingerprint scanning functionality"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://www.freedesktop.org/wiki/Software/fprint/"
 distfiles="https://gitlab.freedesktop.org/libfprint/fprintd/-/archive/v$version/fprintd-v$version.tar.bz2"

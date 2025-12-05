@@ -26,7 +26,7 @@ post_build() {
 
 post_install() {
 	./make.py install --dist=unix --prefix=$DESTDIR/usr
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }
 
 do_check() {

@@ -2,7 +2,7 @@ Workaound for missing -I/usr/include in the OpenMPI FORTRAN wrapper, which
 breaks includes of OpenMPI FORTRAN definitions.
 
 Upstream issue: https://github.com/open-mpi/ompi/issues/12257
-Void issue: https://github.com/void-linux/void-packages/issues/49322
+CODE LABS issue: https://github.com/codelabs/codelabs-packages/issues/49322
 Arch inspiration: https://gitlab.archlinux.org/archlinux/packaging/packages/openmpi/-/blob/main/PKGBUILD
 
 --- a/opal/tools/wrappers/opal_wrapper.c

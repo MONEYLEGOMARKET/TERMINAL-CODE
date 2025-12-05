@@ -9,7 +9,7 @@ depends="python3-future python3-six python3-chardet python3-pyasn1
  ldapdomaindump"
 checkdepends="python3-pytest $depends"
 short_desc="Collection of Python classes for working with network protocols"
-maintainer="Andrew Benson <abenson+void@gmail.com>"
+maintainer="Andrew Benson <abenson+codelabs@gmail.com>"
 license="Apache-1.1, MIT"
 homepage="https://www.secureauth.com/labs/open-source-tools/impacket/"
 distfiles="https://github.com/SecureAuthCorp/impacket/releases/download/impacket_${version//./_}/impacket-${version}.tar.gz"

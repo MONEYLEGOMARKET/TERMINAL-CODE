@@ -13,7 +13,7 @@ makedepends="gsettings-desktop-schemas-devel gspell-devel libgedit-gtksourceview
  libpeas-devel libgedit-amtk-devel libgedit-tepl-devel"
 depends="desktop-file-utils gsettings-desktop-schemas iso-codes"
 short_desc="Text editor for GNOME"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://gedit-text-editor.org"
 changelog="https://gitlab.gnome.org/World/gedit/gedit/-/raw/${version}/NEWS"

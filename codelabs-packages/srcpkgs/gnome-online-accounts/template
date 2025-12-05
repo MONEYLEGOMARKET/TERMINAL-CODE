@@ -12,7 +12,7 @@ makedepends="gtk4-devel json-glib-devel libsecret-devel keyutils-devel
  rest-devel gcr4-devel mit-krb5-devel libsoup3-devel libadwaita-devel"
 depends="hicolor-icon-theme"
 short_desc="GNOME service to access online accounts"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.0-or-later"
 homepage="https://wiki.gnome.org/Projects/GnomeOnlineAccounts"
 changelog="https://gitlab.gnome.org/GNOME/gnome-online-accounts/-/raw/gnome-48/NEWS"

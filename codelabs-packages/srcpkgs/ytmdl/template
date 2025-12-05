@@ -12,7 +12,7 @@ depends="ffmpeg yt-dlp python3-mutagen python3-requests python3-colorama
  python3-typing_extensions python3-ytmusicapi python3-youtubesearch
  python3-spotipy python3-itunespy"
 short_desc="Get songs from youtube in mp3 format with all tags from itunes"
-maintainer="Andrew Benson <abenson+void@gmail.com>"
+maintainer="Andrew Benson <abenson+codelabs@gmail.com>"
 license="MIT"
 homepage="https://github.com/deepjyoti30/ytmdl"
 distfiles="${homepage}/archive/${version}.tar.gz"

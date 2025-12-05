@@ -13,7 +13,7 @@ makedepends="babl-devel exiv2-devel jasper-devel json-glib-devel
  lensfun-devel libgexiv2-devel librsvg-devel libraw-devel libwebp-devel
  python3-gobject-devel poppler-glib-devel pango-devel vala SuiteSparse-devel"
 short_desc="Graph based image processing framework"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-3.0-only, LGPL-3.0-only"
 homepage="https://gegl.org/"
 changelog="https://gitlab.gnome.org/GNOME/gegl/-/raw/master/docs/NEWS.adoc"

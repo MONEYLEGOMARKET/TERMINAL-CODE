@@ -8,7 +8,7 @@ depends="python3"
 checkdepends="python3-pytest python3-lxml python3-html5lib
  python3-BeautifulSoup4"
 short_desc="CSS4 selector implementation for Python3 Beautiful Soup"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://facelessuser.github.io/soupsieve/"
 changelog="https://raw.githubusercontent.com/facelessuser/soupsieve/refs/heads/main/docs/src/markdown/about/changelog.md"

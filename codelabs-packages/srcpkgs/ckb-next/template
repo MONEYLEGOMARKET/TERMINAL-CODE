@@ -10,7 +10,7 @@ makedepends="eudev-libudev-devel qt6-base-devel qt6-qt5compat-devel
  quazip-qt6-devel xcb-util-wm-devel
  pulseaudio-devel"
 short_desc="Corsair RGB Driver for Linux"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://github.com/ckb-next/ckb-next"
 distfiles="${homepage}/archive/v${version}.tar.gz"

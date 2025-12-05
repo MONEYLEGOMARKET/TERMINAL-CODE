@@ -15,7 +15,7 @@ makedepends="avahi-glib-libs-devel dbus-glib-devel fuse3-devel gcr4-devel
  samba-devel udisks2-devel gsettings-desktop-schemas-devel
  gnome-online-accounts-devel msgraph-devel"
 short_desc="Userspace virtual filesystem"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://wiki.gnome.org/Projects/gvfs"
 changelog="https://gitlab.gnome.org/GNOME/gvfs/-/raw/master/NEWS"

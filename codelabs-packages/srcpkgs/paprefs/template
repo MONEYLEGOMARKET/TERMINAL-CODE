@@ -9,7 +9,7 @@ makedepends="dbus-glib-devel gtkmm-devel glibmm-devel libsigc++-devel
  pulseaudio-devel"
 depends="hicolor-icon-theme"
 short_desc="Editor for pulseaudio settings"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="http://0pointer.de/lennart/projects/paprefs/"
 distfiles="${FREEDESKTOP_SITE}/pulseaudio/${pkgname}/${pkgname}-${version}.tar.xz"

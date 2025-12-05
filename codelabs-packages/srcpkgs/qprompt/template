@@ -10,7 +10,7 @@ makedepends="qt5-devel qt5-declarative-devel qt5-svg-devel
  kcoreaddons-devel kiconthemes-devel"
 depends="kirigami2"
 short_desc="Teleprompter software for all video creators"
-maintainer="Andrew Benson <abenson+void@gmail.com>"
+maintainer="Andrew Benson <abenson+codelabs@gmail.com>"
 license="GPL-3.0-or-later"
 homepage="https://qprompt.app/"
 distfiles="https://github.com/Cuperino/QPrompt/archive/refs/tags/v${version}.tar.gz"

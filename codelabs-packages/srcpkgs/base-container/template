@@ -3,15 +3,15 @@ pkgname=base-container
 version=0.3
 revision=3
 metapackage=yes
-short_desc="Void Linux base system meta for minimal containers/chroots"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+short_desc="CODE LABS base system meta for minimal containers/chroots"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="Public Domain"
-homepage="https://www.voidlinux.org/"
+homepage="https://www.codelabs.org/"
 
 depends="
  base-files coreutils findutils diffutils dash grep gzip sed gawk
  util-linux which tar shadow procps-ng iana-etc xbps nvi tzdata
- runit-void removed-packages"
+ runit-codelabs removed-packages"
 
 case "$XBPS_TARGET_MACHINE" in
 	*-musl) depends+=" musl";;

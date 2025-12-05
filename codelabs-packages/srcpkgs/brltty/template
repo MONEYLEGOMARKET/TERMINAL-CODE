@@ -9,7 +9,7 @@ hostmakedepends="pkg-config python3-Cython"
 makedepends="ncurses-devel alsa-lib-devel gpm-devel icu-devel python3-devel
  libbluetooth-devel ncurses-libtinfo-devel"
 short_desc="Braille display driver for Linux/Unix"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://brltty.app"
 distfiles="https://brltty.app/archive/brltty-${version}.tar.xz"

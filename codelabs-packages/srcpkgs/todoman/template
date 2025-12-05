@@ -10,7 +10,7 @@ depends="python3-icalendar python3-urwid python3-xdg python3-parsedatetime
 checkdepends="${depends} python3-freezegun python3-hypothesis
  python3-pytest-cov python3-pytest-xdist"
 short_desc="Simple, standards-based, cli todo (aka: task) manager"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="ISC"
 homepage="https://github.com/pimutils/todoman"
 changelog="https://raw.githubusercontent.com/pimutils/todoman/main/CHANGELOG.rst"

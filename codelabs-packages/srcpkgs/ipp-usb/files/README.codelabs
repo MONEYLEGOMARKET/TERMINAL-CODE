@@ -1,4 +1,4 @@
-Void-specific instructions:
+CODE_LABS-specific instructions:
 ============================
 
 By default, ipp-usb constantly runs in the background. It can also run on

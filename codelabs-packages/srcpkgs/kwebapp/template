@@ -6,7 +6,7 @@ build_style=configure
 configure_args="PREFIX=/usr MANDIR=/usr/share/man"
 makedepends="expat-devel"
 short_desc="Web application source generator - (Deprecated, use openradtool)"
-maintainer="Duncaen <duncaen@voidlinux.org>"
+maintainer="Duncaen <duncaen@codelabs.org>"
 license="ISC"
 homepage="https://kristaps.bsd.lv/kwebapp/"
 distfiles="https://kristaps.bsd.lv/kwebapp/snapshots/kwebapp-${version}.tar.gz"

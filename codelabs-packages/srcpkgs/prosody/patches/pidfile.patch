@@ -4,7 +4,7 @@
  -- blanks. Good luck, and happy Jabbering!
  
  
-+------ Void settings ------
++------ CODE LABS settings ------
 +pidfile = "/run/prosody/prosody.pid"
 +
  ---------- Server-wide settings ----------

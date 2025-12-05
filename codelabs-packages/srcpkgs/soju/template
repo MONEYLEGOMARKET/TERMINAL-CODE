@@ -34,6 +34,6 @@ post_install() {
 	done
 	vlicense LICENSE
 	vinstall config.in 644 etc/soju config
-	vdoc "$FILESDIR"/README.voidlinux
+	vdoc "$FILESDIR"/README.codelabs
 	vsv soju
 }

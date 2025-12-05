@@ -8,7 +8,7 @@ kernel cmdline; without this under memory pressure e.g. even the OS bootup or
 gaming *may* cause the /dev/binder session manager to die due to
 /system/bin/lmkd crashing.
 For more details on kernel command line arguments and their configuration see
-https://docs.voidlinux.org/config/kernel.html#cmdline
+https://docs.codelabs.org/config/kernel.html#cmdline
 
 Currently for audio support you need a PulseAudio server running (pipewire-pulse
 also works).

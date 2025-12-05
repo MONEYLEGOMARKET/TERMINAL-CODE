@@ -5,7 +5,7 @@ revision=7
 build_style=gem
 depends="ruby-faraday>=1.0"
 short_desc="Various middleware for Faraday"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://github.com/lostisland/faraday_middleware"
 checksum=19e808539681bbf2e65df30dfbe27bb402bde916a1dceb4c7496dbe8de14334a

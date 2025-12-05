@@ -5,7 +5,7 @@ revision=2
 create_wrksrc=yes
 hostmakedepends="b43-fwcutter"
 short_desc="Firmware for Broadcom B43 wireless (latest release)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="custom:proprietary"
 homepage="https://wireless.wiki.kernel.org/en/users/Drivers/b43"
 distfiles="http://www.lwfinger.com/${pkgname}/broadcom-wl-${version}.tar.bz2"
@@ -17,5 +17,5 @@ restricted=yes
 do_install() {
 	vmkdir usr/lib/firmware
 	b43-fwcutter -w ${DESTDIR}/usr/lib/firmware broadcom-wl-${version}.wl_apsta.o
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

@@ -6,7 +6,7 @@ build_style=configure
 hostmakedepends="pkg-config"
 makedepends="zlib-devel libglvnd-devel freetype-devel glfw-devel"
 short_desc="Graphical man page viewer based on the mandoc library"
-maintainer="Duncaen <duncaen@voidlinux.org>"
+maintainer="Duncaen <duncaen@codelabs.org>"
 license="BSD-2-Clause"
 homepage="https://github.com/zigalenarcic/mangl"
 distfiles="https://github.com/zigalenarcic/mangl/archive/refs/tags/v${version}.tar.gz"
@@ -17,7 +17,7 @@ pre_configure() {
 		PREFIX=/usr
 		SBINDIR=/usr/bin
 		MANDIR=/usr/share/man
-		OSNAME="Void Linux"
+		OSNAME="CODE LABS"
 		BINM_SOELIM=mandoc-soelim
 		MANM_ROFF="mandoc_roff"
 		LDFLAGS="$LDFLAGS"

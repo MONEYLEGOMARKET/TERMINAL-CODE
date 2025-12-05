@@ -14,7 +14,7 @@ build_style=cmake
 # compilers flag in use.
 configure_args="-Wno-dev"
 short_desc="Intel Graphics Memory Management Library"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://github.com/intel/gmmlib"
 distfiles="https://github.com/intel/gmmlib/archive/intel-gmmlib-${version}.tar.gz"

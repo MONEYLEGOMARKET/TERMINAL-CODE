@@ -4,7 +4,7 @@ Date:   Sun Jan 23 21:06:47 2022 +0100
 
     fix musl miscompilation
     
-    https://github.com/void-linux/void-packages/issues/2598
+    https://github.com/codelabs/codelabs-packages/issues/2598
 
 diff --git a/js/src/old-configure.in b/js/src/old-configure.in
 index 77652f67..ab5e917b 100644

@@ -10,7 +10,7 @@ makedepends="boost-devel-minimal bzip2-devel expat-devel leveldb-devel libevent-
 openssl-devel libyaml-devel re2-devel snappy-devel sqlite-devel zlib-devel"
 checkdepends="python3-six"
 short_desc="C! (a.k.a. C-Bang) collection of C++ utility libraries"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-only"
 homepage="https://github.com/CauldronDevelopmentLLC/cbang"
 distfiles="https://github.com/CauldronDevelopmentLLC/cbang/archive/${version}.tar.gz"

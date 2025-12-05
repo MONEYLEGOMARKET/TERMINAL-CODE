@@ -8,7 +8,7 @@ make_install_args="INSTALLDIRS=vendor"
 configure_args="--disable-static --disable-probes --disable-appliance
  --disable-daemon --without-java --enable-introspection=no
  --disable-erlang --disable-haskell --disable-gobject --without-gtk
- --with-distro=VoidLinux ac_cv_prog_NCURSES_CONFIG=ncursesw6-config
+ --with-distro=CODE_LABSLinux ac_cv_prog_NCURSES_CONFIG=ncursesw6-config
  $(vopt_enable ruby) $(vopt_enable python) $(vopt_enable go golang)
  $(vopt_enable php) $(vopt_enable lua) $(vopt_enable fuse)"
 hostmakedepends="cpio gperf cdrtools flex pkg-config automake libtool qemu git
@@ -30,7 +30,7 @@ conf_files="etc/libguestfs-tools.conf"
 nocross=yes
 archs="i686* x86_64* ppc64le*"
 if [ "$XBPS_TARGET_LIBC" = musl ]; then
-	broken="https://build.voidlinux.org/builders/x86_64-musl_builder/builds/35666/steps/shell_3/logs/stdio"
+	broken="https://build.codelabs.org/builders/x86_64-musl_builder/builds/35666/steps/shell_3/logs/stdio"
 fi
 
 build_options="ruby python go php lua fuse"

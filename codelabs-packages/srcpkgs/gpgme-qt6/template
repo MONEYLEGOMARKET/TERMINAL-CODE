@@ -8,7 +8,7 @@ makedepends="libassuan-devel libgpg-error-devel qt5-devel qt6-base-devel gpgme-d
  gpgmepp-devel"
 checkdepends="which gnupg"
 short_desc="GnuPG Made Easy - Qt6 binding"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://www.gnupg.org/software/gpgme/index.html"
 changelog="https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpgmeqt.git;a=blob_plain;f=NEWS;hb=HEAD"

@@ -6,7 +6,7 @@ build_style=go
 go_import_path="github.com/transifex/cli"
 go_ldflags="-X github.com/transifex/cli/internal/txlib.Version=${version}"
 short_desc="Transifex command-line client"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Apache-2.0"
 homepage="https://github.com/transifex/cli"
 changelog="https://github.com/transifex/cli/releases"

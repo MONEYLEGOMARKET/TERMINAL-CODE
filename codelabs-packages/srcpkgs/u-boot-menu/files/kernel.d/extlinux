@@ -20,7 +20,7 @@ add_kernel() {
 	cmdline="${CMDLINE}"
 
 	printf "\nLABEL entry%s\n" "${ENTRY}" >> "${OUTFILE}"
-	printf "\tMENU LABEL Void Linux Version %s\n" "${ver}" >> "${OUTFILE}"
+	printf "\tMENU LABEL CODE LABS Version %s\n" "${ver}" >> "${OUTFILE}"
 	printf "\tLINUX %s\n" "${kernel}" >> "${OUTFILE}"
 	if [ -e "${BOOTPART}/${initrd}" ]; then
 		printf "\tINITRD %s\n" "${initrd}" >> "${OUTFILE}"

@@ -8,7 +8,7 @@ depends="python3-usb python3-cairo python3-gobject python3-setuptools
  python3-future"
 checkdepends="python3-pytest python3-pluggy"
 short_desc="Control the lighting effects of Alienware computers"
-maintainer="Andrew Benson <abenson+void@gmail.com>"
+maintainer="Andrew Benson <abenson+codelabs@gmail.com>"
 license="GPL-3.0-or-later"
 homepage="https://github.com/trackmastersteve/alienfx"
 distfiles="${homepage}/archive/v${version}.tar.gz"

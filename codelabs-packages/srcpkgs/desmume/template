@@ -10,7 +10,7 @@ makedepends="SDL2-devel libpcap-devel soundtouch-devel alsa-lib-devel
  gtk+3-devel agg-devel zziplib-devel glu-devel"
 depends="desktop-file-utils"
 short_desc="Nintendo DS emulator"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="http://www.desmume.com"
 distfiles="https://github.com/TASEmulators/desmume/releases/download/release_${version//./_}/desmume-${version}.tar.xz"

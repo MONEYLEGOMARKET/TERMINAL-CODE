@@ -1,4 +1,4 @@
-modify logprof.conf for Void Linux
+modify logprof.conf for CODE LABS
 
 --- a/utils/logprof.conf
 +++ b/utils/logprof.conf

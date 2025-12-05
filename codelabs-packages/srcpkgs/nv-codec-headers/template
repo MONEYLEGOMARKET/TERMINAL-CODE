@@ -4,7 +4,7 @@ version=13.0.19.0
 revision=1
 build_style=gnu-makefile
 short_desc="FFmpeg version of headers required to interface with Nvidias codec APIs"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="http://git.videolan.org/?p=ffmpeg/nv-codec-headers.git"
 distfiles="https://github.com/FFmpeg/nv-codec-headers/archive/n${version}.tar.gz"

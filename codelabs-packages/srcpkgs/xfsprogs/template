@@ -9,7 +9,7 @@ hostmakedepends="gettext pkg-config"
 makedepends="libblkid-devel libedit-devel inih-devel liburcu-devel
  libuuid-devel"
 short_desc="Utilities for managing the XFS filesystem"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="http://xfs.org/index.php/Main_Page"
 distfiles="${KERNEL_SITE}/utils/fs/xfs/xfsprogs/xfsprogs-${version}.tar.xz"

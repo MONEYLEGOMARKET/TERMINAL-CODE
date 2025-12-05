@@ -6,16 +6,16 @@ _linux_version=6.14
 pkgname=cross-riscv64-linux-gnu
 version=0.37
 revision=2
-build_style=void-cross
+build_style=codelabs-cross
 configure_args="--with-arch=rv64gc --with-abi=lp64d --enable-autolink-libatomic --disable-multilib"
 hostmakedepends="texinfo tar gcc-objc gcc-go gcc-gdc flex perl python3 pkg-config"
 makedepends="isl-devel libmpc-devel gmp-devel mpfr-devel
  zlib-devel libzstd-devel"
 depends="${pkgname}-libc-${version}_${revision}"
-short_desc="Void cross toolchain for ${pkgname/cross-}"
+short_desc="CODE LABS cross toolchain for ${pkgname/cross-}"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later, GPL-3.0-or-later, LGPL-2.1-or-later"
-homepage="https://www.voidlinux.org/"
+homepage="https://www.codelabs.org/"
 case "${_gcc_version}" in
 	*+*) distfiles="https://gcc.gnu.org/pub/gcc/snapshots/${_gcc_version%%.*}-${_gcc_version#*+}/gcc-${_gcc_version%%.*}-${_gcc_version#*+}.tar.xz" ;;
 	*) distfiles="${GNU_SITE}/gcc/gcc-${_gcc_version}/gcc-${_gcc_version}.tar.xz" ;;

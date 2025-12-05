@@ -29,7 +29,7 @@ makedepends="openssl-devel python3-devel libxml2-python3 cups-devel sane-devel
 depends="python3-gobject python3-dbus desktop-file-utils
  foomatic-db foomatic-db-engine python3-distro"
 short_desc="HP Linux Imaging and Printing"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-only, BSD-3-Clause, MIT"
 homepage="https://developers.hp.com/hp-linux-imaging-and-printing"
 changelog="https://developers.hp.com/hp-linux-imaging-and-printing/release_notes"

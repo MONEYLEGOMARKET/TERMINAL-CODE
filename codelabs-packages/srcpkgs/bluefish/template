@@ -13,7 +13,7 @@ makedepends="libxml2-devel gtk+3-devel enchant2-devel gucharmap-devel
 depends="hicolor-icon-theme desktop-file-utils xmlcatmgr
  $(vopt_if python python3)"
 short_desc="Powerful HTML editor for experienced web designers and programmers"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-only"
 homepage="https://bluefish.openoffice.nl/"
 distfiles="https://www.bennewitz.com/bluefish/stable/source/bluefish-${version}.tar.bz2"

@@ -14,7 +14,7 @@ makedepends="acl-devel boost-devel-minimal libboost_thread
  json-c-devel"
 depends="dbus"
 short_desc="Tool for Linux filesystem snapshot management"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-only"
 homepage="http://snapper.io"
 distfiles="https://github.com/openSUSE/snapper/archive/v${version}.tar.gz"

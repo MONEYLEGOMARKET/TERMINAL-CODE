@@ -15,7 +15,7 @@ makedepends="libglvnd-devel SDL2-devel SDL2_image-devel libxml2-devel
  $(vopt_if irrlicht irrlicht-devel)
  $(vopt_if ogre libogre-devel)"
 short_desc="Crazy Eddie's Graphical User Interface"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="http://cegui.org.uk/"
 distfiles="https://github.com/cegui/cegui/archive/${_githash}.tar.gz"

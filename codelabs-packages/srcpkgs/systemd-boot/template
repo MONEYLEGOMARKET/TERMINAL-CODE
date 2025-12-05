@@ -5,9 +5,9 @@ revision=2
 build_style=meson
 conf_files="/etc/default/systemd-boot"
 configure_args="-Defi=true -Dman=enabled -Dbootloader=enabled
- -Dsbat-distro=void -Dsbat-distro-summary=Void -Dsbat-distro-pkgname=${pkgname}
+ -Dsbat-distro=codelabs -Dsbat-distro-summary=CODE_LABS -Dsbat-distro-pkgname=${pkgname}
  -Dsbat-distro-version="${version}_${revision}"
- -Dsbat-distro-url=https://github.com/void-linux/void-packages/issues
+ -Dsbat-distro-url=https://github.com/codelabs/codelabs-packages/issues
 
  -Dacl=disabled -Dkmod=disabled -Dselinux=disabled -Dsysusers=false -Dtmpfiles=false
  -Dadm-group=false -Danalyze=false -Dapparmor=disabled -Daudit=disabled

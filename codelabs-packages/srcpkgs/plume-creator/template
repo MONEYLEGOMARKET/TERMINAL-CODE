@@ -9,7 +9,7 @@ makedepends="qt5-devel qt5-declarative-devel qt5-tools-devel
  qt5-quickcontrols2-devel qt5-multimedia-devel qt5-svg-devel
  hunspell-devel libzip-devel quazip-devel"
 short_desc="Open-source tool for novelists"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://packages.debian.org/sid/source/plume-creator"
 distfiles="${DEBIAN_SITE}/main/p/plume-creator/${pkgname}_${version%pl*}.orig.tar.xz

@@ -9,7 +9,7 @@ makedepends="qt6-multimedia-devel qtkeychain-qt6-devel
  olm-devel openssl-devel qt6-plugin-mysql qt6-plugin-odbc
  qt6-plugin-pgsql qt6-plugin-sqlite qt6-base-private-devel"
 short_desc="Qt6 library to write cross-platform clients for Matrix"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://matrix.org/docs/projects/sdk/quotient"
 distfiles="https://github.com/quotient-im/libQuotient/archive/${version}.tar.gz"

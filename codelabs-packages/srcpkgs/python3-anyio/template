@@ -17,7 +17,7 @@ changelog="https://raw.githubusercontent.com/agronholm/anyio/master/docs/version
 distfiles="${PYPI_SITE}/a/anyio/anyio-${version}.tar.gz"
 checksum=673c0c244e15788651a4ff38710fea9675823028a6f08a5eda409e0c9840a028
 
-if [ "$XBPS_BUILD_ENVIRONMENT" = void-packages-ci ]; then
+if [ "$XBPS_BUILD_ENVIRONMENT" = codelabs-packages-ci ]; then
 	# these tests fail on CI
 	_test1="(TestTCPListener)and(-ipv6)"
 	_test2="(test_iterate)or(test_extra)or(test_reuse)or(test_send_receive)"

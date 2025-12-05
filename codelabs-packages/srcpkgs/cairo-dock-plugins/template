@@ -9,7 +9,7 @@ makedepends="alsa-lib-devel fftw-devel pulseaudio-devel libexif-devel
  cairo-dock-devel gnome-menus-devel vte3-devel python3-devel upower-devel"
 depends="cairo-dock>=${version} upower"
 short_desc="Plugins for cairo-dock"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, GPL-3.0-or-later"
 homepage="https://launchpad.net/cairo-dock"
 distfiles="http://launchpad.net/cairo-dock-plug-ins/${version%.?}/${version}/+download/cairo-dock-plug-ins-${version}.tar.gz"

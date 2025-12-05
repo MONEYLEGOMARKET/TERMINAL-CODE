@@ -14,7 +14,7 @@ makedepends="dbus-glib-devel libxklavier-devel libxml2-devel
  libgcrypt-devel accountsservice-devel qt5-devel"
 depends="dbus accountsservice virtual?lightdm-greeter"
 short_desc="Light Display Manager"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later, LGPL-2.0-or-later"
 homepage="https://github.com/CanonicalLtd/lightdm"
 changelog="https://raw.githubusercontent.com/CanonicalLtd/lightdm/master/NEWS"

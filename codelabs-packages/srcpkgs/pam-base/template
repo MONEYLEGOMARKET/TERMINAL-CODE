@@ -5,7 +5,7 @@ revision=3
 short_desc="PAM base configuration files"
 maintainer="Érico Nogueira <ericonr@disroot.org>"
 license="Public Domain"
-homepage="http://www.voidlinux.org"
+homepage="http://www.codelabs.org"
 
 conf_files="
  /etc/pam.d/other

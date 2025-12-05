@@ -19,7 +19,7 @@ makedepends="sdl12-compat-devel dev86 dtc-devel e2fsprogs-devel gnutls-devel lib
  ncurses-devel"
 depends="bridge-utils perl xen-hypervisor"
 short_desc="Xen hypervisor utilities"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://www.xenproject.org/"
 distfiles="

@@ -10,7 +10,7 @@ configure_args="-Denable-libarchive=yes -Denable-libgcrypt=yes
 hostmakedepends="glib-devel intltool pkg-config"
 makedepends="libarchive-devel libgcrypt-devel libxml2-devel"
 short_desc="Totem playlist parser library"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="LGPL-2.0-or-later"
 homepage="https://gitlab.gnome.org/GNOME/totem-pl-parser"
 distfiles="${GNOME_SITE}/${pkgname}/${version%.*}/${pkgname}-${version}.tar.xz"

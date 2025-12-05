@@ -32,7 +32,7 @@ makedepends="at-spi2-core-devel libjpeg-turbo-devel libpng-devel
  $(vopt_if wayland 'MesaLib-devel libxkbcommon-devel wayland-devel wayland-protocols')"
 depends="gst-plugins-good1"
 short_desc="GTK+3 port of the WebKit browser engine (soup3)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-or-later, BSD-2-Clause"
 homepage="https://webkitgtk.org/"
 distfiles="https://webkitgtk.org/releases/webkitgtk-${version}.tar.xz"

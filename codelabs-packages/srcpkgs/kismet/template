@@ -20,5 +20,5 @@ checksum=4703a58ad11b777af04019a4f1b114ec4591c05aa1ca6b9c7ff5743ff3d14ae1
 system_groups="kismet"
 
 post_install() {
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

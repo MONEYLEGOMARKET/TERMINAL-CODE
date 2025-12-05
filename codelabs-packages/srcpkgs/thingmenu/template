@@ -6,7 +6,7 @@ build_style=gnu-makefile
 make_build_args="INCS=-I. LIBS=-lX11"
 makedepends="libX11-devel libXtst-devel"
 short_desc="Simple graphical menu launcher for X11"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="http://git.r-36.net/thingmenu/"
 distfiles="ftp://bitreich.org/releases/thingmenu/thingmenu-v${version}.tgz"

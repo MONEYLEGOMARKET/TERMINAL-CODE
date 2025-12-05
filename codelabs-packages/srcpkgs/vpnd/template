@@ -4,7 +4,7 @@ version=0.2.0
 revision=1
 depends="bash libnotify"
 conf_files="/etc/vpnd.conf"
-short_desc="Package update notifier daemon for Void Linux"
+short_desc="Package update notifier daemon for CODE LABS"
 maintainer="Benjamin Slade <slade@lambda-y.net>"
 license="GPL-3.0-or-later"
 homepage="https://gitlab.com/emacsomancer/vpnd"
@@ -17,5 +17,5 @@ do_install() {
 	vcopy "*.png" usr/share/icons/vpnd
 	vconf vpnd.conf
 	vsv vpnd
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }

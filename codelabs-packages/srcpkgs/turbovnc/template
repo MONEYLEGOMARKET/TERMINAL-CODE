@@ -11,7 +11,7 @@ makedepends="bzip2-devel freetype-devel libjpeg-turbo-devel libX11-devel
  libXext-devel libXi-devel openssl-devel pam-devel zlib-devel"
 depends="perl"
 short_desc="Optimized version of TightVNC VNC client and server"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://turbovnc.org"
 distfiles="${SOURCEFORGE_SITE}/turbovnc/${pkgname}-${version}.tar.gz"

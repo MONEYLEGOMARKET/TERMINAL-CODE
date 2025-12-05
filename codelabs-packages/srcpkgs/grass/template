@@ -16,7 +16,7 @@ makedepends="proj-devel tiff-devel libgdal-devel sqlite-devel fftw-devel
 depends="python3-numpy python3-dateutil python3-Pillow python3-matplotlib
  python3-six python3-ply wxPython"
 short_desc="Geographic Resources Analysis Support System - GIS"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://grass.osgeo.org/"
 distfiles="https://github.com/OSGeo/grass/archive/refs/tags/${version}.tar.gz"

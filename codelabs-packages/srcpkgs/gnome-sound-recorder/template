@@ -10,7 +10,7 @@ makedepends="gjs-devel libglib-devel gtk4-devel libadwaita-devel
 depends="desktop-file-utils gjs gsettings-desktop-schemas gst-plugins-bad1
  gst-plugins-good1 libhandy1 libadwaita"
 short_desc="GNOME sound recorder application"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://wiki.gnome.org/Apps/SoundRecorder"
 changelog="https://gitlab.gnome.org/GNOME/gnome-sound-recorder/-/raw/master/NEWS"

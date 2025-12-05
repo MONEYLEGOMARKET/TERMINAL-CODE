@@ -8,7 +8,7 @@ makedepends="qt5-devel liblz4-devel liblzma-devel lzo-devel libzstd-devel
  libgcrypt-devel e2fsprogs-devel attr-devel"
 depends="fsarchiver"
 short_desc="Program to save/restore partitions, folders and MBR/GPT"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-only"
 homepage="https://sourceforge.net/projects/qt4-fsarchiver"
 distfiles="${SOURCEFORGE_SITE}/qt-fsarchiver/qt-fsarchiver-${version/pl/-}.tar.gz"

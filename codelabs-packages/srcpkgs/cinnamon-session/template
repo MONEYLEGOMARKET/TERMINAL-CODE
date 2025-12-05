@@ -10,7 +10,7 @@ makedepends="gtk+3-devel dbus-devel json-glib-devel libSM-devel
  elogind-devel libXtst-devel xapps-devel"
 depends="cinnamon-desktop desktop-file-utils hicolor-icon-theme elogind"
 short_desc="Cinnamon session handler"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later"
 homepage="https://github.com/linuxmint/cinnamon-session"
 distfiles="https://github.com/linuxmint/cinnamon-session/archive/${version}.tar.gz"

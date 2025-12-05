@@ -15,7 +15,7 @@ makedepends="LuaJIT-devel fstrm-devel gnutls-devel libedit-devel libknot-devel
  libuv-devel lmdb-devel protobuf-c-devel nghttp2-devel libcap-ng-devel libcap-ng-devel"
 checkdepends="cmocka-devel"
 short_desc="Full caching DNS resolver implementation"
-maintainer="Duncaen <duncaen@voidlinux.org>"
+maintainer="Duncaen <duncaen@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://www.knot-resolver.cz/"
 changelog="https://github.com/CZ-NIC/knot-resolver/raw/master/NEWS"

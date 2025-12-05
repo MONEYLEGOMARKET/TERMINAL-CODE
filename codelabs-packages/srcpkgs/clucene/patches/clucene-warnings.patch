@@ -7,7 +7,7 @@
 +#pragma GCC system_header
 +
  #include "CLucene/index/Payload.h"
- #include "CLucene/util/VoidList.h"
+ #include "CLucene/util/CODE_LABSList.h"
  #include "CLucene/LuceneThreads.h"
 --- a/src/core/CLucene/search/Searchable.h	2012-02-22 12:37:22.513637729 +0000
 +++ b/src/core/CLucene/search/Searchable.h	2012-02-22 12:38:51.073641550 +0000

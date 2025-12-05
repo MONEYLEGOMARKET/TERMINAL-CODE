@@ -7,7 +7,7 @@ makedepends="sdl12-compat-devel glu-devel libpng-devel
  libtheora-devel libvorbis-devel lua51-devel"
 depends="${pkgname}-data"
 short_desc="Futuristic real-time strategy game (RTS)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://www.boswars.org"
 distfiles="https://www.boswars.org/dist/releases/boswars-${version}-src.tar.gz"

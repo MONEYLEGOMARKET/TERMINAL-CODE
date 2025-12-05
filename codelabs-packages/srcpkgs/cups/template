@@ -10,7 +10,7 @@ makedepends="acl-devel gnutls-devel libpaper-devel libusb-devel pam-devel
  zlib-devel $(vopt_if avahi avahi-libs-devel) $(vopt_if gssapi mit-krb5-devel)"
 depends="xdg-utils"
 short_desc="Common Unix Printing System"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Apache-2.0 WITH custom:GPL-2.0-LGPL-2.0-Exception, Zlib"
 homepage="https://github.com/OpenPrinting/cups"
 distfiles="https://github.com/OpenPrinting/cups/releases/download/v${version}/cups-${version}-source.tar.gz"

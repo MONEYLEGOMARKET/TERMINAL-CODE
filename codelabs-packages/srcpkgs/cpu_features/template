@@ -5,7 +5,7 @@ revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=NO"
 short_desc="Cross platform C99 library to get cpu features at runtime"
-maintainer="Andrew Benson <abenson+void@gmail.com>"
+maintainer="Andrew Benson <abenson+codelabs@gmail.com>"
 license="Apache-2.0"
 homepage="https://github.com/google/cpu_features"
 distfiles="https://github.com/google/cpu_features/archive/v${version}.tar.gz"

@@ -7,7 +7,7 @@ hostmakedepends="autoconf automake libtool pkg-config"
 makedepends="acl-devel liblzma-devel libuuid-devel lzo-devel
  zlib-devel openssl-devel libzstd-devel"
 short_desc="Memory Technology Device Utilities"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="http://www.linux-mtd.infradead.org/"
 distfiles="https://github.com/sigma-star/mtd-utils/archive/v${version}.tar.gz"

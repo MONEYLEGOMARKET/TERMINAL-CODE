@@ -11,7 +11,7 @@ checkdepends="$depends python3-pytest python3-pytest-benchmark
  python3-coverage python3-GitPython python3-typing_extensions
  python3-requests python3-enchant hunspell-en"
 short_desc="Python code static checker"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://pylint.pycqa.org"
 distfiles="https://github.com/PyCQA/pylint/archive/refs/tags/v$version.tar.gz"

@@ -7,7 +7,7 @@ build_style=gnu-configure
 configure_args="--program-prefix=g"
 hostmakedepends="automake gettext"
 short_desc="GNU Find Utilities"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="http://www.gnu.org/software/findutils"
 changelog="https://git.savannah.gnu.org/cgit/findutils.git/plain/NEWS"

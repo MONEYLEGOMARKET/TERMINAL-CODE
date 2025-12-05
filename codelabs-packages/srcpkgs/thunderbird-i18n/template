@@ -4,7 +4,7 @@ version=140.2.1
 revision=1
 metapackage=yes
 short_desc="Thunderbird language packs"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MPL-2.0"
 homepage="https://www.thunderbird.net/"
 

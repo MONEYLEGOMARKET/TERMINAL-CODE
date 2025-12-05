@@ -11,7 +11,7 @@ makedepends="openssl-devel zlib-devel"
 # XXX: if built with XBPS_CHECK_PKGS, final binary will be dyn linked against libcppunit
 checkdepends="libcppunit-devel"
 short_desc="BitTorrent library written in C++"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://github.com/rakshasa/libtorrent"
 distfiles="https://github.com/rakshasa/libtorrent/archive/v${version}.tar.gz"

@@ -16,7 +16,7 @@ makedepends="lame-devel libogg-devel libvorbis-devel faac-devel
  alsa-lib-devel pulseaudio-devel jack-devel libsamplerate-devel"
 conf_files="/etc/darkice.cfg"
 short_desc="Live audio streamer source client for icecast"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="http://www.darkice.org"
 distfiles="https://github.com/rafael2k/darkice/releases/download/v${version}/darkice-${version}.tar.gz"

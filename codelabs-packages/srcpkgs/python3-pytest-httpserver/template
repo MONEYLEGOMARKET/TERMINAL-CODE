@@ -14,7 +14,7 @@ changelog="https://raw.githubusercontent.com/csernazs/pytest-httpserver/master/C
 distfiles="https://github.com/csernazs/pytest-httpserver/archive/refs/tags/${version}.tar.gz"
 checksum=b706af59bcf019d9d1e623b7934c316038529cb18137163289ab5387ba627d43
 
-if [ "$XBPS_BUILD_ENVIRONMENT" = "void-packages-ci" ]; then
+if [ "$XBPS_BUILD_ENVIRONMENT" = "codelabs-packages-ci" ]; then
 	# this test fails on CI (bind to ipv6 "::1" address)
 	make_check_args="
 	 --deselect=tests/test_ip_protocols.py::test_ipv6

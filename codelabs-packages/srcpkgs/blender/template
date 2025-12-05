@@ -29,7 +29,7 @@ makedepends="libgomp-devel libpng-devel tiff-devel python3-devel glu-devel
  pipewire-devel pulseaudio-devel eigen lzo-devel vulkan-loader-devel shaderc"
 depends="desktop-file-utils hicolor-icon-theme"
 short_desc="3D graphics creation suite"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://www.blender.org"
 distfiles="https://download.blender.org/source/blender-${version}.tar.xz"

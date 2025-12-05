@@ -10,7 +10,7 @@ configure_args="--disable-static --enable-release --with-raptor=system
 hostmakedepends="pkg-config perl postgresql-libs-devel"
 makedepends="libltdl-devel db-devel rasqal-devel libmariadbclient-devel
  postgresql-libs-devel sqlite-devel unixodbc-devel"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 short_desc="${_desc} - Utilities"
 license="GPL-2.0-or-later, LGPL-2.1-or-later, Apache-2.0"
 homepage="https://librdf.org"

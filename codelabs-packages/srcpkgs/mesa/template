@@ -24,7 +24,7 @@ makedepends="elfutils-devel expat-devel libXdamage-devel
  libarchive-devel"
 depends="libglvnd"
 short_desc="Open source implementation of OpenGL and Vulkan"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT, LGPL-2.1-or-later"
 homepage="https://www.mesa3d.org/"
 changelog="https://docs.mesa3d.org/relnotes.html"

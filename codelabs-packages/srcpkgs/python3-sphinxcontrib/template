@@ -6,9 +6,9 @@ create_wrksrc=yes
 hostmakedepends="python3-setuptools"
 depends="python3-setuptools"
 short_desc="Namespace package declaration for sphinxcontrib"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Public Domain"
-homepage="https://www.voidlinux.org/"
+homepage="https://www.codelabs.org/"
 
 do_install() {
 	vmkdir ${py3_sitelib}/sphinxcontrib

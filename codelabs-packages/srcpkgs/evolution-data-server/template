@@ -16,7 +16,7 @@ makedepends="boost-devel-minimal libcanberra-devel libical-devel
  libgweather-devel nspr-devel nss-devel"
 checkdepends="dbus"
 short_desc="Centralized access to appointments and contacts"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="LGPL-2.1-only"
 homepage="https://wiki.gnome.org/Apps/Evolution"
 changelog="https://gitlab.gnome.org/GNOME/evolution-data-server/-/raw/gnome-48/NEWS"

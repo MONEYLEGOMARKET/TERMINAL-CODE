@@ -8,7 +8,7 @@ build_wrksrc="${pkgname}-${version}"
 build_style=gnu-makefile
 makedepends="libX11-devel"
 short_desc="Identify color of a pixel on the screen"
-maintainer="Duncaen <duncaen@voidlinux.org>"
+maintainer="Duncaen <duncaen@codelabs.org>"
 license="MIT"
 homepage="http://www.muquit.com/muquit/software/grabc/grabc.html"
 # Remove the license file on next version bump as it will be included.

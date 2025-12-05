@@ -43,7 +43,7 @@ do_build() {
 		python3 setup.py clean --clean-for-cross-compile
 		_cross_args=(--skip-code-generation)
 	fi
-	. /void-packages/common/environment/build-style/go.sh
+	. /codelabs-packages/common/environment/build-style/go.sh
 	python3 setup.py linux-package --prefix="${DESTDIR}/usr" --update-check-interval=0 \
 		--verbose --debug "${_cross_args[@]}"
 }

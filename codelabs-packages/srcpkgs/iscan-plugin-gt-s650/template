@@ -7,7 +7,7 @@ archs="i686 x86_64"
 _bundle_version=6.6.2.1
 depends="sane-epkowa"
 short_desc="Epson scanner plugin for GT-S650, Perfection V19 and Perfection V39"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="custom:AVASYS"
 homepage="http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX"
 case "$XBPS_TARGET_MACHINE" in

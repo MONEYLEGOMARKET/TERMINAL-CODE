@@ -6,4 +6,4 @@ metapackage=yes
 short_desc="Plex Desktop/Embedded Client (removed because of mpv)"
 maintainer="Đoàn Trần Công Danh <congdanhqx@gmail.com>"
 license="BSD-2-Clause"
-homepage="https://voidlinux.org"
+homepage="https://codelabs.org"

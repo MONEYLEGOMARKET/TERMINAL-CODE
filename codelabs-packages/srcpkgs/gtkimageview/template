@@ -7,10 +7,10 @@ build_style=gnu-configure
 hostmakedepends="pkg-config gtk-doc libtool glib-devel automake"
 makedepends="gtk+-devel"
 short_desc="Widget that provides a zoomable and panable view of a GdkPixbuf"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://wiki.gnome.org/Projects/GTK/GtkImageView"
-distfiles="https://repo-default.voidlinux.org/distfiles/gtkimageview-${_githash}.tar.gz"
+distfiles="https://repo-default.codelabs.org/distfiles/gtkimageview-${_githash}.tar.gz"
 checksum=2d61c9957500e515419b2b3b0d9a3d5efb67a6a8384743926121dcd618a9ef35
 
 pre_configure() {

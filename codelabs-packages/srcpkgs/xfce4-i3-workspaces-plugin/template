@@ -7,7 +7,7 @@ hostmakedepends="gettext-devel intltool pkg-config xfce4-dev-tools libtool
  automake"
 makedepends="xfce4-panel-devel i3ipc-glib-devel"
 short_desc="Workspace switcher for i3 window manager and Xfce4 panel"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://github.com/denesb/xfce4-i3-workspaces-plugin"
 distfiles="https://github.com/denesb/${pkgname}/archive/refs/tags/${version}.tar.gz"

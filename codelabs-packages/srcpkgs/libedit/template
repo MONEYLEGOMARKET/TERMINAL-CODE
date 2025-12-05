@@ -8,7 +8,7 @@ build_style=gnu-configure
 configure_args="ac_cv_path_NROFF=/bin/true"
 makedepends="ncurses-devel"
 short_desc="Port of the NetBSD Command Line Editor Library"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="BSD-3-Clause"
 homepage="https://www.thrysoee.dk/editline/"
 distfiles="https://www.thrysoee.dk/editline/libedit-${version%%.*}-${version#*.}.tar.gz"

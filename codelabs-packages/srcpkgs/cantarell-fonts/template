@@ -7,7 +7,7 @@ configure_args="-Dfontsdir=/usr/share/fonts/cantarell -Duseprebuilt=true -Dbuild
 hostmakedepends="gettext pkg-config meson appstream-glib"
 depends="font-util"
 short_desc="Cantarell family of TrueType fonts"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="OFL-1.1"
 homepage="https://wiki.gnome.org/Projects/CantarellFonts"
 changelog="https://gitlab.gnome.org/GNOME/cantarell-fonts/-/raw/master/NEWS"

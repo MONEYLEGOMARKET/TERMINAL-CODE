@@ -10,7 +10,7 @@ makedepends="gtk4-devel libadwaita-devel libdex-devel
  json-glib-devel libpanel-devel polkit-devel libunwind-devel"
 depends="sysprof-cli"
 short_desc="System-wide profiler for Linux"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later, GPL-3.0-or-later"
 homepage="https://gitlab.gnome.org/GNOME/sysprof"
 changelog="https://gitlab.gnome.org/GNOME/sysprof/-/raw/master/NEWS"

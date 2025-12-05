@@ -10,7 +10,7 @@ makedepends="zlib-devel qt6-base-devel qt6-plugin-mysql
  qt6-svg-devel occt-devel glu-devel openssl-devel rust-std"
 depends="qt6-plugin-sqlite"
 short_desc="Powerful, innovative and intuitive EDA tool for everyone"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://librepcb.org"
 distfiles="https://download.librepcb.org/releases/${version}/librepcb-${version}-source.zip"

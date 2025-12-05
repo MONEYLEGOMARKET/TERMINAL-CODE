@@ -21,7 +21,7 @@ export VERSION=v${version}
 export RUST_TARGET
 
 case "$XBPS_TARGET_MACHINE" in
-	armv7*) broken="https://build.voidlinux.org/#/builders/6/builds/4217";;
+	armv7*) broken="https://build.codelabs.org/#/builders/6/builds/4217";;
 esac
 
 if [ "$XBPS_TARGET_NO_ATOMIC8" ]; then

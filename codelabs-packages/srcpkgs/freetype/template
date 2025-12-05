@@ -7,7 +7,7 @@ configure_args="--enable-freetype-config"
 hostmakedepends="pkg-config"
 makedepends="bzip2-devel libpng-devel brotli-devel"
 short_desc="Font rendering engine and library API"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, FTL"
 homepage="https://www.freetype.org/"
 # Should be using NONGNU_SITE instead, but that often redirects to outdated

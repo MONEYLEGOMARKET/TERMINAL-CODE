@@ -11,7 +11,7 @@ makedepends="libgedit-amtk-devel libglib-devel libgedit-gtksourceview-devel gtk+
  libgedit-gfls-devel libhandy1-devel"
 checkdepends="xvfb-run"
 short_desc="Text editor product line"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="LGPL-3.0-or-later"
 homepage="https://gitlab.gnome.org/World/gedit/libgedit-tepl"
 changelog="https://gitlab.gnome.org/World/gedit/libgedit-tepl/-/raw/main/NEWS"

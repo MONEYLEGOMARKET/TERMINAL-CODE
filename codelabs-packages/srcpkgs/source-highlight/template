@@ -8,7 +8,7 @@ configure_args="--with-boost=${XBPS_CROSS_BASE}/usr
  --with-bash-completion=/usr/share/bash-completion/completions"
 makedepends="boost-devel-minimal libboost_regex"
 short_desc="Convert source code to syntax highlighted document"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="http://www.gnu.org/software/src-highlite/"
 distfiles="${GNU_SITE}/src-highlite/source-highlight-${version}.tar.gz"
@@ -21,7 +21,7 @@ if [ "$CROSS_BUILD" ]; then
 fi
 
 post_patch() {
-	# On Void, lesspipe is installed as lesspipe.sh
+	# On CODE LABS, lesspipe is installed as lesspipe.sh
 	vsed -e 's/\blesspipe\b/&.sh/g' -i src/src-hilite-lesspipe.sh.in
 }
 

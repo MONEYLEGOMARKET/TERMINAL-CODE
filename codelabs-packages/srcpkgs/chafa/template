@@ -9,7 +9,7 @@ makedepends="libavif-devel libglib-devel libjxl-devel librsvg-devel
  libwebp-devel libXext-devel libxml2-devel libheif-devel"
 checkdepends="which"
 short_desc="Versatile and fast Unicode/ASCII/ANSI graphics renderer"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-3.0-or-later"
 homepage="https://hpjansson.org/chafa/"
 changelog="https://raw.githubusercontent.com/hpjansson/chafa/master/NEWS"

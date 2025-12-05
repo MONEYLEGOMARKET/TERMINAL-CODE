@@ -10,7 +10,7 @@ diff -u -r a/src/meson.build b/src/meson.build
  compiler_version = cc.version()
  
 -vcs_tag_cmd = ['git', 'describe', '--always', '--tags', '--dirty=+']
-+vcs_tag_cmd = ['cat', '../voidlinux_pkg_version.txt']
++vcs_tag_cmd = ['cat', '../codelabs_pkg_version.txt']
  vcs_tag = run_command(vcs_tag_cmd, check: false).stdout().strip()
  version_tag = vcs_tag + ' (' + compiler_name + ' ' + compiler_version + ')'
  

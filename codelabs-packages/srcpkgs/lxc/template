@@ -27,7 +27,7 @@ make_dirs="
 post_install() {
 	# Install void lxc config/template.
 	vinstall ${FILESDIR}/void.common.conf 644 usr/share/lxc/config
-	vinstall ${FILESDIR}/lxc-void 755 usr/share/lxc/templates
+	vinstall ${FILESDIR}/lxc-codelabs 755 usr/share/lxc/templates
 	vsv lxc-autostart
 }
 

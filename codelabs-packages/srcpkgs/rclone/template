@@ -10,7 +10,7 @@ go_ldflags="-extldflags=-fuse-ld=bfd -X github.com/rclone/rclone/fs.Version=v${v
 depends="mime-types"
 checkdepends="${depends} rsync unzip"
 short_desc="Rsync for cloud storage"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://rclone.org/"
 changelog="https://rclone.org/changelog/"

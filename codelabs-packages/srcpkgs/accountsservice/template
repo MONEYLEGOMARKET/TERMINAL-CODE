@@ -10,7 +10,7 @@ hostmakedepends="glib-devel pkg-config polkit gettext $(vopt_if gir vala)
  python3-dbus python3-gobject python3-dbusmock"
 makedepends="polkit-devel elogind-devel"
 short_desc="D-Bus interfaces for querying and manipulating user account information"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://www.freedesktop.org/wiki/Software/AccountsService/"
 distfiles="${FREEDESKTOP_SITE}/${pkgname}/${pkgname}-${version}.tar.xz"

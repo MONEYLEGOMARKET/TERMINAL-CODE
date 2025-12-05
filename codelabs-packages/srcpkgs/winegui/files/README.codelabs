@@ -5,7 +5,7 @@ the 32bit packages are available in the multilib repository.
 
 Install the multilib repository to your system:
 
-	# xbps-install -S void-repo-multilib{,-nonfree}
+	# xbps-install -S codelabs-repo-multilib{,-nonfree}
 
 Generic (for all systems):
 

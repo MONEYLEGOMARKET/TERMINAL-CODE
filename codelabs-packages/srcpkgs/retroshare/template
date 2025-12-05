@@ -12,7 +12,7 @@ makedepends="ffmpeg6-devel libsecret-devel libmicrohttpd-devel
  pulseaudio-devel qt5-multimedia-devel qt5-tools-devel qt5-x11extras-devel
  speex-devel sqlcipher-devel sqlite-devel rapidjson"
 short_desc="Decentralized, private and secure commmunication and sharing platform"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="AGPL-3.0-only, AGPL-3.0-or-later, Apache-2.0, CC-BY-SA-4.0, CC0-1.0, GPL-3.0-or-later, LGPL-3.0-or-later, MIT"
 homepage="https://retroshare.cc"
 distfiles="https://github.com/RetroShare/RetroShare/archive/v${version}.tar.gz"

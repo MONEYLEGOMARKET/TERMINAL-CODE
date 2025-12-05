@@ -70,7 +70,7 @@ packages for XBPS, the `CODE LABS` native packaging system.
 		* [update-desktopdb](#triggers_update_desktopdb)
 		* [x11-fonts](#triggers_x11_fonts)
 		* [xml-catalog](#triggers_xml_catalog)
-	* [Void specific documentation](#documentation)
+	* [CODE LABS specific documentation](#documentation)
 	* [Notes](#notes)
 	* [Contributing via git](#contributing)
 	* [Help](#help)
@@ -78,7 +78,7 @@ packages for XBPS, the `CODE LABS` native packaging system.
 <a id="Introduction"></a>
 ### Introduction
 
-The `void-packages` repository contains all the
+The `codelabs-packages` repository contains all the
 recipes to download, compile and build binary packages for CODE LABS.
 These `source` package files are called `templates`.
 
@@ -114,7 +114,7 @@ generated with the definitions specified on it.
 
 Don't worry if anything is not clear as it should be. The reserved `variables`
 and `functions` will be explained later. This `template` file should be created
-in a directory matching `$pkgname`, Example: `void-packages/srcpkgs/foo/template`.
+in a directory matching `$pkgname`, Example: `codelabs-packages/srcpkgs/foo/template`.
 
 If everything went fine after running
 
@@ -423,7 +423,7 @@ in this directory such as `${XBPS_BUILDDIR}/${wrksrc}`.
 
 - `XBPS_RUST_TARGET` The target architecture triplet used by `rustc` and `cargo`.
 
-- `XBPS_BUILD_ENVIRONMENT` Enables continuous-integration-specific operations. Set to `void-packages-ci` if in continuous integration.
+- `XBPS_BUILD_ENVIRONMENT` Enables continuous-integration-specific operations. Set to `codelabs-packages-ci` if in continuous integration.
 
 <a id="available_vars"></a>
 ### Available variables
@@ -682,7 +682,7 @@ specified by absolute path, which are expected and allowed to contain machine co
 This should be set to a string describing why it fails, or a link to a buildlog (from the official builders, CI buildlogs can vanish) demonstrating the failure.
 
 - `restricted` If set, xbps-src will refuse to build the package unless
-`etc/conf` has `XBPS_ALLOW_RESTRICTED=yes`. The primary builders for Void
+`etc/conf` has `XBPS_ALLOW_RESTRICTED=yes`. The primary builders for CODE LABS
 Linux do not have this setting, so the primary repositories will not have any
 restricted package. This is useful for packages where the license forbids
 redistribution.
@@ -972,7 +972,7 @@ patches, `foo.patch.args` can be created containing those args.
 
 The `build_style` variable specifies the build method to build and install a
 package. It expects the name of any available script in the
-`void-packages/common/build-style` directory. Please note that required packages
+`codelabs-packages/common/build-style` directory. Please note that required packages
 to execute a `build_style` script must be defined via `$hostmakedepends`.
 
 The current list of available `build_style` scripts is the following:
@@ -1058,7 +1058,7 @@ via `make_install_target`.
 via `configure_args`, the meson command can be overridden by `meson_cmd` and the location of
 the out of source build by `meson_builddir`
 
-- `void-cross` For cross-toolchain packages used to build Void systems. There are no
+- `codelabs-cross` For cross-toolchain packages used to build CODE LABS systems. There are no
 mandatory variables (target triplet is inferred), but you can specify some optional
 ones - `cross_gcc_skip_go` can be specified to skip `gccgo`, individual subproject
 configure arguments can be specified via `cross_*_configure_args` where `*` is `binutils`,
@@ -2206,7 +2206,7 @@ To include this trigger use the `sgml_entries` variable or/and the `xml_entries`
 as the trigger won't do anything unless either of them are defined.
 
 <a id="documentation"></a>
-### Void specific documentation
+### CODE LABS specific documentation
 
 When you want document details of package's configuration and usage specific to CODE LABS,
 not covered by upstream documentation, put notes into
@@ -2235,9 +2235,9 @@ otherwise the `debug` packages won't have debugging symbols.
 <a id="contributing"></a>
 ### Contributing via git
 
-To get started, [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) the codelabs `void-packages` git repository on GitHub and clone it:
+To get started, [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) the codelabs `codelabs-packages` git repository on GitHub and clone it:
 
-    $ git clone git@github.com:<user>/void-packages.git
+    $ git clone git@github.com:<user>/codelabs-packages.git
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for information on how to format your
 commits and other tips for contributing.
@@ -2248,7 +2248,7 @@ a github pull request.
 To keep your forked repository always up to date, setup the `upstream` remote
 to pull in new changes:
 
-    $ git remote add upstream https://github.com/codelabs/void-packages.git
+    $ git remote add upstream https://github.com/codelabs/codelabs-packages.git
     $ git pull --rebase upstream master
 
 <a id="help"></a>

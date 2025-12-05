@@ -14,7 +14,7 @@ makedepends="
  wavpack-devel pipewire-devel libdispatch-devel"
 depends="desktop-file-utils hicolor-icon-theme"
 short_desc="Ultimate Music Player for GNU/Linux"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Zlib, GPL-2.0-or-later, LGPL-2.1-or-later"
 _libretro_commit=b4d3db19566398603069d02eeacb3b06987a1b74
 _output_pw_commit=0b099d13ab0e89d9934aabdeb2872f0f66ea6960

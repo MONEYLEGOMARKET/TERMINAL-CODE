@@ -9,7 +9,7 @@ makedepends="gcr-devel gtk4-devel liblz4-devel libnma-devel
  openssl-devel libsecret-devel libxml2-devel openconnect-devel libwebkit2gtk41-devel"
 depends="openconnect"
 short_desc="NetworkManager VPN plugin for OpenConnect"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://wiki.gnome.org/Projects/NetworkManager"
 distfiles="${GNOME_SITE}/${pkgname}/${version%.*}/${pkgname}-${version}.tar.xz"

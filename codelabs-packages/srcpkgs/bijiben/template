@@ -9,7 +9,7 @@ makedepends="clutter-gtk-devel evolution-devel tinysparql-devel
  libwebkit2gtk41-devel libhandy1-devel libcurl-devel"
 depends="desktop-file-utils tracker"
 short_desc="Intuitive note editor with strong GNOME desktop integration"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://wiki.gnome.org/Apps/Notes"
 changelog="https://gitlab.gnome.org/GNOME/gnome-notes/-/raw/gnome-40-0/NEWS"

@@ -8,7 +8,7 @@ depends="python3-dbus python3-gobject"
 checkdepends="${depends} python3-pytest upower bluez NetworkManager
  power-profiles-daemon polkit libnotify iio-sensor-proxy which"
 short_desc="Python3 library to mock D-Bus objects for testing"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-3.0-or-later"
 homepage="https://github.com/martinpitt/python-dbusmock"
 distfiles="https://github.com/martinpitt/python-dbusmock/releases/download/${version}/dist.python_dbusmock-${version}.tar.gz"

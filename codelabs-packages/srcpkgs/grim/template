@@ -8,7 +8,7 @@ hostmakedepends="pkg-config wayland-devel scdoc"
 makedepends="wayland-devel wayland-protocols pixman-devel libjpeg-turbo-devel
  libpng-devel"
 short_desc="Grab images from a Wayland compositor"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://gitlab.freedesktop.org/emersion/grim"
 distfiles="${homepage}/-/archive/v${version}/grim-v${version}.tar.gz"

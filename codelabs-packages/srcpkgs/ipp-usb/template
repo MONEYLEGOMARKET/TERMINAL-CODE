@@ -9,7 +9,7 @@ hostmakedepends="pkg-config"
 makedepends="avahi-libs-devel libusb-devel"
 depends="avahi"
 short_desc="Allows using the IPP protocol over usb connections"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="BSD-2-Clause"
 homepage="https://github.com/OpenPrinting/ipp-usb"
 distfiles="https://github.com/OpenPrinting/ipp-usb/archive/$version.tar.gz"
@@ -19,7 +19,7 @@ post_install() {
 	vsv ipp-usb
 	vman ipp-usb.8
 	vdoc README.md
-	vdoc ${FILESDIR}/README.voidlinux
+	vdoc ${FILESDIR}/README.codelabs
 	vdoc systemd-udev/71-ipp-usb.rules
 	vinstall ipp-usb.conf 644 /etc/ipp-usb
 	vlicense LICENSE

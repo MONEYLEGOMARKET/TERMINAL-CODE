@@ -11,11 +11,11 @@ configure_args="$(vopt_with python) $(vopt_with perl)"
 hostmakedepends="bison flex gettext python3 which python3-setuptools pkg-config
  perl $(vopt_if python swig)"
 makedepends="$(vopt_if python python3-devel)"
-depends="runit-void-apparmor libapparmor-${version}_${revision} python3-notify2
+depends="runit-codelabs-apparmor libapparmor-${version}_${revision} python3-notify2
  python3-psutil python3-dbus iproute2"
 checkdepends="dejagnu"
 short_desc="Mandatory access control to restrict programs"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-only"
 homepage="https://gitlab.com/apparmor/apparmor"
 changelog="https://gitlab.com/apparmor/apparmor/-/wikis/Release_Notes_${version}"
@@ -76,7 +76,7 @@ post_install() {
 	rm ${DESTDIR}/etc/apparmor.d/{,local/}php-fpm
 
 	vinstall utils/aa-notify.desktop 644 usr/share/applications
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }
 
 libapparmor_package() {

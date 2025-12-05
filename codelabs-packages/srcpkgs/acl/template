@@ -8,7 +8,7 @@ configure_args="--libdir=/usr/lib${XBPS_TARGET_WORDSIZE}
  --libexecdir=/usr/lib${XBPS_TARGET_WORDSIZE}"
 makedepends="attr-devel"
 short_desc="Access Control List filesystem support"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.1-or-later"
 homepage="https://savannah.nongnu.org/projects/acl"
 distfiles="${NONGNU_SITE}/acl/acl-${version}.tar.gz"

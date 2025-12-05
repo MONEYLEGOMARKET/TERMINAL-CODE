@@ -9,7 +9,7 @@ makedepends="MesaLib-devel pango-devel libtsm-devel libxkbcommon-devel
  eudev-libudev-devel"
 depends="xkeyboard-config"
 short_desc="Terminal emulator based on Kernel Mode Setting (KMS)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://github.com/Aetf/kmscon"
 distfiles="https://github.com/Aetf/kmscon/archive/refs/tags/v${version}.tar.gz"

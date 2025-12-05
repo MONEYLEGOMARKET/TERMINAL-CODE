@@ -23,7 +23,7 @@ if [ "$build_option_languages" ]; then
 fi
 
 do_install() {
-	vdoc "${FILESDIR}/README.voidlinux"
+	vdoc "${FILESDIR}/README.codelabs"
 }
 
 postgresql-doc_package() {

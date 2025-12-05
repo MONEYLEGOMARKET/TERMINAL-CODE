@@ -8,7 +8,7 @@ makedepends="glm libmodplug-devel libopenal-devel LuaJIT-devel
  physfs-devel SDL2_image-devel SDL2_ttf-devel
  solarus-devel qlementine-devel qt6-svg-devel"
 short_desc="Quest editor for the Solarus RPG game engine"
-maintainer="Andrew Benson <abenson+void@gmail.com>"
+maintainer="Andrew Benson <abenson+codelabs@gmail.com>"
 license="GPL-3.0-or-later"
 homepage="http://www.solarus-games.org"
 distfiles="https://gitlab.com/solarus-games/${pkgname}/-/archive/v${version}/${pkgname}-v${version}.tar.bz2"

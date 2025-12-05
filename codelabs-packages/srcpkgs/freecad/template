@@ -26,7 +26,7 @@ depends="python3-matplotlib python3-pivy python3-GitPython python3-Markdown
  python3-pyside6-gui python3-pyside6-printsupport python3-pyside6-ui-tools
  python3-pyside6-widgets"
 short_desc="General purpose 3D CAD modeler"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="LGPL-2.0-or-later"
 homepage="https://freecadweb.org/"
 distfiles="https://github.com/FreeCAD/FreeCAD/archive/${version}.tar.gz
@@ -61,9 +61,9 @@ post_patch() {
 	sed -i -e "s,^\(set(PACKAGE_VERSION_MINOR\) .*,\1 \"${vminor}\")," CMakeLists.txt
 
 	# SubWCRev.py (SCM check) reports "unknown" for these fields
-	vsed -e "s,\${PACKAGE_WCREF},${revision}_voidlinux," \
+	vsed -e "s,\${PACKAGE_WCREF},${revision}_codelabs," \
 	     -e "s,\${PACKAGE_WCDATE},(from release)," \
-	     -e "s,\${PACKAGE_WCURL},Void Linux package ${pkgname}," \
+	     -e "s,\${PACKAGE_WCURL},CODE LABS package ${pkgname}," \
 	     -i src/Build/Version.h.cmake
 }
 

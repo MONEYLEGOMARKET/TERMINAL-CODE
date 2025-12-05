@@ -15,7 +15,7 @@ makedepends="SFML-devel boost-devel-minimal libboost_chrono libboost_thread
  glew-devel libvorbis-devel libxml++-devel libXt-devel tinyclipboard-devel
  pcre-devel mruby2"
 short_desc="OSS 2D platform game"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://www.secretchronicles.org/"
 distfiles="https://github.com/Secretchronicles/TSC/releases/download/v${version}/TSC-${version}.tar.gz"

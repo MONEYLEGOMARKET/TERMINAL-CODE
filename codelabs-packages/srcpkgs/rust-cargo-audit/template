@@ -5,7 +5,7 @@ revision=1
 build_style=cargo
 configure_args="--features=fix"
 short_desc="Audit Cargo.lock for crates with security vulnerabilities"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="Apache-2.0 OR MIT"
 homepage="https://rustsec.org"
 changelog="https://github.com/rustsec/rustsec/raw/main/cargo-audit/CHANGELOG.md"

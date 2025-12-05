@@ -7,7 +7,7 @@ hostmakedepends="pkg-config intltool glib-devel"
 makedepends="gnome-desktop-devel dbus-glib-devel pam-devel elogind-devel
  libgnomekbd-devel libXxf86vm-devel"
 short_desc="Fork of GNOME Screensaver for Budgie 10"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-only"
 homepage="https://github.com/BuddiesOfBudgie/budgie-screensaver"
 distfiles="https://github.com/BuddiesOfBudgie/budgie-screensaver/releases/download/v${version}/budgie-screensaver-v${version}.tar.xz"

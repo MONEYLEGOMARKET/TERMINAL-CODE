@@ -10,7 +10,7 @@
 -#define UP_BACKEND_HYBRID_SLEEP_COMMAND "/usr/sbin/pm-suspend-hybrid"
 -#endif
 -#ifdef BACKEND_TYPE_OPENBSD
-+/* voidlinux and openbsd use zzz(8) */
++/* codelabs and openbsd use zzz(8) */
 +#if defined(BACKEND_TYPE_LINUX) || defined(BACKEND_TYPE_OPENBSD)
  #define UP_BACKEND_SUSPEND_COMMAND "/usr/sbin/zzz"
  #define UP_BACKEND_HIBERNATE_COMMAND "/usr/sbin/ZZZ"

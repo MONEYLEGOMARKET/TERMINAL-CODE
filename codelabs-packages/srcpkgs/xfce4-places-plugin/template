@@ -7,7 +7,7 @@ hostmakedepends="gettext pkg-config"
 makedepends="exo-devel xfce4-panel-devel libnotify-devel libglib-devel gtk+3-devel libxfce4ui-devel
  libxfce4util-devel xfconf-devel"
 short_desc="Folders, documents and removable drives menu plugin for Xfce4 panel"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://goodies.xfce.org/projects/panel-plugins/xfce4-places-plugin"
 distfiles="https://archive.xfce.org/src/panel-plugins/xfce4-places-plugin/${version%.*}/xfce4-places-plugin-${version}.tar.xz"

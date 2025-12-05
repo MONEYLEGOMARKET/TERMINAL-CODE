@@ -6,7 +6,7 @@ build_style=cmake
 configure_args="-DXDG_CONFIG_DIR=/etc/xdg"
 hostmakedepends="gettext"
 short_desc="Display file system space usage using graphs and colors"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="BSD-3-Clause"
 homepage="https://github.com/Rolinh/dfc"
 distfiles="https://github.com/Rolinh/dfc/archive/v${version}.tar.gz"

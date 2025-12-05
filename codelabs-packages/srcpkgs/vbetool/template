@@ -7,7 +7,7 @@ build_style=gnu-configure
 make_build_args="LIBS=-lpci"
 makedepends="zlib-devel libx86-devel pciutils-devel"
 short_desc="Run real-mode video BIOS code to alter hardware state"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-only"
 homepage="http://www.codon.org.uk/~mjg59/vbetool/"
 distfiles="http://www.codon.org.uk/~mjg59/vbetool/download/vbetool-${version}.tar.gz"

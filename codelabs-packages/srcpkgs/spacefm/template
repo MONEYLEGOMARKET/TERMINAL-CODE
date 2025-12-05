@@ -9,7 +9,7 @@ makedepends="$(vopt_if gtk3 gtk+3-devel)
  startup-notification-devel eudev-libudev-devel ffmpegthumbnailer-devel"
 depends="hicolor-icon-theme desktop-file-utils"
 short_desc="Multi-panel tabbed file manager"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="http://ignorantguru.github.io/spacefm/"
 distfiles="https://github.com/IgnorantGuru/spacefm/archive/${version}.tar.gz"

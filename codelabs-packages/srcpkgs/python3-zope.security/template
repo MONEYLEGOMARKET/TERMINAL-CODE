@@ -8,7 +8,7 @@ makedepends="python3-devel"
 depends="python3-zope.component python3-zope.configuration python3-zope.testing
  python3-zope.testrunner python3-zope.location"
 short_desc="Zope security framework"
-maintainer="Alex Childs <misuchiru03+void@gmail.com>"
+maintainer="Alex Childs <misuchiru03+codelabs@gmail.com>"
 license="ZPL-2.1"
 homepage="https://github.com/zopefoundation/zope.security/"
 distfiles="${PYPI_SITE}/z/zope_security/zope_security-${version}.tar.gz"

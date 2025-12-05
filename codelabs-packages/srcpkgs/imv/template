@@ -13,7 +13,7 @@ makedepends="cmocka-devel pango-devel librsvg-devel libheif-devel libxkbcommon-d
 depends="desktop-file-utils"
 conf_files="/etc/imv_config"
 short_desc="Image viewer for X11/Wayland"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://sr.ht/~exec64/imv/"
 changelog="https://git.sr.ht/~exec64/imv/blob/master/CHANGELOG"
@@ -22,7 +22,7 @@ checksum=8949c1df4b933b1d324e02ce49f1834a4b73dd25fa8103579e0ed105149e080e
 conflicts="renameutils>=0"
 
 post_install() {
-	# copy the man page so it isn't clobbered by renameutils in man.voidlinux.org
+	# copy the man page so it isn't clobbered by renameutils in man.codelabs.org
 	vman "${DESTDIR}/usr/share/man/man1/imv.1" imv-x11.1
 	ln -s imv-x11.1 "${DESTDIR}/usr/share/man/man1/imv-wayland.1"
 	vlicense LICENSE

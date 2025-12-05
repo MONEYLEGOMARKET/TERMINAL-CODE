@@ -10,7 +10,7 @@ hostmakedepends="pkgconf qt5-qmake"
 makedepends="qt5-devel qt5-tools-devel qt5-svg-devel libnotify
  qhttpengine-devel qmdnsengine-devel"
 short_desc="Network file transfer application"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="MIT"
 homepage="http://nitroshare.net"
 distfiles="https://github.com/nitroshare/nitroshare-desktop/archive/${version}.tar.gz"

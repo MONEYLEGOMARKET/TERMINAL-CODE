@@ -13,5 +13,5 @@ checksum=33e4944303c778581b6471c79e1273a5668917542e412c8125f028133b684718
 post_install() {
 	vsv zcfan
 	vlicense LICENSE
-	vdoc ${FILESDIR}/README.voidlinux
+	vdoc ${FILESDIR}/README.codelabs
 }

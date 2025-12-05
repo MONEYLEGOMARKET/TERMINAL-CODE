@@ -6,11 +6,11 @@ build_style=gnu-configure
 configure_args="--with-system-root-install=no \
  --without-rhgb-compat-link --enable-systemd-integration=no \
  $(vopt_enable gtk3 gtk) $(vopt_enable pango) \
- --with-logo=/usr/share/void-artwork/void-transparent.png --localstatedir=/ \
+ --with-logo=/usr/share/codelabs-artwork/void-transparent.png --localstatedir=/ \
  --disable-documentation"
 conf_files="/etc/plymouth/plymouthd.conf"
 hostmakedepends="pkg-config gettext"
-makedepends="libdrm-devel libpng-devel void-artwork
+makedepends="libdrm-devel libpng-devel codelabs-artwork
  $(vopt_if gtk3 gtk+3-devel) $(vopt_if pango pango-devel)"
 depends="plymouth-data>=0"
 short_desc="Graphical boot animation and logger"
@@ -48,7 +48,7 @@ plymouth-devel_package() {
 
 plymouth-data_package() {
 	short_desc+=" - data files"
-	depends="void-artwork"
+	depends="codelabs-artwork"
 	pkg_install() {
 		vmove usr/share/plymouth/themes
 	}

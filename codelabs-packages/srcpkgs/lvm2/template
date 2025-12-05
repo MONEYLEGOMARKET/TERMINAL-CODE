@@ -14,7 +14,7 @@ makedepends="eudev-libudev-devel libaio-devel libblkid-devel
  readline-devel thin-provisioning-tools"
 depends="thin-provisioning-tools"
 short_desc="Logical Volume Manager 2 utilities"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-only, LGPL-2.1-only, BSD-2-Clause"
 homepage="https://sourceware.org/lvm2/"
 changelog="https://abi-laboratory.pro/?view=changelog&l=lvm2&v=${version}"

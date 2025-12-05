@@ -1,8 +1,8 @@
-# Contributing to void-packages
+# Contributing to codelabs-packages
 
-void-packages is the backbone of the CODE LABS distribution. It contains all the definitions to build packages from source.
+codelabs-packages is the backbone of the CODE LABS distribution. It contains all the definitions to build packages from source.
 
-This document describes how you, as a contributor, can help with adding packages, correcting bugs and adding features to void-packages.
+This document describes how you, as a contributor, can help with adding packages, correcting bugs and adding features to codelabs-packages.
 
 ## Package Requirements
 
@@ -28,7 +28,7 @@ Such forks require heavy patching, maintenance and hours of build time.
 Software need to be used in version announced by authors as ready to use by the general public - usually called releases.
 Betas, arbitrary VCS revisions, templates using tip of development branch taken at build time and releases created by the package maintainer won't be accepted.
 
-## Creating, updating, and modifying packages in Void by yourself
+## Creating, updating, and modifying packages in CODE LABS by yourself
 
 If you really want to get a new package or package update into CODE LABS, we recommend you contribute it yourself.
 
@@ -39,19 +39,19 @@ For this guide, we assume you have basic knowledge about [git](http://git-scm.or
 
 You should also [set the email](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address) on your GitHub account and in git so your commits are associated with your GitHub account properly.
 
-To get started, [fork](https://help.github.com/articles/fork-a-repo) the codelabs `void-packages` git repository on GitHub and clone it:
+To get started, [fork](https://help.github.com/articles/fork-a-repo) the codelabs `codelabs-packages` git repository on GitHub and clone it:
 
-    $ git clone git@github.com:<user>/void-packages.git
+    $ git clone git@github.com:<user>/codelabs-packages.git
 
 To keep your forked repository up to date, setup the `upstream` remote to pull in new changes:
 
-    $ git remote add upstream https://github.com/codelabs/void-packages.git
+    $ git remote add upstream https://github.com/codelabs/codelabs-packages.git
     $ git pull --rebase upstream master
 
 This can also be done with the `github-cli` tool:
 
-    $ gh repo fork codelabs/void-packages
-    $ gh repo clone <user>/void-packages
+    $ gh repo fork codelabs/codelabs-packages
+    $ gh repo clone <user>/codelabs-packages
 
 This automatically sets up the `upstream` remote, so `git pull --rebase upstream master` can still be used to keep your fork up-to-date.
 
@@ -69,7 +69,7 @@ You can use the helper tool `xnew`, from the [xtools](https://github.com/leahneu
 
     $ xnew pkgname subpkg1 subpkg2 ...
 
-Templates must have the name `void-packages/srcpkgs/<pkgname>/template`, where `pkgname` is the same as the `pkgname` variable in the template.
+Templates must have the name `codelabs-packages/srcpkgs/<pkgname>/template`, where `pkgname` is the same as the `pkgname` variable in the template.
 
 For deeper insights on the contents of template files, please read the [manual](./Manual.md), and be sure to browse the existing template files in the `srcpkgs` directory of this repository for concrete examples.
 
@@ -85,7 +85,7 @@ The checksum can be updated automatically with the `xgensum` helper from the [xt
 ### Adopting a template
 
 If a template is orphaned (maintained by `orphan@codelabs.org`) or the current `maintainer` has not contributed to
-Void in over a year, template maintainership can be adopted by someone else. To ensure a template gets the care it needs,
+CODE LABS in over a year, template maintainership can be adopted by someone else. To ensure a template gets the care it needs,
 template adopters should be familiar with the package and have an established history of contributions to CODE LABS.
 Those who have contributed several updates, especially for the template in question, are good candidates for template
 maintainership.
@@ -107,7 +107,7 @@ rebuild) is not necessary either.
 
 ### Committing your changes
 
-After making your changes, please check that the package builds successfully. From the top level directory of your local copy of the `void-packages` repository, run:
+After making your changes, please check that the package builds successfully. From the top level directory of your local copy of the `codelabs-packages` repository, run:
 
     $ ./xbps-src pkg <pkgname>
 
@@ -126,18 +126,18 @@ If `xlint` reports any issues, resolve them before committing.
 
 Once you have made and verified your changes to the package template and/or other files, make one commit per package (including all changes to its sub-packages). Each commit message should have one of the following formats:
 
-* for new packages, use `New package: <pkgname>-<version>` ([example](https://github.com/codelabs/void-packages/commit/8ed8d41c40bf6a82cf006c7e207e05942c15bff8)).
+* for new packages, use `New package: <pkgname>-<version>` ([example](https://github.com/codelabs/codelabs-packages/commit/8ed8d41c40bf6a82cf006c7e207e05942c15bff8)).
 
-* for package updates, use `<pkgname>: update to <version>.` ([example](https://github.com/codelabs/void-packages/commit/c92203f1d6f33026ae89f3e4c1012fb6450bbac1)).
+* for package updates, use `<pkgname>: update to <version>.` ([example](https://github.com/codelabs/codelabs-packages/commit/c92203f1d6f33026ae89f3e4c1012fb6450bbac1)).
 
-* for template modifications without a version change, use `<pkgname>: <reason>` ([example](https://github.com/codelabs/void-packages/commit/ff39c912d412717d17232de9564f659b037e95b5)).
+* for template modifications without a version change, use `<pkgname>: <reason>` ([example](https://github.com/codelabs/codelabs-packages/commit/ff39c912d412717d17232de9564f659b037e95b5)).
 
-* for package removals, use `<pkgname>: remove package` and include the removal reason in the commit body ([example](https://github.com/codelabs/void-packages/commit/4322f923bdf5d4e0eb36738d4f4717d72d0a0ca4)).
+* for package removals, use `<pkgname>: remove package` and include the removal reason in the commit body ([example](https://github.com/codelabs/codelabs-packages/commit/4322f923bdf5d4e0eb36738d4f4717d72d0a0ca4)).
 
-* for changes to any other file, use `<filename>: <reason>` ([example](https://github.com/codelabs/void-packages/commit/e00bea014c36a70d60acfa1758514b0c7cb0627d),
-  [example](https://github.com/codelabs/void-packages/commit/93bf159ce10d8e474da5296e5bc98350d00c6c82), [example](https://github.com/codelabs/void-packages/commit/dc62938c67b66a7ff295eab541dc37b92fb9fb78), [example](https://github.com/codelabs/void-packages/commit/e52317e939d41090562cf8f8131a68772245bdde))
+* for changes to any other file, use `<filename>: <reason>` ([example](https://github.com/codelabs/codelabs-packages/commit/e00bea014c36a70d60acfa1758514b0c7cb0627d),
+  [example](https://github.com/codelabs/codelabs-packages/commit/93bf159ce10d8e474da5296e5bc98350d00c6c82), [example](https://github.com/codelabs/codelabs-packages/commit/dc62938c67b66a7ff295eab541dc37b92fb9fb78), [example](https://github.com/codelabs/codelabs-packages/commit/e52317e939d41090562cf8f8131a68772245bdde))
 
-If you want to describe your changes in more detail, explain in the commit body (separated from the first line with a blank line) ([example](https://github.com/codelabs/void-packages/commit/f1c45a502086ba1952f23ace9084a870ce437bc6)).
+If you want to describe your changes in more detail, explain in the commit body (separated from the first line with a blank line) ([example](https://github.com/codelabs/codelabs-packages/commit/f1c45a502086ba1952f23ace9084a870ce437bc6)).
 
 `xbump`, available in the [xtools](https://github.com/leahneukirchen/xtools) package, can be used to commit a new or updated package:
 
@@ -153,7 +153,7 @@ If you want to describe your changes in more detail, explain in the commit body 
 
 Once you have successfully built the package, you can [create a pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). Pull requests are also known as PRs.
 
-Most pull requests should only contain a single package and dependencies which are not part of void-packages yet.
+Most pull requests should only contain a single package and dependencies which are not part of codelabs-packages yet.
 
 If you make updates to packages containing a soname bump, you also need to update `common/shlibs` and revbump all packages that are dependant.
 There should be a commit for each package revbump, and those commits should be part of the same pull request.
@@ -211,20 +211,20 @@ all packages in the pull request for all supported platforms. Upon completion, t
 
 While it is the responsibility of the PR creator to test changes before sending it, one person can't test all configuration options, usecases, hardware, etc.
 Testing new package submissions and updates is always helpful, and is a great way to get started with contributing.
-First, [clone the repository](https://github.com/codelabs/void-packages#quick-start) if you haven't done so already.
+First, [clone the repository](https://github.com/codelabs/codelabs-packages#quick-start) if you haven't done so already.
 Then check out the pull request, either with `github-cli`:
 
     $ gh pr checkout <number>
 
 Or with `git`:
 
-If your local void-packages repository is cloned from your fork, you may need to add the main repository as a remote first:
+If your local codelabs-packages repository is cloned from your fork, you may need to add the main repository as a remote first:
 
-    $ git remote add upstream https://github.com/codelabs/void-packages.git
+    $ git remote add upstream https://github.com/codelabs/codelabs-packages.git
 
 Then fetch and check out the PR (replacing `<remote>` with either `origin` or `upstream`):
 
     $ git fetch <remote> pull/<number>/head:<branch-name>
     $ git checkout <branch-name>
 
-Then [build and install](https://github.com/codelabs/void-packages#building-packages) the package and test its functionality.
+Then [build and install](https://github.com/codelabs/codelabs-packages#building-packages) the package and test its functionality.

@@ -7,7 +7,7 @@ hostmakedepends="pkg-config python3 automake libtool"
 makedepends="boost-devel-minimal libboost_program_options libboost_filesystem
  mdds python3-devel"
 short_desc="General purpose formula parser and interpreter"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MPL-2.0"
 homepage="https://gitlab.com/ixion/ixion/"
 changelog="https://gitlab.com/ixion/ixion/-/raw/master/CHANGELOG"

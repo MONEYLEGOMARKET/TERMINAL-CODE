@@ -8,7 +8,7 @@ depends="python3 ca-certificates python3-parsing"
 checkdepends="python3-pytest python3-pytest-cov python3-pytest-timeout
  python3-cryptography python3-flake8 python3-six python3-future"
 short_desc="Comprehensive HTTP client library (Python3)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="MIT"
 homepage="https://github.com/httplib2/httplib2"
 changelog="https://raw.githubusercontent.com/httplib2/httplib2/master/CHANGELOG"

@@ -1,4 +1,4 @@
-# texlive.profile written for voidlinux
+# texlive.profile written for codelabs
 TEXDIR ../texlive/2021
 TEXMFCONFIG ~/.texlive2021/texmf-config
 TEXMFHOME ~/texmf

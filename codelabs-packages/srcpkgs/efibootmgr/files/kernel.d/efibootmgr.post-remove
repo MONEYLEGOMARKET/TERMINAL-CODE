@@ -15,7 +15,7 @@ fi
 major_version=$(echo $PKGNAME | cut -c 6-)
 
 # get hex number of the matching entry
-hexnum=$(efibootmgr | grep "Void Linux with kernel ${major_version}" | cut -c "5-8")
+hexnum=$(efibootmgr | grep "CODE LABS with kernel ${major_version}" | cut -c "5-8")
 
 # delete it
 [ "$hexnum" ] && efibootmgr -Bq -b $hexnum

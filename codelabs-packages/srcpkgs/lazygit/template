@@ -4,7 +4,7 @@ version=0.56.0
 revision=1
 build_style=go
 go_import_path=github.com/jesseduffield/lazygit
-go_ldflags="-X main.version=${version} -X main.buildSource=voidlinux"
+go_ldflags="-X main.version=${version} -X main.buildSource=codelabs"
 make_check_args="-skip=TestIntegration"
 depends="git"
 short_desc="Simple terminal UI for git commands"

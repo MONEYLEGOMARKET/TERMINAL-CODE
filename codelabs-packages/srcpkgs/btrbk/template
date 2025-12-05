@@ -7,7 +7,7 @@ make_install_args="BINDIR=/usr/bin"
 hostmakedepends="ruby-asciidoctor"
 depends="perl btrfs-progs mbuffer openssh"
 short_desc="Backup tool for btrfs subvolumes"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="http://digint.ch/btrbk"
 changelog=https://github.com/digint/btrbk/raw/master/ChangeLog

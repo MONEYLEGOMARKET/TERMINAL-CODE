@@ -9,7 +9,7 @@ makedepends="perl perl-Class-Method-Modifiers perl-Devel-GlobalDestruction
  perl-Class-XSAccessor"
 depends="$makedepends"
 short_desc="Minimal Object Orientation support for Roles"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="Artistic-1.0-Perl, GPL-1.0-or-later"
 homepage="https://metacpan.org/release/Moo"
 distfiles="https://cpan.org/authors/id/H/HA/HAARG/Moo-${version}.tar.gz"

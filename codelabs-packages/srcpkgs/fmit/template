@@ -11,7 +11,7 @@ makedepends="$(vopt_if alsa alsa-lib-devel) fftw-devel $(vopt_if jack jack-devel
  qt5-svg-devel"
 depends="desktop-file-utils hicolor-icon-theme"
 short_desc="Graphical utility for tuning your musical instruments"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="http://gillesdegottex.github.io/fmit/"
 distfiles="https://github.com/gillesdegottex/fmit/archive/v${version}.tar.gz"

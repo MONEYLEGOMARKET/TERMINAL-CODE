@@ -6,7 +6,7 @@ build_style=gnu-configure
 configure_args="--enable-hfst=false --with-dictionary-path=/usr/share/voikko"
 hostmakedepends="python3"
 short_desc="Free linguistic software and data for Finnish"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://voikko.puimula.org/"
 distfiles="https://www.puimula.org/voikko-sources/libvoikko/${pkgname}-${version}.tar.gz"

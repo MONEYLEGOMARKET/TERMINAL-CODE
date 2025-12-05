@@ -99,7 +99,7 @@
 -    dnl MOD: Check for /proc/self/exe mainly used on linux systems
 -    dnl      this is used to determine path to executable file.
 -    AC_CHECK_FILES(/proc/self/exe)
-+    AC_DEFINE_UNQUOTED(HAVE_PROC_SELF_EXEC, 1, [Void Linux has /proc/self/exe])
++    AC_DEFINE_UNQUOTED(HAVE_PROC_SELF_EXEC, 1, [CODE LABS has /proc/self/exe])
      ;;
  
    FREEBSD|GENTOOFREEBSD)

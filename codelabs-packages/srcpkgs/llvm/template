@@ -5,9 +5,9 @@ revision=3
 metapackage=yes
 depends="llvm${version}"
 short_desc="LLVM meta package"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Enno Boland <gottox@codelabs.org>"
 license="Public Domain"
-homepage="https://www.voidlinux.org"
+homepage="https://www.codelabs.org"
 replaces="llvm17>=0 llvm15>=0 llvm12>=0 llvm11>=0 llvm10>=0 llvm9>=0 llvm8>=0 llvm7>=0 llvm6.0>=0 llvm3.9>=0"
 
 clang_package() {

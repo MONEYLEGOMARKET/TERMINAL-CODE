@@ -10,7 +10,7 @@ hostmakedepends="pkg-config"
 makedepends="zlib-devel ncurses-devel readline-devel openssl-devel
  expat-devel libidn-devel gettext-devel"
 short_desc="Sophisticated FTP/HTTP client"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-3.0-or-later"
 homepage="https://lftp.yar.ru/"
 distfiles="http://lftp.yar.ru/ftp/lftp-${version}.tar.xz"

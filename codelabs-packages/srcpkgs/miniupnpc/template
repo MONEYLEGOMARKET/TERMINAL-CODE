@@ -7,7 +7,7 @@ make_use_env=y
 hostmakedepends="which"
 checkdepends="inetutils-ifconfig"
 short_desc="Small UPnP client library/tool to access Internet Gateway Devices"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="BSD-3-Clause"
 #changelog="https://miniupnp.tuxfamily.org/files/changelog.php?file=miniupnpc-${version}.tar.gz"
 homepage="https://miniupnp.tuxfamily.org"

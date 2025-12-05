@@ -7,7 +7,7 @@ makedepends="qt6-base-devel SDL2_ttf-devel libutf8proc-devel libgomp-devel
  rapidjson glm pugixml-devel portmidi-devel portaudio-devel"
 depends="liberation-fonts-ttf"
 short_desc="Multiple Arcade Machine Emulator"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Orphaned <orphan@codelabs.org>"
 license="GPL-2.0-or-later"
 homepage="https://mamedev.org"
 distfiles="https://github.com/mamedev/mame/archive/refs/tags/mame${version}.tar.gz"
