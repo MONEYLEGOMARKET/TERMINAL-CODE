@@ -16,6 +16,6 @@ nopie=yes
 do_install() {
 	vcopy opt /
 	rm ${DESTDIR}/opt/brother/Printers/dcp197c/cupswrapper/cupswrapperdcp197c
-	vinstall ${FILESDIR}/cupswrapper.void 755 /opt/brother/Printers/dcp197c/cupswrapper/
+	vinstall ${FILESDIR}/cupswrapper.codelabs 755 /opt/brother/Printers/dcp197c/cupswrapper/
 	vinstall ${FILESDIR}/43-cups-usb.rules 644 /usr/lib/udev/rules.d/
 }

@@ -15,4 +15,4 @@
 #DRACUT_OPTIONS=
 
 # Output directory for the EFI bundle
-#UEFI_BUNDLE_DIR="boot/efi/EFI/void/"
+#UEFI_BUNDLE_DIR="boot/efi/EFI/codelabs/"

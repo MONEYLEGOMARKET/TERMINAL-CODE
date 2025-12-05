@@ -205,8 +205,8 @@ pre_configure() {
 	# optimize for size instead
 	case "$XBPS_TARGET_MACHINE" in
 		ppc64*) ;;
-		mips*-musl|ppc*) configure_args+=" -DVOID_CXX_OPT_FLAGS=-Os" ;;
-		armv*) configure_args+=" -DLIBCXX_VOID_GCC_BUG_109180_WORKAROUND=ON ";;
+		mips*-musl|ppc*) configure_args+=" -DCODELABS_CXX_OPT_FLAGS=-Os" ;;
+		armv*) configure_args+=" -DLIBCXX_CODELABS_GCC_BUG_109180_WORKAROUND=ON ";;
 	esac
 
 	if [ "$CROSS_BUILD" ]; then

@@ -82,7 +82,7 @@ mkdir -p "$entries"
 
 cat <<-EOF > "$entry"
 	title        CODE LABS $ARCH $VERSION
-	sort-key     void
+	sort-key     codelabs
 	version      $VERSION
 	options      $CMDLINE
 	linux        $LINUX

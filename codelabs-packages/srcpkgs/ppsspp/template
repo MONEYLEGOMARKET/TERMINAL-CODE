@@ -92,7 +92,7 @@ post_patch() {
 
 post_configure() {
 	cat > "${wrksrc}/build/git-version.cpp" <<-EOF
-		const char *PPSSPP_GIT_VERSION = "${version}_${revision}-void";
+		const char *PPSSPP_GIT_VERSION = "${version}_${revision}-codelabs";
 		#define PPSSPP_GIT_VERSION_NO_UPDATE 1
 	EOF
 }

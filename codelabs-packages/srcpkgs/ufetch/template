@@ -11,6 +11,6 @@ distfiles="https://gitlab.com/jschx/ufetch/-/archive/v${version}/ufetch-v${versi
 checksum=7b9c071cb9e833af47b5fc4b3ef47d02f1c5bb97802b756d1a3b555212a3d28f
 
 do_install() {
-	vbin ufetch-void ufetch
+	vbin ufetch-codelabs ufetch
 	vlicense LICENSE
 }

@@ -12,7 +12,7 @@ makedepends="alsa-lib-devel boost-devel-minimal gnutls-devel fftw-devel
  qt6-plugin-sqlite KDSingleApplication libebur128-devel rapidjson sparsehash"
 depends="desktop-file-utils qt6-plugin-sqlite qt6-plugin-tls-openssl"
 short_desc="Audio player and music collection organizer"
-maintainer="Saksham <voidisnull@duck.com>"
+maintainer="Saksham <codelabsisnull@duck.com>"
 license="GPL-3.0-or-later"
 homepage="https://www.strawberrymusicplayer.org/"
 changelog="https://raw.githubusercontent.com/strawberrymusicplayer/strawberry/master/Changelog"

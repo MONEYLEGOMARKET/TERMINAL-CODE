@@ -57,7 +57,7 @@ EOF
 				# Use sed and enable verbose mode
 				cat<<EOF>>append2
 system("sed -i 's|^V =.*|V = 1|' Makefile")
-system("sed -i 's|^CFLAGS.*|CFLAGS = \$(CCDLFLAGS) ${VOID_TARGET_CFLAGS} \$(ARCH_FLAG)|' Makefile")
+system("sed -i 's|^CFLAGS.*|CFLAGS = \$(CCDLFLAGS) ${CODELABS_TARGET_CFLAGS} \$(ARCH_FLAG)|' Makefile")
 system("sed -i 's|^topdir.*|topdir = ${XBPS_CROSS_BASE}/usr/include/ruby-\$(ruby_version)|' Makefile")
 system("sed -i 's|^hdrdir.*|hdrdir = ${XBPS_CROSS_BASE}/usr/include/ruby-\$(ruby_version)|' Makefile")
 system("sed -i 's|^arch_hdrdir.*|arch_hdrdir = ${XBPS_CROSS_BASE}/usr/include/ruby-\$(ruby_version)/\$(arch)|' Makefile")
@@ -106,10 +106,10 @@ do_install() {
 	# Ruby is very eager to add CFLAGS everywhere there is a compilation
 	# but we do both cross compilation of the modules and host compilation
 	# for checks, so unset CFLAGS and keep it in a separate value.
-	# We will manually pass CFLAGS as VOID_TAGET_CFLAGS to cross-compilation
+	# We will manually pass CFLAGS as CODELABS_TARGET_CFLAGS to cross-compilation
 	# And ruby will use rbconfig.rb to get the proper CFLAGS for host compilation
-	VOID_TARGET_CFLAGS="$CFLAGS"
-	export VOID_TARGET_CFLAGS
+	CODELABS_TARGET_CFLAGS="$CFLAGS"
+	export CODELABS_TARGET_CFLAGS
 	unset CFLAGS
 
 	$gem_cmd install \

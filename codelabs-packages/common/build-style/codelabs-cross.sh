@@ -19,7 +19,7 @@
 # respective cross_ variables for final gcc and bootstrap gcc
 #
 
-_void_cross_apply_patch() {
+_codelabs_cross_apply_patch() {
 	local pname="$(basename $1)"
 	if [ ! -f ".${pname}_done" ]; then
 		patch -Np1 $args -i $1
@@ -27,7 +27,7 @@ _void_cross_apply_patch() {
 	fi
 }
 
-_void_cross_build_binutils() {
+_codelabs_cross_build_binutils() {
 	[ -f ${wrksrc}/.binutils_done ] && return 0
 
 	local tgt=$1
@@ -38,7 +38,7 @@ _void_cross_build_binutils() {
 	cd ${wrksrc}/binutils-${ver}
 	if [ -d "${XBPS_SRCPKGDIR}/binutils/patches" ]; then
 		for f in ${XBPS_SRCPKGDIR}/binutils/patches/*.patch; do
-			_void_cross_apply_patch "$f"
+			_codelabs_cross_apply_patch "$f"
 		done
 	fi
 	cd ..
@@ -81,7 +81,7 @@ _void_cross_build_binutils() {
 	touch ${wrksrc}/.binutils_done
 }
 
-_void_cross_build_bootstrap_gcc() {
+_codelabs_cross_build_bootstrap_gcc() {
 	[ -f ${wrksrc}/.gcc_bootstrap_done ] && return 0
 
 	local tgt=$1
@@ -95,12 +95,12 @@ _void_cross_build_bootstrap_gcc() {
 	sed -i 's@./fixinc.sh@-c true@' Makefile.in
 
 	for f in ${XBPS_SRCPKGDIR}/gcc/patches/*.patch; do
-		_void_cross_apply_patch "$f"
+		_codelabs_cross_apply_patch "$f"
 	done
 	if [ -f ${wrksrc}/.musl_version ]; then
 		local musl_version
 		for f in ${XBPS_SRCPKGDIR}/gcc/files/*-musl.patch; do
-			_void_cross_apply_patch "$f"
+			_codelabs_cross_apply_patch "$f"
 		done
 		musl_version=$(cat "${wrksrc}/.musl_version")
 		case "$musl_version" in
@@ -169,7 +169,7 @@ _void_cross_build_bootstrap_gcc() {
 	touch ${wrksrc}/.gcc_bootstrap_done
 }
 
-_void_cross_build_kernel_headers() {
+_codelabs_cross_build_kernel_headers() {
 	[ -f ${wrksrc}/.linux_headers_done ] && return 0
 
 	local tgt=$1
@@ -181,7 +181,7 @@ _void_cross_build_kernel_headers() {
 	cd ${wrksrc}/linux-${ver}
 	if [ -d "${XBPS_SRCPKGDIR}/kernel-libc-headers/patches" ]; then
 		for f in ${XBPS_SRCPKGDIR}/kernel-libc-headers/patches/*.patch; do
-			_void_cross_apply_patch "$f"
+			_codelabs_cross_apply_patch "$f"
 		done
 	fi
 	cd ..
@@ -210,7 +210,7 @@ _void_cross_build_kernel_headers() {
 	touch ${wrksrc}/.linux_headers_done
 }
 
-_void_cross_build_glibc_headers() {
+_codelabs_cross_build_glibc_headers() {
 	[ -f ${wrksrc}/.glibc_headers_done ] && return 0
 
 	local tgt=$1
@@ -221,7 +221,7 @@ _void_cross_build_glibc_headers() {
 	cd ${wrksrc}/glibc-${ver}
 	if [ -d "${XBPS_SRCPKGDIR}/glibc/patches" ]; then
 		for f in ${XBPS_SRCPKGDIR}/glibc/patches/*.patch; do
-			_void_cross_apply_patch "$f"
+			_codelabs_cross_apply_patch "$f"
 		done
 	fi
 	cd ..
@@ -252,7 +252,7 @@ _void_cross_build_glibc_headers() {
 	touch ${wrksrc}/.glibc_headers_done
 }
 
-_void_cross_build_glibc() {
+_codelabs_cross_build_glibc() {
 	[ -f ${wrksrc}/.glibc_build_done ] && return 0
 
 	local tgt=$1
@@ -295,7 +295,7 @@ _void_cross_build_glibc() {
 	touch ${wrksrc}/.glibc_build_done
 }
 
-_void_cross_build_musl() {
+_codelabs_cross_build_musl() {
 	[ -f ${wrksrc}/.musl_build_done ] && return 0
 
 	local tgt=$1
@@ -311,7 +311,7 @@ _void_cross_build_musl() {
 	cd ${wrksrc}/musl-${ver}
 	if [ -d "${XBPS_SRCPKGDIR}/${_musl_pkgname}/patches" ]; then
 		for f in ${XBPS_SRCPKGDIR}/${_musl_pkgname}/patches/*.patch; do
-			_void_cross_apply_patch "$f"
+			_codelabs_cross_apply_patch "$f"
 		done
 	fi
 	cd ..
@@ -344,7 +344,7 @@ _void_cross_build_musl() {
 	touch ${wrksrc}/.musl_build_done
 }
 
-_void_cross_build_libucontext() {
+_codelabs_cross_build_libucontext() {
 	[ -f ${wrksrc}/.libucontext_build_done ] && return 0
 
 	local tgt=$1
@@ -382,7 +382,7 @@ _void_cross_build_libucontext() {
 	touch ${wrksrc}/.libucontext_build_done
 }
 
-_void_cross_build_gcc() {
+_codelabs_cross_build_gcc() {
 	[ -f ${wrksrc}/.gcc_build_done ] && return 0
 
 	local tgt=$1
@@ -458,7 +458,7 @@ _void_cross_build_gcc() {
 	touch ${wrksrc}/.gcc_build_done
 }
 
-_void_cross_test_ver() {
+_codelabs_cross_test_ver() {
 	local proj=$1
 	local noerr=$2
 	local ver cver
@@ -478,9 +478,9 @@ _void_cross_test_ver() {
 	fi
 }
 
-_void_cross_test_gcc_ver() {
+_codelabs_cross_test_gcc_ver() {
 	local ver basever
-	_void_cross_test_ver gcc
+	_codelabs_cross_test_ver gcc
 	ver=$(cat .gcc_version)
 	if [ -d "gcc-${ver}" ] && [ -f "gcc-${ver}/gcc/BASE-VER" ] && [ -f "gcc-${ver}/gcc/DATESTAMP" ]; then
 		basever="$(cat "gcc-${ver}/gcc/BASE-VER")_$(cat "gcc-${ver}/gcc/DATESTAMP")"
@@ -508,22 +508,22 @@ do_build() {
 	export CXXFLAGS="${CXXFLAGS//-fno-PIE/}"
 	export LDFLAGS="${LDFLAGS//-no-pie/}"
 
-	_void_cross_test_ver binutils
-	_void_cross_test_ver linux
-	_void_cross_test_gcc_ver
+	_codelabs_cross_test_ver binutils
+	_codelabs_cross_test_ver linux
+	_codelabs_cross_test_gcc_ver
 
 	binutils_ver=$(cat .binutils_version)
 	linux_ver=$(cat .linux_version)
 	gcc_ver=$(cat .gcc_version)
 
-	_void_cross_test_ver musl noerr
+	_codelabs_cross_test_ver musl noerr
 	if [ ! -f .musl_version ]; then
-		_void_cross_test_ver glibc
+		_codelabs_cross_test_ver glibc
 		libc_ver=$(cat .glibc_version)
 		export GDCFLAGS_FOR_TARGET="$cross_glibc_cflags"
 	else
 		libc_ver=$(cat .musl_version)
-		_void_cross_test_ver libucontext
+		_codelabs_cross_test_ver libucontext
 		libucontext_ver=$(cat .libucontext_version)
 		export GDCFLAGS_FOR_TARGET="$cross_musl_cflags"
 	fi
@@ -546,7 +546,7 @@ do_build() {
 	ln -sf usr/lib build_root/${sysroot}/lib
 	ln -sf lib build_root/${sysroot}/usr/libexec
 
-	_void_cross_build_binutils ${tgt} ${binutils_ver}
+	_codelabs_cross_build_binutils ${tgt} ${binutils_ver}
 
 	# Prepare environment so we can use temporary prefix
 	local oldpath="$PATH"
@@ -555,8 +555,8 @@ do_build() {
 	export PATH="${wrksrc}/build_root/usr/bin:$PATH"
 	export LD_LIBRARY_PATH="${wrksrc}/build_root/usr/lib:$PATH"
 
-	_void_cross_build_bootstrap_gcc ${tgt} ${gcc_ver}
-	_void_cross_build_kernel_headers ${tgt} ${linux_ver}
+	_codelabs_cross_build_bootstrap_gcc ${tgt} ${gcc_ver}
+	_codelabs_cross_build_kernel_headers ${tgt} ${linux_ver}
 
 	local ws=$(cat ${wrksrc}/.gcc_wordsize)
 
@@ -565,14 +565,14 @@ do_build() {
 	ln -sf lib ${wrksrc}/build_root/${sysroot}/usr/lib${ws}
 
 	if [ -f ${wrksrc}/.musl_version ]; then
-		_void_cross_build_musl ${tgt} ${libc_ver}
-		_void_cross_build_libucontext ${tgt} ${libucontext_ver}
+		_codelabs_cross_build_musl ${tgt} ${libc_ver}
+		_codelabs_cross_build_libucontext ${tgt} ${libucontext_ver}
 	else
-		_void_cross_build_glibc_headers ${tgt} ${libc_ver}
-		_void_cross_build_glibc ${tgt} ${libc_ver}
+		_codelabs_cross_build_glibc_headers ${tgt} ${libc_ver}
+		_codelabs_cross_build_glibc ${tgt} ${libc_ver}
 	fi
 
-	_void_cross_build_gcc ${tgt} ${gcc_ver}
+	_codelabs_cross_build_gcc ${tgt} ${gcc_ver}
 
 	# restore this stuff in case later hooks depend on it
 	export PATH="$oldpath"

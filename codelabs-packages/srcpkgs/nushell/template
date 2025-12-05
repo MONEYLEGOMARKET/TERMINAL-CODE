@@ -7,7 +7,7 @@ configure_args="--no-default-features --features=plugin,trash-support,sqlite,net
 hostmakedepends="pkg-config"
 makedepends="openssl-devel sqlite-devel"
 short_desc="Modern shell for the GitHub era"
-maintainer="Saksham <voidisnull@duck.com>"
+maintainer="Saksham <codelabsisnull@duck.com>"
 license="MIT"
 homepage="https://www.nushell.sh/"
 changelog="https://www.nushell.sh/blog/"

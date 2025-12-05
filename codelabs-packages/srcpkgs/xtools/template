@@ -15,7 +15,7 @@ checksum=0671e75984fad7826feb8bf2133a4547a2ad095171348597895eda4fe92f88ee
 # (git is by far the largest dependency)
 _minimal=(xcheckrestart xchroot xclash xdbg xdeptree xdiff xdistdir xdowngrade
  xetcchanges xgenfstab xgrep xhog xi xilog xls xmksv xnews xnodev xoptdiff xpkg
- xq xrs xtree xuname xvoidstrap)
+ xq xrs xtree xuname xcodelabstrap)
 
 xtools-minimal_package() {
 	short_desc+=" - minimal subset"

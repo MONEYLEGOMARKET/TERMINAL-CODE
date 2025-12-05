@@ -13,7 +13,7 @@ if [ ! -x usr/bin/dracut ]; then
 	exit 0
 fi
 
-mkdir -p ${UEFI_BUNDLE_DIR:=boot/efi/EFI/void}
+mkdir -p ${UEFI_BUNDLE_DIR:=boot/efi/EFI/codelabs}
 
 usr/bin/dracut --force ${DRACUT_OPTIONS} \
 	${KERNEL_CMDLINE:+--kernel-cmdline="${KERNEL_CMDLINE}"} \

@@ -9,6 +9,6 @@ VERSION="$2"
 
 . "${ROOTDIR}/etc/default/dracut-uefi-hook"
 
-: "${UEFI_BUNDLE_DIR:=boot/efi/EFI/void}"
+: "${UEFI_BUNDLE_DIR:=boot/efi/EFI/codelabs}"
 
 rm -f "${UEFI_BUNDLE_DIR}/linux-${VERSION}.efi"

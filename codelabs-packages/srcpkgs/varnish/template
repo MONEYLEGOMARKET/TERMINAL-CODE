@@ -3,7 +3,7 @@ pkgname=varnish
 version=7.3.0
 revision=1
 build_style=gnu-configure
-configure_args="--cache-file=config.void --disable-static $(vopt_enable pcrejit pcre-jit)"
+configure_args="--cache-file=config.codelabs --disable-static $(vopt_enable pcrejit pcre-jit)"
 hostmakedepends="pkg-config python3 python3-docutils python3-Sphinx"
 makedepends="pcre2-devel readline-devel"
 short_desc="Fast caching HTTP reverse proxy"

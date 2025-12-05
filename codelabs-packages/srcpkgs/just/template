@@ -16,7 +16,7 @@ checksum=03904d6380344dbe10e25f04cd1677b441b439940257d3cc9d8c5f09d91e3065
 
 # Fix failing test
 pre_check() {
-	export USER=void
+	export USER=codelabs
 }
 
 post_install() {
