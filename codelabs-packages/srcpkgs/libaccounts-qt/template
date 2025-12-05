@@ -8,7 +8,7 @@ hostmakedepends="pkg-config doxygen
  qt6-base"
 makedepends="libaccounts-glib-devel qt6-base-devel"
 short_desc="Client library to the accounts database"
-maintainer="John Rowley <enterthevoid@codesector.co>"
+maintainer="John Rowley <enterthecodelabs@codesector.co>"
 license="LGPL-2.1-only"
 homepage="https://gitlab.com/accounts-sso/libaccounts-qt"
 distfiles="${homepage}/-/archive/VERSION_${version}/libaccounts-qt-VERSION_${version}.tar.gz"

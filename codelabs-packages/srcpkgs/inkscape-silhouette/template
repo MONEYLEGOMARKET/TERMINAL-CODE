@@ -10,7 +10,7 @@ depends="inkscape python3-lxml python3-xmltodict python3-usb python3-libusb1
  python3-numpy python3-matplotlib python3-cssselect wxPython"
 checkdepends="python3-pytest umockdev ${depends}"
 short_desc="Inkscape extension to drive Silhouette vinyl cutters"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="GPL-2.0-only"
 homepage="https://github.com/fablabnbg/inkscape-silhouette"
 changelog="https://github.com/fablabnbg/inkscape-silhouette/releases"

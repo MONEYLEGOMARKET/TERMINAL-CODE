@@ -7,7 +7,7 @@ revision=1
 metapackage=yes
 depends="noto-fonts-cjk-sans noto-fonts-cjk-serif"
 short_desc="Google Noto CJK fonts (meta package)"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="OFL-1.1"
 homepage="https://github.com/notofonts/noto-cjk"
 

@@ -17,7 +17,7 @@
  { "ubuntu",              STR_OS_UBUNTU,             HostinfoGenericSetShortName },
  { "ultra penguin",       STR_OS_ULTRAPENGUIN,       HostinfoGenericSetShortName },
  { "united linux",        STR_OS_UNITEDLINUX,        HostinfoGenericSetShortName },
-+{ "void linux",          STR_OS_VOID,               HostinfoGenericSetShortName },
++{ "code labs",           STR_OS_VOID,               HostinfoGenericSetShortName },
  { "va linux",            STR_OS_VALINUX,            HostinfoGenericSetShortName },
  { "vmware photon",       STR_OS_PHOTON,             HostinfoGenericSetShortName },
  { "yellow dog",          STR_OS_YELLOW_DOG,         HostinfoGenericSetShortName },

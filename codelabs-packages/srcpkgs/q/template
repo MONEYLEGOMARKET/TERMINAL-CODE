@@ -6,7 +6,7 @@ build_style=go
 go_import_path="github.com/natesales/q"
 go_ldflags="-X main.version=${version}"
 short_desc="Tiny command line DNS client with support for many transport protocols"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="GPL-3.0-only"
 homepage="https://github.com/natesales/q"
 changelog="https://github.com/natesales/q/releases"

@@ -24,9 +24,9 @@ Subject: [PATCH] void arch-generic plumbing bits
  # *** End AUTODETECT ***
  
 +ifeq ($(CONFIG_PLATFORM_VENDOR_DKMS), y)
-+EXTRA_CFLAGS += -DCONFIG_@@VOID_ENDIAN@@_ENDIAN
++EXTRA_CFLAGS += -DCONFIG_@@CODELABS_ENDIAN@@_ENDIAN
 +EXTRA_CFLAGS += -DCONFIG_IOCTL_CFG80211 -DRTW_USE_CFG80211_STA_EVENT
-+ARCH := @@VOID_ARCH@@
++ARCH := @@CODELABS_ARCH@@
 +KVER ?= $(shell uname -r)
 +KSRC ?= /usr/lib/modules/$(KVER)/build
 +MODDESTDIR := /usr/lib/modules/$(KVER)/kernel/drivers/net/wireless/

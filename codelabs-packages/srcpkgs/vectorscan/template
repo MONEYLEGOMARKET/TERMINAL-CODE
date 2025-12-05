@@ -7,7 +7,7 @@ configure_args="-DBUILD_SHARED_LIBS=ON -DBUILD_STATIC_LIBS=ON -DSIMDE_BACKEND=ON
 hostmakedepends="python3 ragel pkg-config"
 makedepends="boost-devel-minimal sqlite-devel pcre-devel simde"
 short_desc="High-performance regular expression matching library"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="BSD-3-Clause"
 homepage="https://www.vectorcamp.gr/project/vectorscan/"
 changelog="https://github.com/VectorCamp/vectorscan/blob/develop/CHANGELOG-vectorscan.md"

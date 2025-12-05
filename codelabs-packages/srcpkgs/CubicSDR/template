@@ -10,7 +10,7 @@ makedepends="SoapySDR-devel wxWidgets-gtk3-devel glu-devel liquid-dsp-devel haml
  $(vopt_if alsa alsa-lib-devel) $(vopt_if pulseaudio pulseaudio-devel)
  $(vopt_if jack jack-devel)"
 short_desc="Cross-Platform Software-Defined Radio (SDR) Application"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="GPL-2.0-or-later"
 homepage="https://cubicsdr.com"
 distfiles="https://github.com/cjcliffe/CubicSDR/archive/${version}.tar.gz"

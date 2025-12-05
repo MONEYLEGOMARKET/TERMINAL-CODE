@@ -8,7 +8,7 @@ hostmakedepends="wxWidgets-gtk3-devel"
 makedepends="openssl-devel lmdb-devel expat-devel zlib-devel libcurl-devel
  wxWidgets-gtk3-devel sqlite-devel"
 short_desc="QSO log signing data for the ARRL Logbook of The World (LoTW)"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="custom:ARRL"
 homepage="https://www.arrl.org/tqsl-download"
 distfiles="https://www.arrl.org/tqsl/tqsl-${version}.tar.gz"

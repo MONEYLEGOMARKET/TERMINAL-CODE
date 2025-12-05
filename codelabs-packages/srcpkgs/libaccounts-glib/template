@@ -11,7 +11,7 @@ makedepends="sqlite-devel libxml2-devel libglib-devel python3-gobject-devel
  check-devel"
 checkdepends="dbus xvfb-run"
 short_desc="GLib-based client library for the accounts database"
-maintainer="John Rowley <enterthevoid@codesector.co>"
+maintainer="John Rowley <enterthecodelabs@codesector.co>"
 license="LGPL-2.1-only"
 homepage="https://gitlab.com/accounts-sso/libaccounts-glib"
 distfiles="https://gitlab.com/accounts-sso/${pkgname}/-/archive/${version}/${pkgname}-${version}.tar.gz"

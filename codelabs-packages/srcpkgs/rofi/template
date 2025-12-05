@@ -12,7 +12,7 @@ makedepends="libXinerama-devel librsvg-devel libxkbcommon-devel
  wayland-devel wayland-protocols"
 checkdepends="check-devel"
 short_desc="Window switcher, run dialog and dmenu replacement"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="MIT"
 homepage="https://github.com/davatorium/rofi"
 changelog="https://github.com/davatorium/rofi/releases"

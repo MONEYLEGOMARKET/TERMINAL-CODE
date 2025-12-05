@@ -40,7 +40,7 @@ do_configure() {
 }
 
 do_build() {
-	export USERNAME="builder@void"
+	export USERNAME="builder@codelabs"
 	vsed -i  src/VBox/Main/webservice/Makefile.kmk \
 		-e '/webtest_LIBS/,/^webtest_/{/ z$/!s/.*LIB_.*/& z/ }' \
 		-e '/vboxwebsrv_LIBS/,/^vboxwebsrv_/{/ z$/!s/.*LIB_.*/& z/}'

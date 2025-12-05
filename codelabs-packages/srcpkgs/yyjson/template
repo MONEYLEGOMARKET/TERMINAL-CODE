@@ -5,7 +5,7 @@ revision=1
 build_style=cmake
 configure_args="-DBUILD_SHARED_LIBS=ON"
 short_desc="High performance JSON library"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="GPL-3.0-or-later"
 homepage="https://ibireme.github.io/yyjson"
 changelog="https://github.com/ibireme/yyjson/raw/master/CHANGELOG.md"

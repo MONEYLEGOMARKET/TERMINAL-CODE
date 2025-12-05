@@ -22,7 +22,7 @@ hostmakedepends="perl kmod uboot-mkimage openssl-devel bc bison flex xz pahole
  python3 elfutils-devel cpio tar zstd"
 makedepends="ncurses-devel"
 short_desc="Linux kernel for Raspberry Pi (${version%.*} series)"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="GPL-2.0-only"
 homepage="http://www.kernel.org"
 distfiles="https://github.com/raspberrypi/linux/archive/${_githash}.tar.gz"

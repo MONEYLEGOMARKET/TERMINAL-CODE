@@ -9,7 +9,7 @@ configure_args="--with-pam-dir=/usr/lib/security ac_cv_openssldir=/usr
 hostmakedepends="openssh"
 makedepends="openssl-devel pam-devel"
 short_desc="PAM module providing single sign-on behavior for SSH"
-maintainer="Alexander Gehrke <void@qwertyuiop.de>"
+maintainer="Alexander Gehrke <codelabs@qwertyuiop.de>"
 license="BSD-2-Clause"
 homepage="http://pam-ssh.sourceforge.net/"
 distfiles="${SOURCEFORGE_SITE}/pam-ssh/${pkgname}-${version}.tar.xz"

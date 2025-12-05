@@ -74,7 +74,7 @@ do_install() {
 	vinstall ${FILESDIR}/blacklist.conf 644 usr/lib/modprobe.d
 	# sysctl(8) files
 	vinstall ${FILESDIR}/sysctl.conf 644 usr/lib/sysctl.d 10-void.conf
-	vinstall ${FILESDIR}/sysctl-user.conf 644 usr/lib/sysctl.d 10-void-user.conf
+	vinstall ${FILESDIR}/sysctl-user.conf 644 usr/lib/sysctl.d 10-codelabs-user.conf
 	vinstall ${FILESDIR}/bpf.conf 644 usr/lib/sysctl.d 20-bpf.conf
 
 	# Install common licenses, from Debian.

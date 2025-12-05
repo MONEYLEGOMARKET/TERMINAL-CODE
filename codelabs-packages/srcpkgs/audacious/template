@@ -6,7 +6,7 @@ revision=1
 metapackage=yes
 depends="audacious-base>=${version}_1 audacious-plugins>=${version}_1"
 short_desc="Lightweight, advanced audio player focused on audio quality"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="Public Domain"
 homepage="https://audacious-media-player.org/"
 

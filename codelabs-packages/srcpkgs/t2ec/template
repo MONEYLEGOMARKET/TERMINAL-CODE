@@ -17,7 +17,7 @@ do_install() {
 	vmkdir usr/lib/${pkgname}
 	vmkdir usr/share/tint2
 	vcopy "images/*.*" usr/share/${pkgname}
-	vcopy "scripts-void/*.*" usr/lib/${pkgname}
-	vcopy "configs-void/*.*" usr/share/tint2
+	vcopy "scripts-codelabs/*.*" usr/lib/${pkgname}
+	vcopy "configs-codelabs/*.*" usr/share/tint2
 	ln -sf /usr/lib/${pkgname}/${pkgname}.sh ${DESTDIR}/usr/bin/${pkgname}
 }

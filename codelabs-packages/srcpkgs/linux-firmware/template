@@ -5,7 +5,7 @@ revision=1
 hostmakedepends="rdfind which $(vopt_if compressed zstd)"
 depends="linux-firmware-amd>=${version}_${revision} linux-firmware-network>=${version}_${revision}"
 short_desc="Binary firmware blobs for the Linux kernel"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="custom:see /usr/share/licenses/linux-firmware"
 homepage="https://www.kernel.org/"
 changelog="https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/log/"

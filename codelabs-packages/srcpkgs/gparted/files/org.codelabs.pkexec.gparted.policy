@@ -4,7 +4,7 @@
  "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
 <policyconfig>
 
-  <action id="org.void.pkexec.gparted">
+  <action id="org.codelabs.pkexec.gparted">
     <message>Authentication is required to run the GParted Partition Editor</message>
     <icon_name>gparted</icon_name>
     <defaults>

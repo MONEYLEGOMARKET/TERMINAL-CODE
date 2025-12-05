@@ -1,7 +1,7 @@
 #!/bin/sh
 exec 2>&1
 
-export SHINIT_USER=void
+export SHINIT_USER=codelabs
 
 [ -r ./conf ] && . ./conf
 

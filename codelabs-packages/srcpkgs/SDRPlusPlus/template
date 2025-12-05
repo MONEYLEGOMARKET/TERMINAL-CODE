@@ -9,7 +9,7 @@ makedepends="fftw-devel glfw-devel volk-devel libzstd-devel glew-devel libusb-de
  librtlsdr-devel SoapySDR-devel libairspy-devel libairspyhf-devel libhackrf-devel
  rtaudio-devel alsa-lib-devel pulseaudio-devel jack-devel"
 short_desc="Open source SDR software"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="GPL-3.0-only"
 homepage="https://github.com/AlexandreRouma/SDRPlusPlus"
 distfiles="https://github.com/AlexandreRouma/SDRPlusPlus/archive/refs/tags/${version}.tar.gz"

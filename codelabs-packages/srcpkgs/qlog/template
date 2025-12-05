@@ -9,7 +9,7 @@ hostmakedepends="qt6-base"
 makedepends="qt6-base-devel qt6-charts-devel qt6-serialport-devel qt6-declarative-devel
  qt6-websockets-devel qt6-webengine-devel hamlib-devel openssl-devel qtkeychain-qt6-devel"
 short_desc="Amateur radio logbook software"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="GPL-3.0-or-later"
 homepage="https://github.com/foldynl/QLog"
 changelog="https://raw.githubusercontent.com/foldynl/QLog/master/Changelog"

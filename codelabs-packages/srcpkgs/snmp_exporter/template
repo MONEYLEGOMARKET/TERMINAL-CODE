@@ -8,7 +8,7 @@ go_ldflags="-X github.com/prometheus/common/version.Version=${version}
  -X github.com/prometheus/common/version.Revision=${version}
  -X github.com/prometheus/common/version.Branch=${version}
  -X github.com/prometheus/common/version.BuildDate=$(date --date "@$SOURCE_DATE_EPOCH" "+%Y%m%d-%H:%M:%S")
- -X github.com/prometheus/common/version.BuildUser=VoidLinux"
+ -X github.com/prometheus/common/version.BuildUser=CodeLabs"
 make_dirs="/etc/snmp_exporter 0755 root root"
 makedepends="net-snmp-devel"
 short_desc="SNMP Exporter for Prometheus"

@@ -37,7 +37,7 @@ case "$ARCH" in
 esac
 
 entries="$ESP/loader/entries"
-name="void-$ARCH-$VERSION"
+name="codelabs-$ARCH-$VERSION"
 entry="$entries/$name.conf"
 
 LINUX="vmlinuz-${VERSION}"

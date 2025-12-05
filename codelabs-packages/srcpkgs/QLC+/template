@@ -9,7 +9,7 @@ makedepends="eudev-libudev-devel qt5-devel qt5-declarative-devel
  qt5-serialport-devel qt5-svg-devel qt5-tools-devel alsa-lib-devel
  libftdi1-devel libusb-compat-devel libsndfile-devel libmad-devel"
 short_desc="Q Lighting Controller"
-maintainer="Michael Aldridge <maldridge@VoidLinux.org>"
+maintainer="Michael Aldridge <maldridge@CodeLabs.org>"
 license="Apache-2.0"
 homepage="https://www.qlcplus.org/"
 distfiles="https://github.com/mcallegari/qlcplus/archive/QLC+_$version.tar.gz"

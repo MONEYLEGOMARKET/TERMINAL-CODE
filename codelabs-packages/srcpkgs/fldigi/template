@@ -7,7 +7,7 @@ hostmakedepends="pkg-config"
 makedepends="fltk-devel libsamplerate-devel portaudio-devel pulseaudio-devel
  hamlib-devel libusb-devel"
 short_desc="Ham radio digital modem for CW, PSK, MFSK, RTTY, and others"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="GPL-3.0-or-later"
 homepage="http://www.w1hkj.com"
 changelog="https://sourceforge.net/p/fldigi/fldigi/ci/master/tree/ChangeLog"

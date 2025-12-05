@@ -15,7 +15,7 @@ makedepends="gnuplot wxWidgets-gtk3-devel libusb-devel SoapySDR-devel libfreeglu
  fltk-devel glew-devel sqlite-devel libgomp-devel $(vopt_if octave octave)"
 depends="wget"
 short_desc="Driver and GUI for LimeSDR/LMS7002M-based SDR platforms"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="Apache-2.0"
 homepage="https://myriadrf.org/projects/lime-suite/"
 changelog="https://raw.githubusercontent.com/myriadrf/LimeSuite/master/Changelog.txt"

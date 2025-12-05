@@ -1,5 +1,5 @@
 The following patch reverts this change as it breaks gnome with x11 which
-is still the default with void linux:
+is still the default with CODE LABS:
 
 From 55093e304ec0c8cdc287ed933f4d78ca6eea5e07 Mon Sep 17 00:00:00 2001
 From: Marc-Antoine Perennou <Marc-Antoine@Perennou.com>

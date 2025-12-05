@@ -7,7 +7,7 @@ makedepends="cairo-devel libXi-devel libX11-devel xorgproto libXt-devel
  libXext-devel libXfixes-devel libXinerama-devel libXrandr-devel wayland-devel
  wayland-protocols libconfig-devel"
 short_desc="'Activate Windows' watermark ported to Linux"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="GPL-3.0-only"
 homepage="https://github.com/MrGlockenspiel/activate-linux"
 changelog="https://github.com/MrGlockenspiel/activate-linux/releases"

@@ -23,7 +23,7 @@ makedepends="capstone-devel dtc-devel libpng-devel libjpeg-turbo-devel pixman-de
  libdrm-devel MesaLib-devel libiscsi-devel libcacard-devel libnuma-devel
  jack-devel pulseaudio-devel libcbor-devel"
 short_desc="Open source processor emulator"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="GPL-2.0-only, LGPL-2.1-only"
 homepage="https://www.qemu.org"
 distfiles="https://wiki.qemu.org/download/qemu-${version}.tar.bz2"

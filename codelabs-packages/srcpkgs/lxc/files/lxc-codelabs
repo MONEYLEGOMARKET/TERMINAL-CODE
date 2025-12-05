@@ -75,8 +75,8 @@ copy_configuration() {
     ## Add all the includes
     echo "" >> $path/config
     echo "# Common configuration" >> $path/config
-    if [ -e "${LXC_TEMPLATE_CONFIG}/void.common.conf" ]; then
-        echo "lxc.include = ${LXC_TEMPLATE_CONFIG}/void.common.conf" >> $path/config
+    if [ -e "${LXC_TEMPLATE_CONFIG}/codelabs.common.conf" ]; then
+        echo "lxc.include = ${LXC_TEMPLATE_CONFIG}/codelabs.common.conf" >> $path/config
     fi
 
     ## Add the container-specific config

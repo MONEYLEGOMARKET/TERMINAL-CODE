@@ -15,7 +15,7 @@ makedepends="boost-devel-minimal libboost_log_setup libboost_log
  qt5-plugin-odbc qt5-plugin-pgsql qt5-plugin-sqlite qt5-plugin-tds"
 depends="qt5-plugin-sqlite"
 short_desc="Weak-signal Amateur Radio communication program"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="GPL-3.0-or-later"
 homepage="https://wsjt.sourceforge.io/wsjtx.html"
 changelog="https://wsjt.sourceforge.io/Release_Notes.txt"

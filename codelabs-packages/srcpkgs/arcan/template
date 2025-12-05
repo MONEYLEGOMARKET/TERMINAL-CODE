@@ -7,7 +7,7 @@ create_wrksrc=yes
 build_wrksrc=arcan/src
 build_style=cmake
 make_cmd=make
-configure_args="-DDISTR_TAG='VoidLinux' -DVIDEO_PLATFORM=egl-dri
+configure_args="-DDISTR_TAG='CodeLabs' -DVIDEO_PLATFORM=egl-dri
  -DHYBRID_SDL=On -DDISABLE_WAYLAND=$(vopt_if wayland OFF ON)
  $(vopt_if luajit '-DDISABLE_JIT=OFF' '-DDISABLE_JIT=ON')"
 hostmakedepends="pkg-config

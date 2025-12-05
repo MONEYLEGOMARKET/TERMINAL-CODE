@@ -1,5 +1,5 @@
 #
-# This helper is for void system crosstoolchain templates.
+# This helper is for CODE LABS system crosstoolchain templates.
 #
 # Optional variables:
 #

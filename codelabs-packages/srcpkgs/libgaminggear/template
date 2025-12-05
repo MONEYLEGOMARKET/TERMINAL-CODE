@@ -9,7 +9,7 @@ hostmakedepends="gettext pkg-config glib-devel"
 makedepends="libglib-devel gtk+-devel libnotify-devel sqlite-devel
  libcanberra-devel"
 short_desc="Provides functionality for gaming input devices"
-maintainer="Alexander Gehrke <void@qwertyuiop.de>"
+maintainer="Alexander Gehrke <codelabs@qwertyuiop.de>"
 license="GPL-2.0-only"
 homepage="https://sourceforge.net/projects/libgaminggear/"
 distfiles="${SOURCEFORGE_SITE}/${pkgname}/${pkgname}-${version}.tar.bz2"

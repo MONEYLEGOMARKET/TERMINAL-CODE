@@ -7,9 +7,9 @@
 +install_subdir('void', install_dir : get_option('with-theme-dir'))
  
  install_subdir('simple', install_dir : get_option('with-theme-dir'))
-diff -ur themes/antergos/css/style.css themes/void/css/style.css
+diff -ur themes/antergos/css/style.css themes/codelabs/css/style.css
 --- a/themes/antergos/css/style.css	2018-06-23 14:29:28.000000000 +0200
-+++ b/themes/void/css/style.css	2018-06-26 16:26:33.210703621 +0200
++++ b/themes/codelabs/css/style.css	2018-06-26 16:26:33.210703621 +0200
 @@ -204,6 +204,7 @@
  	right: -2px;
  	position: fixed;

@@ -10,7 +10,7 @@ makedepends="qt5-webchannel-devel qt5-webengine-devel qt5-declarative-devel
  qt5-location-devel qt5-x11extras-devel mpv-devel libcec-devel SDL2-devel"
 depends="qt5-quickcontrols"
 short_desc="Jellyfin desktop client"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="GPL-3.0-or-later"
 homepage="https://github.com/jellyfin/jellyfin-media-player"
 changelog="https://github.com/jellyfin/jellyfin-media-player/releases"

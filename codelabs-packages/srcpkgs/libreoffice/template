@@ -410,7 +410,7 @@ do_configure() {
 	opts+=" --infodir=/usr/share/info"
 	opts+=" --localstatedir=/var"
 	# libreoffice options
-	opts+=" --with-vendor='VoidLinux'"
+	opts+=" --with-vendor='CodeLabs'"
 	opts+=" --with-help"
 	opts+=" --disable-odk"
 	opts+=" --disable-online-update"

@@ -25,7 +25,7 @@ pre_configure() {
 }
 
 post_install() {
-	vinstall ${FILESDIR}/org.void.pkexec.gparted.policy 644 /usr/share/polkit-1/actions
+	vinstall ${FILESDIR}/org.codelabs.pkexec.gparted.policy 644 /usr/share/polkit-1/actions
 	vbin ${FILESDIR}/gparted-pkexec
 	vdoc "${FILESDIR}/README.codelabs"
 }

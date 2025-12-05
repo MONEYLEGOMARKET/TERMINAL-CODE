@@ -23,7 +23,7 @@ configure_args="--disable-warnings-as-errors
  --with-jobs=${XBPS_ORIG_MAKEJOBS}
  --with-version-pre=
  --with-version-build=${_jdk_update}
- --with-version-opt=void-r${revision}
+ --with-version-opt=codelabs-r${revision}
  --with-vendor-name=CODE_LABS
  --with-vendor-url=https://codelabs.org/
  --with-vendor-bug-url=https://github.com/codelabs/codelabs-packages/issues
@@ -38,7 +38,7 @@ makedepends="libXrender-devel libXtst-devel libXt-devel libXrandr-devel
  giflib-devel libjpeg-turbo-devel cups-devel freetype-devel alsa-lib-devel
  fontconfig-devel zlib-devel lcms2-devel harfbuzz-devel openjdk15-bootstrap"
 short_desc="OpenJDK Java Development Kit (bootstrap version 16)"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="GPL-2.0-only WITH Classpath-exception-2.0"
 homepage="http://openjdk.java.net/"
 distfiles="https://github.com/openjdk/jdk${_java_ver}u/archive/jdk-${version}.tar.gz

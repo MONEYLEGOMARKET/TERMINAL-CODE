@@ -5,7 +5,7 @@ revision=1
 build_style=cmake
 configure_args="-DCLI11_BUILD_TESTS=OFF -DCLI11_BUILD_EXAMPLES=OFF"
 short_desc="Command line parser for C++11"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="BSD-3-Clause"
 homepage="https://github.com/CLIUtils/CLI11"
 changelog="https://github.com/CLIUtils/CLI11/raw/main/CHANGELOG.md"

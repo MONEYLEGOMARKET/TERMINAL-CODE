@@ -12,7 +12,7 @@ makedepends="gettext-devel glfw-devel harfbuzz-devel libxkbcommon-devel
 depends="kitty-terminfo-${version}_${revision} kitty-shell-integration-${version}_${revision}
  kitty-kitten-${version}_${revision}"
 short_desc="Modern, hackable, featureful, OpenGL based terminal emulator"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="GPL-3.0-only"
 homepage="https://sw.kovidgoyal.net/kitty/"
 changelog="https://sw.kovidgoyal.net/kitty/changelog.html"

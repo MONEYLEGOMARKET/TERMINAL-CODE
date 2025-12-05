@@ -13,7 +13,7 @@ makedepends="cairo-devel xcb-util-image-devel xcb-util-wm-devel xcb-util-xrm-dev
  $(vopt_if i3 'i3-devel jsoncpp-devel') $(vopt_if mpd libmpdclient-devel)
  $(vopt_if network libnl3-devel) $(vopt_if pulseaudio pulseaudio-devel)"
 short_desc="Fast and easy-to-use status bar"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="MIT"
 homepage="https://github.com/polybar/polybar"
 changelog="https://raw.githubusercontent.com/polybar/polybar/master/CHANGELOG.md"

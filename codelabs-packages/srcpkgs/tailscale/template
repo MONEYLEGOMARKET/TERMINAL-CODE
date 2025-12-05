@@ -12,7 +12,7 @@ go_ldflags="-X 'tailscale.com/version.longStamp=${version}_${revision} (CODE LAB
 make_check_target="$go_package"
 make_dirs="/var/lib/tailscale 0755 root root"
 short_desc="Easy, secure, cross platform WireGuard, oauth2, and 2FA/SSO"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="BSD-3-Clause"
 homepage="https://tailscale.com"
 changelog="https://tailscale.com/changelog"

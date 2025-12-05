@@ -12,7 +12,7 @@ do_install() {
 	vinstall ${FILESDIR}/oldsplash.png 644 usr/share/codelabs-artwork
 	vinstall ${FILESDIR}/splashwhite.png 644 usr/share/codelabs-artwork
 	vinstall ${FILESDIR}/codelabs-logo.png 644 usr/share/codelabs-artwork
-	vinstall ${FILESDIR}/void-transparent.png 644 usr/share/codelabs-artwork
+	vinstall ${FILESDIR}/codelabs-transparent.png 644 usr/share/codelabs-artwork
 	vinstall ${FILESDIR}/codelabs-logo.svg 644 usr/share/codelabs-artwork
 	for size in 16 22 32 48 64 128 256 512; do
 		vinstall ${FILESDIR}/icons/codelabs-logo-${size}.png 644 usr/share/icons/hicolor/${size}x${size}/apps codelabs-logo.png

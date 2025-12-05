@@ -8,7 +8,7 @@ configure_args="-Ddinit=enabled -Drunit=enabled -Ddefault_backend=runit
 hostmakedepends="pkg-config scdoc"
 makedepends="pam-devel"
 short_desc="Independent session/login tracker and user service manager"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="BSD-2-Clause"
 homepage="https://github.com/chimera-linux/turnstile"
 distfiles="https://github.com/chimera-linux/turnstile/archive/refs/tags/v${version}.tar.gz"

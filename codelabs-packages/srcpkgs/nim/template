@@ -69,13 +69,13 @@ do_build() {
 	in arm*|aarch64*|ppc*|riscv64*)
 		vsed -i config/nim.cfg -e 's/^arm\.linux\.gcc\.\(linker\)\?exe /#&/'
 		cat >>config/nim.cfg <<-EDIT
-		# VOIDLINUX TEMP
+		# CODELABS TEMP
 		$_arch.linux.gcc.exe = "$CC"
 		$_arch.linux.gcc.linkerexe = "$CC"
 		EDIT
 		bin/nim c -d:release -d:danger --os:linux --cpu:$_arch --listCmd compiler/nim
 		./koch tools --os:linux --cpu:$_arch --listCmd -d:nimNimbleBootstrap
-		vsed -i config/nim.cfg -e '/^# VOIDLINUX TEMP$/,$d'
+		vsed -i config/nim.cfg -e '/^# CODELABS TEMP$/,$d'
 	;; *)
 		./koch tools -d:nimNimbleBootstrap
 	esac

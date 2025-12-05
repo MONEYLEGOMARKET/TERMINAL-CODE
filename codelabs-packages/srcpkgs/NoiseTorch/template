@@ -4,7 +4,7 @@ version=0.12.2
 revision=3
 build_wrksrc="NoiseTorch-${version}"
 build_style=go
-go_ldflags="-X main.version=${version} -X main.distribution=VoidLinux"
+go_ldflags="-X main.version=${version} -X main.distribution=CodeLabs"
 go_import_path="noisetorch"
 depends="libcap-progs"
 short_desc="Real-time microphone noise suppression on Linux"

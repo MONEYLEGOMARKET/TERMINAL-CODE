@@ -16,13 +16,13 @@ target "_common" {
   }
 }
 
-target "void-buildroot-glibc" {
+target "codelabs-buildroot-glibc" {
   inherits = ["_common"]
   platforms = ["linux/amd64", "linux/386", "linux/arm64", "linux/arm/v7", "linux/arm/v6"]
   args = { "LIBC" = "glibc" }
 }
 
-target "void-buildroot-musl" {
+target "codelabs-buildroot-musl" {
   inherits = ["_common"]
   platforms = ["linux/amd64", "linux/arm64", "linux/arm/v7", "linux/arm/v6"]
   args = { "LIBC" = "musl" }

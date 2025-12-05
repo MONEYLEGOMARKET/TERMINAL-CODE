@@ -22,7 +22,7 @@ ESP="$ROOTDIR/$ESP"
 ARCH="$(xbps-uhelper arch)"
 
 entries="$ESP/loader/entries"
-name="void-$ARCH-$VERSION"
+name="codelabs-$ARCH-$VERSION"
 entry="$entries/$name.conf"
 
 [ -d "$ESP" ] || exit 0

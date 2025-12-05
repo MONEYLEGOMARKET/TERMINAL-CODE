@@ -1,5 +1,5 @@
 Upstream: no
-Description: In VoidLinux, we always have same version of python in build and host
+Description: In CodeLabs, we always have same version of python in build and host
 --- a/configure.ac
 +++ b/configure.ac
 @@ -10355,8 +10355,6 @@ if test "$build_os" != "cygwin" -a "$ena

@@ -12,7 +12,7 @@ configure_args="--prefix=/usr --sysconfdir=/etc --libexecdir=/usr/libexec
 hostmakedepends="meson flex glib-devel pkg-config perl python3-pycotap"
 makedepends="dtc-devel glib-devel pixman-devel libuuid-devel"
 short_desc="QEMU user-mode emulators"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="GPL-2.0-only, LGPL-2.1-only"
 homepage="https://www.qemu.org"
 distfiles="https://wiki.qemu.org/download/qemu-${version}.tar.bz2"

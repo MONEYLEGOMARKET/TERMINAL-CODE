@@ -17,7 +17,7 @@ conf_files="/etc/lightdm/lightdm-webkit2-greeter.conf"
 provides="lightdm-greeter-1_0"
 
 post_extract() {
-	mv themes/antergos themes/void
+	mv themes/antergos themes/codelabs
 }
 
 pre_configure() {

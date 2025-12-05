@@ -30,7 +30,7 @@ pre_check() {
 	yes | ./init-tests-after-clone.sh
 	export GIT_PYTHON_TEST_GIT_REPO_BASE="${PWD}"
 
-	git config --global user.email "void@example.com"
+	git config --global user.email "codelabs@example.com"
 	git config --global user.name "codelabs"
 
 	# Required due to tests doing stuff not allowed by default anymore due to a security vulnerability

@@ -51,7 +51,7 @@ post_install() {
 	vlicense LICENSE
 	vlicense LICENSE.3RDPARTY
 
-	echo "" > ${DESTDIR}/usr/share/xbps.d/void-virtualpkgs.conf
+	echo "" > ${DESTDIR}/usr/share/xbps.d/codelabs-virtualpkgs.conf
 }
 
 libxbps_package() {

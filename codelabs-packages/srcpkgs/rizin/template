@@ -10,7 +10,7 @@ configure_args="-D use_sys_capstone=enabled -D use_capstone_version=v5
  -D use_sys_lz4=enabled -D use_sys_libzstd=enabled -D use_sys_lzma=enabled
  -D use_sys_xxhash=enabled -D use_sys_openssl=enabled
  -D use_sys_libmspack=enabled -D use_sys_tree_sitter=enabled
- -D use_sys_pcre2=enabled -D local=disabled -D packager=VoidLinux
+ -D use_sys_pcre2=enabled -D local=disabled -D packager=CodeLabs
  -D packager_version=${version}_${revision}"
 hostmakedepends="pkg-config pcre2-devel"
 makedepends="capstone-devel libzip-devel zlib-devel liblz4-devel xxHash-devel

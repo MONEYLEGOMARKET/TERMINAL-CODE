@@ -11,7 +11,7 @@ hostmakedepends="pkg-config glib-devel gettext"
 makedepends="lua53-devel gtk+-devel libgaminggear-devel dbus-glib-devel
  libgudev-devel"
 short_desc="Roccat mouse and keyboard drivers"
-maintainer="Alexander Gehrke <void@qwertyuiop.de>"
+maintainer="Alexander Gehrke <codelabs@qwertyuiop.de>"
 license="GPL-2.0-only"
 homepage="https://roccat.sourceforge.net"
 distfiles="${SOURCEFORGE_SITE}/roccat/${pkgname}/${pkgname}-${version}.tar.bz2"

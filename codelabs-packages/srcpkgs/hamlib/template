@@ -10,7 +10,7 @@ makedepends="gettext-devel libusb-devel libxml2-devel python3-devel readline-dev
  tcl-devel"
 depends="perl"
 short_desc="Library to control radio transceivers and receivers"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="LGPL-2.1-or-later, GPL-2.0-or-later"
 homepage="https://hamlib.github.io"
 changelog="https://raw.githubusercontent.com/Hamlib/Hamlib/master/NEWS"

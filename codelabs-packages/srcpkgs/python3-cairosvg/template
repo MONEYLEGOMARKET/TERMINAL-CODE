@@ -8,7 +8,7 @@ depends="python3-cairocffi python3-cssselect2 python3-defusedxml python3-Pillow
  python3-tinycss2"
 checkdepends="python3-pytest $depends"
 short_desc="Simple SVG converter based on Cairo"
-maintainer="classabbyamp <void@placeviolette.net>"
+maintainer="classabbyamp <codelabs@placeviolette.net>"
 license="LGPL-3.0-or-later"
 homepage="https://www.courtbouillon.org/cairosvg/"
 changelog="https://raw.githubusercontent.com/Kozea/CairoSVG/main/NEWS.rst"

@@ -24,11 +24,11 @@ esac
 
 post_patch() {
 	if [ "$XBPS_TARGET_ENDIAN" = "be" ]; then
-		vsed -i 's,@@VOID_ENDIAN@@,BIG,g' Makefile
+		vsed -i 's,@@CODELABS_ENDIAN@@,BIG,g' Makefile
 	else
-		vsed -i 's,@@VOID_ENDIAN@@,LITTLE,g' Makefile
+		vsed -i 's,@@CODELABS_ENDIAN@@,LITTLE,g' Makefile
 	fi
-	vsed -i "s,@@VOID_ARCH@@,${_karch},g" Makefile
+	vsed -i "s,@@CODELABS_ARCH@@,${_karch},g" Makefile
 }
 
 do_install() {
