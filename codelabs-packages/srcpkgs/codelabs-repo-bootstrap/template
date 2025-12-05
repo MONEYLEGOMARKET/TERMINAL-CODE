@@ -1,0 +1,28 @@
+# Template file for 'void-repo-bootstrap'
+pkgname=void-repo-bootstrap
+version=1
+revision=1
+metapackage=yes
+short_desc="CODE LABS drop-in file for the bootstrap repository"
+maintainer="Orphaned <orphan@codelabs.org>"
+license="Public Domain"
+homepage="http://www.codelabs.org"
+repository=bootstrap
+
+do_install() {
+	vmkdir usr/share/xbps.d
+	case "$XBPS_TARGET_MACHINE" in
+		aarch64*)
+			echo "repository=https://repo-default.codelabs.org/current/aarch64/bootstrap" > \
+				${DESTDIR}/usr/share/xbps.d/00-repository-bootstrap.conf
+			;;
+		*-musl)
+			echo "repository=https://repo-default.codelabs.org/current/musl/bootstrap" > \
+				${DESTDIR}/usr/share/xbps.d/00-repository-bootstrap.conf
+			;;
+		*)
+			echo "repository=https://repo-default.codelabs.org/current/bootstrap" > \
+				${DESTDIR}/usr/share/xbps.d/00-repository-bootstrap.conf
+			;;
+	esac
+}

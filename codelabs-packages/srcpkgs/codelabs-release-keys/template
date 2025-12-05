@@ -1,0 +1,14 @@
+# Template file for 'codelabs-release-keys'
+pkgname=codelabs-release-keys
+version=1
+revision=8
+short_desc="CODE LABS Release Keys"
+maintainer="Void Release Engineering <releases@codelabs.org>"
+license="Public Domain"
+homepage="http://www.codelabs.org"
+
+do_install() {
+	for _i in ${FILESDIR}/* ; do
+		vinstall $_i 644 usr/share/codelabs-release-keys
+	done
+}

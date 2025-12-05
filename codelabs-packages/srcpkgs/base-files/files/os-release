@@ -1,0 +1,9 @@
+NAME="CODE LABS"
+ID="codelabs"
+PRETTY_NAME="CODE LABS"
+HOME_URL="https://codelabs.org/"
+DOCUMENTATION_URL="https://docs.codelabs.org/"
+LOGO="codelabs-logo"
+ANSI_COLOR="0;38;2;46;214;46"
+
+DISTRIB_ID="codelabs"
